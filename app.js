@@ -85,7 +85,7 @@ function renderHome(){
   document.getElementById("soonSec").style.display = soon.length?"":"none";
   document.getElementById("soonList").innerHTML = soon.map(s=>`
     <div class="soon" onclick="openModal(${s.id})">
-      <div class="st">TIP · ${s.cat}</div>
+      <div class="st">TIP, ${s.cat}</div>
       <div class="tt">${s.title}</div>
       <div class="ds">${s.ds}</div>
       <div class="prob"><i style="width:${s.prob}%"></i></div>
@@ -146,7 +146,7 @@ function renderReport(){
   if(!el)return;
   el.innerHTML=`
     <div class="r-head">
-      <div class="rt">MONTHLY REPORT · ${REPORT.month}</div>
+      <div class="rt">MONTHLY REPORT, ${REPORT.month}</div>
       <h1>${REPORT.headline}</h1>
       <p>${REPORT.intro}</p>
     </div>
@@ -193,7 +193,7 @@ function openModal(id){
   const isSoon = t.status==="soon";
   document.getElementById("modal").innerHTML = `
     <button class="m-close" onclick="closeModal()">✕</button>
-    <div class="m-cat">${t.cat}${isSoon?" · ⚡ 곧 터질 후보":""}</div>
+    <div class="m-cat">${t.cat}${isSoon?", ⚡ 곧 터질 후보":""}</div>
     <div class="m-title">${t.title}</div>
     <div class="m-one">${t.one}</div>
     ${!isSoon?`
@@ -253,7 +253,7 @@ function cleanTitle(s){
   return s.replace(/\s*-\s*[^-]+$/,"").replace(/\[[^\]]*\]/g,"").replace(/['"'']/g,"").trim();
 }
 function tokens(s){
-  return cleanTitle(s).toLowerCase().split(/[\s·,…?!()]+/).filter(w=>w.length>=2);
+  return cleanTitle(s).toLowerCase().split(/[\s/,…?!()]+/).filter(w=>w.length>=2);
 }
 function overlap(a,b){
   const B=new Set(b);
@@ -367,15 +367,15 @@ function openFeedModal(i){
   const c=FEED[i]; if(!c)return;
   const srcs=[...new Set(c.items.map(x=>x.s))];
   const summary = c.type==="밈" ? c.desc
-    : c.type==="실검" ? `'${c.title}' 검색이 지금 급상승 중${c.traffic?` (검색량 ${c.traffic})`:""}. 여러 채널의 보도·반응을 종합하면: ${c.items.slice(0,3).map(x=>x.t).join(" · ")}`
-    : `여러 채널에서 동시에 다루는 중: ${c.items.slice(0,3).map(x=>x.t).join(" · ")}`;
+    : c.type==="실검" ? `'${c.title}' 검색이 지금 급상승 중${c.traffic?` (검색량 ${c.traffic})`:""}. 여러 채널의 보도/반응을 종합하면: ${c.items.slice(0,3).map(x=>x.t).join(", ")}`
+    : `여러 채널에서 동시에 다루는 중: ${c.items.slice(0,3).map(x=>x.t).join(", ")}`;
   document.getElementById("modal").innerHTML = `
     <button class="m-close" onclick="closeModal()">✕</button>
-    <div class="m-cat">${c.type==="실검"?"📡 실시간 급상승":c.type==="뉴스"?"📰 뉴스 종합":"💬 밈 · 유행어"}${c.tag?` · ${c.tag}`:""}</div>
+    <div class="m-cat">${c.type==="실검"?"📡 실시간 급상승":c.type==="뉴스"?"📰 뉴스 종합":"💬 밈/유행어"}${c.tag?`, ${c.tag}`:""}</div>
     <div class="m-title">${c.title}</div>
     <div class="m-h">🤖 종합 요약</div>
     <div class="m-why">${summary}</div>
-    <div class="m-h">🔗 원문 · 반응 보기 (${c.items.length})</div>
+    <div class="m-h">🔗 원문, 반응 보기 (${c.items.length})</div>
     <div class="feed-links">${c.items.map(x=>`
       <a class="feed-link" href="${x.u}" target="_blank" rel="noopener">
         <span class="fl-t">${x.t}</span><span class="fl-s">${x.s}</span>
