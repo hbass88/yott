@@ -233,5 +233,12 @@ aside{position:sticky;top:110px;display:flex;flex-direction:column;gap:16px}
 .loading-txt{font-size:11.5px;color:var(--sub);margin-top:4px}
 #sentinel{height:1px}
 
+/* clickable entities (report/map) */
+.clickable{cursor:pointer;transition:.12s}
+.bar-row.clickable:hover .bl{color:var(--up)}
+.r-card ol li.clickable:hover{color:var(--up)}
+.region li.clickable:hover{color:var(--up)}
+.region.clickable:hover{transform:translateY(-2px);border-color:#3a3a4a}
+
 footer{text-align:center;color:var(--sub);font-size:11px;margin-top:50px;line-height:1.8}
 .empty{text-align:center;color:var(--sub);font-size:13px;padding:40px 0}

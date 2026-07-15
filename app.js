@@ -140,7 +140,50 @@ function loadMore(){
 }
 function setCat(c){curCat=c;shown=PAGE_SIZE;coolShown=10;renderHome();}
 
+/* ---------- 공용: 제목으로 트렌드 찾기 + 범용 정보 팝업 ---------- */
+function findTrend(title){
+  const norm=s=>s.replace(/\(하락\)|시즌\s*\d|[《》()"'!?,]/g," ").toLowerCase();
+  const toks=norm(title).split(/\s+/).filter(w=>w.length>=2&&!/^\d|^7\//.test(w));
+  let best=null,bestScore=0;
+  for(const x of (typeof ALL!=="undefined"?ALL:[])){
+    const hay=norm(x.title+" "+(x.kw||[]).join(" "));
+    const score=toks.filter(w=>hay.includes(w)).length;
+    if(score>bestScore){bestScore=score;best=x;}
+  }
+  return bestScore>=2?best:(bestScore>=1&&toks.length===1?best:null);
+}
+function openInfoModal(o){
+  document.getElementById("modal").innerHTML=`
+    <button class="m-close" onclick="closeModal()">✕</button>
+    <div class="m-cat">${o.cat||""}</div>
+    <div class="m-title">${o.title}</div>
+    ${o.stats?`<div class="m-stats">${o.stats}</div>`:""}
+    <div class="m-h">🤖 설명</div>
+    <div class="m-why">${o.desc}</div>
+    ${o.points&&o.points.length?`<div class="m-h">📌 핵심 항목</div>
+    <ul class="m-points">${o.points.map(p=>`<li>${p}</li>`).join("")}</ul>`:""}
+    <div class="m-h">📥 수집 소스 — 어디서 종합됐나</div>
+    <div class="src-note">아래 채널에서 이 주제의 실제 반응을 볼 수 있어요.</div>
+    <div class="src-row">${srcLinks({title:o.q||o.title,kw:o.kw})}</div>`;
+  document.getElementById("ovl").classList.add("show");
+  document.body.style.overflow="hidden";
+}
+function openByTitle(title,cat,fallbackDesc){
+  const t=findTrend(title);
+  if(t){openModal(t.id);return;}
+  openInfoModal({cat,title:title.replace(/^\(하락\)\s*/,""),desc:fallbackDesc||`이달 '${cat}' 카테고리에서 화력이 높았던 항목입니다. 언급량과 반응 데이터 기준으로 상위에 랭크되었습니다.`});
+}
+
 /* ---------- 리포트 렌더 ---------- */
+function openShareModal(i){
+  const s=REPORT.share[i];
+  const related=REPORT.categories.find(c=>s.label.includes(c.name.split("/")[0])||c.name.includes(s.label.split("/")[0]));
+  openInfoModal({
+    cat:"📊 카테고리 점유율",title:s.label,
+    stats:`<div class="stat" style="grid-column:1/-1"><b style="color:var(--up)">${s.v}%</b><span>이달 전체 트렌드 언급량 중 비중 (시뮬레이션)</span></div>`,
+    desc:`${REPORT.month} 전체 트렌드 언급량 가운데 '${s.label}' 계열이 ${s.v}%를 차지했습니다. ${s.v>=25?"이달의 주도 카테고리로, 신규 트렌드가 가장 활발하게 생성된 영역입니다.":s.v>=15?"꾸준한 화력을 유지하는 중위권 카테고리입니다.":"비중은 작지만 개별 이슈의 순간 화력이 큰 카테고리입니다."}`,
+    points:related?related.top:[],q:s.label});
+}
 function renderReport(){
   const el=document.getElementById("reportRoot");
   if(!el)return;
@@ -152,21 +195,21 @@ function renderReport(){
     </div>
     <div class="sec">
       <h2>📊 카테고리 점유율</h2>
-      <div class="sub">이달 전체 트렌드 언급량 기준 (시뮬레이션)</div>
+      <div class="sub">이달 전체 트렌드 언급량 기준 (시뮬레이션), 클릭하면 상세</div>
       <div class="r-card">
-        ${REPORT.share.map(s=>`
-          <div class="bar-row"><span class="bl">${s.label}</span>
+        ${REPORT.share.map((s,i)=>`
+          <div class="bar-row clickable" onclick="openShareModal(${i})"><span class="bl">${s.label}</span>
             <div class="bar-track"><i style="width:${s.v}%"></i></div>
             <span class="bar-v">${s.v}%</span></div>`).join("")}
       </div>
     </div>
     <div class="sec">
       <h2>🏆 카테고리별 TOP 3</h2>
-      <div class="sub">이달 가장 화력이 셌던 것들</div>
+      <div class="sub">이달 가장 화력이 셌던 것들, 클릭하면 상세</div>
       <div class="r-grid">
         ${REPORT.categories.map(c=>`
           <div class="r-card"><div class="rc-t">${c.name}</div>
-            <ol>${c.top.map(t=>`<li>${t}</li>`).join("")}</ol></div>`).join("")}
+            <ol>${c.top.map(t=>`<li class="clickable" onclick="openByTitle('${t.replace(/'/g,"\\'")}','${c.name}')">${t}</li>`).join("")}</ol></div>`).join("")}
       </div>
     </div>
     <div class="sec">
@@ -177,13 +220,30 @@ function renderReport(){
 }
 
 /* ---------- 지역맵 렌더 ---------- */
+function openRegionModal(i){
+  const r=REGIONS[i];
+  openInfoModal({
+    cat:"🗺 지역별 트렌드",title:`${r.emoji} ${r.name}`,
+    stats:`<div class="stat" style="grid-column:1/-1"><b style="color:var(--hot)">🔥 ${r.heat}</b><span>지역 화력 지수 (시뮬레이션)</span></div>`,
+    desc:`지금 ${r.name}에서 언급량이 가장 빠르게 오르는 주제들입니다. 화력 지수는 지역 연관 키워드의 검색/업로드 증가율을 종합한 값입니다.`,
+    points:r.items.map(it=>`${it.t} (${it.c})`),q:r.name});
+}
+function openRegionItem(ri,ii){
+  const r=REGIONS[ri], it=r.items[ii];
+  const t=findTrend(it.t);
+  if(t){openModal(t.id);return;}
+  openInfoModal({
+    cat:`🗺 ${r.name}, ${it.c}`,title:it.t,
+    desc:`${r.name} 일대에서 화력이 오르고 있는 '${it.c}' 트렌드입니다. 인증샷과 후기 업로드가 늘고 있는 초기 확산 구간으로 감지됩니다.`,
+    q:`${r.name.replace(/서울 |글로벌.*/,"")} ${it.t}`.trim()});
+}
 function renderMap(){
   const el=document.getElementById("mapRoot");
   if(!el)return;
-  el.innerHTML=`<div class="region-grid">${REGIONS.map(r=>`
-    <div class="region">
+  el.innerHTML=`<div class="region-grid">${REGIONS.map((r,ri)=>`
+    <div class="region clickable" onclick="openRegionModal(${ri})">
       <div class="rg-n">${r.emoji} ${r.name}<span class="rg-heat">🔥 ${r.heat}</span></div>
-      <ul>${r.items.map((it,i)=>`<li><span class="no">${i+1}</span>${it.t}<span class="rg-cat">${it.c}</span></li>`).join("")}</ul>
+      <ul>${r.items.map((it,ii)=>`<li class="clickable" onclick="event.stopPropagation();openRegionItem(${ri},${ii})"><span class="no">${ii+1}</span>${it.t}<span class="rg-cat">${it.c}</span></li>`).join("")}</ul>
     </div>`).join("")}</div>`;
 }
 
