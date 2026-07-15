@@ -20,6 +20,7 @@
   --mono:'IBM Plex Mono',ui-monospace,monospace;
   --body:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
   --skel1:#ECEDE6; --skel2:#F6F7F2;
+  --hi-band:#FFE94A;
 }
 :root[data-theme="dark"]{
   --paper:#12142B; --surface:#1B1E3E; --surface2:#181B38;
@@ -29,6 +30,7 @@
   --shadow:4px 4px 0 rgba(0,0,0,.35);
   --shadow-pop:5px 5px 0 rgba(0,0,0,.45);
   --skel1:#23264A; --skel2:#1B1E3E;
+  --hi-band:rgba(255,233,74,.30);
 }
 
 *{margin:0;padding:0;box-sizing:border-box}
@@ -46,7 +48,7 @@ button{font-family:var(--body)}
 header{position:sticky;top:0;z-index:50;background:var(--paper);border-bottom:2px solid var(--line-strong)}
 .hbar{max-width:1080px;margin:0 auto;padding:14px 20px 6px;display:flex;align-items:center;gap:12px}
 .logo{font-family:var(--disp);font-weight:400;font-size:30px;line-height:1;color:var(--ink);letter-spacing:0;position:relative;padding:0 6px}
-.logo::after{content:"";position:absolute;left:0;right:0;bottom:1px;height:38%;background:var(--hi);z-index:-1;transform:skewX(-8deg)}
+.logo::after{content:"";position:absolute;left:0;right:0;bottom:1px;height:38%;background:var(--hi-band);z-index:-1;transform:skewX(-8deg)}
 .tag{font-size:11px;color:var(--ink-soft);margin-top:3px;font-weight:600;letter-spacing:.02em}
 .live{margin-left:auto;display:flex;align-items:center;gap:7px;font-family:var(--mono);font-size:11.5px;font-weight:600;color:var(--live);
   border:1.5px solid var(--live);border-radius:4px;padding:4px 10px;letter-spacing:.06em}
@@ -64,10 +66,10 @@ nav a:hover{color:var(--ink)}
 .hero{padding:36px 0 10px}
 .hero h1{font-family:var(--disp);font-weight:400;font-size:38px;line-height:1.22;letter-spacing:0}
 .hero h1 em{font-style:normal;position:relative;white-space:nowrap}
-.hero h1 em::before{content:"";position:absolute;left:-3px;right:-3px;bottom:4px;height:42%;background:var(--hi);z-index:-1;
+.hero h1 em::before{content:"";position:absolute;left:-3px;right:-3px;bottom:4px;height:42%;background:var(--hi-band);z-index:-1;
   transform-origin:left center;animation:swipe .5s .15s cubic-bezier(.2,.8,.2,1) both}
 @keyframes swipe{from{transform:scaleX(0)}to{transform:scaleX(1)}}
-.hero h1::after{content:"야 떴다!";display:inline-block;font-family:var(--disp);font-size:15px;color:var(--ink);
+.hero h1::after{content:"야 떴다!";display:inline-block;font-family:var(--disp);font-size:15px;color:#161A3A;
   background:var(--hi);border:2px solid var(--line-strong);border-radius:6px;padding:3px 10px 4px;margin-left:14px;
   transform:rotate(-6deg) translateY(-6px);box-shadow:2px 2px 0 rgba(22,26,58,.18);animation:stamp .35s .55s cubic-bezier(.3,1.6,.5,1) both}
 @keyframes stamp{from{transform:rotate(-14deg) translateY(-6px) scale(1.7);opacity:0}to{transform:rotate(-6deg) translateY(-6px) scale(1);opacity:1}}
@@ -99,7 +101,7 @@ nav a:hover{color:var(--ink)}
 .card:hover{transform:translate(-2px,-2px);box-shadow:var(--shadow-pop)}
 .rank{font-family:var(--disp);font-weight:400;font-size:27px;line-height:1.1;min-width:40px;text-align:center;color:var(--ink-faint);padding-top:2px}
 .rank.top{color:var(--ink);position:relative;z-index:0}
-.rank.top::before{content:"";position:absolute;left:2px;right:2px;bottom:5px;height:44%;background:var(--hi);z-index:-1;transform:skewX(-8deg)}
+.rank.top::before{content:"";position:absolute;left:2px;right:2px;bottom:5px;height:44%;background:var(--hi-band);z-index:-1;transform:skewX(-8deg)}
 .c-body{flex:1;min-width:0}
 .c-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .c-title{font-size:15.5px;font-weight:800;letter-spacing:-.2px}
