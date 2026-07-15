@@ -11,7 +11,7 @@ function sparkBig(data,up){
   if(!data)return"";
   const w=640,h=84,max=Math.max(...data),min=Math.min(...data);
   const pts=data.map((v,i)=>`${(i/(data.length-1))*w},${h-((v-min)/(max-min||1))*(h-10)-5}`).join(" ");
-  const c=up?"#ff8a3d":"#9a9aa8";
+  const c=up?"#FF4D2E":"#9A9DB5";
   return `<svg width="100%" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" style="display:block">
     <polyline points="${pts}" fill="none" stroke="${c}" stroke-width="3" stroke-linecap="round"/>
     <polygon points="0,${h} ${pts} ${w},${h}" fill="${c}" opacity="0.08"/></svg>`;
@@ -51,7 +51,7 @@ function cardHTML(t,no){
         <div class="c-one">${t.one}</div>
         <div class="c-meta">
           <span class="vel up">▲ ${t.vel}%</span><span>언급 ${t.mention}</span><span>${t.sent}</span>
-          ${sparkSVG(t.spark,"#ff8a3d")}
+          ${sparkSVG(t.spark,"#FF4D2E")}
         </div>
       </div>
     </div>`;
@@ -116,7 +116,7 @@ function renderHome(){
       <div class="c-body">
         <div class="c-top"><span class="c-title">${t.title}</span>${badge(t.status)}<span class="badge b-cat">${t.cat}</span></div>
         <div class="c-one">${t.one}</div>
-        <div class="c-meta"><span class="vel down">▼ ${Math.abs(t.vel)}%</span><span>언급 ${t.mention}</span><span>${t.sent}</span>${sparkSVG(t.spark,"#9a9aa8")}</div>
+        <div class="c-meta"><span class="vel down">▼ ${Math.abs(t.vel)}%</span><span>언급 ${t.mention}</span><span>${t.sent}</span>${sparkSVG(t.spark,"#9A9DB5")}</div>
       </div>
     </div>`).join("")
     + (cool.length>coolShown ? `
@@ -505,8 +505,8 @@ function toggleTheme(){
   applyTheme(cur);
 }
 function initTheme(){
-  let t="dark";
-  try{t=localStorage.getItem("yott-theme")||"dark";}catch(e){}
+  let t="light";
+  try{t=localStorage.getItem("yott-theme")||"light";}catch(e){}
   applyTheme(t);
 }
 
