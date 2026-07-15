@@ -20,11 +20,16 @@ function badge(st){
   return {hot:'<span class="badge b-hot">🔥 HOT</span>',rise:'<span class="badge b-rise">📈 급상승</span>',
           new:'<span class="badge b-new">✨ NEW</span>',cool:'<span class="badge b-cool">📉 하락</span>'}[st]||"";
 }
+let curGroup="전체"; // curCat=""이면 그룹 전체
+function activeCats(){
+  if(curGroup==="전체")return null;
+  if(curCat)return [curCat];
+  const g=(typeof CAT_GROUPS!=="undefined"?CAT_GROUPS:[]).find(x=>x.name===curGroup);
+  return g?g.cats:[];
+}
 function matches(t){
-  const catOK = curCat==="전체"||t.cat===curCat;
-  const q=curQ.trim().toLowerCase();
-  const qOK = !q || (t.title+t.one+(t.kw||[]).join(" ")).toLowerCase().includes(q);
-  return catOK&&qOK;
+  const cats=activeCats();
+  return !cats || cats.includes(t.cat);
 }
 
 /* ---------- 홈 렌더 (10개씩 페이지네이션 + 무한스크롤) ---------- */
@@ -32,11 +37,10 @@ const PAGE_SIZE=10;
 let shown=PAGE_SIZE, loadingMore=false, listObserver=null;
 
 function trendPool(){
-  const pool = curCat==="전체"
-    ? TRENDS.slice().sort((a,b)=>a.rank-b.rank)
-    : [...TRENDS,...(typeof EXTRA!=="undefined"?EXTRA:[]),...(typeof EXTRA2!=="undefined"?EXTRA2:[])]
-        .filter(t=>t.cat===curCat).sort((a,b)=>b.vel-a.vel);
-  return pool.filter(matches);
+  if(curGroup==="전체")return TRENDS.slice().sort((a,b)=>a.rank-b.rank);
+  const cats=activeCats();
+  return [...TRENDS,...(typeof EXTRA!=="undefined"?EXTRA:[]),...(typeof EXTRA2!=="undefined"?EXTRA2:[])]
+    .filter(t=>cats.includes(t.cat)).sort((a,b)=>b.vel-a.vel);
 }
 function cardHTML(t,no){
   return `
@@ -55,14 +59,25 @@ function cardHTML(t,no){
 function renderHome(){
   const chipsEl=document.getElementById("chips");
   if(!chipsEl)return;
-  chipsEl.innerHTML = CATS.map(c=>
-    `<button class="chip ${c===curCat?"on":""}" onclick="setCat('${c}')">${c}</button>`).join("");
+  const groups=["전체",...CAT_GROUPS.map(g=>g.name)];
+  let html=`<div class="gchips">${groups.map(g=>{
+    const G=CAT_GROUPS.find(x=>x.name===g);
+    return `<button class="chip ${g===curGroup?"on":""}" onclick="setGroup('${g}')">${G?G.emoji+" ":""}${g}</button>`;
+  }).join("")}</div>`;
+  const G=CAT_GROUPS.find(x=>x.name===curGroup);
+  if(G && G.cats.length>1){
+    html+=`<div class="subchips">
+      <button class="chip sm ${!curCat?"on2":""}" onclick="setCat('')">${curGroup} 전체</button>
+      ${G.cats.map(c=>`<button class="chip sm ${c===curCat?"on2":""}" onclick="setCat('${c}')">${c}</button>`).join("")}
+    </div>`;
+  }
+  chipsEl.innerHTML=html;
 
   const pool=trendPool();
   const visible=pool.slice(0,shown);
   const listEl=document.getElementById("list");
   const titleEl=document.getElementById("listTitle");
-  if(titleEl)titleEl.textContent = curCat==="전체" ? "🔥 오늘 뜨는 트렌드 TOP" : `🔥 ${curCat} 트렌드 (${pool.length})`;
+  if(titleEl)titleEl.textContent = curGroup==="전체" ? "🔥 오늘 뜨는 트렌드 TOP" : `🔥 ${curCat||curGroup} 트렌드 (${pool.length})`;
 
   listEl.innerHTML = (visible.length? visible.map((t,i)=>cardHTML(t,i+1)).join("") : `<div class="empty">이 조건으로는 아직 뜨는 게 없네요 👀</div>`)
     + (pool.length>shown ? `
@@ -138,6 +153,7 @@ function loadMore(){
     renderHome();
   },500);
 }
+function setGroup(g){curGroup=g;curCat="";shown=PAGE_SIZE;coolShown=10;renderHome();}
 function setCat(c){curCat=c;shown=PAGE_SIZE;coolShown=10;renderHome();}
 
 /* ---------- 공용: 제목으로 트렌드 찾기 + 범용 정보 팝업 ---------- */
