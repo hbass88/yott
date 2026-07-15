@@ -1,0 +1,57 @@
+name: refresh-trends
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # daily 09:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch trends & update cache
+        run: |
+          cat > refresh.mjs <<'EOF'
+          import fs from 'fs';
+          const HEAVY=["대통령","선거","투표","국회","의원","정당","정치","탄핵","북한","전쟁","사망","숨져","숨진","별세","참변","살해","살인","화재","지진","폭발","추락","침몰","구속","영장","검찰","기소","혐의","법원","재판","회생","파산","징역","성폭","마약","음주운전","금리","환율","코스피","증시","주가조작","이혼","불륜","논란","피습","총격","테러","실종","시신","폭력","학폭","횡령","배임","사기","비위","갑질","극단적","자살","결별","열애설"];
+          const heavy=s=>HEAVY.some(w=>s.includes(w));
+          const clean=s=>s.replace(/<!\[CDATA\[|\]\]>/g,"").replace(/\s*-\s*[^-]+$/,"").replace(/\[[^\]]*\]/g,"").replace(/&amp;/g,"&").replace(/&quot;|&#39;/g,"'").replace(/&lt;/g,"<").replace(/&gt;/g,">").trim();
+          const tag=(x,t)=>{const m=x.match(new RegExp(`<${t}[^>]*>([\\s\\S]*?)</${t}>`));return m?m[1].trim():"";};
+          async function get(u){const r=await fetch(u,{headers:{'user-agent':'Mozilla/5.0'}});return r.ok?await r.text():"";}
+          const tXml=await get("https://trends.google.com/trending/rss?geo=KR");
+          const trends=[...tXml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m=>{
+            const it=m[1];
+            const items=[...it.matchAll(/<ht:news_item>([\s\S]*?)<\/ht:news_item>/g)].map(n=>({
+              t:clean(tag(n[1],"ht:news_item_title")),u:tag(n[1],"ht:news_item_url"),s:clean(tag(n[1],"ht:news_item_source"))||"뉴스"}));
+            return {title:clean(tag(it,"title")),traffic:tag(it,"ht:approx_traffic"),items};
+          }).filter(c=>c.title&&!heavy(c.title+" "+c.items.map(n=>n.t).join(" ")));
+          async function feed(u,def){const x=await get(u);
+            return [...x.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m=>({
+              t:clean(tag(m[1],"title")),u:tag(m[1],"link").replace(/<!\[CDATA\[|\]\]>/g,""),s:def}))
+              .filter(i=>i.t&&!heavy(i.t)).slice(0,15);}
+          const ent=await feed("https://www.yna.co.kr/rss/entertainment.xml","연합뉴스");
+          const tech=await feed("https://feeds.feedburner.com/zdkorea","ZDNet");
+          fs.writeFileSync("live-cache.json",JSON.stringify({updated:new Date().toISOString(),trends,ent,tech},null,1));
+          const kst=new Date(Date.now()+9*3600*1000);
+          const d=`${kst.getUTCFullYear()}.${String(kst.getUTCMonth()+1).padStart(2,"0")}.${String(kst.getUTCDate()).padStart(2,"0")}`;
+          for(const f of ["index.html","map.html"]){
+            if(!fs.existsSync(f))continue;
+            fs.writeFileSync(f,fs.readFileSync(f,"utf8").replace(/20\d{2}\.\d{2}\.\d{2} 기준/g,`${d} 기준`));
+          }
+          console.log("updated",d,"trends:",trends.length,"ent:",ent.length,"tech:",tech.length);
+          EOF
+          node refresh.mjs
+      - name: Commit & push
+        run: |
+          git config user.name "yott-bot"
+          git config user.email "actions@github.com"
+          git add live-cache.json index.html map.html
+          git diff --cached --quiet || git commit -m "auto-refresh $(date -u +%F)"
+          git push
