@@ -237,12 +237,21 @@ function openRegionItem(ri,ii){
     desc:`${r.name} 일대에서 화력이 오르고 있는 '${it.c}' 트렌드입니다. 인증샷과 후기 업로드가 늘고 있는 초기 확산 구간으로 감지됩니다.`,
     q:`${r.name.replace(/서울 |글로벌.*/,"")} ${it.t}`.trim()});
 }
+let mapFilter="전체";
+function setMapFilter(t){mapFilter=t;renderMap();}
 function renderMap(){
   const el=document.getElementById("mapRoot");
   if(!el)return;
-  el.innerHTML=`<div class="region-grid">${REGIONS.map((r,ri)=>`
+  const types=["전체",...new Set(REGIONS.map(r=>r.type))];
+  const list=REGIONS.map((r,ri)=>({r,ri}))
+    .filter(({r})=>mapFilter==="전체"||r.type===mapFilter)
+    .sort((a,b)=>b.r.heat-a.r.heat);
+  el.innerHTML=`
+    <div class="chips" style="padding-top:0">${types.map(t=>
+      `<button class="chip ${t===mapFilter?"on":""}" onclick="setMapFilter('${t}')">${t} <small>${t==="전체"?REGIONS.length:REGIONS.filter(r=>r.type===t).length}</small></button>`).join("")}</div>
+    <div class="region-grid">${list.map(({r,ri})=>`
     <div class="region clickable" onclick="openRegionModal(${ri})">
-      <div class="rg-n">${r.emoji} ${r.name}<span class="rg-heat">🔥 ${r.heat}</span></div>
+      <div class="rg-n">${r.emoji} ${r.name}<span class="rg-type">${r.type}</span><span class="rg-heat">🔥 ${r.heat}</span></div>
       <ul>${r.items.map((it,ii)=>`<li class="clickable" onclick="event.stopPropagation();openRegionItem(${ri},${ii})"><span class="no">${ii+1}</span>${it.t}<span class="rg-cat">${it.c}</span></li>`).join("")}</ul>
     </div>`).join("")}</div>`;
 }

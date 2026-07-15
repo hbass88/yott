@@ -141,6 +141,8 @@ nav a:hover{color:var(--txt)}
 .region:hover{border-color:#3a3a4a}
 .region .rg-n{font-size:15px;font-weight:800;display:flex;align-items:center;gap:8px}
 .region .rg-heat{margin-left:auto;font-size:11px;font-weight:700;color:var(--hot)}
+.region .rg-type{font-size:9.5px;font-weight:700;color:var(--blue);background:rgba(91,140,255,.12);border-radius:99px;padding:2px 8px;margin-left:2px}
+.chip small{font-size:10px;opacity:.7;font-weight:600}
 .region ul{list-style:none;margin-top:10px}
 .region li{font-size:13px;color:var(--body-strong);padding:7px 0;border-bottom:1px solid var(--line);display:flex;gap:8px;align-items:baseline}
 .region li:last-child{border-bottom:none}
