@@ -205,11 +205,15 @@ function renderReport(){
     </div>
     <div class="sec">
       <h2>🏆 카테고리별 TOP 3</h2>
-      <div class="sub">이달 가장 화력이 셌던 것들, 클릭하면 상세</div>
+      <div class="sub">홈과 동일한 ${CATS.length-1}개 카테고리 기준, 상승률 상위 3개씩, 클릭하면 상세</div>
       <div class="r-grid">
-        ${REPORT.categories.map(c=>`
-          <div class="r-card"><div class="rc-t">${c.name}</div>
-            <ol>${c.top.map(t=>`<li class="clickable" onclick="openByTitle('${t.replace(/'/g,"\\'")}','${c.name}')">${t}</li>`).join("")}</ol></div>`).join("")}
+        ${CATS.slice(1).map(cat=>{
+          const pool=[...TRENDS,...(typeof EXTRA!=="undefined"?EXTRA:[]),...(typeof EXTRA2!=="undefined"?EXTRA2:[])]
+            .filter(t=>t.cat===cat).sort((a,b)=>b.vel-a.vel).slice(0,3);
+          if(!pool.length)return"";
+          return `<div class="r-card"><div class="rc-t">${cat}</div>
+            <ol>${pool.map(t=>`<li class="clickable" onclick="openModal(${t.id})">${t.title} <small class="rc-vel">▲${t.vel}%</small></li>`).join("")}</ol></div>`;
+        }).join("")}
       </div>
     </div>
     <div class="sec">

@@ -239,6 +239,7 @@ aside{position:sticky;top:110px;display:flex;flex-direction:column;gap:16px}
 .clickable{cursor:pointer;transition:.12s}
 .bar-row.clickable:hover .bl{color:var(--up)}
 .r-card ol li.clickable:hover{color:var(--up)}
+.rc-vel{font-size:10px;color:var(--up);font-weight:700;opacity:.75}
 .region li.clickable:hover{color:var(--up)}
 .region.clickable:hover{transform:translateY(-2px);border-color:#3a3a4a}
 
