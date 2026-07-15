@@ -246,13 +246,10 @@ function setMapFilter(t){mapFilter=t;renderMap();}
 function renderMap(){
   const el=document.getElementById("mapRoot");
   if(!el)return;
-  const types=["전체",...new Set(REGIONS.map(r=>r.type))];
   const list=REGIONS.map((r,ri)=>({r,ri}))
     .filter(({r})=>mapFilter==="전체"||r.type===mapFilter)
     .sort((a,b)=>b.r.heat-a.r.heat);
   el.innerHTML=`
-    <div class="chips" style="padding-top:0">${types.map(t=>
-      `<button class="chip ${t===mapFilter?"on":""}" onclick="setMapFilter('${t}')">${t} <small>${t==="전체"?REGIONS.length:REGIONS.filter(r=>r.type===t).length}</small></button>`).join("")}</div>
     <div class="region-grid">${list.map(({r,ri})=>`
     <div class="region clickable" onclick="openRegionModal(${ri})">
       <div class="rg-n">${r.emoji} ${r.name}<span class="rg-type">${r.type}</span><span class="rg-heat">🔥 ${r.heat}</span></div>
