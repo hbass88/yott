@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>이달의 리포트 — 요뜨</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="hbar">
+    <div>
+      <div class="logo">요뜨</div>
+      <div class="tag">요즘 뜨는거, 야 떴다! 🔥</div>
+    </div>
+    <div class="live"><span class="dot"></span>LIVE · <span id="clock"></span></div>
+    <button class="tgl" id="tglBtn" onclick="toggleTheme()" title="라이트/다크 전환">☀️</button>
+  </div>
+  <nav>
+    <a href="index.html">오늘 뜨는</a>
+    <a href="report.html" class="on">이달의 리포트</a>
+    <a href="map.html">지역별 맵</a>
+  </nav>
+</header>
+
+<div class="wrap">
+  <div id="reportRoot"></div>
+  <footer>
+    요뜨(YOTT) 프로토타입 v0.2 · 리포트 내용은 2026년 7월 중순 실제 트렌드 기반 데모입니다<br>
+    점유율 등 지표는 시연용 시뮬레이션 값입니다
+  </footer>
+</div>
+
+<div class="ovl" id="ovl" onclick="if(event.target===this)closeModal()">
+  <div class="modal" id="modal"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
