@@ -300,19 +300,24 @@ const CORS_PROXIES = [
   u=>`https://corsproxy.io/?url=${encodeURIComponent(u)}`,
   u=>`https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`
 ];
-/* apiPath(넷리파이 프록시)가 죽어도 CORS 프록시들로 폴백 — GitHub Pages 호환 */
+/* 타임아웃 있는 fetch */
+async function fetchWithTimeout(u,ms=6000){
+  const c=new AbortController();
+  const t=setTimeout(()=>c.abort(),ms);
+  try{return await fetch(u,{cache:"no-store",signal:c.signal});}
+  finally{clearTimeout(t);}
+}
+/* 모든 프록시를 동시에 경쟁시켜 가장 빠른 응답 사용 — GitHub Pages 호환 */
 async function fetchRSSXml(apiPath,realUrl){
   const tries=[...(apiPath?[apiPath]:[]),...CORS_PROXIES.map(p=>p(realUrl))];
-  for(const u of tries){
-    try{
-      const res=await fetch(u,{cache:"no-store"});
-      if(!res.ok)continue;
-      const txt=await res.text();
-      if(!txt.includes("<rss")&&!txt.includes("<feed"))continue;
-      return new DOMParser().parseFromString(txt,"text/xml");
-    }catch(e){}
-  }
-  return null;
+  const attempts=tries.map(async u=>{
+    const res=await fetchWithTimeout(u);
+    if(!res.ok)throw new Error("bad status");
+    const txt=await res.text();
+    if(!txt.includes("<rss")&&!txt.includes("<feed"))throw new Error("not rss");
+    return new DOMParser().parseFromString(txt,"text/xml");
+  });
+  try{return await Promise.any(attempts);}catch(e){return null;}
 }
 let liveTimer=null;
 
@@ -355,20 +360,30 @@ let FEED=[];
 async function buildFeed(){
   const el=document.getElementById("feedList");
   if(!el)return;
-  let [trendClusters,ent,tech]=await Promise.all([
+  // 1) 같은 도메인의 봇 캐시를 먼저 즉시 표시 (거의 0초)
+  if(!FEED.length){
+    try{
+      const cache=await (await fetchWithTimeout("live-cache.json",4000)).json();
+      FEED=assembleFeed(
+        (cache.trends||[]).map(t=>({type:"실검",title:t.title,traffic:t.traffic,items:t.items||[]})),
+        cache.ent||[],cache.tech||[]);
+      renderFeed();
+    }catch(e){}
+  }
+  // 2) 라이브 데이터를 백그라운드에서 가져와 준비되면 교체
+  const [trendClusters,ent,tech]=await Promise.all([
     fetchTrendClusters(),
     fetchNewsFeed("/api/gnews-ent","https://www.yna.co.kr/rss/entertainment.xml","연합뉴스"),
     fetchNewsFeed("/api/gnews-tech","https://feeds.feedburner.com/zdkorea","ZDNet")
   ]);
-  // 실시간 소스가 모두 실패하면 GitHub Actions 봇이 매일 갱신하는 캐시로 폴백
-  if(!trendClusters.length || (!ent.length && !tech.length)){
-    try{
-      const cache=await (await fetch("live-cache.json",{cache:"no-store"})).json();
-      if(!trendClusters.length && cache.trends) trendClusters=cache.trends.map(t=>({type:"실검",title:t.title,traffic:t.traffic,items:t.items||[]}));
-      if(!ent.length && cache.ent) ent=cache.ent;
-      if(!tech.length && cache.tech) tech=cache.tech;
-    }catch(e){}
+  if(!trendClusters.length && !ent.length && !tech.length){
+    if(!FEED.length)renderFeed(); // 캐시도 없으면 에러 표시
+    return;
   }
+  FEED=assembleFeed(trendClusters,ent,tech);
+  renderFeed();
+}
+function assembleFeed(trendClusters,ent,tech){
   const clusters=[...trendClusters];
   // 뉴스 기사를 기존 실검 클러스터에 병합 (같은 주제 = 하나로)
   const newsPool=[...ent.slice(0,12),...tech.slice(0,12)];
@@ -399,8 +414,7 @@ async function buildFeed(){
       {t:`인스타그램 '${m.t}' 태그`,u:`https://www.instagram.com/explore/search/keyword/?q=${encodeURIComponent(m.t)}`,s:"Instagram"},
       {t:`유튜브 '${m.t}' 영상`,u:`https://www.youtube.com/results?search_query=${encodeURIComponent(m.t)}`,s:"YouTube"}
     ]}));
-  FEED=[...clusters,...newsClusters.slice(0,8),...memeClusters];
-  renderFeed();
+  return [...clusters,...newsClusters.slice(0,8),...memeClusters];
 }
 function feedTag(type){
   return {실검:'<span class="ftag ft-hot">실검</span>',뉴스:'<span class="ftag ft-news">뉴스</span>',밈:'<span class="ftag ft-meme">밈</span>'}[type]||"";
