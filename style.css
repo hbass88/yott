@@ -43,8 +43,7 @@ nav a:hover{color:var(--txt)}
 .search{margin:18px 0 10px;display:flex;gap:8px}
 .search input{flex:1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;color:var(--txt);font-size:14px;outline:none}
 .search input:focus{border-color:var(--up)}
-.chips{display:flex;gap:8px;overflow-x:auto;padding:8px 0 16px;scrollbar-width:none}
-.chips::-webkit-scrollbar{display:none}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:8px 0 16px}
 .chip{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--sub);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:600;cursor:pointer;transition:.15s}
 .chip.on{background:linear-gradient(120deg,var(--hot),var(--up));color:#fff;border-color:transparent}
 
