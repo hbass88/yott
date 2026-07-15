@@ -285,11 +285,20 @@ let FEED=[];
 async function buildFeed(){
   const el=document.getElementById("feedList");
   if(!el)return;
-  const [trendClusters,ent,tech]=await Promise.all([
+  let [trendClusters,ent,tech]=await Promise.all([
     fetchTrendClusters(),
     fetchNewsFeed("/api/gnews-ent","https://www.yna.co.kr/rss/entertainment.xml","연합뉴스"),
     fetchNewsFeed("/api/gnews-tech","https://feeds.feedburner.com/zdkorea","ZDNet")
   ]);
+  // 실시간 소스가 모두 실패하면 GitHub Actions 봇이 매일 갱신하는 캐시로 폴백
+  if(!trendClusters.length || (!ent.length && !tech.length)){
+    try{
+      const cache=await (await fetch("live-cache.json",{cache:"no-store"})).json();
+      if(!trendClusters.length && cache.trends) trendClusters=cache.trends.map(t=>({type:"실검",title:t.title,traffic:t.traffic,items:t.items||[]}));
+      if(!ent.length && cache.ent) ent=cache.ent;
+      if(!tech.length && cache.tech) tech=cache.tech;
+    }catch(e){}
+  }
   const clusters=[...trendClusters];
   // 뉴스 기사를 기존 실검 클러스터에 병합 (같은 주제 = 하나로)
   const newsPool=[...ent.slice(0,12),...tech.slice(0,12)];
