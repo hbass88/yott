@@ -1,92 +1,173 @@
 {
- "updated": "2026-07-15T05:32:59.838Z",
+ "updated": "2026-07-16T02:15:11.397Z",
  "trends": [
   {
-   "title": "에코프로 비엠",
+   "title": "lg이노텍",
    "traffic": "2000+",
    "items": [
     {
-     "t": "에코프로비엠 1조2000억 유상증자 급제동…금감원 정정요구",
-     "u": "https://www.mt.co.kr/stock/2026/07/14/2026071421005392066",
+     "t": "KB증권 'LG이노텍, 2분기 &apos;깜짝 실적&apos; 기대…목표가 유지'",
+     "u": "https://www.yna.co.kr/view/AKR20260716026900008",
+     "s": "연합뉴스"
+    },
+    {
+     "t": "'61% 폭락에 개미들 울었는데'…증권가선 &apos;깜짝 전망&apos; 이유",
+     "u": "https://www.hankyung.com/article/2026071681066",
+     "s": "한국경제"
+    },
+    {
+     "t": "'LG이노텍, 어닝서프라이즈 기대…최근 하락은 매수 기회'-KB",
+     "u": "https://www.mt.co.kr/stock/2026/07/16/2026071608160812519",
      "s": "머니투데이"
-    },
-    {
-     "t": "에코프로 &apos;1.2조 유증&apos;, 냉랭했던 시장 재평가 분위기",
-     "u": "https://news.einfomax.co.kr/news/articleView.html?idxno=4424789",
-     "s": "연합인포맥스"
-    },
-    {
-     "t": "광물 잡아야 전기차도 산다…에코프로 니켈의 밸류체인 효과",
-     "u": "https://www.dailian.co.kr/news/view/1666671/%EA%B4%91%EB%AC%BC-%EC%9E%A1%EC%95%84%EC%95%BC-%EC%A0%84%EA%B8%B0%EC%B0%A8%EB%8F%84-%EC%82%B0%EB%8B%A4%EC%97%90%EC%BD%94%ED%94%84%EB%A1%9C-%EB%8B%88-2026",
-     "s": "데일리안"
     }
    ]
   },
   {
-   "title": "이대호",
-   "traffic": "200+",
+   "title": "학원",
+   "traffic": "1000+",
    "items": [
     {
-     "t": "“확실히 살찌더라”… 이대호 겪은 ‘최악의 식습관’은?",
-     "u": "https://health.chosun.com/site/data/html_dir/2026/07/13/2026071302064.html",
-     "s": "헬스조선"
+     "t": "&apos;무등록·미신고&apos; 학원 신고하면 포상금 최대 200만원",
+     "u": "https://www.yna.co.kr/view/AKR20260715139400530",
+     "s": "연합뉴스"
     },
     {
-     "t": "&apos;위고비 해명&apos; 이대호, 20㎏ 감량 비결 밝혔다 '먹는 것 줄이고 꾸준히 운동'(식빵언니)",
-     "u": "https://news.nate.com/view/20260710n15079",
-     "s": "네이트"
-    },
-    {
-     "t": "이대호, 20kg 감량 후 달라진 비주얼…“선수 때도 매년 다이어트”",
-     "u": "https://www.etoday.co.kr/news/view/2602483",
-     "s": "이투데이"
-    }
-   ]
-  },
-  {
-   "title": "asml",
-   "traffic": "500+",
-   "items": [
-    {
-     "t": "Álles wat u over Q2&apos;s ASML moet weten (en er is een joker?!)",
-     "u": "https://stockwatch.nl/posts/16962/vooruitblik-q2-cijfers-asml",
-     "s": "https://www.stockwatch.nl/"
-    },
-    {
-     "t": "Morning Bid: Slechte dag voor Big Blue legt de lat hoger voor ASML",
-     "u": "https://www.iex.nl/Nieuws/871103/Morning-Bid-Slechte-dag-voor-Big-Blue-legt-de-lat-hoger-voor-ASML.aspx",
-     "s": "IEX.nl"
-    },
-    {
-     "t": "Beleggersagenda van woensdag 15 juli: Veldhoven calling",
-     "u": "https://www.tijd.be/markten-live/nieuws/algemeen/beleggersagenda-van-woensdag-15-juli-veldhoven-calling/10678807.html",
-     "s": "De Tijd"
-    }
-   ]
-  },
-  {
-   "title": "의료",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "삼성·서울성모병원 권역응급의료센터 ‘탈락’",
-     "u": "https://www.dailymedi.com/news/news_view.php?wr_id=938454",
-     "s": "데일리메디"
-    },
-    {
-     "t": "영남대병원 권역응급센터 탈락 ‘충격’…&apos;배후 진료·수용 유기성’ 재정비 시급",
-     "u": "https://v.daum.net/v/20260715125003766",
+     "t": "오늘부터 &apos;학파라치&apos; 포상금 최대 10배 상향…200만 원까지 인상",
+     "u": "https://v.daum.net/v/20260716060143477",
      "s": "Daum"
     },
     {
-     "t": "순천향대천안병원, 충남권역응급의료센터로 재지정",
-     "u": "https://www.yna.co.kr/view/AKR20260715102600063",
-     "s": "연합뉴스"
+     "t": "불법 사교육 신고포상금 10배 인상…'민간 감시 활성화'",
+     "u": "https://www.newsis.com/view/NISX20260715_0003710853",
+     "s": "뉴시스"
+    }
+   ]
+  },
+  {
+   "title": "이지혜",
+   "traffic": "5000+",
+   "items": [
+    {
+     "t": "50억 아파트 떠나는 이지혜, ‘365일 공장’처럼 일할 수밖에 없었던 이유",
+     "u": "https://www.segye.com/newsView/20260709517600",
+     "s": "세계일보"
+    },
+    {
+     "t": "바지를 어디까지 올린 거야…이지혜, 얼굴은 소멸 직전인데 반전 &apos;늘씬&apos; 기럭지",
+     "u": "https://v.daum.net/v/20260714155810239",
+     "s": "Daum"
+    },
+    {
+     "t": "이지혜, 비율 돋보여! 화이트 와이드 팬츠에 새틴 민소매 톱 찰떡 핫섬머 출근룩",
+     "u": "https://m.fashionn.com/board/read.php?table=style&amp;number=61725",
+     "s": "패션엔"
+    }
+   ]
+  },
+  {
+   "title": "고현정",
+   "traffic": "2000+",
+   "items": [
+    {
+     "t": "스트레이키즈 방찬 &apos;눈 앞에서 보면 이런 느낌&apos;",
+     "u": "https://v.daum.net/v/20260716101158908",
+     "s": "Daum"
+    },
+    {
+     "t": "정채연, 배우 활동 후 더 예뻐졌어",
+     "u": "https://www.chosun.com/entertainments/broadcast/2026/07/15/GI4TIMZWMMZTONTDG44GMYJVMQ/",
+     "s": "조선일보"
+    },
+    {
+     "t": "스트레이키즈 방찬 &apos;브이+윙크&apos;",
+     "u": "https://www.mt.co.kr/photo/202607152019303324",
+     "s": "머니투데이"
+    }
+   ]
+  },
+  {
+   "title": "소방관",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "“아버지! 사람부터 살려야 해요”…저수지 뛰어든 소방관 딸과 의용소방대원 아버지",
+     "u": "https://v.daum.net/v/8yueNoiPNI",
+     "s": "Daum"
+    },
+    {
+     "t": "소방관·의용소방대원 부녀, 저수지 빠진 70대 구조",
+     "u": "https://news.kbs.co.kr/news/view.do?ncd=8611820",
+     "s": "KBS 뉴스"
+    },
+    {
+     "t": "'딸이 먼저 뛰어가'…휴일날, 저수지에 빠진 남성 구한 소방관 부녀",
+     "u": "https://www.fnnews.com/news/202607160701212952",
+     "s": "파이낸셜뉴스"
     }
    ]
   }
  ],
  "ent": [
+  {
+   "t": "KBS",
+   "u": "https://www.yna.co.kr/view/AKR20260716063000005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "박찬욱 '어쩔수가없다' 확장판 VOD 공개…극장판보다 19분 늘어",
+   "u": "https://www.yna.co.kr/view/AKR20260716045000005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "\"제작비 10% 미만으로\"…정부 지원 중예산영화 배우 출연료 낮춘다",
+   "u": "https://www.yna.co.kr/view/AKR20260716032000005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "'호프' 첫날 33만명 관람…올해 개봉작 최다",
+   "u": "https://www.yna.co.kr/view/AKR20260716026700005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "'지구를 지켜라!' 리메이크作 '부고니아' 크리틱스초이스 후보에",
+   "u": "https://www.yna.co.kr/view/AKR20260716015400075",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "파라마운트 스튜디오, 할리우드 떠날까…테네시서 이전 제안",
+   "u": "https://www.yna.co.kr/view/AKR20260716003800075",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "이창동 감독 \"'호프'는 미친 영화…오락 영화의 극점\"",
+   "u": "https://www.yna.co.kr/view/AKR20260715165800005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "KBS한전음악콩쿠르 금상 수상자 4명 선정",
+   "u": "https://www.yna.co.kr/view/AKR20260715157900005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "코르티스 건호, 첫 투어 앞두고 손가락 부상 \"안무 없이 무대\"",
+   "u": "https://www.yna.co.kr/view/AKR20260715163000005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "록으로 자기혐오 쓴 권진아 \"속시원한 느낌…또래에게 위로되길\"",
+   "u": "https://www.yna.co.kr/view/AKR20260715128800005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "'지느러미' 박세영 감독 \"코로나 때 절망…의심의 비극 그렸죠\"",
+   "u": "https://www.yna.co.kr/view/AKR20260715123200005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "유노윤호, 첫 솔로 콘서트서 신곡 무대 첫선",
+   "u": "https://www.yna.co.kr/view/AKR20260715120400005",
+   "s": "연합뉴스"
+  },
   {
    "t": "부산국제코미디페스티벌 내달 21일 개막…10일간 웃음바다",
    "u": "https://www.yna.co.kr/view/AKR20260715111900051",
@@ -101,142 +182,82 @@
    "t": "빅뱅 20주년 월드투어명은 'XX : 코스모스'…\"음악 여정 상징\"",
    "u": "https://www.yna.co.kr/view/AKR20260715074800005",
    "s": "연합뉴스"
-  },
-  {
-   "t": "NCT 127, 멤버 7명 전원 SM과 재계약",
-   "u": "https://www.yna.co.kr/view/AKR20260715068100005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "제니·테임 임팔라 '드라큘라', 빌보드 '핫 100' 5위…자체 최고",
-   "u": "https://www.yna.co.kr/view/AKR20260715061300005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "영화 '호프' 추격 시퀀스서 등장한 추억의 현대차 스텔라",
-   "u": "https://www.yna.co.kr/view/AKR20260715040500003",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "AI 추리 게임쇼 '머더클럽' 29일 첫선…페이커 예능 도전",
-   "u": "https://www.yna.co.kr/view/AKR20260715051000005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "멜론 '글로벌",
-   "u": "https://www.yna.co.kr/view/AKR20260715049200005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "짠내 중년의 화끈한 판타지…안방에 분 '아저씨' 바람",
-   "u": "https://www.yna.co.kr/view/AKR20260712023600005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "'김부장' 글로벌 돌풍…넷플릭스 비영어 쇼 2주 연속 1위",
-   "u": "https://www.yna.co.kr/view/AKR20260715019600005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "나홍진 '호프' 오늘 개봉…예매량 60만장 '올해 최다'",
-   "u": "https://www.yna.co.kr/view/AKR20260715017200005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "BTS 진이 술을 빚는 이유",
-   "u": "https://www.yna.co.kr/view/AKR20260617060100542",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "혼네 \"한국서 첫 공연 매진·떼창 경험…특별한 감정\"",
-   "u": "https://www.yna.co.kr/view/AKR20260714177600005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "KBS·제작사 반발에…황영웅 부른 OST, 드라마 제목 빼고 공개(종합)",
-   "u": "https://www.yna.co.kr/view/AKR20260714116151005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "SBS '김부장' 시청자 아쉬움 달랜다…2회 스페셜 편성",
-   "u": "https://www.yna.co.kr/view/AKR20260714166400005",
-   "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "위즈코어, ‘제조 AX 플랫폼’ 실증 추진…설계 데이터와 현장 잇는다",
-   "u": "https://zdnet.co.kr/view/?no=20260715135957",
+   "t": "국민성장펀드 1호 투자사업 390MW 규모 ‘신안우이 해상풍력’ 착공",
+   "u": "https://zdnet.co.kr/view/?no=20260716061236",
    "s": "ZDNet"
   },
   {
-   "t": "중국, 해외 AI 접근 제한 검토…‘의인화 규제’는 이번 주 시행",
-   "u": "https://zdnet.co.kr/view/?no=20260715135434",
+   "t": "토스, 빅테크 금융 기업 중 첫 '금융복합기업집단' 지정",
+   "u": "https://zdnet.co.kr/view/?no=20260716092940",
    "s": "ZDNet"
   },
   {
-   "t": "업스테이지·퓨리오사AI·AXZ, 검색 서비스 기반 AI 모델 고도화 나선다",
-   "u": "https://zdnet.co.kr/view/?no=20260715134227",
+   "t": "KF",
+   "u": "https://zdnet.co.kr/view/?no=20260716091723",
    "s": "ZDNet"
   },
   {
-   "t": "\"동전 집고 지퍼 올린다\"…사람 뺨치는 휴머노이드 화제",
-   "u": "https://zdnet.co.kr/view/?no=20260715103544",
+   "t": "AI 음악 생성 개발사 수노, 유튜브 음원 불법 수집 의혹 '일파만파'",
+   "u": "https://zdnet.co.kr/view/?no=20260716090026",
    "s": "ZDNet"
   },
   {
-   "t": "OLED 입는 아이패드 미니, 60Hz 유지 전망…프로모션 빠질까",
-   "u": "https://zdnet.co.kr/view/?no=20260715105202",
+   "t": "\"특가 상품 알려줘\"…롯데면세점, 챗GPT 쇼핑 서비스 출시",
+   "u": "https://zdnet.co.kr/view/?no=20260716085727",
    "s": "ZDNet"
   },
   {
-   "t": "카시오, 로블록스에서 젊은 세대를 위한 새로운 지샥 브랜드 경험 선보여",
-   "u": "https://zdnet.co.kr/view/?no=20260715131002",
+   "t": "구글 플레이스토어 개방…다음 주부터 타사 앱마켓 허용",
+   "u": "https://zdnet.co.kr/view/?no=20260716083826",
    "s": "ZDNet"
   },
   {
-   "t": "세종시문화관광재단, '2026 한글문화상품 개발지원 공모전' 최종 8건 선정",
-   "u": "https://zdnet.co.kr/view/?no=20260715130509",
+   "t": "LS일렉트릭, 해외 직원까지 주식 보상…북미 인력 확보 속도",
+   "u": "https://zdnet.co.kr/view/?no=20260716090708",
    "s": "ZDNet"
   },
   {
-   "t": "광주시립국악관현악단, 전남·광주 통합 첫 정기연주회 '수리성' 16일 개최",
-   "u": "https://zdnet.co.kr/view/?no=20260715085615",
+   "t": "日 KFC, 협력사 시스템 장애로 곤혹…모바일주문·배달 중단",
+   "u": "https://zdnet.co.kr/view/?no=20260716083832",
    "s": "ZDNet"
   },
   {
-   "t": "애딕티브, 7월 베트남 VGC 스폰서쉽 및 중국 차이나조이 참여",
-   "u": "https://zdnet.co.kr/view/?no=20260715125000",
+   "t": "아톤, AI보안 연합 '캐노피' 합류…'디펜딩 파트너'로",
+   "u": "https://zdnet.co.kr/view/?no=20260716090809",
    "s": "ZDNet"
   },
   {
-   "t": "산이, 브라질 제조공장에서 첫 굴삭기 및 상용차 출고",
-   "u": "https://zdnet.co.kr/view/?no=20260715121013",
+   "t": "대한항공 품에 안기는 아시아나IDT…한진정보통신과 통합할까",
+   "u": "https://zdnet.co.kr/view/?no=20260714114244",
    "s": "ZDNet"
   },
   {
-   "t": "뱅크 오브 아메리카, 2026년 2분기 재무 실적 발표",
-   "u": "https://zdnet.co.kr/view/?no=20260715121003",
+   "t": "보건복지부",
+   "u": "https://zdnet.co.kr/view/?no=20260716090502",
    "s": "ZDNet"
   },
   {
-   "t": "AI 리서치 에이전트, 대규모 정보 조사에서 한계 확인",
-   "u": "https://zdnet.co.kr/view/?no=20260715105729",
+   "t": "갤럭시Z폴드8·폴드8 울트라, 제품 사양 다 나왔다",
+   "u": "https://zdnet.co.kr/view/?no=20260716085106",
    "s": "ZDNet"
   },
   {
-   "t": "건국대학교",
-   "u": "https://zdnet.co.kr/view/?no=20260715114758",
+   "t": "포켓몬 유나이트, 2027년부터 월드 챔피언십 시리즈 제외",
+   "u": "https://zdnet.co.kr/view/?no=20260716084914",
    "s": "ZDNet"
   },
   {
-   "t": "메가존클라우드, 성균관대와 AI·양자 생태계 구축 '맞손'",
-   "u": "https://zdnet.co.kr/view/?no=20260715113007",
+   "t": "이범규 팀스파르타, 모교에 1억원 기부...\"AI 개발 에이전트 지원\"",
+   "u": "https://zdnet.co.kr/view/?no=20260716085334",
    "s": "ZDNet"
   },
   {
-   "t": "SK하이닉스 상품 늘리는 바이낸스…코인 거래에 머문 韓 거래소",
-   "u": "https://zdnet.co.kr/view/?no=20260715110115",
+   "t": "\"바닷길 막히면 제조업도 멈춘다…해양안보, 경제 생존 문제\"",
+   "u": "https://zdnet.co.kr/view/?no=20260716085832",
    "s": "ZDNet"
   }
  ]
