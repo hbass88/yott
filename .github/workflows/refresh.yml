@@ -38,7 +38,10 @@ jobs:
               .filter(i=>i.t&&!heavy(i.t)).slice(0,15);}
           const ent=await feed("https://www.yna.co.kr/rss/entertainment.xml","연합뉴스");
           const tech=await feed("https://feeds.feedburner.com/zdkorea","ZDNet");
-          fs.writeFileSync("live-cache.json",JSON.stringify({updated:new Date().toISOString(),trends,ent,tech},null,1));
+          let memeNews=[];
+          try{const mx=await get("https://gogumafarm.kr/feed");
+            memeNews=[...mx.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m=>({t:clean(tag(m[1],"title")),u:tag(m[1],"link").replace(/<!\[CDATA\[|\]\]>/g,""),s:"고구마팜"})).filter(i=>i.t&&!heavy(i.t)).slice(0,8);}catch(e){}
+          fs.writeFileSync("live-cache.json",JSON.stringify({updated:new Date().toISOString(),trends,ent,tech,memeNews},null,1));
           const kst=new Date(Date.now()+9*3600*1000);
           const d=`${kst.getUTCFullYear()}.${String(kst.getUTCMonth()+1).padStart(2,"0")}.${String(kst.getUTCDate()).padStart(2,"0")}`;
           for(const f of ["index.html","map/index.html"]){
