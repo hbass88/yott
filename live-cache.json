@@ -1,155 +1,184 @@
 {
- "updated": "2026-07-20T02:39:53.056Z",
+ "updated": "2026-07-20T08:55:57.331Z",
  "trends": [
   {
-   "title": "임영웅",
-   "traffic": "1000+",
+   "title": "김형묵",
+   "traffic": "200+",
    "items": [
     {
-     "t": "임영웅, 멜론 142억 스트리밍 돌파…20일 만에 또 1억 회",
-     "u": "https://sports.donga.com/ent/article/all/20260720/134325579/1",
-     "s": "스포츠동아"
-    },
-    {
-     "t": "'일주일에 무려 1억 번 울려 퍼졌다'… 임영웅 정규 2집, 멜론 14억 스트리밍 &apos;초대박&apos;",
-     "u": "https://v.daum.net/v/Yp7AQqu5aC?f=p",
+     "t": "‘54세 미혼’ 김형묵, 아직 사랑보다 일..“중년 아이돌 되고파”",
+     "u": "https://v.daum.net/v/4G657ie4TZ",
      "s": "Daum"
     },
     {
-     "t": "임영웅, 아이돌 그룹도 제쳤다…멜론 142억회로 &apos;다이아 클럽&apos; 독주",
-     "u": "https://m.news.nate.com/view/20260720n04521?issue_sq=10098&amp;mid=e0608",
+     "t": "‘사랑처방’ 김형묵 “처음부터 느낌 온 드라마..실제 양동익으로 산 기분”",
+     "u": "https://www.chosun.com/entertainments/broadcast/2026/07/20/GUYGEOLDGM4TIYZZHAYWCOJVME/",
+     "s": "조선일보"
+    },
+    {
+     "t": "&apos;사랑처방&apos; 김형묵, 박찬욱·연상호 감독과 연이어 호흡 '대가의 지도 느낀 값진 시간'",
+     "u": "https://news.nate.com/view/20260720n21565",
      "s": "네이트"
     }
    ]
   },
   {
-   "title": "미래에셋증권",
+   "title": "과잉공급",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "&apos;데이터센터 철강&apos; 올해분 다 팔려간다…AI·로봇 올라탄 철강·화학",
+     "u": "https://www.mt.co.kr/industry/2026/07/20/2026071512242442355",
+     "s": "머니투데이"
+    },
+    {
+     "t": "AI 시대 &apos;금속의 플라스틱 전환&apos;…로봇 변색 막는 소재로 차별화",
+     "u": "https://news.nate.com/view/20260720n03188",
+     "s": "네이트"
+    },
+    {
+     "t": "철근 수출 반년 만에 54만 톤...내수 부진 뚫고 ‘역대급 질주’",
+     "u": "https://www.steeldaily.co.kr/news/articleView.html?idxno=201353",
+     "s": "스틸데일리"
+    }
+   ]
+  },
+  {
+   "title": "기초연금법",
    "traffic": "100+",
    "items": [
     {
-     "t": "스페이스X 급락에…미래에셋증권 3분기 &apos;조단위 평가손&apos; 우려",
-     "u": "https://news.einfomax.co.kr/news/articleView.html?idxno=4425715",
-     "s": "연합인포맥스"
-    },
-    {
-     "t": "스페이스X '스타십 시험비행 23일로 연기'…상장 후 첫 발사",
-     "u": "https://v.daum.net/v/20260720091253850",
+     "t": "'공무원연금 받아도 기초연금 준다'…정부, 저소득 수급자 지급 추진",
+     "u": "https://v.daum.net/v/20260720065910921",
      "s": "Daum"
     },
     {
-     "t": "SpaceX, 지난주 발사 취소 후 목요일까지 스타십 13번째 시험 비행 계획",
-     "u": "https://kr.investing.com/news/stock-market-news/article-2020275",
-     "s": "Investing.com 한국어"
+     "t": "소득 적은 ‘직역연금’ 수급자도…기초연금 받게 된다",
+     "u": "https://www.hani.co.kr/arti/society/rights/1269064.html",
+     "s": "한겨레"
+    },
+    {
+     "t": "“퇴직 후 월 100만 원 미만인데” 저소득 직역연금 노인 40만명 기초연금 받는다",
+     "u": "https://www.segye.com/view/20260720506177",
+     "s": "세계일보"
     }
    ]
   },
   {
-   "title": "msn",
-   "traffic": "100+",
+   "title": "주가",
+   "traffic": "20000+",
    "items": [
     {
-     "t": "Air Quality Forecast",
-     "u": "https://www.channel3000.com/air-quality-forecast-msn-png/image_1dc9939d-8548-44c8-beda-2f95a0e71942.html",
-     "s": "Channel 3000"
+     "t": "'삼천당 아닌 황천당'이라더니 주가 폭등 &apos;대반전&apos;…삼천당제약, 美 FDA 회신에 &apos;상한가&apos;",
+     "u": "https://v.daum.net/v/5vIyHf9UNS",
+     "s": "Daum"
     },
     {
-     "t": "Britain&apos;s Kerr Sets New World Record in 1",
-     "u": "https://news.sbs.co.kr/english/article.do?news_id=N1008663668",
-     "s": "news.sbs.co.kr"
+     "t": "FDA 답변에 &apos;상한가&apos;…삼천당제약, 정말 &apos;허가 문턱&apos; 넘었나",
+     "u": "https://www.hankyung.com/article/202607203782i",
+     "s": "한국경제"
     },
     {
-     "t": "Josh Kerr makes athletics history by shattering one",
-     "u": "https://www.theguardian.com/sport/2026/jul/18/josh-kerr-makes-athletics-history-by-shattering-one-mile-world-record-in-london",
-     "s": "The Guardian"
+     "t": "삼천당제약 'FDA서 제네릭 개발전략 검토 답변서 받아'",
+     "u": "https://www.yna.co.kr/view/AKR20260720136400017",
+     "s": "연합뉴스"
     }
    ]
   },
   {
-   "title": "여론",
+   "title": "웨인 루니",
+   "traffic": "10000+",
+   "items": [
+    {
+     "t": "BTS 마주치자 백덤블링...'오 마이 갓, BTS!'",
+     "u": "https://www.ytn.co.kr/_ln/0107_202607201659441289",
+     "s": "YTN"
+    },
+    {
+     "t": "'쓰레기 같은 무대'⋯축구 전설 루니, BTS 오른 하프타임쇼 &apos;혹평&apos;",
+     "u": "https://v.daum.net/v/20260720171527801",
+     "s": "Daum"
+    },
+    {
+     "t": "하프타임엔 BTS, 우승컵은 정호연 손에…월드컵 &apos;주역&apos;이 된 한류",
+     "u": "https://www.mt.co.kr/sports/2026/07/20/2026072011112738674",
+     "s": "머니투데이"
+    }
+   ]
+  },
+  {
+   "title": "잠실 르엘",
    "traffic": "5000+",
    "items": [
     {
-     "t": "충남도민 목소리 담은 &apos;AI 현황판&apos; 구축…SNS 여론 실시간 확인",
-     "u": "https://v.daum.net/v/20260720101050811",
-     "s": "Daum"
+     "t": "잠실르엘 48평 1주택자의 보유세 공개…앞으로 2~3배 더 오를 듯",
+     "u": "https://realty.chosun.com/site/data/html_dir/2026/07/20/2026072001149.html",
+     "s": "땅집고"
     },
     {
-     "t": "충남도, SNS 여론 실시간 확인…정책 결정에 활용",
-     "u": "https://www.kmib.co.kr/article/view.asp?arcid=0030133795&amp;code=61121111&amp;sid1=prj",
-     "s": "국민일보"
-    },
-    {
-     "t": "충남, 반도체·디스플레이 등 중소 제조 AX 지원 시동…공정 데이터 자산화·표준화 지원",
-     "u": "https://www.etnews.com/20260716000293",
-     "s": "전자신문"
-    }
-   ]
-  },
-  {
-   "title": "현대차 주가",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "42% 급락한 현대차, 피크아웃?⋯'로봇으로 보면 지금이 기회'",
-     "u": "https://v.daum.net/v/20260720104405504",
-     "s": "Daum"
-    },
-    {
-     "t": "현대차, 2Q 성적표 전망 &apos;흐림&apos;…하반기 신차 효과로 &apos;V자 반등&apos; 시동거나",
-     "u": "https://www.newsis.com/view/NISX20260716_0003711894",
+     "t": "26기 경수, 40억대 잠실집 공개",
+     "u": "https://www.newsis.com/view/NISX20260718_0003713718",
      "s": "뉴시스"
     },
     {
-     "t": "연중 최저 수준 급락한 현대차…현 시점 투자계획 세워보니",
-     "u": "https://www.hankyung.com/article/202607160095i",
-     "s": "한국경제"
-    }
-   ]
-  },
-  {
-   "title": "알파벳",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "버핏, 이 회사에 &apos;43조&apos; 베팅…'내 실수, 더 빨리 샀어야'",
-     "u": "https://v.daum.net/v/20260720092442351",
-     "s": "Daum"
-    },
-    {
-     "t": "워런 버핏 “과거 ‘이곳’ 투자 안 한 거 후회”…이제라도 ‘43조’ 베팅, 어디?",
-     "u": "https://www.mk.co.kr/news/stock/12102133",
-     "s": "매일경제"
-    },
-    {
-     "t": "버핏 '구글, AI 시대 승자될 확률 높아'",
-     "u": "https://www.chosun.com/economy/money/2026/07/19/TQFR5HAYFNHIROYASFSAPWBCY4/",
-     "s": "조선일보"
-    }
-   ]
-  },
-  {
-   "title": "kospi",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "(LEAD) Seoul stocks open lower on chip rout, escalating Iran tensions",
-     "u": "https://en.yna.co.kr/view/AEN20260720001551320",
-     "s": "Yonhap News Agency"
-    },
-    {
-     "t": "KOSDAQ Plunges 5% Intraday, Sell",
-     "u": "https://www.asiae.co.kr/en/article/2026072011062953601",
-     "s": "아시아경제"
-    },
-    {
-     "t": "Korea stock market signals global risk appetite amid AI-driven chip rally",
-     "u": "https://biz.chosun.com/en/en-international/2026/07/19/BMQLEBRMYBBF3JSSDRLPWL5GSE/",
-     "s": "Chosunbiz"
+     "t": "&apos;나솔&apos; 26기 경수, 40억 대 잠실 아파트 공개 '나랑 결혼하면 집안일 걱정 NO'(허니데이)",
+     "u": "https://news.nate.com/view/20260719n05346",
+     "s": "네이트"
     }
    ]
   }
  ],
  "ent": [
+  {
+   "t": "진세연 \"박기웅과 재회에 뭉클…가족 드라마라 더 좋았죠\"",
+   "u": "https://www.yna.co.kr/view/AKR20260720111700005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "이정재·황동혁 감독, 22일 '호프' GV 참석…정호연과 대담",
+   "u": "https://www.yna.co.kr/view/AKR20260720113600005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "복수에 나선 두 남자…구로사와 기요시 '뱀의 길' 최초 개봉",
+   "u": "https://www.yna.co.kr/view/AKR20260720108200005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "'빙상장에서 영화를'…김해문화관광재단, 아이스 시네마 개최",
+   "u": "https://www.yna.co.kr/view/AKR20260720107400052",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "'이수만 걸그룹' A2O 메이, 中 QQ뮤직 신곡 차트 1위",
+   "u": "https://www.yna.co.kr/view/AKR20260720106400005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "'CEO 가수' 금청, 고향 남원 홍보대사 재위촉…500만원 기탁",
+   "u": "https://www.yna.co.kr/view/AKR20260720101900055",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "기안84, AI와 사랑에 빠질 수 있을까…'기이안 연애' 내달 첫선",
+   "u": "https://www.yna.co.kr/view/AKR20260720100600005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "유노윤호, 새 싱글 '타임스 티킨'…\"새로운 게임 같은 음반\"",
+   "u": "https://www.yna.co.kr/view/AKR20260720094900005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "이동욱 \"'킬러들의 쇼핑몰2' 액션 늘어나, 전작보다 재미있길\"",
+   "u": "https://www.yna.co.kr/view/AKR20260720085000005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "국내 일렉트로닉 음악 급성장…6월 스트리밍 작년 대비 60%↑",
+   "u": "https://www.yna.co.kr/view/AKR20260720085300005",
+   "s": "연합뉴스"
+  },
   {
    "t": "박진영, 23일 워터밤 테마곡 '웨트' 발표",
    "u": "https://www.yna.co.kr/view/AKR20260720061600005",
@@ -174,133 +203,125 @@
    "t": "지드래곤 \"유산 지키는 일, 미래 평화 만드는 일\"",
    "u": "https://www.yna.co.kr/view/AKR20260720038200005",
    "s": "연합뉴스"
-  },
-  {
-   "t": "'호프' 연휴에 150만명 관람…평가 엇갈려도 흥행 순항",
-   "u": "https://www.yna.co.kr/view/AKR20260720036000005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "연상호 '부산행', 10주년 맞아 해외서 4K로 재개봉",
-   "u": "https://www.yna.co.kr/view/AKR20260720036100005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "하이브, 하반기 7인조 새 걸그룹 '튜이드' 선보인다",
-   "u": "https://www.yna.co.kr/view/AKR20260720032500005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "결국 하나 된 두 가족…'사랑을 처방해 드립니다' 15%대 종영",
-   "u": "https://www.yna.co.kr/view/AKR20260720030700005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "결승전 빛낸 BTS \"하프타임 쇼 영광, 꿈을 꾼 기분\"",
-   "u": "https://www.yna.co.kr/view/AKR20260720022700005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "싸이 '강남스타일' MV, K팝 최초 유튜브 60억뷰 대기록",
-   "u": "https://www.yna.co.kr/view/AKR20260720018300005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "'왕사남' 아프리카 첫 상영…코트디부아르 극장서 정식 개봉",
-   "u": "https://www.yna.co.kr/view/AKR20260720015500099",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "BTS가 달군 월드컵 첫 하프타임쇼…\"역동적 공연으로 빛내\"",
-   "u": "https://www.yna.co.kr/view/AKR20260720004800091",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "'오디세이' 놀런 \"AI는 트로이목마…AI 반감은 건강한 회의주의\"",
-   "u": "https://www.yna.co.kr/view/AKR20260720001800091",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "BTS, '아리랑' 유럽 투어로 71만7천명 동원…파리서 대미 장식",
-   "u": "https://www.yna.co.kr/view/AKR20260719041300005",
-   "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "방미통위, 온오프라인서 'AI 윤리' 행사 진행",
-   "u": "https://zdnet.co.kr/view/?no=20260720104838",
+   "t": "SKT \"감쪽같은 AI 영상 합성, 광고 시장 사로잡겠다\"",
+   "u": "https://zdnet.co.kr/view/?no=20260720160607",
    "s": "ZDNet"
   },
   {
-   "t": "캐나다 산불에 하늘이 사라졌다…위성이 담은 거대한 연기 기둥",
-   "u": "https://zdnet.co.kr/view/?no=20260720090651",
+   "t": "\"앱 안열어도 적립되네\"…'삼성 월렛' 탄 CJ 원, 이용자 접점 확대될까",
+   "u": "https://zdnet.co.kr/view/?no=20260720165305",
    "s": "ZDNet"
   },
   {
-   "t": "중고차 직거래도 믿고 산다…케이카, 카리나와 새 광고 공개",
-   "u": "https://zdnet.co.kr/view/?no=20260720105614",
+   "t": "에스넷그룹, 시스코와 AI 시대 '보안 주도권' 노린다…계열사 역량 결집",
+   "u": "https://zdnet.co.kr/view/?no=20260720164854",
    "s": "ZDNet"
   },
   {
-   "t": "두나무, 자체 블록체인서 활동할 빌더·개발자 발굴 나서",
-   "u": "https://zdnet.co.kr/view/?no=20260720105000",
+   "t": "이브이시스, 인도네시아 전기버스 충전 인프라 착공…동남아 공략 시동",
+   "u": "https://zdnet.co.kr/view/?no=20260720163643",
    "s": "ZDNet"
   },
   {
-   "t": "삼성SDS, 퓨리오사AI 기반 'NPUaaS' 출시…인프라 선택권 확장",
-   "u": "https://zdnet.co.kr/view/?no=20260720104921",
+   "t": "한화솔루션, 유상증자 규모 1.17조 확정…초안 대비 절반 수준",
+   "u": "https://zdnet.co.kr/view/?no=20260720154453",
    "s": "ZDNet"
   },
   {
-   "t": "한국앤컴퍼니, 삼성 라이온즈파크서 브랜드 체험 행사",
-   "u": "https://zdnet.co.kr/view/?no=20260720104914",
+   "t": "오리엔텀 \"이탈리아 링크스 재단과 양자기술 개발 업무협약\"",
+   "u": "https://zdnet.co.kr/view/?no=20260720163130",
    "s": "ZDNet"
   },
   {
-   "t": "\"사용자 마우스 흔들고 바탕화면 변경\"…새로운 악성코드 발견",
-   "u": "https://zdnet.co.kr/view/?no=20260720104622",
+   "t": "AX 시대, 통제 너머의 기업 컴플라이언스 2.0",
+   "u": "https://zdnet.co.kr/view/?no=20260720155435",
    "s": "ZDNet"
   },
   {
-   "t": "현대차, '현대 블루 프라이즈+ 2025' 중국서 첫 전시 개최",
-   "u": "https://zdnet.co.kr/view/?no=20260720104503",
+   "t": "AI 힘주는 롯데…‘신동빈표 AX’ 어디까지 왔나",
+   "u": "https://zdnet.co.kr/view/?no=20260720160228",
    "s": "ZDNet"
   },
   {
-   "t": "영국 게임 업계 종사자, 최근 3년간 22%가 실직",
-   "u": "https://zdnet.co.kr/view/?no=20260720090928",
+   "t": "AI·클라우드 성장성에 베팅…글로벌 자본, 국내 기업용 IT 기업 투자 확대",
+   "u": "https://zdnet.co.kr/view/?no=20260720153522",
    "s": "ZDNet"
   },
   {
-   "t": "'파이널 판타지 14 모바일' 중국 서비스 종료…글로벌 출시도 불투명",
-   "u": "https://zdnet.co.kr/view/?no=20260720092540",
+   "t": "전고체 현실성 있나…배터리 업계, 반고체로 곁눈질",
+   "u": "https://zdnet.co.kr/view/?no=20260720154355",
    "s": "ZDNet"
   },
   {
-   "t": "사실상 대출 절벽…4대 금융지주, 하반기 뭉치고 기술력 확보한다",
-   "u": "https://zdnet.co.kr/view/?no=20260720092308",
+   "t": "가비아, 맥쿼리 품 안긴다…공개매수 거쳐 자진 상폐 추진",
+   "u": "https://zdnet.co.kr/view/?no=20260720152336",
    "s": "ZDNet"
   },
   {
-   "t": "백제세계유산센터, 세계유산위서 '백제역사유적지구' 글로벌 가치 알린다",
-   "u": "https://zdnet.co.kr/view/?no=20260720102219",
+   "t": "이승렬 KTR 원장 \"국내 최고 시험·인증기관 넘어 AI시대 글로벌 서비스 기관 도약”",
+   "u": "https://zdnet.co.kr/view/?no=20260720161500",
    "s": "ZDNet"
   },
   {
-   "t": "FOMC 앞둔 한 주…비트코인, 경제지표·중동 리스크 '예의주시'",
-   "u": "https://zdnet.co.kr/view/?no=20260720103521",
+   "t": "\"기존 D램 갉아먹을라\"…메모리 3사, CXL 자체 컨트롤러 개발 않기로",
+   "u": "https://zdnet.co.kr/view/?no=20260720150435",
    "s": "ZDNet"
   },
   {
-   "t": "마이다스그룹, AI 에이전트 중심 업무 전환…'인AX' 10월 공개",
-   "u": "https://zdnet.co.kr/view/?no=20260720102958",
+   "t": "무어 글로벌의 비비안 뮤어 신임 최고경영자 가장 강력한 성장은 이제부터라고 밝혀",
+   "u": "https://zdnet.co.kr/view/?no=20260720161003",
    "s": "ZDNet"
   },
   {
-   "t": "에브리존 \"화이트 디펜더 플랫폼은 '랜섬웨어 전용 EDR'\"",
-   "u": "https://zdnet.co.kr/view/?no=20260720101753",
+   "t": "현대차, 새만금 AI 밸리 인재 키운다…전북자치도·전북대와 맞손",
+   "u": "https://zdnet.co.kr/view/?no=20260720160131",
    "s": "ZDNet"
+  }
+ ],
+ "memeNews": [
+  {
+   "t": "셋로그 소개팅? 숏셜링? 요즘 MZ세대가 관계를 맺는 방식",
+   "u": "https://gogumafarm.kr/%ec%85%8b%eb%a1%9c%ea%b7%b8-%ec%86%8c%ea%b0%9c%ed%8c%85-%ec%88%8f%ec%85%9c%eb%a7%81-%ec%9a%94%ec%a6%98-mz%ec%84%b8%eb%8c%80%ea%b0%80-%ea%b4%80%ea%b3%84%eb%a5%bc-%eb%a7%ba%eb%8a%94-%eb%b0%a9%ec%8b%9d/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "통닭천사의 닉값 되찾기 프로젝트! &#8216;오빠닭&#8217; 신메뉴 콜라보 캠페인 총정리",
+   "u": "https://gogumafarm.kr/%ed%86%b5%eb%8b%ad%ec%b2%9c%ec%82%ac%ec%9d%98-%eb%8b%89%ea%b0%92-%eb%90%98%ec%b0%be%ea%b8%b0-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8-%ec%98%a4%eb%b9%a0%eb%8b%ad-%ec%8b%a0%eb%a9%94%eb%89%b4-%ec%bd%9c/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "알고리즘을 장악하는 인스타그램 매거진 바이럴 사례 분석",
+   "u": "https://gogumafarm.kr/%ec%95%8c%ea%b3%a0%eb%a6%ac%ec%a6%98%ec%9d%84-%ec%9e%a5%ec%95%85%ed%95%98%eb%8a%94-%ec%9d%b8%ec%8a%a4%ed%83%80%ea%b7%b8%eb%9e%a8-%eb%a7%a4%ea%b1%b0%ec%a7%84-%eb%b0%94%ec%9d%b4%eb%9f%b4-%ec%82%ac/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "오늘의 뉴스클리핑과 유튜브 트렌드",
+   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%9c%a0%ed%8a%9c%eb%b8%8c-%ed%8a%b8%eb%a0%8c%eb%93%9c-162/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "마운자로를 대신할 마음자로의 구라시보 효과?! 요즘 떠오른 마이크로사이트",
+   "u": "https://gogumafarm.kr/%eb%a7%88%ec%9a%b4%ec%9e%90%eb%a1%9c%eb%a5%bc-%eb%8c%80%ec%8b%a0%ed%95%a0-%eb%a7%88%ec%9d%8c%ec%9e%90%eb%a1%9c%ec%9d%98-%ea%b5%ac%eb%9d%bc%ec%8b%9c%eb%b3%b4-%ed%9a%a8%ea%b3%bc-%ec%9a%94%ec%a6%98/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "오늘의 뉴스클리핑과 매체/퍼포먼스 트렌드",
+   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%eb%a7%a4%ec%b2%b4-%ed%8d%bc%ed%8f%ac%eb%a8%bc%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-110/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "야알못 마케터를 위한 KBO 구단 백과사전 2탄",
+   "u": "https://gogumafarm.kr/%ec%95%bc%ec%95%8c%eb%aa%bb-%eb%a7%88%ec%bc%80%ed%84%b0%eb%a5%bc-%ec%9c%84%ed%95%9c-kbo-%ea%b5%ac%eb%8b%a8-%eb%b0%b1%ea%b3%bc%ec%82%ac%ec%a0%84-2%ed%83%84-kia%c2%b7%ed%95%9c%ed%99%94%c2%b7%ec%82%bc/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "오늘의 뉴스클리핑과 커머스 트렌드",
+   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-154/",
+   "s": "고구마팜"
   }
  ]
 }
