@@ -373,6 +373,7 @@ async function fetchNewsFeed(apiPath,realUrl,defSrc){
 
 /* ---------- 통합 피드: 실검 + 뉴스 + 밈을 하나로, 같은 주제는 하나로 묶기 ---------- */
 let FEED=[];
+let MEME_NEWS=[]; // 봇이 매일 수집하는 밈 매체 새 글
 async function buildFeed(){
   const el=document.getElementById("feedList");
   if(!el)return;
@@ -380,6 +381,7 @@ async function buildFeed(){
   if(!FEED.length){
     try{
       const cache=await (await fetchWithTimeout("live-cache.json",4000)).json();
+      MEME_NEWS=cache.memeNews||[];
       FEED=assembleFeed(
         (cache.trends||[]).map(t=>({type:"실검",title:t.title,traffic:t.traffic,items:t.items||[]})),
         cache.ent||[],cache.tech||[]);
@@ -430,7 +432,11 @@ function assembleFeed(trendClusters,ent,tech){
       {t:`인스타그램 '${m.t}' 태그`,u:`https://www.instagram.com/explore/search/keyword/?q=${encodeURIComponent(m.t)}`,s:"Instagram"},
       {t:`유튜브 '${m.t}' 영상`,u:`https://www.youtube.com/results?search_query=${encodeURIComponent(m.t)}`,s:"YouTube"}
     ]}));
-  return [...clusters,...newsClusters.slice(0,8),...memeClusters];
+  // 봇이 매일 수집하는 밈 매체 새 글 (자동 갱신되는 밈 소식)
+  const memeNewsClusters=MEME_NEWS.slice(0,6).map(n=>({
+    type:"밈",title:n.t,desc:"오늘 올라온 밈 소식 — 눌러서 원문 보기",tag:"NEW",
+    items:[{t:n.t,u:n.u,s:n.s||"고구마팜"}]}));
+  return [...clusters,...newsClusters.slice(0,8),...memeNewsClusters,...memeClusters];
 }
 function feedTag(type){
   return {실검:'<span class="ftag ft-hot">실검</span>',뉴스:'<span class="ftag ft-news">뉴스</span>',밈:'<span class="ftag ft-meme">밈</span>'}[type]||"";
