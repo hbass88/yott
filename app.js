@@ -115,18 +115,8 @@ function renderHome(){
     </div>`).join("")
     + (cool.length>coolShown ? `
       <div class="load-row" id="coolLoadRow">
-        <button class="more-btn" onclick="loadMoreCool()">더보기 (${cool.length-coolShown}개 남음)</button>
-      </div>
-      <div id="coolSentinel"></div>` : "");
-
-  if(coolObserver)coolObserver.disconnect();
-  const cs=document.getElementById("coolSentinel");
-  if(cs && "IntersectionObserver" in window){
-    coolObserver=new IntersectionObserver(es=>{
-      if(es[0].isIntersecting && !coolLoading) loadMoreCool();
-    },{rootMargin:"200px"});
-    coolObserver.observe(cs);
-  }
+        <button class="more-btn" onclick="loadMoreCool()">더보기 (${cool.length-coolShown})</button>
+      </div>` : "");
 }
 let coolShown=5, coolLoading=false, coolObserver=null;
 function loadMoreCool(){
