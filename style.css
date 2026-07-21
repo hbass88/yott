@@ -54,7 +54,7 @@ header{position:sticky;top:0;z-index:50;background:var(--paper);border-bottom:2p
   border:1.5px solid var(--live);border-radius:4px;padding:4px 10px;letter-spacing:.06em}
 .dot{width:7px;height:7px;border-radius:50%;background:var(--live);animation:blink 1.4s infinite}
 @keyframes blink{50%{opacity:.2}}
-.tgl{margin-left:4px;background:var(--surface);border:1.5px solid var(--line-strong);border-radius:8px;width:36px;height:36px;font-size:15px;cursor:pointer;transition:.15s;box-shadow:2px 2px 0 rgba(22,26,58,.12)}
+.tgl{margin-left:4px;background:var(--surface);border:1.5px solid var(--line-strong);border-radius:8px;width:auto;height:36px;padding:0 13px;font-size:13px;font-weight:800;color:var(--ink);cursor:pointer;transition:.15s;box-shadow:2px 2px 0 rgba(22,26,58,.12)}
 .tgl:hover{transform:translate(-1px,-1px);box-shadow:3px 3px 0 rgba(22,26,58,.16)}
 nav{max-width:1080px;margin:0 auto;padding:0 20px 0;display:flex;gap:2px}
 nav a{font-size:15px;font-weight:800;color:var(--ink-soft);padding:9px 16px 11px;position:relative}
@@ -211,6 +211,9 @@ aside{position:sticky;top:106px;display:flex;flex-direction:column;gap:16px}
 
 /* 첫 언급 날짜 (팝업) */
 .first-mention{font-size:14px;font-weight:700;color:var(--ink);margin:2px 0 8px}
+.fm-link{color:var(--ink);text-decoration:none}
+.fm-link:hover .fm-date{background:var(--hi)}
+.fm-link:hover{color:var(--hot)}
 .fm-date{font-family:var(--mono);font-weight:600;background:var(--hi-band);padding:1px 6px;border-radius:4px}
 
 /* 세대별 반응 분포 (팝업) */

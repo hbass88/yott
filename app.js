@@ -17,8 +17,8 @@ function sparkBig(data,up){
     <polygon points="0,${h} ${pts} ${w},${h}" fill="${c}" opacity="0.08"/></svg>`;
 }
 function badge(st){
-  return {hot:'<span class="badge b-hot">🔥 HOT</span>',rise:'<span class="badge b-rise">📈 급상승</span>',
-          new:'<span class="badge b-new">✨ NEW</span>',cool:'<span class="badge b-cool">📉 하락</span>'}[st]||"";
+  return {hot:'<span class="badge b-hot">HOT</span>',rise:'<span class="badge b-rise">급상승</span>',
+          new:'<span class="badge b-new">NEW</span>',cool:'<span class="badge b-cool">하락</span>'}[st]||"";
 }
 let curGroup="전체"; // curCat=""이면 그룹 전체
 function activeCats(){
@@ -62,7 +62,7 @@ function renderHome(){
   const groups=["전체",...CAT_GROUPS.map(g=>g.name)];
   let html=`<div class="gchips">${groups.map(g=>{
     const G=CAT_GROUPS.find(x=>x.name===g);
-    return `<button class="chip ${g===curGroup?"on":""}" onclick="setGroup('${g}')">${G?G.emoji+" ":""}${g}</button>`;
+    return `<button class="chip ${g===curGroup?"on":""}" onclick="setGroup('${g}')">${g}</button>`;
   }).join("")}</div>`;
   const G=CAT_GROUPS.find(x=>x.name===curGroup);
   if(G && G.cats.length>1){
@@ -77,9 +77,9 @@ function renderHome(){
   const visible=pool.slice(0,shown);
   const listEl=document.getElementById("list");
   const titleEl=document.getElementById("listTitle");
-  if(titleEl)titleEl.textContent = curGroup==="전체" ? "🔥 오늘 뜨는 트렌드 TOP" : `🔥 ${curCat||curGroup} 트렌드 (${pool.length})`;
+  if(titleEl)titleEl.textContent = curGroup==="전체" ? "오늘 뜨는 트렌드 TOP" : `${curCat||curGroup} 트렌드 (${pool.length})`;
 
-  listEl.innerHTML = (visible.length? visible.map((t,i)=>cardHTML(t,i+1)).join("") : `<div class="empty">이 조건으로는 아직 뜨는 게 없네요 👀</div>`)
+  listEl.innerHTML = (visible.length? visible.map((t,i)=>cardHTML(t,i+1)).join("") : `<div class="empty">이 조건으로는 아직 뜨는 게 없네요</div>`)
     + (pool.length>shown ? `
       <div class="load-row" id="loadRow">
         <button class="more-btn" onclick="loadMore()">더보기 (${pool.length-shown}개 남음)</button>
@@ -186,15 +186,16 @@ function fakeStats(key,cat){
   g[3]+=100-g.reduce((a,b)=>a+b,0);
   return {days,startK,peak,gens:g};
 }
-function statsHTML(key,cat,mention){
+function statsHTML(key,cat,mention,q,firstUrl){
   const s=fakeStats(key,cat);
   const labels=["10대","20대","30대","40대+"];
   const max=Math.max(...s.gens);
   const d=new Date(Date.now()-s.days*86400000);
   const ds=`${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,"0")}.${String(d.getDate()).padStart(2,"0")}`;
+  const url=firstUrl||`https://search.naver.com/search.naver?where=news&query=${encodeURIComponent(q||String(key))}&pd=3&ds=${ds}&de=${ds}`;
   return `
-    <div class="m-h">👀 누가, 언제부터 떠드나 <span class="demo-tag">시연용 추정치</span></div>
-    <div class="first-mention"><span class="fm-date">${ds}</span> 에 첫 언급</div>
+    <div class="m-h">누가, 언제부터 떠드나 <span class="demo-tag">시연용 추정치</span></div>
+    <div class="first-mention"><a class="fm-link" href="${url}" target="_blank" rel="noopener"><span class="fm-date">${ds}</span> 에 첫 언급, 원문 확인</a></div>
     <div class="gen-box">
       ${labels.map((l,i)=>`
       <div class="gen-row"><span class="gl">${l}</span>
@@ -210,14 +211,12 @@ function openInfoModal(o){
     <div class="m-cat">${o.cat||""}</div>
     <div class="m-title">${o.title}</div>
     ${o.stats?`<div class="m-stats">${o.stats}</div>`:""}
-    <div class="m-h">🤖 설명</div>
+    <div class="m-h">설명</div>
     <div class="m-why">${o.desc}</div>
-    ${statsHTML(o.title,o.cat||"",null)}
-    ${o.points&&o.points.length?`<div class="m-h">📌 핵심 항목</div>
+    ${statsHTML(o.title,o.cat||"",null,o.q||o.title,null)}
+    ${o.points&&o.points.length?`<div class="m-h">핵심 항목</div>
     <ul class="m-points">${o.points.map(p=>`<li>${p}</li>`).join("")}</ul>`:""}
-    <div class="m-h">📥 수집 소스 — 어디서 종합됐나</div>
-    <div class="src-note">아래 채널에서 이 주제의 실제 반응을 볼 수 있어요.</div>
-    <div class="src-row">${srcLinks({title:o.q||o.title,kw:o.kw})}</div>`;
+`;
   document.getElementById("ovl").classList.add("show");
   document.body.style.overflow="hidden";
 }
@@ -232,7 +231,7 @@ function openShareModal(i){
   const s=REPORT.share[i];
   const related=REPORT.categories.find(c=>s.label.includes(c.name.split("/")[0])||c.name.includes(s.label.split("/")[0]));
   openInfoModal({
-    cat:"📊 카테고리 점유율",title:s.label,
+    cat:"카테고리 점유율",title:s.label,
     stats:`<div class="stat" style="grid-column:1/-1"><b style="color:var(--up)">${s.v}%</b><span>이달 전체 트렌드 언급량 중 비중 (시뮬레이션)</span></div>`,
     desc:`${REPORT.month} 전체 트렌드 언급량 가운데 '${s.label}' 계열이 ${s.v}%를 차지했습니다. ${s.v>=25?"이달의 주도 카테고리로, 신규 트렌드가 가장 활발하게 생성된 영역입니다.":s.v>=15?"꾸준한 화력을 유지하는 중위권 카테고리입니다.":"비중은 작지만 개별 이슈의 순간 화력이 큰 카테고리입니다."}`,
     points:related?related.top:[],q:s.label});
@@ -247,7 +246,7 @@ function renderReport(){
       <p>${REPORT.intro}</p>
     </div>
     <div class="sec">
-      <h2>📊 카테고리 점유율</h2>
+      <h2>카테고리 점유율</h2>
       <div class="sub">이달 전체 트렌드 언급량 기준 (시뮬레이션), 클릭하면 상세</div>
       <div class="r-card">
         ${REPORT.share.map((s,i)=>`
@@ -257,7 +256,7 @@ function renderReport(){
       </div>
     </div>
     <div class="sec">
-      <h2>🏆 카테고리별 TOP 3</h2>
+      <h2>카테고리별 TOP 3</h2>
       <div class="sub">홈과 동일한 ${CATS.length-1}개 카테고리 기준, 상승률 상위 3개씩, 클릭하면 상세</div>
       <div class="r-grid">
         ${CATS.slice(1).map(cat=>{
@@ -270,7 +269,7 @@ function renderReport(){
       </div>
     </div>
     <div class="sec">
-      <h2>🔭 다음 달 전망</h2>
+      <h2>다음 달 전망</h2>
       <div class="sub">AI 예측 요약</div>
       <div class="m-why">${REPORT.outlook}</div>
     </div>`;
@@ -280,15 +279,15 @@ function renderReport(){
 function openRegionModal(i){
   const r=REGIONS[i];
   openInfoModal({
-    cat:"🗺 지역별 트렌드",title:`${r.emoji} ${r.name}`,
-    stats:`<div class="stat" style="grid-column:1/-1"><b style="color:var(--hot)">🔥 ${r.heat}</b><span>지역 화력 지수 (시뮬레이션)</span></div>`,
+    cat:"지역별 트렌드",title:r.name,
+    stats:`<div class="stat" style="grid-column:1/-1"><b style="color:var(--hot)">${r.heat}</b><span>지역 화력 지수 (시뮬레이션)</span></div>`,
     desc:`지금 ${r.name}에서 언급량이 가장 빠르게 오르는 주제들입니다. 화력 지수는 지역 연관 키워드의 검색/업로드 증가율을 종합한 값입니다.`,
     points:r.items.map(it=>`${it.t} (${it.c})`),q:r.name});
 }
 function openRegionItem(ri,ii){
   const r=REGIONS[ri], it=r.items[ii];
   openInfoModal({
-    cat:`🗺 ${r.name}, ${it.c}`,title:it.t,
+    cat:`${r.name}, ${it.c}`,title:it.t,
     desc:`요즘 ${r.name} 쪽에서 확 뜨고 있는 '${it.c}' 얘기예요. 인증샷이랑 후기 업로드가 눈에 띄게 늘고 있어서, 아직 웨이팅이 감당 가능한 초기 확산 구간으로 보입니다. 주말 지나면 훨씬 붐빌 가능성이 높으니 가보실 거면 지금이 타이밍이에요.`,
     q:`${r.name.replace(/서울 |강원 |전북 |전남 |경북 |충남 |글로벌.*/,"")} ${it.t}`.trim()});
 }
@@ -303,7 +302,7 @@ function renderMap(){
   el.innerHTML=`
     <div class="region-grid">${list.map(({r,ri})=>`
     <div class="region clickable" onclick="openRegionModal(${ri})">
-      <div class="rg-n">${r.emoji} ${r.name}<span class="rg-type">${r.type}</span><span class="rg-heat">🔥 ${r.heat}</span></div>
+      <div class="rg-n">${r.name}<span class="rg-type">${r.type}</span><span class="rg-heat">화력 ${r.heat}</span></div>
       <ul>${r.items.map((it,ii)=>`<li class="clickable" onclick="event.stopPropagation();openRegionItem(${ri},${ii})"><span class="no">${ii+1}</span>${it.t}<span class="rg-cat">${it.c}</span></li>`).join("")}</ul>
     </div>`).join("")}</div>`;
 }
@@ -314,7 +313,7 @@ function openModal(id){
   const isSoon = t.status==="soon";
   document.getElementById("modal").innerHTML = `
     <button class="m-close" onclick="closeModal()">✕</button>
-    <div class="m-cat">${t.cat}${isSoon?", ⚡ 곧 터질 후보":""}</div>
+    <div class="m-cat">${t.cat}${isSoon?", 곧 터질 후보":""}</div>
     <div class="m-title">${t.title}</div>
     <div class="m-one">${t.one}</div>
     ${!isSoon?`
@@ -325,16 +324,12 @@ function openModal(id){
     </div>
     <div class="m-chart"><div class="cl">최근 7일 확산 곡선</div>${sparkBig(t.spark,t.vel>0)}</div>`
     :`<div class="m-stats"><div class="stat" style="grid-column:1/-1"><b style="color:var(--yellow)">${t.prob}%</b><span>AI 예측 — 터질 확률</span></div></div>`}
-    <div class="m-h">🤖 지금 뜨는 이유 (AI 분석)</div>
+    <div class="m-h">지금 뜨는 이유 (AI 분석)</div>
     <div class="m-why">${t.why}</div>
-    ${statsHTML(t.id+t.title,t.cat,t.mention)}
-    <div class="m-h">📌 핵심 포인트</div>
+    ${statsHTML(t.id+t.title,t.cat,t.mention,(t.kw&&t.kw[0])||t.title,t.firstUrl)}
+    <div class="m-h">핵심 포인트</div>
     <ul class="m-points">${t.points.map(p=>`<li>${p}</li>`).join("")}</ul>
-    <div class="m-h">🏷 연관 키워드</div>
-    <div class="kw">${t.kw.map(k=>`<span>#${k}</span>`).join("")}</div>
-    <div class="m-h">📥 수집 소스 — 어디서 종합됐나</div>
-    <div class="src-note">아래 채널들의 공개 신호를 종합해 산출한 트렌드입니다. 클릭하면 각 플랫폼의 실제 반응을 볼 수 있어요.</div>
-    <div class="src-row">${srcLinks(t)}</div>`;
+`;
   document.getElementById("ovl").classList.add("show");
   document.body.style.overflow="hidden";
 }
@@ -513,20 +508,17 @@ function openFeedModal(i){
     : `여러 채널에서 동시에 다루는 중: ${c.items.slice(0,3).map(x=>x.t).join(", ")}`;
   document.getElementById("modal").innerHTML = `
     <button class="m-close" onclick="closeModal()">✕</button>
-    <div class="m-cat">${c.type==="실검"?"📡 실시간 급상승":c.type==="뉴스"?"📰 뉴스 종합":"💬 밈/유행어"}${c.tag?`, ${c.tag}`:""}</div>
+    <div class="m-cat">${c.type==="실검"?"실시간 급상승":c.type==="뉴스"?"뉴스 종합":"밈/유행어"}${c.tag?`, ${c.tag}`:""}</div>
     <div class="m-title">${c.title}</div>
-    <div class="m-h">🤖 종합 요약</div>
+    <div class="m-h">종합 요약</div>
     <div class="m-why">${summary}</div>
-    ${statsHTML(c.title,"",null)}
-    <div class="m-h">🔗 원문, 반응 보기 (${c.items.length})</div>
+    ${statsHTML(c.title,"",null,c.title,c.items&&c.items[0]?c.items[0].u:null)}
+    <div class="m-h">원문, 반응 보기 (${c.items.length})</div>
     <div class="feed-links">${c.items.map(x=>`
       <a class="feed-link" href="${x.u}" target="_blank" rel="noopener">
         <span class="fl-t">${x.t}</span><span class="fl-s">${x.s}</span>
       </a>`).join("")}</div>
-    <div class="src-tags" title="이 주제가 수집된 소스">
-      <span class="st-label">sources</span>
-      ${srcs.map(s=>`<span class="stag">${s}</span>`).join("")}
-    </div>`;
+`;
   document.getElementById("ovl").classList.add("show");
   document.body.style.overflow="hidden";
 }
@@ -540,7 +532,7 @@ function startLive(){
 function applyTheme(t){
   document.documentElement.dataset.theme=t;
   const b=document.getElementById("tglBtn");
-  if(b)b.textContent = t==="light" ? "🌙" : "☀️";
+  if(b)b.textContent = t==="light" ? "다크" : "라이트";
 }
 function toggleTheme(){
   const cur=document.documentElement.dataset.theme==="light"?"dark":"light";

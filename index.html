@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>요뜨 — 요즘 뜨는거</title>
 <meta name="description" content="X/유튜브/틱톡/커뮤니티의 상승 신호를 AI가 실시간 감지. 오늘 한국에서 뜨는거, 제일 먼저.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23FF4D2E'/></svg>">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -15,15 +15,15 @@
   <div class="hbar">
     <div>
       <div class="logo">요뜨</div>
-      <div class="tag">요즘 뜨는거, 야 떴다! 🔥</div>
+      <div class="tag">요즘 뜨는거, 야 떴다!</div>
     </div>
     <div class="live"><span class="dot"></span>LIVE <span id="clock"></span></div>
-    <button class="tgl" id="tglBtn" onclick="toggleTheme()" title="라이트/다크 전환">☀️</button>
+    <button class="tgl" id="tglBtn" onclick="toggleTheme()" title="라이트/다크 전환">다크</button>
   </div>
   <nav>
-    <a href="./" class="on">오늘 뜨는</a>
-    <a href="report/">이달의 리포트</a>
-    <a href="map/">지역별 맵</a>
+    <a href="index.html" class="on">오늘 뜨는</a>
+    <a href="report.html">이달의 리포트</a>
+    <a href="map.html">지역별 맵</a>
   </nav>
 </header>
 
@@ -37,19 +37,19 @@
     <div class="chips" id="chips"></div>
 
     <div class="sec">
-      <h2 id="listTitle">🔥 오늘 뜨는 트렌드 TOP</h2>
-      <div class="sub">확산 속도, 언급량, 반응 패턴 기반 자동 랭킹 — 2026.07.21 기준, 10개씩 로드</div>
+      <h2 id="listTitle">오늘 뜨는 트렌드 TOP</h2>
+      <div class="sub">확산 속도, 언급량, 반응 패턴 기반 자동 랭킹 — 2026.07.15 기준, 10개씩 로드</div>
       <div id="list"></div>
     </div>
 
     <div class="sec" id="soonSec">
-      <h2>⚡ 곧 터질 것 같은 후보</h2>
+      <h2>곧 터질 것 같은 후보</h2>
       <div class="sub">상승 신호는 잡혔는데 아직 대중화 전 — 지금 알면 "내가 먼저 알았다" 가능</div>
       <div class="soon-row" id="soonList"></div>
     </div>
 
     <div class="sec" id="coolSec">
-      <h2>📉 식어가는 트렌드</h2>
+      <h2>식어가는 트렌드</h2>
       <div class="sub">유행 반감기 추적 — 지금 타면 이미 늦은 것들</div>
       <div id="coolList"></div>
     </div>
@@ -58,7 +58,7 @@
 
   <aside>
     <div class="panel">
-      <div class="p-h">🌐 실시간 종합 피드<span class="p-stamp" id="liveStamp"></span></div>
+      <div class="p-h">실시간 종합 피드<span class="p-stamp" id="liveStamp"></span></div>
       <div class="ftabs" id="feedTabs" style="margin-top:10px"></div>
       <div id="feedList" class="p-scroll" style="max-height:600px"><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
     </div>
