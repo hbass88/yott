@@ -209,6 +209,10 @@ aside{position:sticky;top:106px;display:flex;flex-direction:column;gap:16px}
 .m-chart{background:var(--surface2);border:1.5px solid var(--line);border-radius:10px;padding:13px;margin-top:6px}
 .m-chart .cl{font-family:var(--mono);font-size:11px;color:var(--ink-soft);margin-bottom:8px;letter-spacing:.05em}
 
+/* 첫 언급 날짜 (팝업) */
+.first-mention{font-size:14px;font-weight:700;color:var(--ink);margin:2px 0 8px}
+.fm-date{font-family:var(--mono);font-weight:600;background:var(--hi-band);padding:1px 6px;border-radius:4px}
+
 /* 세대별 반응 분포 (팝업) */
 .demo-tag{font-family:var(--mono);font-size:9px;font-weight:600;color:var(--ink-faint);border:1px solid var(--line);border-radius:99px;padding:1px 7px;letter-spacing:.04em}
 .gen-box{background:var(--surface2);border:1.5px solid var(--line);border-radius:10px;padding:12px 13px;margin-top:8px}

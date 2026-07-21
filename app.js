@@ -190,9 +190,11 @@ function statsHTML(key,cat,mention){
   const s=fakeStats(key,cat);
   const labels=["10대","20대","30대","40대+"];
   const max=Math.max(...s.gens);
+  const d=new Date(Date.now()-s.days*86400000);
+  const ds=`${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,"0")}.${String(d.getDate()).padStart(2,"0")}`;
   return `
     <div class="m-h">👀 누가, 언제부터 떠드나 <span class="demo-tag">시연용 추정치</span></div>
-    <div class="m-why">첫 신호가 잡힌 건 대략 ${s.days}일 전이에요. 처음엔 하루 ${s.startK}천 언급 정도로 조용히 시작했는데, 입소문 타면서 지금은 ${mention&&mention!=="-"?"하루 "+mention:"수만 건"} 수준까지 불어났어요. 하루 중에서는 ${s.peak}에 언급이 제일 몰리는 편이라, 그때 피드 열면 한 번쯤 마주칠 확률이 높습니다.</div>
+    <div class="first-mention"><span class="fm-date">${ds}</span> 에 첫 언급</div>
     <div class="gen-box">
       ${labels.map((l,i)=>`
       <div class="gen-row"><span class="gl">${l}</span>
