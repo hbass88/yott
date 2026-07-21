@@ -117,11 +117,19 @@ nav a:hover{color:var(--ink)}
 .cool-card{opacity:.72}
 .cool-card .rank{font-size:23px}
 
+/* ── 4열 보드 레이아웃 ── */
+.page{max-width:1440px;margin:0 auto;padding:0 24px 80px}
+.board{display:grid;grid-template-columns:1.15fr .95fr .95fr 1.2fr;gap:14px;align-items:start;margin-top:6px}
+@media(max-width:1280px){.board{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.board{grid-template-columns:1fr}}
+
 /* ── 레이더: 곧 터질 / 식어가는 (상단 고정 배치) ── */
 .radar-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:4px}
 @media(max-width:640px){.radar-row{grid-template-columns:1fr}}
 .radar{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:15px 17px;box-shadow:0 1px 2px rgba(22,26,58,.04)}
-.radar h2{font-family:var(--disp);font-weight:400;font-size:17px;margin-bottom:4px}
+.radar h2{font-family:var(--disp);font-weight:400;font-size:17px;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+.radar .sub{font-size:11.5px;color:var(--ink-faint);margin:0 0 6px;font-weight:500}
+.mini .rank{font-size:16px;min-width:22px;line-height:1.4;padding-top:0;text-align:center}
 .mini{display:flex;align-items:center;gap:10px;padding:8px 2px;border-bottom:1px solid var(--line);cursor:pointer;font-size:14px}
 .mini:last-of-type{border-bottom:none}
 .mini:hover .mini-t{color:var(--hot)}

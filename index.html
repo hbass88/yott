@@ -27,41 +27,34 @@
   </nav>
 </header>
 
-<div class="layout">
+<div class="page">
 
-  <main>
-    <div class="hero">
-      <h1>오늘 <em>한국에서 뜨는거</em>,<br>제일 먼저 확인하세요</h1>
-    </div>
+  <div class="hero">
+    <h1>오늘 <em>한국에서 뜨는거</em>,<br>제일 먼저 확인하세요</h1>
+  </div>
 
-    <div class="chips" id="chips"></div>
+  <div class="chips" id="chips"></div>
 
-    <div class="radar-row">
-      <div class="radar" id="soonSec">
-        <h2>곧 터질 후보</h2>
-        <div id="soonList"></div>
-      </div>
-      <div class="radar" id="coolSec">
-        <h2>식어가는 트렌드</h2>
-        <div id="coolList"></div>
-      </div>
-    </div>
-
-    <div class="sec">
+  <div class="board">
+    <section class="radar" id="topSec">
       <h2 id="listTitle">오늘 뜨는 트렌드 TOP</h2>
       <div class="sub">2026.07.15 기준</div>
       <div id="list"></div>
-    </div>
-
-  </main>
-
-  <aside>
-    <div class="panel">
-      <div class="p-h">실시간 종합 피드<span class="p-stamp" id="liveStamp"></span></div>
-      <div class="ftabs" id="feedTabs" style="margin-top:10px"></div>
-      <div id="feedList" class="p-scroll" style="max-height:600px"><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
-    </div>
-  </aside>
+    </section>
+    <section class="radar" id="soonSec">
+      <h2>곧 터질 후보</h2>
+      <div id="soonList"></div>
+    </section>
+    <section class="radar" id="coolSec">
+      <h2>식어가는 트렌드</h2>
+      <div id="coolList"></div>
+    </section>
+    <section class="radar" id="feedSec">
+      <h2>실시간 종합 피드<span class="p-stamp" id="liveStamp"></span></h2>
+      <div class="ftabs" id="feedTabs"></div>
+      <div id="feedList" class="p-scroll" style="max-height:640px"><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
+    </section>
+  </div>
 
 </div>
 

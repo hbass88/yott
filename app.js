@@ -44,15 +44,10 @@ function trendPool(){
 }
 function cardHTML(t,no){
   return `
-    <div class="card" onclick="openModal(${t.id})">
-      <div class="rank ${no<=3?"top":""}">${no}</div>
-      <div class="c-body">
-        <div class="c-top"><span class="c-title">${t.title}</span>${badge(t.status)}<span class="badge b-cat">${t.cat}</span></div>
-        <div class="c-meta">
-          <span class="vel up">▲ ${t.vel}%</span>
-          ${sparkSVG(t.spark,"#FF4D2E")}
-        </div>
-      </div>
+    <div class="mini" onclick="openModal(${t.id})">
+      <span class="rank ${no<=3?"top":""}">${no}</span>
+      <span class="mini-t">${t.title}</span>
+      <span class="mini-v">▲ ${t.vel}%</span>
     </div>`;
 }
 function renderHome(){
@@ -81,19 +76,8 @@ function renderHome(){
   listEl.innerHTML = (visible.length? visible.map((t,i)=>cardHTML(t,i+1)).join("") : `<div class="empty">이 조건으로는 아직 뜨는 게 없네요</div>`)
     + (pool.length>shown ? `
       <div class="load-row" id="loadRow">
-        <button class="more-btn" onclick="loadMore()">더보기 (${pool.length-shown}개 남음)</button>
-      </div>
-      <div id="sentinel"></div>` : "");
-
-  // 무한스크롤: sentinel이 보이면 자동 로드
-  if(listObserver)listObserver.disconnect();
-  const sent=document.getElementById("sentinel");
-  if(sent && "IntersectionObserver" in window){
-    listObserver=new IntersectionObserver(es=>{
-      if(es[0].isIntersecting && !loadingMore) loadMore();
-    },{rootMargin:"200px"});
-    listObserver.observe(sent);
-  }
+        <button class="more-btn" onclick="loadMore()">더보기 (${pool.length-shown})</button>
+      </div>` : "");
 
   const soon = SOON.filter(matches);
   document.getElementById("soonSec").style.display = soon.length?"":"none";
