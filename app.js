@@ -168,6 +168,40 @@ function findTrend(title){
   }
   return bestScore>=2?best:(bestScore>=1&&toks.length===1?best:null);
 }
+/* ---------- 팝업용 반응 프로필 (시연용 추정치, 항목별 고정값) ---------- */
+function hashStr(s){let h=7;for(const ch of String(s))h=(h*31+ch.charCodeAt(0))>>>0;return h;}
+function fakeStats(key,cat){
+  const h=hashStr(key);
+  const days=3+(h%18);
+  const startK=((3+(h%25))/10).toFixed(1);
+  const peaks=["출근길 8시쯤","점심시간 12시 언저리","오후 3~4시쯤 나른해질 때","퇴근길 6~7시","밤 10시부터 자정 사이"];
+  const peak=peaks[h%peaks.length];
+  let base=[25,35,25,15];
+  if(["아이돌","K-팝","밈/유행어","요즘 유행","게임","e스포츠","웹툰/애니"].includes(cat))base=[38,37,17,8];
+  else if(["IT/테크","자동차","리빙","건강/운동","과학"].includes(cat))base=[8,27,38,27];
+  else if(["맛집","카페/디저트","핫플","여행","패션","뷰티"].includes(cat))base=[22,41,24,13];
+  let g=base.map((v,i)=>Math.max(4,v+(((h>>(i*3))%9)-4)));
+  const sum=g.reduce((a,b)=>a+b,0);
+  g=g.map(v=>Math.round(v*100/sum));
+  g[3]+=100-g.reduce((a,b)=>a+b,0);
+  return {days,startK,peak,gens:g};
+}
+function statsHTML(key,cat,mention){
+  const s=fakeStats(key,cat);
+  const labels=["10대","20대","30대","40대+"];
+  const max=Math.max(...s.gens);
+  return `
+    <div class="m-h">👀 누가, 언제부터 떠드나 <span class="demo-tag">시연용 추정치</span></div>
+    <div class="m-why">첫 신호가 잡힌 건 대략 ${s.days}일 전이에요. 처음엔 하루 ${s.startK}천 언급 정도로 조용히 시작했는데, 입소문 타면서 지금은 ${mention&&mention!=="-"?"하루 "+mention:"수만 건"} 수준까지 불어났어요. 하루 중에서는 ${s.peak}에 언급이 제일 몰리는 편이라, 그때 피드 열면 한 번쯤 마주칠 확률이 높습니다.</div>
+    <div class="gen-box">
+      ${labels.map((l,i)=>`
+      <div class="gen-row"><span class="gl">${l}</span>
+        <div class="gen-track"><i style="width:${s.gens[i]}%" class="${s.gens[i]===max?"gtop":""}"></i></div>
+        <span class="gv">${s.gens[i]}%</span></div>`).join("")}
+      <div class="gen-note">${labels[s.gens.indexOf(max)]}가 제일 열심히 떠드는 중 (전체 언급 대비 비중)</div>
+    </div>`;
+}
+
 function openInfoModal(o){
   document.getElementById("modal").innerHTML=`
     <button class="m-close" onclick="closeModal()">✕</button>
@@ -176,6 +210,7 @@ function openInfoModal(o){
     ${o.stats?`<div class="m-stats">${o.stats}</div>`:""}
     <div class="m-h">🤖 설명</div>
     <div class="m-why">${o.desc}</div>
+    ${statsHTML(o.title,o.cat||"",null)}
     ${o.points&&o.points.length?`<div class="m-h">📌 핵심 항목</div>
     <ul class="m-points">${o.points.map(p=>`<li>${p}</li>`).join("")}</ul>`:""}
     <div class="m-h">📥 수집 소스 — 어디서 종합됐나</div>
@@ -250,12 +285,10 @@ function openRegionModal(i){
 }
 function openRegionItem(ri,ii){
   const r=REGIONS[ri], it=r.items[ii];
-  const t=findTrend(it.t);
-  if(t){openModal(t.id);return;}
   openInfoModal({
     cat:`🗺 ${r.name}, ${it.c}`,title:it.t,
-    desc:`${r.name} 일대에서 화력이 오르고 있는 '${it.c}' 트렌드입니다. 인증샷과 후기 업로드가 늘고 있는 초기 확산 구간으로 감지됩니다.`,
-    q:`${r.name.replace(/서울 |글로벌.*/,"")} ${it.t}`.trim()});
+    desc:`요즘 ${r.name} 쪽에서 확 뜨고 있는 '${it.c}' 얘기예요. 인증샷이랑 후기 업로드가 눈에 띄게 늘고 있어서, 아직 웨이팅이 감당 가능한 초기 확산 구간으로 보입니다. 주말 지나면 훨씬 붐빌 가능성이 높으니 가보실 거면 지금이 타이밍이에요.`,
+    q:`${r.name.replace(/서울 |강원 |전북 |전남 |경북 |충남 |글로벌.*/,"")} ${it.t}`.trim()});
 }
 let mapFilter="전체";
 function setMapFilter(t){mapFilter=t;renderMap();}
@@ -292,6 +325,7 @@ function openModal(id){
     :`<div class="m-stats"><div class="stat" style="grid-column:1/-1"><b style="color:var(--yellow)">${t.prob}%</b><span>AI 예측 — 터질 확률</span></div></div>`}
     <div class="m-h">🤖 지금 뜨는 이유 (AI 분석)</div>
     <div class="m-why">${t.why}</div>
+    ${statsHTML(t.id+t.title,t.cat,t.mention)}
     <div class="m-h">📌 핵심 포인트</div>
     <ul class="m-points">${t.points.map(p=>`<li>${p}</li>`).join("")}</ul>
     <div class="m-h">🏷 연관 키워드</div>
@@ -481,6 +515,7 @@ function openFeedModal(i){
     <div class="m-title">${c.title}</div>
     <div class="m-h">🤖 종합 요약</div>
     <div class="m-why">${summary}</div>
+    ${statsHTML(c.title,"",null)}
     <div class="m-h">🔗 원문, 반응 보기 (${c.items.length})</div>
     <div class="feed-links">${c.items.map(x=>`
       <a class="feed-link" href="${x.u}" target="_blank" rel="noopener">
