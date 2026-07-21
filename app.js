@@ -48,9 +48,8 @@ function cardHTML(t,no){
       <div class="rank ${no<=3?"top":""}">${no}</div>
       <div class="c-body">
         <div class="c-top"><span class="c-title">${t.title}</span>${badge(t.status)}<span class="badge b-cat">${t.cat}</span></div>
-        <div class="c-one">${t.one}</div>
         <div class="c-meta">
-          <span class="vel up">▲ ${t.vel}%</span><span>언급 ${t.mention}</span><span>${t.sent}</span>
+          <span class="vel up">▲ ${t.vel}%</span>
           ${sparkSVG(t.spark,"#FF4D2E")}
         </div>
       </div>
@@ -99,25 +98,20 @@ function renderHome(){
   const soon = SOON.filter(matches);
   document.getElementById("soonSec").style.display = soon.length?"":"none";
   document.getElementById("soonList").innerHTML = soon.map(s=>`
-    <div class="soon" onclick="openModal(${s.id})">
-      <div class="st">TIP, ${s.cat}</div>
-      <div class="tt">${s.title}</div>
-      <div class="ds">${s.ds}</div>
-      <div class="prob"><i style="width:${s.prob}%"></i></div>
-      <div class="prob-l">터질 확률 ${s.prob}%</div>
+    <div class="mini" onclick="openModal(${s.id})">
+      <span class="mini-t">${s.title}</span>
+      <span class="mini-prob"><i style="width:${s.prob}%"></i></span>
+      <span class="mini-v">${s.prob}%</span>
     </div>`).join("");
 
   const cool = COOLING.filter(matches).sort((a,b)=>a.vel-b.vel);
   const coolVisible = cool.slice(0,coolShown);
   document.getElementById("coolSec").style.display = cool.length?"":"none";
   document.getElementById("coolList").innerHTML = coolVisible.map((t,i)=>`
-    <div class="card cool-card" onclick="openModal(${t.id})">
-      <div class="rank">${i+1}</div>
-      <div class="c-body">
-        <div class="c-top"><span class="c-title">${t.title}</span>${badge(t.status)}<span class="badge b-cat">${t.cat}</span></div>
-        <div class="c-one">${t.one}</div>
-        <div class="c-meta"><span class="vel down">▼ ${Math.abs(t.vel)}%</span><span>언급 ${t.mention}</span><span>${t.sent}</span>${sparkSVG(t.spark,"#9A9DB5")}</div>
-      </div>
+    <div class="mini" onclick="openModal(${t.id})">
+      <span class="mini-no">${i+1}</span>
+      <span class="mini-t">${t.title}</span>
+      <span class="mini-v down">▼ ${Math.abs(t.vel)}%</span>
     </div>`).join("")
     + (cool.length>coolShown ? `
       <div class="load-row" id="coolLoadRow">
@@ -134,13 +128,13 @@ function renderHome(){
     coolObserver.observe(cs);
   }
 }
-let coolShown=10, coolLoading=false, coolObserver=null;
+let coolShown=5, coolLoading=false, coolObserver=null;
 function loadMoreCool(){
   if(coolLoading)return;
   coolLoading=true;
   const row=document.getElementById("coolLoadRow");
   if(row)row.innerHTML=`<div class="loading-dots"><span></span><span></span><span></span></div><div class="loading-txt">불러오는 중...</div>`;
-  setTimeout(()=>{coolShown+=10;coolLoading=false;renderHome();},500);
+  setTimeout(()=>{coolShown+=10;coolLoading=false;renderHome();},400);
 }
 function loadMore(){
   if(loadingMore)return;
@@ -153,8 +147,8 @@ function loadMore(){
     renderHome();
   },500);
 }
-function setGroup(g){curGroup=g;curCat="";shown=PAGE_SIZE;coolShown=10;renderHome();}
-function setCat(c){curCat=c;shown=PAGE_SIZE;coolShown=10;renderHome();}
+function setGroup(g){curGroup=g;curCat="";shown=PAGE_SIZE;coolShown=5;renderHome();}
+function setCat(c){curCat=c;shown=PAGE_SIZE;coolShown=5;renderHome();}
 
 /* ---------- 공용: 제목으로 트렌드 찾기 + 범용 정보 팝업 ---------- */
 function findTrend(title){
@@ -584,7 +578,7 @@ function tick(){
 document.addEventListener("DOMContentLoaded",()=>{
   initTheme();
   const q=document.getElementById("q");
-  if(q)q.addEventListener("input",e=>{curQ=e.target.value;shown=PAGE_SIZE;coolShown=10;renderHome();});
+  if(q)q.addEventListener("input",e=>{curQ=e.target.value;shown=PAGE_SIZE;coolShown=5;renderHome();});
   tick(); setInterval(tick,15000);
   renderHome(); renderReport(); renderMap();
   startLive();
