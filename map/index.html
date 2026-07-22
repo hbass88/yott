@@ -1,44 +1,201 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>지역별 트렌드 맵 — 요뜨</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23FF4D2E'/></svg>">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="../style.css">
+<title>요뜨 — 지역별 맵</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://unpkg.com/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<style>
+  :root{--bg:#FBFAF6;--card:#fff;--line:#ECEAE0;--ink:#16150F;--muted:#6B6A60;--faint:#9A998E;--body:#4A493F;--soft:#F2F0E8;--accent:#FF2E63;--accent2:#FF6B3D;--pink-soft:#FFE1E9;--header-bg:rgba(251,250,246,.86);--map-bg:linear-gradient(160deg,#FFFFFF,#FFF6F8);--map-fill:#FFFFFF;--map-stroke:#E4C9D2;--panel:#16150F;--panel-sub:#B8B6AA;--hover:#FFF3F6}
+  html[data-theme="dark"]{--bg:#15140F;--card:#211F17;--line:#34322A;--ink:#F7F5EC;--muted:#B0AE9F;--faint:#8A897C;--body:#D8D5C6;--soft:#2A2820;--accent:#FF3D70;--accent2:#FF7A4D;--pink-soft:#3B1E28;--header-bg:rgba(21,20,15,.86);--map-bg:linear-gradient(160deg,#211F17,#2A1D22);--map-fill:#2A2820;--map-stroke:#4A3A40;--panel:#2A2820;--panel-sub:#A8A69A;--hover:#2A2820}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Pretendard','Pretendard Variable',-apple-system,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;transition:background .25s,color .25s}
+  a{color:inherit;text-decoration:none}
+  ::selection{background:#FFE14D;color:#16150F}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+  header{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0;background:var(--header-bg);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .logo{display:flex;align-items:baseline;gap:9px;white-space:nowrap}
+  .logo b{font-size:26px;font-weight:900;letter-spacing:-.03em}
+  .logo span{font-size:13px;font-weight:700;color:var(--muted)}
+  nav{display:flex;align-items:center;gap:6px;flex-shrink:0}
+  .navlink{padding:8px 14px;border-radius:999px;font-size:15px;font-weight:700;color:var(--muted)}
+  .navlink.active{background:var(--ink);color:var(--bg);font-weight:800}
+  .hdr-right{display:flex;align-items:center;gap:10px}
+  .tbtn{display:flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted);font-size:13px;font-weight:800;cursor:pointer}
+  .live{display:flex;align-items:center;gap:7px;padding:7px 13px;border-radius:999px;background:var(--pink-soft)}
+  .live b{font-size:13px;font-weight:900;color:var(--accent);letter-spacing:.04em}
+  .live i{width:8px;height:8px;border-radius:50%;background:var(--accent);display:block;animation:pulse 1.8s ease-out infinite}
+  @keyframes pulse{0%{transform:scale(1);opacity:1}70%{transform:scale(2.2);opacity:.2}100%{opacity:0}}
+  .region{cursor:pointer}
+  .rlabel{font-size:12px;font-weight:800;fill:var(--ink);pointer-events:none;paint-order:stroke;stroke:var(--bg);stroke-width:3px}
+  .rankrow{cursor:pointer}
+  .rankrow:hover{background:var(--hover)}
+  input,button{font-family:inherit}
+  .ovl{position:fixed;inset:0;background:rgba(10,9,6,.6);backdrop-filter:blur(3px);display:none;align-items:flex-start;justify-content:center;z-index:100;overflow-y:auto;padding:40px 16px}
+  .ovl.show{display:flex}
+  .modal{position:relative;width:100%;max-width:520px;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px 30px 34px;box-shadow:0 30px 80px rgba(0,0,0,.35);animation:popin .3s ease}
+  @keyframes popin{0%{transform:translateY(8px);opacity:0}100%{transform:translateY(0);opacity:1}}
+  .m-close{position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--bg);font-size:15px;font-weight:800;color:var(--muted);cursor:pointer}
+  .m-close:hover{background:var(--pink-soft);color:var(--accent)}
+  .m-cat{font-size:13px;font-weight:800;color:var(--accent);margin-bottom:8px;padding-right:40px}
+  .m-title{font-size:26px;font-weight:900;letter-spacing:-.02em;margin-bottom:12px}
+  .m-h{font-size:14px;font-weight:900;margin:16px 0 8px}
+  .m-why{font-size:15px;font-weight:600;color:var(--body);line-height:1.6}
+  .m-list{display:flex;flex-direction:column;gap:2px}
+  .m-item{display:flex;align-items:center;gap:12px;padding:12px 4px;border-bottom:1px solid var(--soft);cursor:pointer}
+  .m-item:hover{color:var(--accent)}
+  .m-item span{font-size:15px;font-weight:900;color:var(--accent);width:22px}
+  .feed-links{display:flex;flex-direction:column;gap:8px}
+  .feed-link{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg)}
+  .feed-link:hover{border-color:var(--accent)}
+  .feed-link .flt{font-size:14px;font-weight:700}
+  .feed-link .fls{font-size:12px;font-weight:800;color:var(--faint)}
+  @media(max-width:820px){.mapgrid{grid-template-columns:1fr !important}.h1{font-size:38px !important}.logo span{display:none}}
+</style>
 </head>
 <body>
-
-<header>
-  <div class="hbar">
-    <div>
-      <div class="logo">요뜨</div>
-      <div class="tag">요즘 뜨는거, 야 떴다!</div>
-    </div>
-    <div class="live"><span class="dot"></span>LIVE <span id="clock"></span></div>
-    <button class="tgl" id="tglBtn" onclick="toggleTheme()" title="라이트/다크 전환">다크</button>
-  </div>
-  <nav>
-    <a href="../">오늘 뜨는</a>
-    <a href="../report/">이달의 리포트</a>
-    <a href="../map/" class="on">지역별 맵</a>
-  </nav>
-</header>
-
 <div class="wrap">
-  <div class="hero">
-    <h1>지금 <em>어디서 뭐가</em> 뜨나</h1>
-    <p>지역별 화력 지수와 로컬 TOP 3 — 핫플/맛집/행사 중심, 2026.07.22 기준</p>
+  <header>
+    <a class="logo" href="../"><b>요뜨</b><span>요즘 뜨는거, 야 떴다!</span></a>
+    <nav>
+      <a class="navlink" href="../">오늘 뜨는</a>
+      <a class="navlink" href="../report/">이달의 리포트</a>
+      <a class="navlink active" href="./">지역별 맵</a>
+    </nav>
+    <div class="hdr-right">
+      <button class="tbtn" id="tbtn" onclick="toggleTheme()">🌙 다크</button>
+      <div class="live"><i></i><b>LIVE</b></div>
+    </div>
+  </header>
+
+  <section style="padding:48px 0 26px">
+    <div style="display:inline-flex;align-items:center;gap:8px;padding:6px 13px;border-radius:999px;background:var(--card);border:1px solid var(--line);margin-bottom:18px">
+      <span style="font-size:13px;font-weight:800;color:var(--accent)">📍 지금, 우리 동네</span>
+    </div>
+    <h1 class="h1" style="margin:0;font-size:56px;line-height:1.05;font-weight:900;letter-spacing:-.035em">
+      지역마다 <span style="background:linear-gradient(180deg,transparent 60%,#FFE14D 60%);padding:0 4px">뜨는게</span> 다르다
+    </h1>
+    <p style="margin:18px 0 0;max-width:620px;font-size:18px;line-height:1.55;color:var(--muted);font-weight:500">
+      전국 주요 지역의 실시간 상승 신호. 마커나 항목을 눌러 지역 열기 지수와 뜨는 트렌드를 확인하세요. 2026.07.22 기준
+    </p>
+  </section>
+
+  <div class="mapgrid" style="display:grid;grid-template-columns:1.35fr 1fr;gap:20px;align-items:start;margin-bottom:24px">
+    <div style="position:relative;border-radius:24px;background:var(--map-bg);border:1px solid var(--line);padding:12px 12px 4px;overflow:hidden">
+      <div style="display:flex;align-items:center;gap:12px;padding:10px 12px 6px">
+        <span style="font-size:14px;font-weight:800;color:var(--muted)">열기 지수</span>
+        <div style="flex:1;height:9px;border-radius:99px;background:linear-gradient(90deg,var(--pink-soft),var(--accent))"></div>
+        <span style="font-size:12px;font-weight:700;color:var(--faint)">낮음 → 높음</span>
+      </div>
+      <svg id="map" style="width:100%;display:block"></svg>
+    </div>
+    <div>
+      <div id="detail" style="border-radius:24px;background:var(--panel);color:#fff;padding:26px 26px 24px;margin-bottom:16px"></div>
+      <div style="border-radius:24px;background:var(--card);border:1px solid var(--line);overflow:hidden">
+        <div style="padding:18px 22px 12px;font-size:18px;font-weight:900;letter-spacing:-.02em">🔥 열기 지수 랭킹</div>
+        <div id="ranking"></div>
+      </div>
+    </div>
   </div>
-  <div id="mapRoot"></div>
+
+  <section style="margin-top:44px">
+    <h2 style="margin:0 0 18px;font-size:30px;font-weight:900;letter-spacing:-.03em">지역별 대표 트렌드</h2>
+    <div id="cards" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px"></div>
+  </section>
+
+  <footer style="padding:40px 0 56px;margin-top:40px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
+    <a class="logo" href="../"><b style="font-size:20px">요뜨</b><span>요즘 뜨는거, 야 떴다!</span></a>
+    <div style="display:flex;gap:20px;font-size:14px;font-weight:700;color:var(--muted)">
+      <a href="../">오늘 뜨는</a><a href="../report/">이달의 리포트</a><a href="./">지역별 맵</a>
+    </div>
+    <span style="font-size:13px;font-weight:500;color:var(--faint)">© 2026 요뜨, 지표는 시연용 시뮬레이션</span>
+  </footer>
 </div>
 
-<div class="ovl" id="ovl" onclick="if(event.target===this)closeModal()">
-  <div class="modal" id="modal"></div>
-</div>
+<div id="ovl" class="ovl"><div id="modal" class="modal"></div></div>
 
-<script src="../data.js"></script>
-<script src="../app.js"></script>
+<script>
+function applyTheme(t){document.documentElement.dataset.theme=t;var b=document.getElementById("tbtn");if(b)b.textContent=(t==="dark")?"☀️ 라이트":"🌙 다크";}
+function toggleTheme(){var cur=document.documentElement.dataset.theme==="dark"?"light":"dark";try{localStorage.setItem("yott-theme",cur);}catch(e){}applyTheme(cur);}
+(function(){var t="light";try{t=localStorage.getItem("yott-theme")||"light";}catch(e){}applyTheme(t);})();
+
+var regions = [
+  { name:'서울', lat:37.5665, lng:126.9780, heat:100, plat:'X', trends:['폭염 밈 대유행','두바이 초코 크림빵','드라마 서울 4호선'] },
+  { name:'인천/경기', lat:37.45, lng:126.9, heat:88, plat:'커뮤니티', trends:['수도권 폭염 특보','대형 페스티벌 예매','신도시 맛집 오픈런'] },
+  { name:'부산', lat:35.1796, lng:129.0756, heat:79, plat:'인스타', trends:['해운대 나이트런','밀면 신상 대전','스플릿 결승 응원'] },
+  { name:'제주', lat:33.4996, lng:126.5312, heat:72, plat:'인스타', trends:['오름 선셋 러닝','한라봉 에이드','서핑 클래스'] },
+  { name:'대구', lat:35.8714, lng:128.6014, heat:64, plat:'틱톡', trends:['대프리카 밈','치맥 페스타','로컬 카페 투어'] },
+  { name:'대전', lat:36.3504, lng:127.3845, heat:58, plat:'커뮤니티', trends:['성심당 신상 빵','과학축제 티저','노잼도시 밈 재점화'] },
+  { name:'광주', lat:35.1595, lng:126.8526, heat:55, plat:'X', trends:['광주 비엔날레','상추튀김 챌린지','여름 재즈 페스타'] },
+  { name:'강원', lat:37.8813, lng:127.7298, heat:53, plat:'유튜브', trends:['계곡 물멍 브이로그','감자빵 품절','양양 서핑 대회'] },
+  { name:'울산', lat:35.5384, lng:129.3114, heat:49, plat:'커뮤니티', trends:['대왕암 야경','고래축제','산업 야경 스팟'] },
+  { name:'전주/전북', lat:35.8242, lng:127.1480, heat:47, plat:'인스타', trends:['한옥마을 야시장','비빔밥 신메뉴','청년몰 팝업'] },
+  { name:'경주/경북', lat:35.8562, lng:129.2247, heat:44, plat:'유튜브', trends:['첨성대 라이트업','황리단길 카페','문화재 야행'] },
+];
+function heatColor(h){var t=h/100,c1=[255,225,233],c2=[255,46,99],m=function(a,b){return Math.round(a+(b-a)*t);};return 'rgb('+m(c1[0],c2[0])+','+m(c1[1],c2[1])+','+m(c1[2],c2[2])+')';}
+var platBg={'X':'#16150F','유튜브':'#FFE1E1','틱톡':'#E6FBF6','인스타':'#FCE7F3','커뮤니티':'#EAEEFF'};
+var platFg={'X':'#fff','유튜브':'#E1352B','틱톡':'#0B9E86','인스타':'#C1348B','커뮤니티':'#3D5AFE'};
+var projection, selected=regions[0];
+
+function renderDetail(r){
+  selected=r;
+  document.getElementById('detail').innerHTML =
+    '<div style="display:flex;align-items:center;justify-content:space-between;gap:12px">'+
+      '<div style="font-size:26px;font-weight:900;letter-spacing:-.02em;cursor:pointer" onclick="openRegionByName(\''+r.name+'\')">'+r.name+'</div>'+
+      '<span style="font-size:12px;font-weight:800;padding:4px 11px;border-radius:8px;background:'+platBg[r.plat]+';color:'+platFg[r.plat]+'">주력 '+r.plat+'</span>'+
+    '</div>'+
+    '<div style="margin:18px 0 6px;font-size:13px;font-weight:700;color:var(--panel-sub)">열기 지수</div>'+
+    '<div style="display:flex;align-items:baseline;gap:8px"><span style="font-size:52px;font-weight:900;color:var(--accent);letter-spacing:-.03em;line-height:1">'+r.heat+'</span><span style="font-size:16px;font-weight:700;color:var(--panel-sub)">/ 100</span></div>'+
+    '<div style="height:10px;border-radius:99px;background:rgba(255,255,255,.12);overflow:hidden;margin:12px 0 22px"><div style="height:100%;width:'+r.heat+'%;border-radius:99px;background:linear-gradient(90deg,#FF6B3D,#FF2E63)"></div></div>'+
+    '<div style="font-size:13px;font-weight:700;color:var(--panel-sub);margin-bottom:10px">지금 이 지역에서 뜨는거 (눌러서 상세)</div>'+
+    r.trends.map(function(t,i){return '<div onclick="openItem(\''+r.name+'\','+i+')" style="display:flex;align-items:center;gap:12px;padding:11px 0;border-top:1px solid rgba(255,255,255,.09);cursor:pointer"><span style="font-size:15px;font-weight:900;color:#FFE14D;width:22px">'+(i+1)+'</span><span style="font-size:16px;font-weight:700">'+t+'</span></div>';}).join('');
+  if(window.d3){d3.selectAll('.region circle.dot').attr('stroke-width',function(d){return d.name===r.name?3:0;});}
+}
+function renderRanking(){
+  var sorted=regions.slice().sort(function(a,b){return b.heat-a.heat;});
+  document.getElementById('ranking').innerHTML = sorted.map(function(r,i){return '<div class="rankrow" data-name="'+r.name+'" style="display:flex;align-items:center;gap:14px;padding:12px 22px;border-top:1px solid var(--soft)"><span style="font-size:15px;font-weight:900;color:'+(i<3?'#FF2E63':'#9A998E')+';width:22px">'+(i+1)+'</span><span style="font-size:15px;font-weight:800;flex:1">'+r.name+'</span><div style="width:80px;height:8px;border-radius:99px;background:var(--soft);overflow:hidden"><div style="height:100%;width:'+r.heat+'%;border-radius:99px;background:'+heatColor(r.heat)+'"></div></div><span style="font-size:14px;font-weight:900;width:34px;text-align:right">'+r.heat+'</span></div>';}).join('');
+  document.querySelectorAll('.rankrow').forEach(function(el){el.addEventListener('click',function(){renderDetail(regions.find(function(r){return r.name===el.dataset.name;}));});});
+}
+function renderCards(){
+  var sorted=regions.slice().sort(function(a,b){return b.heat-a.heat;});
+  document.getElementById('cards').innerHTML = sorted.map(function(r){var ri=regions.indexOf(r);return '<div style="padding:20px;border-radius:18px;background:var(--card);border:1px solid var(--line)"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px"><span style="font-size:18px;font-weight:900;cursor:pointer" onclick="openRegion('+ri+')">'+r.name+'</span><span style="font-size:13px;font-weight:900;color:#fff;background:'+heatColor(r.heat)+';padding:3px 10px;border-radius:999px">'+r.heat+'</span></div><div style="display:flex;flex-direction:column;gap:7px">'+r.trends.map(function(t,i){return '<div onclick="openItem(\''+r.name+'\','+i+')" style="font-size:14px;font-weight:'+(i===0?800:600)+';color:'+(i===0?'var(--ink)':'var(--muted)')+';cursor:pointer"><span style="color:#FF2E63;font-weight:900">'+(i+1)+'</span> '+t+'</div>';}).join('')+'</div><span style="display:inline-block;margin-top:12px;font-size:12px;font-weight:800;padding:3px 10px;border-radius:8px;background:'+platBg[r.plat]+';color:'+platFg[r.plat]+'">'+r.plat+'발</span></div>';}).join('');
+}
+
+/* ---- popups ---- */
+function show(html){document.getElementById('modal').innerHTML=html;document.getElementById('ovl').classList.add('show');document.body.style.overflow='hidden';}
+function closeModal(){document.getElementById('ovl').classList.remove('show');document.body.style.overflow='';}
+function srch(q){var Q=encodeURIComponent(q);var d=[['X','https://x.com/search?q='+Q+'&f=live'],['인스타그램','https://www.instagram.com/explore/search/keyword/?q='+Q],['유튜브','https://www.youtube.com/results?search_query='+Q],['네이버','https://search.naver.com/search.naver?query='+Q]];return d.map(function(x){return '<a class="feed-link" href="'+x[1]+'" target="_blank" rel="noopener"><span class="flt">'+q+'</span><span class="fls">'+x[0]+' ↗</span></a>';}).join('');}
+function openRegion(ri){var r=regions[ri];if(!r)return;
+  show('<button class="m-close" onclick="closeModal()">✕</button><div class="m-cat">지역별 트렌드, 주력 '+r.plat+'</div><div class="m-title">'+r.name+'</div><div style="display:flex;align-items:baseline;gap:8px;margin-bottom:6px"><span style="font-size:44px;font-weight:900;color:var(--accent);line-height:1">'+r.heat+'</span><span style="font-size:15px;font-weight:700;color:var(--faint)">/ 100 열기 지수</span></div><div class="m-h">지금 이 지역에서 뜨는거</div><div class="m-list">'+r.trends.map(function(t,i){return '<div class="m-item" onclick="openItem(\''+r.name+'\','+i+')"><span>'+(i+1)+'</span>'+t+'</div>';}).join('')+'</div>');
+}
+function openRegionByName(n){openRegion(regions.findIndex(function(r){return r.name===n;}));}
+function openItem(rname,ii){var r=regions.find(function(x){return x.name===rname;});if(!r)return;var t=r.trends[ii];
+  show('<button class="m-close" onclick="closeModal()">✕</button><div class="m-cat">'+r.name+', '+r.plat+'발</div><div class="m-title">'+t+'</div><div class="m-why">요즘 '+r.name+' 쪽에서 확 뜨고 있는 이슈예요. 인증샷과 후기 업로드가 눈에 띄게 늘고 있어서, 아직 초기 확산 구간으로 보입니다. 주말 지나면 훨씬 붐빌 가능성이 높으니 관심 있으면 지금이 타이밍이에요.</div><div class="m-h">원본, 반응 보기</div><div class="feed-links">'+srch(t)+'</div>');
+}
+window.toggleTheme=toggleTheme;window.closeModal=closeModal;window.openRegion=openRegion;window.openRegionByName=openRegionByName;window.openItem=openItem;
+document.getElementById('ovl').addEventListener('click',function(e){if(e.target===document.getElementById('ovl'))closeModal();});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal();});
+
+fetch('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-110m.json').then(function(r){return r.json();}).then(function(topo){
+  var feats=topojson.feature(topo,topo.objects.countries).features;
+  var kr=feats.find(function(f){return f.properties.name==='South Korea';});
+  var W=560,H=680;
+  var svg=d3.select('#map').attr('viewBox','0 0 '+W+' '+H);
+  projection=d3.geoMercator().fitExtent([[30,20],[W-30,H-40]],kr);
+  var path=d3.geoPath(projection);
+  svg.append('path').datum(kr).attr('d',path).attr('fill','var(--map-fill)').attr('stroke','var(--map-stroke)').attr('stroke-width',1.5);
+  var g=svg.selectAll('g.region').data(regions).enter().append('g').attr('class','region').attr('transform',function(d){var p=projection([d.lng,d.lat]);return 'translate('+p[0]+','+p[1]+')';}).on('click',function(e,d){renderDetail(d);openRegion(regions.indexOf(d));});
+  g.append('circle').attr('class','pulse').attr('r',function(d){return 6+d.heat/100*16;}).attr('fill',function(d){return heatColor(d.heat);}).attr('opacity',.28);
+  g.append('circle').attr('class','dot').attr('r',function(d){return 4+d.heat/100*9;}).attr('fill',function(d){return heatColor(d.heat);}).attr('stroke','var(--ink)').attr('stroke-width',0);
+  g.append('text').attr('class','rlabel').attr('x',0).attr('y',function(d){return -(10+d.heat/100*16);}).attr('text-anchor','middle').text(function(d){return d.name;});
+  renderDetail(regions[0]);
+}).catch(function(err){document.getElementById('map').outerHTML='<div style="padding:60px 20px;text-align:center;color:var(--faint);font-weight:700">지도를 불러오지 못했어요</div>';console.error(err);});
+
+renderRanking();
+renderCards();
+</script>
 </body>
 </html>
