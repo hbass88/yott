@@ -27,7 +27,41 @@
     .herocard{grid-template-columns:1fr}
     .h1{font-size:40px}
     header .subttl{display:none}
+    .modal{max-width:100%}
   }
+  /* detail popup modal */
+  .ovl{position:fixed;inset:0;background:rgba(22,21,15,.55);backdrop-filter:blur(3px);display:none;align-items:flex-start;justify-content:center;z-index:100;overflow-y:auto;padding:40px 16px}
+  .ovl.show{display:flex}
+  .modal{position:relative;width:100%;max-width:560px;background:#fff;border:1px solid #ECEAE0;border-radius:24px;padding:30px 30px 34px;box-shadow:0 30px 80px rgba(22,21,15,.25);animation:popin .3s ease}
+  .m-close{position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;border:1px solid #ECEAE0;background:#FBFAF6;font-size:15px;font-weight:800;color:#6B6A60;cursor:pointer}
+  .m-close:hover{background:#FFE1E9;color:#FF2E63}
+  .m-cat{font-size:13px;font-weight:800;color:#FF2E63;margin-bottom:8px;padding-right:40px}
+  .m-title{font-size:27px;font-weight:900;letter-spacing:-.02em;line-height:1.2;margin-bottom:10px}
+  .m-one{font-size:16px;font-weight:600;color:#4A493F;line-height:1.5;margin-bottom:18px}
+  .m-stats{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+  .m-stats .stat{flex:1;min-width:110px;background:#FBFAF6;border:1px solid #ECEAE0;border-radius:14px;padding:12px 14px}
+  .m-stats .stat b{display:block;font-size:21px;font-weight:900;letter-spacing:-.02em}
+  .m-stats .stat span{font-size:12px;font-weight:700;color:#9A998E}
+  .m-chart{background:linear-gradient(160deg,#FFF3F6,#FFFBEB);border:1px solid #ECEAE0;border-radius:16px;padding:14px 16px;margin-bottom:6px}
+  .m-chart .cl{font-size:12px;font-weight:700;color:#9A998E;margin-bottom:6px}
+  .m-h{font-size:14px;font-weight:900;margin:18px 0 8px}
+  .m-why{font-size:15px;font-weight:600;color:#4A493F;line-height:1.6}
+  .m-points{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+  .m-points li{font-size:14px;font-weight:600;color:#4A493F;line-height:1.45}
+  .m-kw{display:flex;flex-wrap:wrap;gap:8px}
+  .m-kw span{font-size:14px;font-weight:700;color:#3D5AFE}
+  .demo-tag{font-size:11px;font-weight:700;color:#9A998E;background:#F2F0E8;padding:2px 8px;border-radius:999px;margin-left:6px}
+  .first-mention{margin:0 0 10px}
+  .fm-link{font-size:13px;font-weight:700;color:#6B6A60}
+  .fm-date{color:#FF2E63;font-weight:900}
+  .gen-box{background:#FBFAF6;border:1px solid #ECEAE0;border-radius:14px;padding:14px 16px}
+  .gen-row{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+  .gen-row .gl{font-size:12px;font-weight:700;color:#6B6A60;width:44px;flex-shrink:0}
+  .gen-track{flex:1;height:8px;border-radius:99px;background:#ECEAE0;overflow:hidden}
+  .gen-track i{display:block;height:100%;border-radius:99px;background:#FFB3C6}
+  .gen-track i.gtop{background:linear-gradient(90deg,#FF2E63,#FF6B3D)}
+  .gen-row .gv{font-size:12px;font-weight:800;width:34px;text-align:right;flex-shrink:0}
+  .gen-note{font-size:12px;font-weight:600;color:#9A998E;margin-top:8px}
 </style>
 </head>
 <body>
@@ -147,6 +181,8 @@
 
 </div>
 
+<div id="ovl" class="ovl"><div id="modal" class="modal"></div></div>
+
 <script src="data.js"></script>
 <script>
 (function(){
@@ -215,7 +251,7 @@
     var tags = (c.kw||[]).map(function(k){ return '<span style="font-size:14px;font-weight:700;color:#3D5AFE">#'+esc(k)+'</span>'; }).join("");
     var plats = platsFor(c.cat).map(function(p){ return platChip(p,false); }).join("");
     document.getElementById("hero-card").innerHTML =
-    '<a href="#top" class="herocard">'+
+    '<div class="herocard" onclick="openModal('+c.id+')" style="cursor:pointer">'+
       '<div style="padding:32px 34px;display:flex;flex-direction:column;gap:16px">'+
         '<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">'+
           '<span style="font-size:15px;font-weight:900;color:#fff;background:#FF2E63;padding:5px 12px;border-radius:999px">🥇 오늘의 1위</span>'+
@@ -236,14 +272,14 @@
           '<div><div style="font-size:13px;font-weight:700;color:#9A998E">피크 예상</div><div style="font-size:22px;font-weight:900">'+esc(peakOf(c))+'</div></div>'+
         '</div>'+
       '</div>'+
-    '</a>';
+    '</div>';
   })();
 
   // ---- rest grid (TRENDS[1..]) ----
   (function(){
     var rows = TR.slice(1).map(function(c){
       var plats = platsFor(c.cat).map(function(p){ return platChip(p,true); }).join("");
-      return '<a href="#top" style="display:flex;flex-direction:column;gap:13px;padding:22px;border-radius:20px;border:1px solid #ECEAE0;background:#fff">'+
+      return '<div onclick="openModal('+c.id+')" style="cursor:pointer;display:flex;flex-direction:column;gap:13px;padding:22px;border-radius:20px;border:1px solid #ECEAE0;background:#fff">'+
         '<div style="display:flex;align-items:center;justify-content:space-between">'+
           '<span style="font-size:22px;font-weight:900;color:#16150F">#'+esc(c.rank)+'</span>'+
           '<span style="font-size:13px;font-weight:800;color:#FF2E63;background:#FFE1E9;padding:4px 10px;border-radius:999px">'+esc(changeText(c))+'</span>'+
@@ -257,7 +293,7 @@
         '<div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center">'+plats+
           '<span style="font-size:13px;font-weight:600;color:#9A998E">언급 '+esc(c.mention)+'</span>'+
         '</div>'+
-      '</a>';
+      '</div>';
     }).join("");
     document.getElementById("rest-grid").innerHTML = rows;
   })();
@@ -268,7 +304,7 @@
       var prob = (typeof c.prob==="number") ? c.prob : 60;
       var accel = "×"+(1 + prob/40).toFixed(1);
       var mom = Math.max(20, Math.min(92, prob)) + "%";
-      return '<div style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:16px;background:rgba(255,255,255,.7);border:1px solid #F2E9C6">'+
+      return '<div onclick="openModal('+c.id+')" style="cursor:pointer;display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:16px;background:rgba(255,255,255,.7);border:1px solid #F2E9C6">'+
         '<div style="display:flex;align-items:center;justify-content:space-between;gap:10px">'+
           '<h3 style="margin:0;font-size:17px;font-weight:900">'+esc(c.title)+'</h3>'+
           '<span style="font-size:14px;font-weight:900;color:#C98A00;white-space:nowrap">가속도 '+esc(accel)+'</span>'+
@@ -284,7 +320,7 @@
   (function(){
     var rows = CO.slice(0,6).map(function(c){
       var drop = Math.abs(typeof c.vel==="number" ? c.vel : 0);
-      return '<div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 4px;border-bottom:1px solid #F2F0E8">'+
+      return '<div onclick="openModal('+c.id+')" style="cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 4px;border-bottom:1px solid #F2F0E8">'+
         '<div style="min-width:0">'+
           '<h3 style="margin:0;font-size:16px;font-weight:800;color:#4A493F;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+esc(c.title)+'</h3>'+
           '<span style="font-size:12px;font-weight:600;color:#9A998E">언급 '+esc(c.mention||"-")+'</span>'+
@@ -339,6 +375,70 @@
       document.getElementById("alert-note").textContent = email ? "구독 신청이 접수됐어요! (데모 — 실제 발송은 없어요)" : "이메일 주소를 입력해 주세요";
     });
   })();
+
+  // ---- detail popup modal (restored from original app.js) ----
+  var ALLD = (typeof ALL !== "undefined") ? ALL : TR;
+  function hashStr(s){var h=7;s=String(s);for(var i=0;i<s.length;i++){h=(h*31+s.charCodeAt(i))>>>0;}return h;}
+  function fakeStats(key,cat){
+    var h=hashStr(key), days=3+(h%18), base=[25,35,25,15];
+    if(["아이돌","K-팝","밈/유행어","요즘 유행","게임","e스포츠","웹툰/애니"].indexOf(cat)>=0) base=[38,37,17,8];
+    else if(["IT/테크","자동차","리빙","건강/운동","과학"].indexOf(cat)>=0) base=[8,27,38,27];
+    else if(["맛집","카페/디저트","핫플","여행","패션","뷰티"].indexOf(cat)>=0) base=[22,41,24,13];
+    var g=base.map(function(v,i){return Math.max(4,v+(((h>>(i*3))%9)-4));});
+    var sum=g.reduce(function(a,b){return a+b;},0);
+    g=g.map(function(v){return Math.round(v*100/sum);});
+    g[3]+=100-g.reduce(function(a,b){return a+b;},0);
+    return {days:days,gens:g};
+  }
+  function statsHTML(key,cat,q){
+    var s=fakeStats(key,cat), labels=["10대","20대","30대","40대+"], max=Math.max.apply(null,s.gens);
+    var d=new Date(Date.now()-s.days*86400000);
+    var ds=d.getFullYear()+"."+String(d.getMonth()+1).padStart(2,"0")+"."+String(d.getDate()).padStart(2,"0");
+    var url="https://search.naver.com/search.naver?where=news&query="+encodeURIComponent(q||String(key));
+    return '<div class="m-h">누가, 언제부터 떠드나 <span class="demo-tag">시연용 추정치</span></div>'+
+      '<div class="first-mention"><a class="fm-link" href="'+url+'" target="_blank" rel="noopener"><span class="fm-date">'+ds+'</span> 에 첫 언급, 원문 확인</a></div>'+
+      '<div class="gen-box">'+labels.map(function(l,i){return '<div class="gen-row"><span class="gl">'+l+'</span><div class="gen-track"><i style="width:'+s.gens[i]+'%" class="'+(s.gens[i]===max?"gtop":"")+'"></i></div><span class="gv">'+s.gens[i]+'%</span></div>';}).join("")+
+      '<div class="gen-note">'+labels[s.gens.indexOf(max)]+'가 제일 열심히 떠드는 중 (전체 언급 대비 비중)</div></div>';
+  }
+  function sparkBig(series,up){
+    if(!series||!series.length) return "";
+    var w=560,h=84,max=Math.max.apply(null,series),min=Math.min.apply(null,series),rng=(max-min)||1;
+    var pts=series.map(function(v,i){return ((i/(series.length-1))*w).toFixed(1)+","+(h-((v-min)/rng)*(h-10)-5).toFixed(1);}).join(" ");
+    var c=up?"#FF2E63":"#9A9DB5";
+    return '<svg width="100%" viewBox="0 0 '+w+' '+h+'" preserveAspectRatio="none" style="display:block"><polygon points="0,'+h+' '+pts+' '+w+','+h+'" fill="'+c+'" opacity="0.08"/><polyline points="'+pts+'" fill="none" stroke="'+c+'" stroke-width="3" stroke-linecap="round"/></svg>';
+  }
+  function openModal(id){
+    var t=null; for(var i=0;i<ALLD.length;i++){ if(ALLD[i].id===id){ t=ALLD[i]; break; } }
+    if(!t) return;
+    var isSoon = t.status==="soon";
+    var stats = isSoon
+      ? '<div class="m-stats"><div class="stat" style="flex:1 0 100%"><b style="color:#C98A00">'+esc(t.prob)+'%</b><span>AI 예측 — 터질 확률</span></div></div>'
+      : '<div class="m-stats">'+
+          '<div class="stat"><b style="color:'+(t.vel>0?"#FF2E63":"#3D5AFE")+'">'+(t.vel>0?"▲":"▼")+' '+Math.abs(t.vel)+'%</b><span>24시간 상승률</span></div>'+
+          '<div class="stat"><b>'+esc(t.mention)+'</b><span>언급량</span></div>'+
+          '<div class="stat"><b>'+esc(t.sent)+'</b><span>대표 반응</span></div>'+
+        '</div>'+
+        '<div class="m-chart"><div class="cl">최근 7일 확산 곡선</div>'+sparkBig(t.spark,t.vel>0)+'</div>';
+    var kw = (t.kw&&t.kw.length) ? '<div class="m-h">연관 키워드</div><div class="m-kw">'+t.kw.map(function(k){return '<span>#'+esc(k)+'</span>';}).join("")+'</div>' : "";
+    document.getElementById("modal").innerHTML =
+      '<button class="m-close" onclick="closeModal()">✕</button>'+
+      '<div class="m-cat">'+esc(t.cat)+(isSoon?", 곧 터질 후보":"")+'</div>'+
+      '<div class="m-title">'+esc(t.title)+'</div>'+
+      '<div class="m-one">'+esc(t.one||t.ds||t.why||"")+'</div>'+
+      stats+
+      '<div class="m-h">지금 뜨는 이유 (AI 분석)</div>'+
+      '<div class="m-why">'+esc(t.why||"")+'</div>'+
+      statsHTML(String(t.id)+t.title, t.cat||"", (t.kw&&t.kw[0])||t.title)+
+      ((t.points&&t.points.length) ? '<div class="m-h">핵심 포인트</div><ul class="m-points">'+t.points.map(function(p){return '<li>'+esc(p)+'</li>';}).join("")+'</ul>' : "")+
+      kw;
+    document.getElementById("ovl").classList.add("show");
+    document.body.style.overflow="hidden";
+  }
+  function closeModal(){ document.getElementById("ovl").classList.remove("show"); document.body.style.overflow=""; }
+  window.openModal=openModal; window.closeModal=closeModal;
+  var _ovl=document.getElementById("ovl");
+  if(_ovl) _ovl.addEventListener("click", function(e){ if(e.target===_ovl) closeModal(); });
+  document.addEventListener("keydown", function(e){ if(e.key==="Escape") closeModal(); });
 })();
 </script>
 </body>
