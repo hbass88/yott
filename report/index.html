@@ -1,40 +1,176 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="light">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>이달의 리포트 — 요뜨</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23FF4D2E'/></svg>">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="../style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>요뜨 — 이달의 리포트</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<style>
+  :root{--bg:#FBFAF6;--card:#fff;--line:#ECEAE0;--ink:#16150F;--muted:#6B6A60;--faint:#9A998E;--body:#4A493F;--soft:#F2F0E8;--accent:#FF2E63;--accent2:#FF6B3D;--pink-soft:#FFE1E9;--blue:#3D5AFE;--header-bg:rgba(251,250,246,.86);--soon-grad:linear-gradient(150deg,#FFFDF0,#FFF7DE);--soon-line:#F2E9C6}
+  html[data-theme="dark"]{--bg:#15140F;--card:#211F17;--line:#34322A;--ink:#F7F5EC;--muted:#B0AE9F;--faint:#8A897C;--body:#D8D5C6;--soft:#2A2820;--accent:#FF3D70;--accent2:#FF7A4D;--pink-soft:#3B1E28;--blue:#93A7FF;--header-bg:rgba(21,20,15,.86);--soon-grad:linear-gradient(150deg,#241F14,#20190E);--soon-line:#4A4327}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Pretendard','Pretendard Variable',-apple-system,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;transition:background .25s,color .25s}
+  a{color:inherit;text-decoration:none}
+  ::selection{background:#FFE14D;color:#16150F}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+  @keyframes pulse{0%{transform:scale(1);opacity:1}70%{transform:scale(2.2);opacity:.2}100%{opacity:0}}
+  @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  @keyframes popin{0%{transform:translateY(8px);opacity:0}100%{transform:translateY(0);opacity:1}}
+  header{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0;background:var(--header-bg);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .logo{display:flex;align-items:baseline;gap:9px;white-space:nowrap}
+  .logo b{font-size:26px;font-weight:900;letter-spacing:-.03em}
+  .logo span{font-size:13px;font-weight:700;color:var(--muted)}
+  nav{display:flex;align-items:center;gap:6px;flex-shrink:0}
+  .navlink{padding:8px 14px;border-radius:999px;font-size:15px;font-weight:700;color:var(--muted)}
+  .navlink.active{background:var(--ink);color:var(--bg);font-weight:800}
+  .hdr-right{display:flex;align-items:center;gap:10px}
+  .tbtn{display:flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted);font-size:13px;font-weight:800;cursor:pointer}
+  .live{display:flex;align-items:center;gap:7px;padding:7px 13px;border-radius:999px;background:var(--pink-soft)}
+  .live b{font-size:13px;font-weight:900;color:var(--accent);letter-spacing:.04em}
+  .live i{width:8px;height:8px;border-radius:50%;background:var(--accent);display:block;animation:pulse 1.8s ease-out infinite}
+  .card{background:var(--card);border:1px solid var(--line)}
+  .kpi{padding:22px;border-radius:20px;background:var(--card);border:1px solid var(--line)}
+  .row10{display:grid;grid-template-columns:44px 1.6fr 2fr 90px 76px;align-items:center;gap:14px;padding:15px 22px;border-bottom:1px solid var(--soft);cursor:pointer}
+  .row10:hover{background:var(--soft)}
+  .bar{height:12px;border-radius:99px;background:var(--soft);overflow:hidden}
+  .bar i{display:block;height:100%;border-radius:99px;transform-origin:left;animation:grow .8s ease}
+  .fc{padding:24px;border-radius:20px;background:var(--soon-grad);border:1px solid var(--soon-line);cursor:pointer}
+  .ovl{position:fixed;inset:0;background:rgba(10,9,6,.6);backdrop-filter:blur(3px);display:none;align-items:flex-start;justify-content:center;z-index:100;overflow-y:auto;padding:40px 16px}
+  .ovl.show{display:flex}
+  .modal{position:relative;width:100%;max-width:520px;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px 30px 34px;box-shadow:0 30px 80px rgba(0,0,0,.35);animation:popin .3s ease}
+  .m-close{position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--bg);font-size:15px;font-weight:800;color:var(--muted);cursor:pointer}
+  .m-cat{font-size:13px;font-weight:800;color:var(--accent);margin-bottom:8px;padding-right:40px}
+  .m-title{font-size:26px;font-weight:900;letter-spacing:-.02em;margin-bottom:10px}
+  .m-one{font-size:16px;font-weight:600;color:var(--body);line-height:1.5;margin-bottom:16px}
+  .m-stats{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+  .m-stats .stat{flex:1;min-width:110px;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+  .m-stats .stat b{display:block;font-size:20px;font-weight:900}
+  .m-stats .stat span{font-size:12px;font-weight:700;color:var(--faint)}
+  .m-h{font-size:14px;font-weight:900;margin:16px 0 8px}
+  .m-why{font-size:15px;font-weight:600;color:var(--body);line-height:1.6}
+  .m-points{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+  .m-points li{font-size:14px;font-weight:600;color:var(--body);line-height:1.45}
+  @media(max-width:820px){.g2{grid-template-columns:1fr !important}.kpis{grid-template-columns:repeat(2,1fr) !important}.h1{font-size:38px !important}.row10{grid-template-columns:34px 1fr 66px;gap:10px}.row10 .hidem{display:none}.logo span{display:none}}
+</style>
 </head>
 <body>
-
-<header>
-  <div class="hbar">
-    <div>
-      <div class="logo">요뜨</div>
-      <div class="tag">요즘 뜨는거, 야 떴다!</div>
-    </div>
-    <div class="live"><span class="dot"></span>LIVE <span id="clock"></span></div>
-    <button class="tgl" id="tglBtn" onclick="toggleTheme()" title="라이트/다크 전환">다크</button>
-  </div>
-  <nav>
-    <a href="../">오늘 뜨는</a>
-    <a href="../report/" class="on">이달의 리포트</a>
-    <a href="../map/">지역별 맵</a>
-  </nav>
-</header>
-
 <div class="wrap">
-  <div id="reportRoot"></div>
+  <header>
+    <a class="logo" href="../"><b>요뜨</b><span>요즘 뜨는거, 야 떴다!</span></a>
+    <nav>
+      <a class="navlink" href="../">오늘 뜨는</a>
+      <a class="navlink active" href="./">이달의 리포트</a>
+      <a class="navlink" href="../map/">지역별 맵</a>
+    </nav>
+    <div class="hdr-right">
+      <button class="tbtn" id="tbtn" onclick="toggleTheme()">🌙 다크</button>
+      <div class="live"><i></i><b>LIVE</b></div>
+    </div>
+  </header>
+
+  <section style="padding:52px 0 34px">
+    <div style="display:inline-flex;align-items:center;gap:8px;padding:6px 13px;border-radius:999px;background:var(--ink);color:var(--bg);margin-bottom:20px"><span style="font-size:13px;font-weight:800">📊 MONTHLY REPORT</span></div>
+    <h1 class="h1" style="margin:0;font-size:58px;line-height:1.05;font-weight:900;letter-spacing:-.035em" id="rTitle">트렌드 총결산</h1>
+    <p style="margin:20px 0 0;max-width:640px;font-size:19px;line-height:1.55;color:var(--muted);font-weight:500">이번 달 요뜨가 감지한 상승 신호를 한눈에. 뭐가 떴고, 왜 떴고, 얼마나 오래 갔는지 데이터로 정리했어요.</p>
+    <div class="kpis" style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:34px" id="kpis"></div>
+  </section>
+
+  <section style="margin-top:24px;padding:34px 36px;border-radius:24px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff">
+    <div style="font-size:14px;font-weight:800;opacity:.9;margin-bottom:10px">이달의 한 줄 총평</div>
+    <p id="rHeadline" style="margin:0;font-size:26px;line-height:1.4;font-weight:800;letter-spacing:-.02em;text-wrap:balance"></p>
+  </section>
+
+  <section style="margin-top:60px">
+    <h2 style="margin:0 0 22px;font-size:34px;font-weight:900;letter-spacing:-.03em">이달의 <span style="color:var(--accent)">TOP 10</span></h2>
+    <div class="card" style="display:flex;flex-direction:column;gap:2px;border-radius:20px;overflow:hidden" id="top10"></div>
+  </section>
+
+  <div class="g2" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:60px">
+    <section class="card" style="padding:28px;border-radius:24px">
+      <h2 style="margin:0 0 6px;font-size:24px;font-weight:900;letter-spacing:-.02em">카테고리별 점유</h2>
+      <p style="margin:0 0 22px;font-size:14px;font-weight:600;color:var(--faint)">이달 감지 트렌드의 분야 분포</p>
+      <div style="display:flex;flex-direction:column;gap:16px" id="cats"></div>
+    </section>
+    <section class="card" style="padding:28px;border-radius:24px">
+      <h2 style="margin:0 0 6px;font-size:24px;font-weight:900;letter-spacing:-.02em">플랫폼별 발원지</h2>
+      <p style="margin:0 0 22px;font-size:14px;font-weight:600;color:var(--faint)">트렌드가 처음 터진 플랫폼 비중</p>
+      <div style="display:flex;flex-direction:column;gap:16px" id="plats"></div>
+    </section>
+  </div>
+
+  <section style="margin-top:60px">
+    <h2 style="margin:0 0 6px;font-size:34px;font-weight:900;letter-spacing:-.03em">다음 달엔 이게 뜬다 🔮</h2>
+    <p style="margin:0 0 22px;font-size:15px;font-weight:600;color:var(--faint)">현재 상승 기울기 기반 예측 후보, 눌러서 상세</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px" id="forecast"></div>
+  </section>
+
+  <footer style="padding:40px 0 56px;margin-top:64px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
+    <a class="logo" href="../"><b style="font-size:20px">요뜨</b><span>요즘 뜨는거, 야 떴다!</span></a>
+    <div style="display:flex;gap:20px;font-size:14px;font-weight:700;color:var(--muted)"><a href="../">오늘 뜨는</a><a href="./">이달의 리포트</a><a href="../map/">지역별 맵</a></div>
+    <span style="font-size:13px;font-weight:500;color:var(--faint)">© 2026 요뜨, 지표는 시연용 시뮬레이션</span>
+  </footer>
 </div>
 
-<div class="ovl" id="ovl" onclick="if(event.target===this)closeModal()">
-  <div class="modal" id="modal"></div>
-</div>
+<div id="ovl" class="ovl"><div id="modal" class="modal"></div></div>
 
 <script src="../data.js"></script>
-<script src="../app.js"></script>
+<script>
+(function(){
+  "use strict";
+  var TR=(typeof TRENDS!=="undefined")?TRENDS:[];
+  var SO=(typeof SOON!=="undefined")?SOON:[];
+  var RP=(typeof REPORT!=="undefined")?REPORT:{month:"이번 달",headline:"",share:[]};
+  var ALLD=(typeof ALL!=="undefined")?ALL:TR;
+  function esc(s){s=(s==null?"":""+s);return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+
+  function applyTheme(t){document.documentElement.dataset.theme=t;var b=document.getElementById("tbtn");if(b)b.textContent=(t==="dark")?"☀️ 라이트":"🌙 다크";}
+  window.toggleTheme=function(){var cur=document.documentElement.dataset.theme==="dark"?"light":"dark";try{localStorage.setItem("yott-theme",cur);}catch(e){}applyTheme(cur);};
+  (function(){var t="light";try{t=localStorage.getItem("yott-theme")||"light";}catch(e){}applyTheme(t);})();
+
+  document.getElementById("rTitle").innerHTML=esc(RP.month||"이번 달")+' <span style="background:linear-gradient(180deg,transparent 60%,#FFE14D 60%);padding:0 4px">트렌드</span> 총결산';
+  document.getElementById("rHeadline").textContent="“"+(RP.headline||"이달의 트렌드를 정리했습니다")+"”";
+
+  var maxVel=Math.max.apply(null,TR.map(function(t){return t.vel||0;}))||1;
+  var kpis=[
+    {label:"감지된 트렌드",value:(ALLD.length).toLocaleString(),sub:"실시간 수집 항목",color:"var(--ink)"},
+    {label:"최고 급상승",value:"+"+((TR[0]&&TR[0].vel)||0)+"%",sub:(TR[0]&&TR[0].title)||"-",color:"var(--accent)"},
+    {label:"오늘의 TOP",value:(TR[0]&&TR[0].cat)||"-",sub:"최다 확산 카테고리",color:"var(--ink)"},
+    {label:"곧 터질 후보",value:(SO.length)+"건",sub:"상승 기울기 급한 신호",color:"var(--accent)"}
+  ];
+  document.getElementById("kpis").innerHTML=kpis.map(function(k){return '<div class="kpi"><div style="font-size:14px;font-weight:700;color:var(--faint)">'+esc(k.label)+'</div><div style="font-size:32px;font-weight:900;letter-spacing:-.03em;margin-top:6px;color:'+k.color+'">'+esc(k.value)+'</div><div style="font-size:13px;font-weight:700;color:var(--muted);margin-top:4px">'+esc(k.sub)+'</div></div>';}).join("");
+
+  document.getElementById("top10").innerHTML=TR.slice(0,10).map(function(t,i){
+    var bar=Math.max(8,Math.round((t.vel/maxVel)*100));
+    var barColor=i<3?"linear-gradient(90deg,var(--accent),var(--accent2))":"#C9C7BC";
+    var ch=t.status==="new"?"NEW":"▲";
+    return '<div class="row10" onclick="openModal('+t.id+')"><span style="font-size:20px;font-weight:900;color:'+(i<3?"var(--accent)":"var(--ink)")+'">'+(i+1)+'</span><div style="min-width:0"><div style="font-size:17px;font-weight:800;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+esc(t.title)+'</div><div style="font-size:12px;font-weight:700;color:var(--faint)">'+esc(t.cat)+'</div></div><div class="bar hidem"><i style="width:'+bar+'%;background:'+barColor+'"></i></div><span class="hidem" style="font-size:15px;font-weight:800;text-align:right">'+esc(t.mention)+'</span><span style="font-size:14px;font-weight:900;text-align:right;color:var(--accent)">'+ch+' '+t.vel+'%</span></div>';
+  }).join("");
+
+  var palette=["#FF2E63","#FF6B3D","#FFB03D","#3D5AFE","#0B9E86","#C1348B","#7A5BFF","#12A150"];
+  var shareMax=Math.max.apply(null,(RP.share||[]).map(function(s){return s.v;}))||1;
+  document.getElementById("cats").innerHTML=(RP.share||[]).map(function(c,i){
+    return '<div><div style="display:flex;justify-content:space-between;margin-bottom:6px"><span style="font-size:15px;font-weight:800">'+esc(c.label)+'</span><span style="font-size:15px;font-weight:900;color:var(--accent)">'+c.v+'%</span></div><div class="bar" style="height:10px"><i style="width:'+Math.round(c.v/shareMax*100)+'%;background:'+palette[i%palette.length]+'"></i></div></div>';
+  }).join("");
+
+  var plats=[{name:"X",pct:29,bg:"#16150F",fg:"#fff"},{name:"틱톡",pct:24,bg:"#E6FBF6",fg:"#0B9E86"},{name:"유튜브",pct:20,bg:"#FFE1E1",fg:"#E1352B"},{name:"커뮤니티",pct:17,bg:"#EAEEFF",fg:"#3D5AFE"},{name:"인스타",pct:10,bg:"#FCE7F3",fg:"#C1348B"}];
+  document.getElementById("plats").innerHTML=plats.map(function(p){return '<div><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px"><span style="font-size:13px;font-weight:800;padding:3px 10px;border-radius:8px;background:'+p.bg+';color:'+p.fg+'">'+p.name+'</span><span style="font-size:15px;font-weight:900">'+p.pct+'%</span></div><div class="bar" style="height:10px"><i style="width:'+(p.pct*3)+'%;background:'+(p.fg==="#fff"?"#16150F":p.fg)+'"></i></div></div>';}).join("");
+
+  document.getElementById("forecast").innerHTML=SO.map(function(f){
+    return '<div class="fc" onclick="openModal('+f.id+')"><div style="font-size:13px;font-weight:900;color:#C98A00;margin-bottom:10px">확률 '+(f.prob||0)+'%</div><h3 style="margin:0 0 8px;font-size:20px;font-weight:900;letter-spacing:-.02em">'+esc(f.title)+'</h3><p style="margin:0;font-size:14px;line-height:1.5;color:var(--muted);font-weight:600">'+esc(f.ds||f.why||"")+'</p></div>';
+  }).join("")||'<p style="color:var(--faint);font-weight:600">데이터 없음</p>';
+
+  function show(h){document.getElementById("modal").innerHTML=h;document.getElementById("ovl").classList.add("show");document.body.style.overflow="hidden";}
+  window.closeModal=function(){document.getElementById("ovl").classList.remove("show");document.body.style.overflow="";};
+  window.openModal=function(id){
+    var t=null;for(var i=0;i<ALLD.length;i++){if(ALLD[i].id===id){t=ALLD[i];break;}}if(!t)return;
+    var isSoon=t.status==="soon";
+    var stats=isSoon?'<div class="m-stats"><div class="stat" style="flex:1 0 100%"><b style="color:#C98A00">'+esc(t.prob)+'%</b><span>AI 예측 — 터질 확률</span></div></div>':'<div class="m-stats"><div class="stat"><b style="color:'+(t.vel>0?"var(--accent)":"var(--blue)")+'">'+(t.vel>0?"▲":"▼")+' '+Math.abs(t.vel)+'%</b><span>24시간 상승률</span></div><div class="stat"><b>'+esc(t.mention)+'</b><span>언급량</span></div><div class="stat"><b>'+esc(t.sent)+'</b><span>대표 반응</span></div></div>';
+    show('<button class="m-close" onclick="closeModal()">✕</button><div class="m-cat">'+esc(t.cat)+(isSoon?", 곧 터질 후보":"")+'</div><div class="m-title">'+esc(t.title)+'</div><div class="m-one">'+esc(t.one||t.ds||"")+'</div>'+stats+'<div class="m-h">지금 뜨는 이유 (AI 분석)</div><div class="m-why">'+esc(t.why||"")+'</div>'+((t.points&&t.points.length)?'<div class="m-h">핵심 포인트</div><ul class="m-points">'+t.points.map(function(p){return '<li>'+esc(p)+'</li>';}).join("")+'</ul>':""));
+  };
+  var _o=document.getElementById("ovl");_o.addEventListener("click",function(e){if(e.target===_o)closeModal();});
+  document.addEventListener("keydown",function(e){if(e.key==="Escape")closeModal();});
+})();
+</script>
 </body>
 </html>
