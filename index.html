@@ -1,68 +1,345 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>요뜨 — 요즘 뜨는거</title>
-<meta name="description" content="X/유튜브/틱톡/커뮤니티의 상승 신호를 AI가 실시간 감지. 오늘 한국에서 뜨는거, 제일 먼저.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23FF4D2E'/></svg>">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>요뜨 — 요즘 뜨는거, 야 떴다!</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Pretendard','Pretendard Variable',-apple-system,BlinkMacSystemFont,sans-serif;background:#FBFAF6;color:#16150F;-webkit-font-smoothing:antialiased}
+  a{color:#16150F;text-decoration:none}
+  a:hover{color:#FF2E63}
+  ::selection{background:#FFE14D;color:#16150F}
+  header a{white-space:nowrap}
+  header nav{flex-shrink:0}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+  @keyframes pulse{0%{transform:scale(1);opacity:1}70%{transform:scale(2.6);opacity:0}100%{opacity:0}}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+  @keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+  @keyframes popin{0%{transform:translateY(8px);opacity:0}100%{transform:translateY(0);opacity:1}}
+  .grid2{display:grid;grid-template-columns:1.4fr 1fr;gap:16px;margin-top:60px}
+  .herocard{display:grid;grid-template-columns:1.15fr 1fr;gap:0;border-radius:24px;overflow:hidden;border:1px solid #ECEAE0;background:#fff;margin-bottom:16px}
+  .h1{font-size:64px;line-height:1.04}
+  @media(max-width:820px){
+    .grid2{grid-template-columns:1fr}
+    .herocard{grid-template-columns:1fr}
+    .h1{font-size:40px}
+    header .subttl{display:none}
+  }
+</style>
 </head>
 <body>
 
-<header>
-  <div class="hbar">
-    <div>
-      <div class="logo">요뜨</div>
-      <div class="tag">요즘 뜨는거, 야 떴다!</div>
+<div class="wrap">
+
+  <header style="position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0;background:rgba(251,250,246,.86);backdrop-filter:blur(10px);border-bottom:1px solid #ECEAE0">
+    <a href="index.html" style="display:flex;align-items:baseline;gap:9px">
+      <span style="font-size:26px;font-weight:900;letter-spacing:-.03em">요뜨</span>
+      <span class="subttl" style="font-size:13px;font-weight:700;color:#6B6A60">요즘 뜨는거, 야 떴다!</span>
+    </a>
+    <nav style="display:flex;align-items:center;gap:6px">
+      <a href="index.html" style="padding:8px 14px;border-radius:999px;font-size:15px;font-weight:800;background:#16150F;color:#fff">오늘 뜨는</a>
+      <a href="report/" style="padding:8px 14px;border-radius:999px;font-size:15px;font-weight:700;color:#6B6A60">이달의 리포트</a>
+      <a href="map/" style="padding:8px 14px;border-radius:999px;font-size:15px;font-weight:700;color:#6B6A60">지역별 맵</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:12px">
+      <div style="display:flex;align-items:center;gap:7px;padding:7px 13px;border-radius:999px;background:#FFE1E9">
+        <span style="position:relative;width:8px;height:8px">
+          <span style="position:absolute;inset:0;border-radius:50%;background:#FF2E63;animation:pulse 1.8s ease-out infinite"></span>
+          <span style="position:absolute;inset:0;border-radius:50%;background:#FF2E63"></span>
+        </span>
+        <span style="font-size:13px;font-weight:900;color:#FF2E63;letter-spacing:.04em">LIVE</span>
+      </div>
     </div>
-    <div class="live"><span class="dot"></span>LIVE <span id="clock"></span></div>
-    <button class="tgl" id="tglBtn" onclick="toggleTheme()" title="라이트/다크 전환">다크</button>
-  </div>
-  <nav>
-    <a href="index.html" class="on">오늘 뜨는</a>
-    <a href="report.html">이달의 리포트</a>
-    <a href="map.html">지역별 맵</a>
-  </nav>
-</header>
+  </header>
 
-<div class="page">
+  <!-- HERO -->
+  <section style="padding:56px 0 30px">
+    <div style="display:inline-flex;align-items:center;gap:8px;padding:6px 13px;border-radius:999px;background:#fff;border:1px solid #ECEAE0;margin-bottom:22px">
+      <span style="font-size:13px;font-weight:800;color:#FF2E63">●</span>
+      <span style="font-size:13px;font-weight:700;color:#6B6A60">지금 <b id="viewers" style="color:#16150F">128,473</b>명이 함께 보는 중</span>
+    </div>
+    <h1 class="h1" style="margin:0;font-weight:900;letter-spacing:-.035em;text-wrap:balance">
+      오늘 한국에서 <span style="background:linear-gradient(180deg,transparent 60%,#FFE14D 60%);padding:0 4px">뜨는거</span>,<br>제일 먼저 확인하세요
+    </h1>
+    <p style="margin:22px 0 0;max-width:620px;font-size:19px;line-height:1.55;color:#6B6A60;font-weight:500">
+      X, 유튜브, 틱톡, 커뮤니티의 상승 신호를 실시간 감지. <b style="color:#16150F">야, 떴다!</b> 싶은 순간, 요뜨가 제일 먼저 알려줌.
+    </p>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:30px">
+      <a href="#top" style="display:inline-flex;align-items:center;gap:8px;padding:15px 26px;border-radius:999px;background:#FF2E63;color:#fff;font-size:17px;font-weight:800">🔥 지금 뜨는거 보기</a>
+      <a href="#alert" style="display:inline-flex;align-items:center;gap:8px;padding:15px 26px;border-radius:999px;background:#fff;border:1px solid #ECEAE0;font-size:17px;font-weight:800">알림 받기</a>
+      <span style="font-size:14px;font-weight:600;color:#9A998E">2026.07.22 기준, 매일 자동 갱신</span>
+    </div>
+  </section>
 
-  <div class="hero">
-    <h1>오늘 <em>한국에서 뜨는거</em>,<br>제일 먼저 확인하세요</h1>
-  </div>
-
-  <div class="chips" id="chips"></div>
-
-  <div class="board">
-    <section class="radar" id="topSec">
-      <h2 id="listTitle">오늘 뜨는 트렌드 TOP</h2>
-      <div class="sub">2026.07.22 기준</div>
-      <div id="list"></div>
-    </section>
-    <section class="radar" id="soonSec">
-      <h2>곧 터질 후보</h2>
-      <div id="soonList"></div>
-    </section>
-    <section class="radar" id="coolSec">
-      <h2>식어가는 트렌드</h2>
-      <div id="coolList"></div>
-    </section>
-    <section class="radar" id="feedSec">
-      <h2>실시간 종합 피드<span class="p-stamp" id="liveStamp"></span></h2>
-      <div class="ftabs" id="feedTabs"></div>
-      <div id="feedList" class="p-scroll" style="max-height:640px"><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
-    </section>
+  <!-- TICKER -->
+  <div style="overflow:hidden;border-top:1px solid #ECEAE0;border-bottom:1px solid #ECEAE0;padding:13px 0;margin:14px 0 44px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)">
+    <div id="ticker" style="display:flex;gap:34px;width:max-content;animation:marquee 28s linear infinite;white-space:nowrap"></div>
   </div>
 
-</div>
+  <!-- TOP TRENDS -->
+  <section id="top" style="scroll-margin-top:80px">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:22px">
+      <div>
+        <h2 style="margin:0;font-size:34px;font-weight:900;letter-spacing:-.03em">오늘 뜨는 트렌드 <span style="color:#FF2E63">TOP</span></h2>
+        <p style="margin:7px 0 0;font-size:15px;font-weight:600;color:#9A998E">2026.07.22 기준, 상승 신호 강한 순</p>
+      </div>
+      <span style="font-size:13px;font-weight:700;color:#6B6A60;padding:6px 12px;border-radius:999px;background:#fff;border:1px solid #ECEAE0">▲ 확산 속도 기준</span>
+    </div>
+    <div id="hero-card"></div>
+    <div id="rest-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px"></div>
+  </section>
 
-<div class="ovl" id="ovl" onclick="if(event.target===this)closeModal()">
-  <div class="modal" id="modal"></div>
+  <!-- 곧 터질 후보 + 식어가는 -->
+  <div class="grid2">
+    <section style="padding:26px;border-radius:24px;background:linear-gradient(150deg,#FFFDF0,#FFF7DE);border:1px solid #F2E9C6">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+        <h2 style="margin:0;font-size:26px;font-weight:900;letter-spacing:-.02em">🚀 곧 터질 후보</h2>
+      </div>
+      <p style="margin:0 0 20px;font-size:14px;font-weight:600;color:#8A7B3A">아직 작지만 상승 기울기가 가파른 신호</p>
+      <div id="rising" style="display:flex;flex-direction:column;gap:14px"></div>
+    </section>
+
+    <section style="padding:26px;border-radius:24px;background:#fff;border:1px solid #ECEAE0">
+      <h2 style="margin:0;font-size:26px;font-weight:900;letter-spacing:-.02em">🧊 식어가는 트렌드</h2>
+      <p style="margin:6px 0 20px;font-size:14px;font-weight:600;color:#9A998E">피크 지나 하락 전환 중</p>
+      <div id="cooling" style="display:flex;flex-direction:column;gap:2px"></div>
+    </section>
+  </div>
+
+  <!-- LIVE FEED -->
+  <section style="margin-top:60px">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px">
+      <h2 style="margin:0;font-size:34px;font-weight:900;letter-spacing:-.03em">실시간 종합 피드</h2>
+      <span style="display:inline-flex;align-items:center;gap:7px;padding:6px 12px;border-radius:999px;background:#FFE1E9">
+        <span style="width:8px;height:8px;border-radius:50%;background:#FF2E63;animation:blink 1.2s infinite"></span>
+        <span style="font-size:13px;font-weight:900;color:#FF2E63">자동 갱신</span>
+      </span>
+    </div>
+    <div id="feed" style="display:flex;flex-direction:column;gap:0;border-radius:20px;border:1px solid #ECEAE0;background:#fff;overflow:hidden"></div>
+  </section>
+
+  <!-- ALERT CTA -->
+  <section id="alert" style="scroll-margin-top:80px;margin:64px 0;padding:48px 40px;border-radius:28px;background:linear-gradient(135deg,#FF2E63,#FF6B3D);color:#fff;text-align:center">
+    <h2 style="margin:0;font-size:40px;font-weight:900;letter-spacing:-.03em;text-wrap:balance">뜨기 전에 먼저 알림 받기</h2>
+    <p style="margin:16px auto 0;max-width:520px;font-size:18px;line-height:1.5;font-weight:600;opacity:.95">관심 키워드가 급상승하면 제일 먼저 알려드려요. 남들보다 반 박자 빠르게.</p>
+    <form id="alert-form" style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:28px">
+      <input id="alert-email" placeholder="이메일 주소 입력" style="padding:15px 20px;border-radius:999px;border:none;font-size:16px;font-weight:600;width:280px;max-width:100%;outline:none">
+      <button type="submit" style="padding:15px 30px;border-radius:999px;border:none;background:#16150F;color:#fff;font-size:16px;font-weight:800;cursor:pointer">무료 구독</button>
+    </form>
+    <p id="alert-note" style="margin:16px 0 0;font-size:13px;font-weight:600;opacity:.85">이미 52,180명이 요뜨 알림을 받고 있어요</p>
+  </section>
+
+  <footer style="padding:36px 0 56px;border-top:1px solid #ECEAE0;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
+    <div style="display:flex;align-items:baseline;gap:9px">
+      <span style="font-size:20px;font-weight:900">요뜨</span>
+      <span style="font-size:13px;font-weight:600;color:#9A998E">요즘 뜨는거, 야 떴다!</span>
+    </div>
+    <div style="display:flex;gap:20px;font-size:14px;font-weight:700;color:#6B6A60">
+      <a href="index.html">오늘 뜨는</a>
+      <a href="report/">이달의 리포트</a>
+      <a href="map/">지역별 맵</a>
+    </div>
+    <span style="font-size:13px;font-weight:500;color:#9A998E">© 2026 요뜨, 지표는 시연용 시뮬레이션</span>
+  </footer>
+
 </div>
 
 <script src="data.js"></script>
-<script src="app.js"></script>
+<script>
+(function(){
+  "use strict";
+  var TR = (typeof TRENDS !== "undefined") ? TRENDS : [];
+  var SO = (typeof SOON !== "undefined") ? SOON : [];
+  var CO = (typeof COOLING !== "undefined") ? COOLING : [];
+
+  function dec(s){s=(s==null?"":""+s);return s.replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#0?39;|&#x27;|&apos;/g,"'").replace(/&#8216;|&#8217;/g,"'").replace(/&lt;/g,"<").replace(/&gt;/g,">");}
+  function esc(s){return dec(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+
+  function spark(series, w, h){
+    series = (series && series.length) ? series : [10,20,30,45,60,80,100];
+    var max = Math.max.apply(null, series), min = Math.min.apply(null, series), rng = (max-min)||1;
+    return series.map(function(v,i){
+      var x = (i/(series.length-1))*w;
+      var y = h - ((v-min)/rng)*(h-4) - 2;
+      return x.toFixed(1)+","+y.toFixed(1);
+    }).join(" ");
+  }
+
+  var PLATS = {
+    "X":{bg:"#16150F",fg:"#fff"}, "유튜브":{bg:"#FFE1E1",fg:"#E1352B"},
+    "틱톡":{bg:"#E6FBF6",fg:"#0B9E86"}, "인스타":{bg:"#FCE7F3",fg:"#C1348B"},
+    "커뮤니티":{bg:"#EAEEFF",fg:"#3D5AFE"}, "실검":{bg:"#FFE1E9",fg:"#FF2E63"},
+    "연예":{bg:"#FCE7F3",fg:"#C1348B"}, "테크":{bg:"#EAEEFF",fg:"#3D5AFE"}, "밈":{bg:"#FFF3D6",fg:"#C98A00"}
+  };
+  function plat(name){var m=PLATS[name]||{bg:"#F2F0E8",fg:"#6B6A60"};return {name:name,bg:m.bg,fg:m.fg};}
+  var CATPLAT = {
+    "아이돌":["유튜브","틱톡"],"K-팝":["유튜브","틱톡"],"음악":["유튜브","틱톡"],
+    "밈/유행어":["X","커뮤니티","인스타"],"요즘 유행":["X","인스타"],
+    "카페/디저트":["인스타","틱톡"],"맛집":["인스타","유튜브"],
+    "K-드라마":["X","커뮤니티"],"예능/방송":["X","유튜브"],"영화":["X","커뮤니티"],
+    "야구":["X","유튜브"],"축구":["X","유튜브"],"스포츠":["X","유튜브"],"e스포츠":["유튜브","X"],
+    "IT/테크":["커뮤니티","유튜브"],"과학":["커뮤니티","유튜브"],"게임":["유튜브","커뮤니티"],
+    "패션":["인스타","커뮤니티"],"뷰티":["인스타","유튜브"],"상품/쇼핑":["인스타","틱톡"],
+    "여행":["인스타","유튜브"],"날씨":["X","커뮤니티"],"유명인":["X","인스타"],
+    "웹툰/애니":["커뮤니티","X"],"반려동물":["인스타","틱톡"],"자동차":["유튜브","커뮤니티"],
+    "리빙":["인스타","유튜브"],"건강/운동":["유튜브","인스타"]
+  };
+  function platsFor(cat){return (CATPLAT[cat]||["커뮤니티","X"]).map(plat);}
+  function platChip(p, small){
+    var pad = small ? "3px 9px" : "5px 11px", fs = small ? "12px" : "13px", br = small ? "7px" : "8px";
+    return '<span style="font-size:'+fs+';font-weight:800;padding:'+pad+';border-radius:'+br+';background:'+p.bg+';color:'+p.fg+'">'+esc(p.name)+'</span>';
+  }
+  function changeText(t){
+    if(t.status==="new") return "NEW";
+    if(t.status==="hot") return "🔥 급상승";
+    return "▲ 상승";
+  }
+  function peakOf(t){ return t.status==="hot" ? "오늘 밤" : (t.status==="new" ? "상승 중" : "이번 주"); }
+
+  // ---- ticker ----
+  (function(){
+    var top = TR.slice(0,8).map(function(t){ return {k:t.title, v:"+"+t.vel+"%"}; });
+    if(!top.length) return;
+    var loop = top.concat(top);
+    document.getElementById("ticker").innerHTML = loop.map(function(t){
+      return '<span style="font-size:15px;font-weight:800;color:#16150F">'+esc(t.k)+' <span style="color:#FF2E63">'+esc(t.v)+'</span></span>';
+    }).join("");
+  })();
+
+  // ---- hero (TRENDS[0]) ----
+  (function(){
+    var c = TR[0]; if(!c) return;
+    var tags = (c.kw||[]).map(function(k){ return '<span style="font-size:14px;font-weight:700;color:#3D5AFE">#'+esc(k)+'</span>'; }).join("");
+    var plats = platsFor(c.cat).map(function(p){ return platChip(p,false); }).join("");
+    document.getElementById("hero-card").innerHTML =
+    '<a href="#top" class="herocard">'+
+      '<div style="padding:32px 34px;display:flex;flex-direction:column;gap:16px">'+
+        '<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">'+
+          '<span style="font-size:15px;font-weight:900;color:#fff;background:#FF2E63;padding:5px 12px;border-radius:999px">🥇 오늘의 1위</span>'+
+          '<span style="font-size:14px;font-weight:800;color:#FF2E63;background:#FFE1E9;padding:5px 11px;border-radius:999px">'+esc(changeText(c))+'</span>'+
+          '<span style="font-size:13px;font-weight:700;color:#6B6A60;background:#F2F0E8;padding:5px 11px;border-radius:999px">'+esc(c.cat)+'</span>'+
+        '</div>'+
+        '<h3 style="margin:0;font-size:34px;line-height:1.12;font-weight:900;letter-spacing:-.03em">'+esc(c.title)+'</h3>'+
+        '<p style="margin:0;font-size:17px;line-height:1.5;color:#4A493F;font-weight:600">'+esc(c.why||c.one)+'</p>'+
+        '<div style="display:flex;flex-wrap:wrap;gap:7px">'+tags+'</div>'+
+        '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:2px">'+plats+'</div>'+
+      '</div>'+
+      '<div style="background:linear-gradient(160deg,#FFF3F6,#FFFBEB);padding:32px 30px;display:flex;flex-direction:column;justify-content:center;gap:18px;border-left:1px solid #ECEAE0">'+
+        '<div><div style="font-size:14px;font-weight:700;color:#6B6A60">확산 속도 지수</div>'+
+        '<div style="font-size:52px;font-weight:900;color:#FF2E63;letter-spacing:-.03em;line-height:1">+'+esc(c.vel)+'%</div></div>'+
+        '<svg viewBox="0 0 240 60" preserveAspectRatio="none" style="width:100%;height:66px"><polyline points="'+spark(c.spark,240,60)+'" fill="none" stroke="#FF2E63" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>'+
+        '<div style="display:flex;gap:22px">'+
+          '<div><div style="font-size:13px;font-weight:700;color:#9A998E">누적 언급</div><div style="font-size:22px;font-weight:900">'+esc(c.mention)+'</div></div>'+
+          '<div><div style="font-size:13px;font-weight:700;color:#9A998E">피크 예상</div><div style="font-size:22px;font-weight:900">'+esc(peakOf(c))+'</div></div>'+
+        '</div>'+
+      '</div>'+
+    '</a>';
+  })();
+
+  // ---- rest grid (TRENDS[1..]) ----
+  (function(){
+    var rows = TR.slice(1).map(function(c){
+      var plats = platsFor(c.cat).map(function(p){ return platChip(p,true); }).join("");
+      return '<a href="#top" style="display:flex;flex-direction:column;gap:13px;padding:22px;border-radius:20px;border:1px solid #ECEAE0;background:#fff">'+
+        '<div style="display:flex;align-items:center;justify-content:space-between">'+
+          '<span style="font-size:22px;font-weight:900;color:#16150F">#'+esc(c.rank)+'</span>'+
+          '<span style="font-size:13px;font-weight:800;color:#FF2E63;background:#FFE1E9;padding:4px 10px;border-radius:999px">'+esc(changeText(c))+'</span>'+
+        '</div>'+
+        '<h3 style="margin:0;font-size:21px;line-height:1.25;font-weight:900;letter-spacing:-.02em">'+esc(c.title)+'</h3>'+
+        '<p style="margin:0;font-size:14px;line-height:1.5;color:#6B6A60;font-weight:600">'+esc(c.one||c.why)+'</p>'+
+        '<div style="display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:6px">'+
+          '<svg viewBox="0 0 120 34" preserveAspectRatio="none" style="width:120px;height:34px"><polyline points="'+spark(c.spark,120,34)+'" fill="none" stroke="#FF2E63" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>'+
+          '<span style="font-size:20px;font-weight:900;color:#FF2E63">+'+esc(c.vel)+'%</span>'+
+        '</div>'+
+        '<div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center">'+plats+
+          '<span style="font-size:13px;font-weight:600;color:#9A998E">언급 '+esc(c.mention)+'</span>'+
+        '</div>'+
+      '</a>';
+    }).join("");
+    document.getElementById("rest-grid").innerHTML = rows;
+  })();
+
+  // ---- rising (SOON) ----
+  (function(){
+    var rows = SO.map(function(c){
+      var prob = (typeof c.prob==="number") ? c.prob : 60;
+      var accel = "×"+(1 + prob/40).toFixed(1);
+      var mom = Math.max(20, Math.min(92, prob)) + "%";
+      return '<div style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:16px;background:rgba(255,255,255,.7);border:1px solid #F2E9C6">'+
+        '<div style="display:flex;align-items:center;justify-content:space-between;gap:10px">'+
+          '<h3 style="margin:0;font-size:17px;font-weight:900">'+esc(c.title)+'</h3>'+
+          '<span style="font-size:14px;font-weight:900;color:#C98A00;white-space:nowrap">가속도 '+esc(accel)+'</span>'+
+        '</div>'+
+        '<p style="margin:0;font-size:13px;color:#6B6A60;font-weight:600;line-height:1.45">'+esc(c.ds||c.why)+'</p>'+
+        '<div style="height:8px;border-radius:99px;background:#F0E7C0;overflow:hidden"><div style="height:100%;width:'+mom+';border-radius:99px;background:linear-gradient(90deg,#FFD84D,#FF8A00)"></div></div>'+
+      '</div>';
+    }).join("");
+    document.getElementById("rising").innerHTML = rows || '<p style="color:#9A998E;font-weight:600">데이터 없음</p>';
+  })();
+
+  // ---- cooling (COOLING) ----
+  (function(){
+    var rows = CO.slice(0,6).map(function(c){
+      var drop = Math.abs(typeof c.vel==="number" ? c.vel : 0);
+      return '<div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 4px;border-bottom:1px solid #F2F0E8">'+
+        '<div style="min-width:0">'+
+          '<h3 style="margin:0;font-size:16px;font-weight:800;color:#4A493F;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+esc(c.title)+'</h3>'+
+          '<span style="font-size:12px;font-weight:600;color:#9A998E">언급 '+esc(c.mention||"-")+'</span>'+
+        '</div>'+
+        '<span style="font-size:15px;font-weight:900;color:#3D5AFE;white-space:nowrap">▼ '+esc(drop)+'%</span>'+
+      '</div>';
+    }).join("");
+    document.getElementById("cooling").innerHTML = rows || '<p style="color:#9A998E;font-weight:600">데이터 없음</p>';
+  })();
+
+  // ---- live feed (live-cache.json, fallback to TRENDS) ----
+  function renderFeed(items){
+    if(!items.length){ items = TR.slice(0,8).map(function(t){ return {plat:"실검", text:t.title+" — "+(t.one||""), metric:"+"+t.vel+"%"}; }); }
+    document.getElementById("feed").innerHTML = items.slice(0,10).map(function(f,i){
+      var p = plat(f.plat);
+      return '<div style="display:flex;align-items:center;gap:16px;padding:16px 20px;border-bottom:1px solid #F2F0E8;background:'+(i===0?"#FFFBEB":"#fff")+';animation:popin .4s ease">'+
+        '<span style="font-size:12px;font-weight:800;color:#9A998E;width:52px;flex-shrink:0">'+(i===0?"방금":(i*2+1)+"분 전")+'</span>'+
+        '<span style="font-size:12px;font-weight:800;padding:3px 9px;border-radius:7px;background:'+p.bg+';color:'+p.fg+';flex-shrink:0">'+esc(f.plat)+'</span>'+
+        '<span style="font-size:15px;font-weight:700;flex:1;min-width:0">'+esc(f.text)+'</span>'+
+        '<span style="font-size:14px;font-weight:900;color:#FF2E63;flex-shrink:0">'+esc(f.metric)+'</span>'+
+      '</div>';
+    }).join("");
+  }
+  (function(){
+    fetch("live-cache.json?cb="+Date.now()).then(function(r){ return r.ok ? r.json() : null; }).then(function(lc){
+      if(!lc){ renderFeed([]); return; }
+      var items = [];
+      (lc.trends||[]).slice(0,5).forEach(function(t){
+        var head = (t.items&&t.items[0]) ? " — "+dec(t.items[0].t) : "";
+        items.push({plat:"실검", text:dec(t.title)+head, metric:"▲"});
+      });
+      (lc.ent||[]).slice(0,3).forEach(function(e){ items.push({plat:"연예", text:dec(e.t), metric:"▲"}); });
+      (lc.tech||[]).slice(0,2).forEach(function(e){ items.push({plat:"테크", text:dec(e.t), metric:"▲"}); });
+      (lc.memeNews||[]).slice(0,2).forEach(function(e){ items.push({plat:"밈", text:dec(e.t), metric:"▲"}); });
+      renderFeed(items);
+    }).catch(function(){ renderFeed([]); });
+  })();
+
+  // ---- viewers counter (cosmetic, in-memory) ----
+  (function(){
+    var el = document.getElementById("viewers"); if(!el) return;
+    var v = 128473;
+    setInterval(function(){ v += Math.floor(Math.random()*37)-8; el.textContent = v.toLocaleString(); }, 1600);
+  })();
+
+  // ---- alert form (no backend) ----
+  (function(){
+    var f = document.getElementById("alert-form"); if(!f) return;
+    f.addEventListener("submit", function(e){
+      e.preventDefault();
+      var email = document.getElementById("alert-email").value.trim();
+      document.getElementById("alert-note").textContent = email ? "구독 신청이 접수됐어요! (데모 — 실제 발송은 없어요)" : "이메일 주소를 입력해 주세요";
+    });
+  })();
+})();
+</script>
 </body>
 </html>
