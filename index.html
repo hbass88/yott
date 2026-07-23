@@ -214,7 +214,7 @@
     <div class="cta-row">
       <a class="cta1" href="#top">🔥 지금 뜨는거 보기</a>
       <a class="cta2" href="#alert">알림 받기</a>
-      <span class="cta-note">2026.07.23 기준, 매일 오전 자동 갱신</span>
+      <span class="cta-note" id="cadence">2026.07.22 기준, 매일 오전 자동 갱신</span>
     </div>
   </section>
 
@@ -224,7 +224,7 @@
     <div class="sec-head">
       <div>
         <h2 class="sec-title">오늘 뜨는 트렌드 <em>TOP</em></h2>
-        <p class="sec-sub">2026.07.23 기준, 요뜨지수 높은 순</p>
+        <p class="sec-sub">2026.07.22 기준, 요뜨지수 높은 순</p>
       </div>
       <button class="pill-note" onclick="openScore()" style="cursor:pointer">📊 요뜨지수란?</button>
     </div>
@@ -285,6 +285,16 @@
 
 <div id="ovl" class="ovl"><div id="modal" class="modal"></div></div>
 
+<!-- ===== YOTT API 연결 설정 =====
+     배포 후 아래 3개만 채우면 실시간 API에서 데이터를 받아옵니다.
+     enabled:false 이거나 API 장애 시에는 자동으로 data.js 로 폴백합니다. -->
+<script>
+  window.YOTT_API = {
+    enabled: false,                              // 배포 후 true 로 변경
+    base: "https://yott-api.YOUR-ACCOUNT.workers.dev",  // Worker 주소 (끝에 / 없이)
+    key: "yott_demo_key_change_me"               // x-api-key (PUBLIC_READ=true면 무시됨)
+  };
+</script>
 <script src="data.js"></script>
 <script>
 (function(){
@@ -314,12 +324,18 @@
   function peakOf(t){return t.status==="hot"?"오늘 밤":(t.status==="new"?"상승 중":"이번 주");}
 
   /* ---------- ticker ---------- */
-  var top=TR.slice(0,8).map(function(t){return {k:t.title,v:"+"+t.vel+"%"};});
-  if(top.length){document.getElementById("ticker").innerHTML=top.concat(top).map(function(t){return '<span>'+esc(t.k)+' <em>'+esc(t.v)+'</em></span>';}).join("");}
+  function renderTicker(){
+    var top=TR.slice(0,8).map(function(t){return {k:t.title,v:"+"+t.vel+"%"};});
+    var el=document.getElementById("ticker");
+    if(el&&top.length){el.innerHTML=top.concat(top).map(function(t){return '<span>'+esc(t.k)+' <em>'+esc(t.v)+'</em></span>';}).join("");}
+  }
+  renderTicker();
 
   /* ---------- TOP (filterable by category/industry) ---------- */
   var CG=(typeof CAT_GROUPS!=="undefined")?CAT_GROUPS:[];
-  var POOL=ALLD.filter(function(x){return x.status!=="soon"&&x.status!=="cool"&&typeof x.vel==="number";});
+  var POOL=[];
+  function rebuildPool(){POOL=ALLD.filter(function(x){return x.status!=="soon"&&x.status!=="cool"&&typeof x.vel==="number";});}
+  rebuildPool();
   var curGroup="전체", curCat="";
   function heroHTML(c){
     return '<div class="herocard" onclick="openModal('+c.id+')">'+
@@ -373,14 +389,21 @@
   renderChips(); renderTop();
 
   /* ---------- rising / cooling ---------- */
-  document.getElementById("rising").innerHTML=SO.map(function(c){
-    var prob=(typeof c.prob==="number")?c.prob:60, accel="×"+(1+prob/40).toFixed(1), mom=Math.max(20,Math.min(92,prob))+"%";
-    return '<div class="soon-item" onclick="openModal('+c.id+')"><div style="display:flex;align-items:center;justify-content:space-between;gap:10px"><h3>'+esc(c.title)+'</h3><span class="accel">가속도 '+esc(accel)+'</span></div><p style="margin:0;font-size:13px;color:var(--muted);font-weight:600;line-height:1.45">'+esc(c.ds||c.why)+'</p><div class="mo-track"><i style="width:'+mom+'"></i></div></div>';
-  }).join("")||'<p style="color:var(--faint);font-weight:600">데이터 없음</p>';
-  document.getElementById("cooling").innerHTML=CO.slice(0,6).map(function(c){
-    var drop=Math.abs(typeof c.vel==="number"?c.vel:0);
-    return '<div class="cool-row" onclick="openModal('+c.id+')"><div style="min-width:0"><h3>'+esc(c.title)+'</h3><span style="font-size:12px;font-weight:600;color:var(--faint)">언급 '+esc(c.mention||"-")+'</span></div><span class="cool-drop">▼ '+drop+'%</span></div>';
-  }).join("")||'<p style="color:var(--faint);font-weight:600">데이터 없음</p>';
+  function renderRising(){
+    var el=document.getElementById("rising"); if(!el)return;
+    el.innerHTML=SO.map(function(c){
+      var prob=(typeof c.prob==="number")?c.prob:60, accel="×"+(1+prob/40).toFixed(1), mom=Math.max(20,Math.min(92,prob))+"%";
+      return '<div class="soon-item" onclick="openModal('+c.id+')"><div style="display:flex;align-items:center;justify-content:space-between;gap:10px"><h3>'+esc(c.title)+'</h3><span class="accel">가속도 '+esc(accel)+'</span></div><p style="margin:0;font-size:13px;color:var(--muted);font-weight:600;line-height:1.45">'+esc(c.ds||c.why)+'</p><div class="mo-track"><i style="width:'+mom+'"></i></div></div>';
+    }).join("")||'<p style="color:var(--faint);font-weight:600">데이터 없음</p>';
+  }
+  function renderCooling(){
+    var el=document.getElementById("cooling"); if(!el)return;
+    el.innerHTML=CO.slice(0,6).map(function(c){
+      var drop=Math.abs(typeof c.vel==="number"?c.vel:0);
+      return '<div class="cool-row" onclick="openModal('+c.id+')"><div style="min-width:0"><h3>'+esc(c.title)+'</h3><span style="font-size:12px;font-weight:600;color:var(--faint)">언급 '+esc(c.mention||"-")+'</span></div><span class="cool-drop">▼ '+drop+'%</span></div>';
+    }).join("")||'<p style="color:var(--faint);font-weight:600">데이터 없음</p>';
+  }
+  renderRising(); renderCooling();
 
   /* ---------- memes ---------- */
   window.__MEMES=ME;
@@ -482,6 +505,52 @@
   var _ovl=document.getElementById("ovl");
   _ovl.addEventListener("click",function(e){if(e.target===_ovl)closeModal();});
   document.addEventListener("keydown",function(e){if(e.key==="Escape")closeModal();});
+
+  /* ---------- live API (data.js fallback) ---------- */
+  function fmtMention(n){n=Math.round(n);if(n>=10000)return (n/10000).toFixed(1).replace(/\.0$/,"")+"만";if(n>=1000)return (n/1000).toFixed(1).replace(/\.0$/,"")+"천";return String(n);}
+  function synthSpark(up){return up?[12,20,28,40,55,72,100]:[100,86,70,58,44,30,20];}
+  function apiToItem(a,rank){
+    var lc=a.lifecycle||a.status||"hot";
+    var status=(lc==="rise")?"new":(lc==="cool")?"cool":"hot";
+    var v=(typeof a.velocity==="number")?a.velocity:0;
+    var idx=(typeof a.yott_index==="number")?a.yott_index:0;
+    var velPct=Math.round(v*100);
+    var vel=(status==="cool")?-Math.max(3,velPct||20):Math.max(1,velPct||Math.round(idx/12));
+    return {
+      id:a.id, rank:rank, cat:a.category||"기타", title:a.title||a.slug||"",
+      vel:vel, status:status, yott:idx, velocity:v, ev:a.evidence_count||0,
+      mention:fmtMention(idx*33+500), sent:"관심 급상승",
+      one:(a.category?a.category+" 분야에서 ":"")+"지금 빠르게 오르고 있어요",
+      why:"여러 채널에서 언급이 늘고 확산 속도가 빨라지고 있어요. 요뜨지수 "+idx+"점.",
+      ds:(a.category?a.category+" — ":"")+"상승 신호 감지",
+      spark:synthSpark(status!=="cool"),
+      kw:[a.title||a.slug||""],
+      prob:Math.max(45,Math.min(92,Math.round(50+v*45)))
+    };
+  }
+  function apiFetch(p){
+    var C=window.YOTT_API||{}, h={"accept":"application/json"};
+    if(C.key)h["x-api-key"]=C.key;
+    return fetch(C.base.replace(/\/+$/,"")+p,{headers:h}).then(function(r){if(!r.ok)throw new Error(p+" "+r.status);return r.json();});
+  }
+  function markLive(){try{document.body.setAttribute("data-source","api");var c=document.getElementById("cadence");if(c)c.textContent="실시간 API 연결됨 — 자동 갱신";}catch(e){}}
+  function tryApi(){
+    var C=window.YOTT_API||{};
+    if(!C.enabled||!C.base||/YOUR-ACCOUNT/.test(C.base)){if(window.console)console.info("[YOTT] API 비활성 — data.js 사용");return;}
+    Promise.all([apiFetch("/v1/trends?limit=24"),apiFetch("/v1/rising?limit=8"),apiFetch("/v1/cooling?limit=8")]).then(function(res){
+      var t=(res[0]&&res[0].data)||[], ri=(res[1]&&res[1].data)||[], co=(res[2]&&res[2].data)||[];
+      if(!t.length)throw new Error("empty trends");
+      TR=t.map(function(a,i){return apiToItem(a,i+1);});
+      SO=ri.map(function(a,i){var o=apiToItem(a,i+1);o.status="soon";return o;});
+      CO=co.map(function(a,i){var o=apiToItem(a,i+1);o.status="cool";o.vel=-Math.abs(o.vel||20);return o;});
+      var seen={},U=[];TR.concat(SO).concat(CO).forEach(function(x){if(!seen[x.id]){seen[x.id]=1;U.push(x);}});
+      ALLD=U; rebuildPool();
+      renderTicker(); renderChips(); renderTop(); renderRising(); renderCooling();
+      markLive();
+      if(window.console)console.info("[YOTT] API 연결됨:",TR.length,"trends /",SO.length,"rising /",CO.length,"cooling");
+    }).catch(function(e){if(window.console)console.warn("[YOTT] API 폴백 (data.js 사용):",e&&e.message);});
+  }
+  tryApi();
 })();
 </script>
 </body>
