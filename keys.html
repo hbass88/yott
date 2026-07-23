@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>요뜨 — 개발자 / 알림</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<!-- API 주소/키 설정: 배포한 Worker 주소로 바꾸세요 -->
+<script>
+  window.YOTT_API = {
+    base: "https://yott-api.YOUR-ACCOUNT.workers.dev"  // Worker 주소 (끝에 / 없이)
+  };
+</script>
+<style>
+  :root{--bg:#FBFAF6;--card:#fff;--line:#ECEAE0;--ink:#16150F;--muted:#6B6A60;--faint:#9A998E;--body:#4A493F;--soft:#F2F0E8;--accent:#FF2E63;--pink-soft:#FFE1E9;--header-bg:rgba(251,250,246,.86);--ok:#0B9E86;--err:#E1352B}
+  html[data-theme="dark"]{--bg:#15140F;--card:#211F17;--line:#34322A;--ink:#F7F5EC;--muted:#B0AE9F;--faint:#8A897C;--body:#D8D5C6;--soft:#2A2820;--accent:#FF3D70;--pink-soft:#3B1E28;--header-bg:rgba(21,20,15,.86);--ok:#2FD3B6;--err:#FF6B5E}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Pretendard','Pretendard Variable',-apple-system,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:760px;margin:0 auto;padding:0 22px}
+  header{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0;background:var(--header-bg);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .logo{display:flex;align-items:baseline;gap:9px}
+  .logo b{font-size:26px;font-weight:900;letter-spacing:-.03em}
+  .logo span{font-size:13px;font-weight:700;color:var(--muted)}
+  nav{display:flex;align-items:center;gap:6px}
+  .navlink{padding:8px 14px;border-radius:999px;font-size:15px;font-weight:700;color:var(--muted)}
+  .navlink.active{background:var(--ink);color:var(--bg);font-weight:800}
+  .tbtn{padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted);font-size:13px;font-weight:800;cursor:pointer}
+  h1{font-size:40px;font-weight:900;letter-spacing:-.035em;margin:44px 0 6px}
+  .sub{font-size:17px;color:var(--muted);font-weight:500;margin:0 0 30px;line-height:1.5}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px 24px 26px;margin-bottom:20px}
+  .card h2{font-size:20px;font-weight:900;letter-spacing:-.02em;margin:0 0 6px}
+  .card p.d{font-size:14px;color:var(--muted);font-weight:500;margin:0 0 16px;line-height:1.5}
+  label{display:block;font-size:13px;font-weight:800;color:var(--muted);margin:12px 0 6px}
+  input,select{width:100%;padding:12px 14px;border-radius:11px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-family:inherit;font-size:15px;font-weight:600}
+  .row{display:flex;gap:10px;flex-wrap:wrap}
+  .row>div{flex:1;min-width:160px}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+  .chip{padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:var(--bg);font-size:14px;font-weight:800;color:var(--muted);cursor:pointer;user-select:none}
+  .chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  button.go{margin-top:18px;width:100%;padding:14px;border:none;border-radius:12px;background:var(--accent);color:#fff;font-size:16px;font-weight:800;cursor:pointer}
+  button.go:disabled{opacity:.5;cursor:default}
+  .out{margin-top:16px;font-size:14px;font-weight:700;line-height:1.5}
+  .out.ok{color:var(--ok)} .out.err{color:var(--err)}
+  .keybox{margin-top:12px;display:none;background:var(--soft);border:1px dashed var(--accent);border-radius:12px;padding:14px}
+  .keybox code{display:block;font-family:ui-monospace,Menlo,monospace;font-size:14px;font-weight:700;word-break:break-all;color:var(--ink);margin-bottom:10px}
+  .keybox button{padding:8px 14px;border-radius:8px;border:1px solid var(--line);background:var(--card);font-weight:800;font-size:13px;cursor:pointer;color:var(--ink)}
+  .note{font-size:12px;color:var(--faint);margin-top:8px}
+  code.inline{font-family:ui-monospace,Menlo,monospace;background:var(--soft);padding:2px 6px;border-radius:6px;font-size:13px}
+  footer{padding:40px 0;color:var(--faint);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="./"><b>요뜨</b><span>개발자 / 알림</span></a>
+    <nav>
+      <a class="navlink" href="./">오늘 뜨는</a>
+      <a class="navlink active" href="./keys.html">개발자</a>
+      <button class="tbtn" id="tbtn" onclick="toggleTheme()">🌙 다크</button>
+    </nav>
+  </header>
+
+  <h1>개발자 / 알림 센터</h1>
+  <p class="sub">요뜨 트렌드 API 키를 발급받고, 관심 키워드가 뜰 때 알림을 받아보세요.</p>
+
+  <!-- 알림 구독 -->
+  <div class="card">
+    <h2>🔔 트렌드 알림 구독</h2>
+    <p class="d">관심 키워드나 카테고리가 새로 뜨거나 급상승하면 알려드려요. (무료)</p>
+    <label>이메일</label>
+    <input id="sub-email" type="email" placeholder="you@example.com" autocomplete="email">
+    <div class="row">
+      <div>
+        <label>구독 종류</label>
+        <select id="sub-type" onchange="onType()">
+          <option value="keyword">키워드</option>
+          <option value="category">카테고리</option>
+        </select>
+      </div>
+      <div>
+        <label id="val-label">키워드</label>
+        <input id="sub-value" type="text" placeholder="예: 사이버트럭">
+        <select id="sub-cat" style="display:none"></select>
+      </div>
+    </div>
+    <label>받을 채널</label>
+    <div class="chips" id="ch-chips">
+      <span class="chip on" data-ch="email">이메일</span>
+      <span class="chip" data-ch="slack">슬랙</span>
+      <span class="chip" data-ch="webhook">웹훅</span>
+    </div>
+    <p class="note">슬랙/웹훅은 사전에 웹훅 URL 등록이 필요해요(웹훅 테이블). 지금은 이메일을 권장합니다.</p>
+    <button class="go" id="sub-go" onclick="subscribe()">구독하기</button>
+    <div class="out" id="sub-out"></div>
+  </div>
+
+  <!-- API 키 발급 -->
+  <div class="card">
+    <h2>🔑 API 키 발급</h2>
+    <p class="d">요뜨 트렌드 데이터를 직접 불러오는 키를 발급합니다. 요청 시 <code class="inline">x-api-key</code> 헤더에 넣어 사용하세요.</p>
+    <label>이메일</label>
+    <input id="key-email" type="email" placeholder="you@example.com" autocomplete="email">
+    <label>라벨 (선택)</label>
+    <input id="key-label" type="text" placeholder="예: 내 블로그">
+    <button class="go" id="key-go" onclick="issueKey()">키 발급받기</button>
+    <div class="keybox" id="keybox">
+      <code id="key-val"></code>
+      <button onclick="copyKey()">복사</button>
+      <p class="note">다시 표시되지 않아요. 안전한 곳에 저장하세요.</p>
+    </div>
+    <div class="out" id="key-out"></div>
+  </div>
+
+  <!-- 사용 예시 -->
+  <div class="card">
+    <h2>⚡ 사용 예시</h2>
+    <p class="d">발급받은 키로 오늘 뜨는 트렌드 20개를 받아옵니다.</p>
+    <pre style="margin:0;overflow:auto;background:var(--soft);border-radius:12px;padding:14px;font-size:13px;font-family:ui-monospace,Menlo,monospace"><code id="example"></code></pre>
+  </div>
+
+  <footer>요뜨(YOTT) 트렌드 큐레이션 — <a href="./">메인으로</a></footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var C=window.YOTT_API||{}, BASE=(C.base||"").replace(/\/+$/,"");
+  var CONFIGURED=BASE && !/YOUR-ACCOUNT/.test(BASE);
+
+  /* theme (site와 공유) */
+  function applyTheme(t){document.documentElement.dataset.theme=t;var b=document.getElementById("tbtn");if(b)b.textContent=(t==="dark")?"☀️ 라이트":"🌙 다크";}
+  window.toggleTheme=function(){var cur=document.documentElement.dataset.theme==="dark"?"light":"dark";try{localStorage.setItem("yott-theme",cur);}catch(e){}applyTheme(cur);};
+  (function(){var t="light";try{t=localStorage.getItem("yott-theme")||"light";}catch(e){}applyTheme(t);})();
+
+  /* 카테고리 옵션 */
+  var CATS=["아이돌","K-팝","음악","K-드라마","예능/방송","영화","웹툰/애니","요즘 유행","밈/유행어","맛집","카페/디저트","여행","반려동물","날씨","패션","뷰티","상품/쇼핑","IT/테크","과학","자동차","게임","e스포츠","야구","축구"];
+  var sel=document.getElementById("sub-cat");
+  CATS.forEach(function(c){var o=document.createElement("option");o.value=c;o.textContent=c;sel.appendChild(o);});
+
+  window.onType=function(){
+    var t=document.getElementById("sub-type").value;
+    document.getElementById("sub-value").style.display=(t==="keyword")?"block":"none";
+    document.getElementById("sub-cat").style.display=(t==="category")?"block":"none";
+    document.getElementById("val-label").textContent=(t==="keyword")?"키워드":"카테고리";
+  };
+
+  /* 채널 칩 토글 */
+  document.getElementById("ch-chips").addEventListener("click",function(e){
+    var c=e.target.closest(".chip"); if(!c)return;
+    if(c.dataset.ch==="email"){return;} // 이메일은 항상 유지
+    c.classList.toggle("on");
+  });
+  function channels(){return [].slice.call(document.querySelectorAll("#ch-chips .chip.on")).map(function(c){return c.dataset.ch;});}
+
+  function api(path,body){
+    return fetch(BASE+path,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)})
+      .then(function(r){return r.json().then(function(j){return {ok:r.ok,status:r.status,j:j};});});
+  }
+  function setOut(id,msg,ok){var el=document.getElementById(id);el.textContent=msg;el.className="out "+(ok?"ok":"err");}
+  function guard(){if(!CONFIGURED){alert("API 주소가 아직 설정되지 않았어요. keys.html 상단 window.YOTT_API.base 를 배포한 Worker 주소로 바꿔주세요.");return false;}return true;}
+
+  window.subscribe=function(){
+    if(!guard())return;
+    var email=document.getElementById("sub-email").value.trim();
+    var type=document.getElementById("sub-type").value;
+    var value=(type==="keyword")?document.getElementById("sub-value").value.trim():document.getElementById("sub-cat").value;
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){setOut("sub-out","이메일을 확인해주세요.",false);return;}
+    if(!value){setOut("sub-out","키워드 또는 카테고리를 입력해주세요.",false);return;}
+    var btn=document.getElementById("sub-go");btn.disabled=true;btn.textContent="신청 중…";
+    api("/v1/subscribe",{email:email,type:type,value:value,channels:channels()}).then(function(r){
+      if(r.ok){setOut("sub-out","구독 완료! '"+value+"'가 뜨면 알려드릴게요.",true);}
+      else{setOut("sub-out","실패: "+((r.j&&r.j.error&&r.j.error.message)||r.status),false);}
+    }).catch(function(){setOut("sub-out","네트워크 오류. 잠시 후 다시 시도해주세요.",false);})
+    .finally(function(){btn.disabled=false;btn.textContent="구독하기";});
+  };
+
+  window.issueKey=function(){
+    if(!guard())return;
+    var email=document.getElementById("key-email").value.trim();
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){setOut("key-out","이메일을 확인해주세요.",false);return;}
+    var btn=document.getElementById("key-go");btn.disabled=true;btn.textContent="발급 중…";
+    api("/v1/keys",{email:email,label:document.getElementById("key-label").value.trim()}).then(function(r){
+      if(r.ok&&r.j&&r.j.api_key){
+        document.getElementById("key-val").textContent=r.j.api_key;
+        document.getElementById("keybox").style.display="block";
+        setOut("key-out","발급 완료!",true);
+        renderExample(r.j.api_key);
+      }else{setOut("key-out","실패: "+((r.j&&r.j.error&&r.j.error.message)||r.status),false);}
+    }).catch(function(){setOut("key-out","네트워크 오류. 잠시 후 다시 시도해주세요.",false);})
+    .finally(function(){btn.disabled=false;btn.textContent="키 발급받기";});
+  };
+
+  window.copyKey=function(){
+    var t=document.getElementById("key-val").textContent;
+    if(navigator.clipboard){navigator.clipboard.writeText(t);}
+  };
+
+  function renderExample(key){
+    var b=CONFIGURED?BASE:"https://yott-api.YOUR-ACCOUNT.workers.dev";
+    document.getElementById("example").textContent=
+      'curl -H "x-api-key: '+(key||"발급받은_키")+'" \\\n  "'+b+'/v1/trends?limit=20"';
+  }
+  renderExample("");
+})();
+</script>
+</body>
+</html>
