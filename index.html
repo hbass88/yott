@@ -72,6 +72,12 @@
   .sec-title em{color:var(--accent);font-style:normal}
   .sec-sub{margin:7px 0 0;font-size:15px;font-weight:600;color:var(--faint)}
   .pill-note{font-size:13px;font-weight:700;color:var(--muted);padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line)}
+  .gchips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+  .subchips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:20px}
+  .gchip{padding:8px 15px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--muted);font-size:14px;font-weight:800;cursor:pointer}
+  .gchip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  .subchip{padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);font-size:13px;font-weight:700;cursor:pointer}
+  .subchip.on{background:var(--pink-soft);color:var(--accent);border-color:var(--pink-soft)}
 
   .herocard{display:grid;grid-template-columns:1.15fr 1fr;gap:0;border-radius:24px;overflow:hidden;border:1px solid var(--line);background:var(--card);margin-bottom:16px;cursor:pointer}
   .hc-l{padding:32px 34px;display:flex;flex-direction:column;gap:16px}
@@ -206,7 +212,7 @@
     <div class="cta-row">
       <a class="cta1" href="#top">🔥 지금 뜨는거 보기</a>
       <a class="cta2" href="#alert">알림 받기</a>
-      <span class="cta-note">2026.07.22 기준, 매일 자동 갱신</span>
+      <span class="cta-note">2026.07.22 기준, 매일 오전 자동 갱신</span>
     </div>
   </section>
 
@@ -216,10 +222,12 @@
     <div class="sec-head">
       <div>
         <h2 class="sec-title">오늘 뜨는 트렌드 <em>TOP</em></h2>
-        <p class="sec-sub">2026.07.22 기준, 상승 신호 강한 순</p>
+        <p class="sec-sub">2026.07.22 기준, 요뜨지수 높은 순</p>
       </div>
-      <span class="pill-note">▲ 확산 속도 기준</span>
+      <button class="pill-note" onclick="openScore()" style="cursor:pointer">📊 요뜨지수란?</button>
     </div>
+    <div class="gchips" id="gchips"></div>
+    <div class="subchips" id="subchips"></div>
     <div id="hero-card"></div>
     <div class="grid" id="rest-grid"></div>
   </section>
@@ -306,34 +314,60 @@
   var top=TR.slice(0,8).map(function(t){return {k:t.title,v:"+"+t.vel+"%"};});
   if(top.length){document.getElementById("ticker").innerHTML=top.concat(top).map(function(t){return '<span>'+esc(t.k)+' <em>'+esc(t.v)+'</em></span>';}).join("");}
 
-  /* ---------- hero ---------- */
-  (function(){var c=TR[0];if(!c)return;
-    document.getElementById("hero-card").innerHTML=
-    '<div class="herocard" onclick="openModal('+c.id+')">'+
+  /* ---------- TOP (filterable by category/industry) ---------- */
+  var CG=(typeof CAT_GROUPS!=="undefined")?CAT_GROUPS:[];
+  var POOL=ALLD.filter(function(x){return x.status!=="soon"&&x.status!=="cool"&&typeof x.vel==="number";});
+  var curGroup="전체", curCat="";
+  function heroHTML(c){
+    return '<div class="herocard" onclick="openModal('+c.id+')">'+
       '<div class="hc-l">'+
-        '<div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><span class="chip-1">🥇 오늘의 1위</span><span class="chip-c">'+esc(changeText(c))+'</span><span class="chip-cat">'+esc(c.cat)+'</span></div>'+
+        '<div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><span class="chip-1">🥇 1위</span><span class="chip-c">'+esc(changeText(c))+'</span><span class="chip-cat">'+esc(c.cat)+'</span></div>'+
         '<h3 class="hc-title">'+esc(c.title)+'</h3>'+
         '<p class="hc-why">'+esc(c.why||c.one)+'</p>'+
-        '<div class="tags">'+(c.kw||[]).map(function(k){return '<span>#'+esc(k)+'</span>';}).join("")+'</div>'+
+        '<div class="tags">'+((c.kw||[]).map(function(k){return '<span>#'+esc(k)+'</span>';}).join(""))+'</div>'+
         '<div class="plats">'+platsFor(c.cat).map(function(p){return platChip(p,false);}).join("")+'</div>'+
       '</div>'+
       '<div class="hc-r">'+
-        '<div><div class="lbl">확산 속도 지수</div><div class="big-num">+'+esc(c.vel)+'%</div></div>'+
+        '<div><div class="lbl">요뜨지수 (YOTT Index)</div><div class="big-num">+'+esc(c.vel)+'%</div></div>'+
         '<svg viewBox="0 0 240 60" preserveAspectRatio="none" style="width:100%;height:66px"><polyline points="'+spark(c.spark,240,60)+'" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>'+
         '<div style="display:flex;gap:22px" class="kv"><div><div class="lbl">누적 언급</div><b>'+esc(c.mention)+'</b></div><div><div class="lbl">피크 예상</div><b>'+esc(peakOf(c))+'</b></div></div>'+
       '</div>'+
     '</div>';
-  })();
-
-  /* ---------- rest grid ---------- */
-  document.getElementById("rest-grid").innerHTML=TR.slice(1).map(function(c){
+  }
+  function cardHTML(c){
     return '<div class="card" onclick="openModal('+c.id+')">'+
-      '<div style="display:flex;align-items:center;justify-content:space-between"><span class="rk">#'+esc(c.rank)+'</span><span class="chip-c">'+esc(changeText(c))+'</span></div>'+
+      '<div style="display:flex;align-items:center;justify-content:space-between"><span class="rk">'+(c.rank?"#"+esc(c.rank):esc(c.cat))+'</span><span class="chip-c">'+esc(changeText(c))+'</span></div>'+
       '<h3>'+esc(c.title)+'</h3><p>'+esc(c.one||c.why)+'</p>'+
       '<div style="display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:6px"><svg viewBox="0 0 120 34" preserveAspectRatio="none" style="width:120px;height:34px"><polyline points="'+spark(c.spark,120,34)+'" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span style="font-size:20px;font-weight:900;color:var(--accent)">+'+esc(c.vel)+'%</span></div>'+
       '<div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center">'+platsFor(c.cat).map(function(p){return platChip(p,true);}).join("")+'<span style="font-size:13px;font-weight:600;color:var(--faint)">언급 '+esc(c.mention)+'</span></div>'+
     '</div>';
-  }).join("");
+  }
+  function activeCats(){
+    if(curGroup==="전체")return null;
+    if(curCat)return [curCat];
+    var g=CG.filter(function(x){return x.name===curGroup;})[0];
+    return g?g.cats:[];
+  }
+  function renderTop(){
+    var cats=activeCats(), pool;
+    if(!cats){pool=TR.slice().sort(function(a,b){return a.rank-b.rank;});}
+    else{pool=POOL.filter(function(t){return cats.indexOf(t.cat)>=0;}).sort(function(a,b){return b.vel-a.vel;}).slice(0,24);}
+    document.getElementById("hero-card").innerHTML=pool[0]?heroHTML(pool[0]):"";
+    document.getElementById("rest-grid").innerHTML=(pool.length>1)?pool.slice(1).map(cardHTML).join(""):(pool.length?"":'<p style="color:var(--faint);font-weight:600;grid-column:1/-1">이 조건으로는 아직 뜨는 게 없어요</p>');
+  }
+  function renderChips(){
+    var groups=["전체"].concat(CG.map(function(g){return g.name;}));
+    document.getElementById("gchips").innerHTML=groups.map(function(g){
+      var G=CG.filter(function(x){return x.name===g;})[0];
+      return '<button class="gchip'+(g===curGroup?" on":"")+'" onclick="setGroup(\''+g+'\')">'+esc((G?G.emoji+" ":"")+g)+'</button>';
+    }).join("");
+    var G=CG.filter(function(x){return x.name===curGroup;})[0], sub=document.getElementById("subchips");
+    if(G&&G.cats.length>1){sub.style.display="flex";sub.innerHTML='<button class="subchip'+(!curCat?" on":"")+'" onclick="setCat(\'\')">'+esc(curGroup)+' 전체</button>'+G.cats.map(function(c){return '<button class="subchip'+(c===curCat?" on":"")+'" onclick="setCat(\''+c+'\')">'+esc(c)+'</button>';}).join("");}
+    else{sub.style.display="none";sub.innerHTML="";}
+  }
+  window.setGroup=function(g){curGroup=g;curCat="";renderChips();renderTop();};
+  window.setCat=function(c){curCat=c;renderChips();renderTop();};
+  renderChips(); renderTop();
 
   /* ---------- rising / cooling ---------- */
   document.getElementById("rising").innerHTML=SO.map(function(c){
@@ -398,13 +432,24 @@
       ?'<div class="m-stats"><div class="stat" style="flex:1 0 100%"><b style="color:#C98A00">'+esc(t.prob)+'%</b><span>AI 예측 — 터질 확률</span></div></div>'
       :'<div class="m-stats"><div class="stat"><b style="color:'+(t.vel>0?"var(--accent)":"var(--blue)")+'">'+(t.vel>0?"▲":"▼")+' '+Math.abs(t.vel)+'%</b><span>24시간 상승률</span></div><div class="stat"><b>'+esc(t.mention)+'</b><span>언급량</span></div><div class="stat"><b>'+esc(t.sent)+'</b><span>대표 반응</span></div></div><div class="m-chart"><div class="cl">최근 7일 확산 곡선</div>'+sparkBig(t.spark,t.vel>0)+'</div>';
     var kw=(t.kw&&t.kw.length)?'<div class="m-h">연관 키워드</div><div class="m-kw">'+t.kw.map(function(k){return '<span>#'+esc(k)+'</span>';}).join("")+'</div>':"";
-    show('<button class="m-close" onclick="closeModal()">✕</button><div class="m-cat">'+esc(t.cat)+(isSoon?", 곧 터질 후보":"")+'</div><div class="m-title">'+esc(t.title)+'</div><div class="m-one">'+esc(t.one||t.ds||t.why||"")+'</div>'+stats+'<div class="m-h">지금 뜨는 이유 (AI 분석)</div><div class="m-why">'+esc(t.why||"")+'</div>'+statsHTML(String(t.id)+t.title,t.cat||"",(t.kw&&t.kw[0])||t.title)+((t.points&&t.points.length)?'<div class="m-h">핵심 포인트</div><ul class="m-points">'+t.points.map(function(p){return '<li>'+esc(p)+'</li>';}).join("")+'</ul>':"")+kw);
+    show('<button class="m-close" onclick="closeModal()">✕</button><div class="m-cat">'+esc(t.cat)+(isSoon?", 곧 터질 후보":"")+'</div><div class="m-title">'+esc(t.title)+'</div><div class="m-one">'+esc(t.one||t.ds||t.why||"")+'</div>'+stats+'<div class="m-h">지금 뜨는 이유 (AI 분석)</div><div class="m-why">'+esc(t.why||"")+'</div>'+statsHTML(String(t.id)+t.title,t.cat||"",(t.kw&&t.kw[0])||t.title)+((t.points&&t.points.length)?'<div class="m-h">핵심 포인트</div><ul class="m-points">'+t.points.map(function(p){return '<li>'+esc(p)+'</li>';}).join("")+'</ul>':"")+kw+'<div class="m-h">여러 채널에서 원문, 반응 보기</div><div class="feed-links">'+srchLinks((t.kw&&t.kw[0])||t.title)+'</div>');
   };
   function srchLinks(q){
     var Q=encodeURIComponent(q);
     var defs=[["X","https://x.com/search?q="+Q+"&f=live"],["인스타그램","https://www.instagram.com/explore/search/keyword/?q="+Q],["유튜브","https://www.youtube.com/results?search_query="+Q],["네이버","https://search.naver.com/search.naver?query="+Q]];
     return defs.map(function(d){return '<a class="feed-link" href="'+d[1]+'" target="_blank" rel="noopener"><span class="flt">'+esc(q)+'</span><span class="fls">'+d[0]+' ↗</span></a>';}).join("");
   }
+  window.openScore=function(){
+    show('<button class="m-close" onclick="closeModal()">✕</button>'+
+      '<div class="m-cat">스코어링 투명성</div>'+
+      '<div class="m-title">요뜨지수 (YOTT Index)</div>'+
+      '<div class="m-one">지금 이 키워드가 얼마나 빠르게 뜨는지를 하나의 점수로 합산한 지표예요. 값이 클수록 확산이 빠릅니다.</div>'+
+      '<div class="m-h">이렇게 계산해요</div>'+
+      '<ul class="m-points"><li><b>언급량</b> — X, 유튜브, 커뮤니티, 뉴스에서의 오늘 언급 규모</li><li><b>상승 기울기</b> — 최근 확산 곡선의 기울기(어제 대비 가속도)</li><li><b>커뮤니티 확산 속도</b> — 로컬 커뮤니티에서 SNS/뉴스로 번지는 리드타임</li></ul>'+
+      '<div class="m-h">이렇게 읽어요</div>'+
+      '<div class="m-why">TOP은 요뜨지수가 높은 순으로 정렬됩니다. 곧 터질 후보는 아직 지수는 낮아도 기울기가 가파른 항목, 식어가는 트렌드는 지수가 꺾인 항목이에요.</div>'+
+      '<div class="m-why" style="font-size:13px;color:var(--faint);margin-top:12px">현재 표시 값은 시연용 시뮬레이션입니다. 실제 서비스에서는 소스별 가중치와 산식을 공개하고, 예측 히트율을 정기적으로 리포트할 예정입니다.</div>');
+  };
   window.openFeed=function(i){var f=FEED[i];if(!f)return;
     var top=f.url?'<a class="feed-link" href="'+esc(f.url)+'" target="_blank" rel="noopener"><span class="flt">원문 기사 보기</span><span class="fls">'+esc(f.plat)+' ↗</span></a>':"";
     show('<button class="m-close" onclick="closeModal()">✕</button><div class="m-cat">'+esc(f.plat==="실검"?"실시간 급상승":f.plat)+'</div><div class="m-title">'+esc(f.text)+'</div><div class="m-h">원문, 반응 보기</div><div class="feed-links">'+top+srchLinks(f.q||f.text)+'</div>');
