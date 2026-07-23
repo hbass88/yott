@@ -137,6 +137,8 @@
   .cta-box form{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:28px}
   .cta-box input{padding:15px 20px;border-radius:999px;border:none;font-size:16px;font-weight:600;width:280px;max-width:100%;outline:none}
   .cta-box button{padding:15px 30px;border-radius:999px;border:none;background:#16150F;color:#fff;font-size:16px;font-weight:800;cursor:pointer}
+  .cta-box button:disabled{opacity:.6;cursor:default}
+  .cta-box select{padding:15px 18px;border-radius:999px;border:none;font-size:15px;font-weight:700;outline:none;background:#fff;color:#16150F;cursor:pointer;max-width:100%}
   .foot{padding:36px 0 56px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
   .foot .fl{display:flex;gap:20px;font-size:14px;font-weight:700;color:var(--muted)}
   .foot .cp{font-size:13px;font-weight:500;color:var(--faint)}
@@ -267,10 +269,11 @@
     <h2>뜨기 전에 먼저 알림 받기</h2>
     <p>관심 키워드가 급상승하면 제일 먼저 알려드려요. 남들보다 반 박자 빠르게.</p>
     <form id="alert-form">
-      <input id="alert-email" placeholder="이메일 주소 입력">
-      <button type="submit">무료 구독</button>
+      <input id="alert-email" type="email" required placeholder="이메일 주소 입력">
+      <select id="alert-cat" aria-label="관심 분야"><option value="전체 트렌드">관심 분야: 전체</option></select>
+      <button type="submit" id="alert-btn">무료 구독</button>
     </form>
-    <p id="alert-note" style="font-size:13px;opacity:.85;margin-top:16px">이미 5만여 명이 요뜨 알림을 받고 있어요</p>
+    <p id="alert-note" style="font-size:13px;opacity:.85;margin-top:16px">스팸 없이, 관심 분야가 급상승할 때만 보내드려요. 언제든 해지 가능</p>
   </section>
 
   <footer class="foot">
@@ -414,7 +417,26 @@
   })();
 
   /* ---------- alert form ---------- */
-  document.getElementById("alert-form").addEventListener("submit",function(e){e.preventDefault();var v=document.getElementById("alert-email").value.trim();document.getElementById("alert-note").textContent=v?"구독 신청이 접수됐어요! (데모 — 실제 발송은 없어요)":"이메일 주소를 입력해 주세요";});
+  (function(){
+    var f=document.getElementById("alert-form"); if(!f) return;
+    var sel=document.getElementById("alert-cat"), note=document.getElementById("alert-note"), btn=document.getElementById("alert-btn");
+    if(sel&&CG.length){CG.forEach(function(g){var o=document.createElement("option");o.value=g.name;o.textContent="관심 분야: "+g.name;sel.appendChild(o);});}
+    f.addEventListener("submit",function(e){
+      e.preventDefault();
+      var email=(document.getElementById("alert-email").value||"").trim();
+      if(!email||email.indexOf("@")<1){note.textContent="올바른 이메일 주소를 입력해 주세요";return;}
+      var oldT=btn.textContent; btn.disabled=true; btn.textContent="신청 중...";
+      fetch("https://formsubmit.co/ajax/hyunbass@gmail.com",{
+        method:"POST",
+        headers:{"Content-Type":"application/json","Accept":"application/json"},
+        body:JSON.stringify({email:email,관심분야:(sel?sel.value:"전체 트렌드"),_subject:"[요뜨] 새 알림 구독 신청",_template:"table",_captcha:"false"})
+      }).then(function(r){return r.json();}).then(function(d){
+        btn.disabled=false; btn.textContent=oldT;
+        if(d&&(d.success===true||d.success==="true")){note.textContent="구독 완료! '"+(sel?sel.value:"전체 트렌드")+"'가 급상승하면 "+email+" 으로 알려드릴게요.";f.reset();if(sel)sel.selectedIndex=0;}
+        else{note.textContent=(d&&d.message)?d.message:"신청이 접수됐어요. 확인 메일을 확인해 주세요.";}
+      }).catch(function(){btn.disabled=false;btn.textContent=oldT;note.textContent="지금은 신청이 잘 안 되네요. 잠시 후 다시 시도해 주세요.";});
+    });
+  })();
 
   /* ---------- demographic block ---------- */
   function hashStr(s){var h=7;s=String(s);for(var i=0;i<s.length;i++){h=(h*31+s.charCodeAt(i))>>>0;}return h;}
