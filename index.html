@@ -473,7 +473,7 @@
   };
   function srchLinks(q){
     var Q=encodeURIComponent(q);
-    var defs=[["X","https://x.com/search?q="+Q+"&f=live"],["인스타그램","https://www.instagram.com/explore/search/keyword/?q="+Q],["유튜브","https://www.youtube.com/results?search_query="+Q],["네이버","https://search.naver.com/search.naver?query="+Q]];
+    var defs=[["X","https://x.com/search?q="+Q+"&f=live"],["스레드","https://www.threads.net/search?q="+Q],["인스타그램","https://www.instagram.com/explore/search/keyword/?q="+Q],["틱톡","https://www.tiktok.com/search?q="+Q],["유튜브","https://www.youtube.com/results?search_query="+Q],["네이버","https://search.naver.com/search.naver?query="+Q]];
     return defs.map(function(d){return '<a class="feed-link" href="'+d[1]+'" target="_blank" rel="noopener"><span class="flt">'+esc(q)+'</span><span class="fls">'+d[0]+' ↗</span></a>';}).join("");
   }
   window.openScore=function(){
