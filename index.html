@@ -215,7 +215,7 @@
     <div class="cta-row">
       <a class="cta1" href="#top">🔥 지금 뜨는거 보기</a>
       <a class="cta2" href="#alert">알림 받기</a>
-      <span class="cta-note" id="cadence">2026.07.24 기준, 매일 오전 자동 갱신</span>
+      <span class="cta-note" id="cadence">2026.07.22 기준, 매일 오전 자동 갱신</span>
     </div>
   </section>
 
@@ -225,7 +225,7 @@
     <div class="sec-head">
       <div>
         <h2 class="sec-title">오늘 뜨는 트렌드 <em>TOP</em></h2>
-        <p class="sec-sub">2026.07.24 기준, 요뜨지수 높은 순</p>
+        <p class="sec-sub">2026.07.22 기준, 요뜨지수 높은 순</p>
       </div>
       <button class="pill-note" onclick="openScore()" style="cursor:pointer">📊 요뜨지수란?</button>
     </div>
@@ -431,14 +431,6 @@
     (lc.memeNews||[]).slice(0,2).forEach(function(e){items.push({plat:"밈",text:dec(e.t),metric:"▲",q:dec(e.t),url:e.u});});
     renderFeed(items.length?items:fallbackFeed());
   }).catch(function(){renderFeed(fallbackFeed());});
-
-  /* ---------- real visitor counter (cumulative hit count) ---------- */
-  (function(){
-    var pill=document.getElementById("viewPill");
-    fetch("https://abacus.jasoncameron.dev/hit/yott-hbass88/home").then(function(r){return r.ok?r.json():null;}).then(function(d){
-      if(d&&typeof d.value==="number"){pill.innerHTML='<span class="rd">●</span> 지금까지 <b>'+d.value.toLocaleString()+'</b>명이 다녀갔어요';}
-    }).catch(function(){});
-  })();
 
   /* ---------- alert form ---------- */
   (function(){
