@@ -214,7 +214,7 @@
     <div class="cta-row">
       <a class="cta1" href="#top">🔥 지금 뜨는거 보기</a>
       <a class="cta2" href="#alert">알림 받기</a>
-      <span class="cta-note" id="cadence">2026.07.24 기준, 매일 오전 자동 갱신</span>
+      <span class="cta-note" id="cadence">2026.07.22 기준, 매일 오전 자동 갱신</span>
     </div>
   </section>
 
@@ -224,7 +224,7 @@
     <div class="sec-head">
       <div>
         <h2 class="sec-title">오늘 뜨는 트렌드 <em>TOP</em></h2>
-        <p class="sec-sub">2026.07.24 기준, 요뜨지수 높은 순</p>
+        <p class="sec-sub">2026.07.22 기준, 요뜨지수 높은 순</p>
       </div>
       <button class="pill-note" onclick="openScore()" style="cursor:pointer">📊 요뜨지수란?</button>
     </div>
@@ -469,7 +469,8 @@
       ?'<div class="m-stats"><div class="stat" style="flex:1 0 100%"><b style="color:#C98A00">'+esc(t.prob)+'%</b><span>AI 예측 — 터질 확률</span></div></div>'
       :'<div class="m-stats"><div class="stat"><b style="color:'+(t.vel>0?"var(--accent)":"var(--blue)")+'">'+(t.vel>0?"▲":"▼")+' '+Math.abs(t.vel)+'%</b><span>24시간 상승률</span></div><div class="stat"><b>'+esc(t.mention)+'</b><span>언급량</span></div><div class="stat"><b>'+esc(t.sent)+'</b><span>대표 반응</span></div></div><div class="m-chart"><div class="cl">최근 7일 확산 곡선</div>'+sparkBig(t.spark,t.vel>0)+'</div>';
     var kw=(t.kw&&t.kw.length)?'<div class="m-h">연관 키워드</div><div class="m-kw">'+t.kw.map(function(k){return '<span>#'+esc(k)+'</span>';}).join("")+'</div>':"";
-    show('<button class="m-close" onclick="closeModal()">✕</button><div class="m-cat">'+esc(t.cat)+(isSoon?", 곧 터질 후보":"")+'</div><div class="m-title">'+esc(t.title)+'</div><div class="m-one">'+esc(t.one||t.ds||t.why||"")+'</div>'+stats+'<div class="m-h">지금 뜨는 이유 (AI 분석)</div><div class="m-why">'+esc(t.why||"")+'</div>'+statsHTML(String(t.id)+t.title,t.cat||"",(t.kw&&t.kw[0])||t.title)+((t.points&&t.points.length)?'<div class="m-h">핵심 포인트</div><ul class="m-points">'+t.points.map(function(p){return '<li>'+esc(p)+'</li>';}).join("")+'</ul>':"")+kw+'<div class="m-h">여러 채널에서 원문, 반응 보기</div><div class="feed-links">'+srchLinks((t.kw&&t.kw[0])||t.title)+'</div>');
+    var newsHTML=(t.news&&t.news.length)?'<div class="m-h">무슨 일이야? (관련 소식)</div><div class="feed-links">'+t.news.map(function(n){var u=(n.u&&/^https?:/.test(n.u))?n.u:('https://search.naver.com/search.naver?query='+encodeURIComponent(n.t));return '<a class="feed-link" href="'+esc(u)+'" target="_blank" rel="noopener"><span class="flt">'+esc(n.t)+'</span><span class="fls">'+esc(n.s||"뉴스")+' ↗</span></a>';}).join("")+'</div>':"";
+    show('<button class="m-close" onclick="closeModal()">✕</button><div class="m-cat">'+esc(t.cat)+(isSoon?", 곧 터질 후보":"")+'</div><div class="m-title">'+esc(t.title)+'</div><div class="m-one">'+esc(t.one||t.ds||t.why||"")+'</div>'+stats+'<div class="m-h">이 키워드, 왜 떴을까? (AI 분석)</div><div class="m-why">'+esc(t.why||"")+'</div>'+newsHTML+statsHTML(String(t.id)+t.title,t.cat||"",(t.kw&&t.kw[0])||t.title)+((t.points&&t.points.length)?'<div class="m-h">핵심 포인트</div><ul class="m-points">'+t.points.map(function(p){return '<li>'+esc(p)+'</li>';}).join("")+'</ul>':"")+kw+'<div class="m-h">여러 채널에서 원문, 반응 보기</div><div class="feed-links">'+srchLinks((t.kw&&t.kw[0])||t.title)+'</div>');
   };
   function srchLinks(q){
     var Q=encodeURIComponent(q);
