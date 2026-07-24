@@ -1,10 +1,88 @@
 {
- "updated": "2026-07-24T02:33:30.527Z",
+ "updated": "2026-07-24T03:49:14.695Z",
  "trends": [
+  {
+   "title": "하나카드",
+   "traffic": "200+",
+   "items": []
+  },
+  {
+   "title": "이경규",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "'1시간 전 먹은 점심도 기억 못 해'...이경규, 치매 검사 권유에 '충격'",
+     "u": "https://www.mt.co.kr/entertainment/2026/07/24/2026072407560912107",
+     "s": "머니투데이"
+    },
+    {
+     "t": "이경규, 치매 초기 증상… 날짜/요일 헷갈릴 정도",
+     "u": "https://v.daum.net/v/0UraqlCEsH",
+     "s": "Daum"
+    },
+    {
+     "t": "이경규, 어눌한 발음으로 생긴 건강 이상설 해명 “오래 하다 보면 대충대충 할 때도”",
+     "u": "https://sports.khan.co.kr/article/202607241107003",
+     "s": "스포츠경향"
+    }
+   ]
+  },
+  {
+   "title": "롯데카드",
+   "traffic": "200+",
+   "items": []
+  },
+  {
+   "title": "맥도날드",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "맥도날드가 눈독 들이자 시골 밭이 동났다?",
+     "u": "https://news.kbs.co.kr/news/view.do?ncd=8618418",
+     "s": "KBS 뉴스"
+    },
+    {
+     "t": "맥도날드-행안부",
+     "u": "https://v.daum.net/v/20260724105411904",
+     "s": "Daum"
+    },
+    {
+     "t": "맥도날드 '충주 찰옥수수 버거' 100만개 판매…'클리커' 굿즈 출시",
+     "u": "https://www.mt.co.kr/living/2026/07/24/2026072314584350006",
+     "s": "머니투데이"
+    }
+   ]
+  },
+  {
+   "title": "isps 한다 스코틀랜드 여자 오픈",
+   "traffic": "2000+",
+   "items": [
+    {
+     "t": "신지은, LPGA 여자 스코틀랜드 오픈 첫날 공동 선두",
+     "u": "https://www.yna.co.kr/view/AKR20260724010100007",
+     "s": "연합뉴스"
+    },
+    {
+     "t": "신지은, 6언더파 몰아치기…'10년 만에 우승 호기'",
+     "u": "https://v.daum.net/v/6bndPANdaE",
+     "s": "Daum"
+    },
+    {
+     "t": "신지은, LPGA 투어 ISPS 한다 위민스 스코티시 오픈 첫날 공동 1위",
+     "u": "https://www.viva100.com/article/20260724500032",
+     "s": "브릿지경제"
+    }
+   ]
+  },
   {
    "title": "아시아나",
    "traffic": "100+",
    "items": [
+    {
+     "t": "아시아나항공 121억 이행강제금 불복 소송, 9월 선고",
+     "u": "https://www.bloter.net/news/articleView.html?idxno=668890",
+     "s": "블로터"
+    },
     {
      "t": "최악의 대외 경제 폭풍 속에서 날아오르는 국적기",
      "u": "https://v.daum.net/v/HoTesEcnTJ",
@@ -14,147 +92,21 @@
      "t": "통합 대한항공이 바꾸는 하늘길///항공시장 '3강 경쟁' 체제 돌입",
      "u": "https://www.sisajournal-e.com/news/articleView.html?idxno=422555",
      "s": "시사저널e"
-    },
-    {
-     "t": "②아버지의 예술을 시스템으로///조양호와 '공학자의 경영'",
-     "u": "https://news.nate.com/view/20260723n05191",
-     "s": "네이트"
     }
    ]
-  },
-  {
-   "title": "트로트",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "신유, 뮤지컬 ‘전국노래자랑’ 투어",
-     "u": "https://v.daum.net/v/20260724071527471",
-     "s": "Daum"
-    },
-    {
-     "t": "신유, 뮤지컬 '전국노래자랑' 대구 군위 공연 출격…연기/가창력 겸비",
-     "u": "https://news.nate.com/view/20260724n05265?mid=e1200",
-     "s": "네이트"
-    },
-    {
-     "t": "'트로트 황태자' 신유, 뮤지컬 '전국노래자랑' 지방투어",
-     "u": "https://www.slist.kr/news/articleView.html?idxno=753795",
-     "s": "싱글리스트"
-    }
-   ]
-  },
-  {
-   "title": "카카오뱅크",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "BTF푸른나무재단, 교육부/금융감독원/카카오뱅크와 청소년 도박/금융피해 예방 나선다",
-     "u": "https://v.daum.net/v/FTPE6gLxvb",
-     "s": "Daum"
-    },
-    {
-     "t": "최외출 영남대 총장, '청소년 불법도박 근절 릴레이 캠페인' 동참",
-     "u": "https://www.etnews.com/20260723000258",
-     "s": "전자신문"
-    },
-    {
-     "t": "'찾아가는 도박 예방교육' 대구 학교간다…SNS 챌린지도",
-     "u": "https://www.newsis.com/view/NISX20260723_0003719973",
-     "s": "뉴시스"
-    }
-   ]
-  },
-  {
-   "title": "teams",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "2026 NFL training camp previews, projections for all 32 teams",
-     "u": "https://www.espn.com/nfl/story/_/id/49107696/2026-nfl-training-camp-preview-storylines-53-man-roster-projections",
-     "s": "ESPN"
-    },
-    {
-     "t": "2026 NFL betting preview: 3 over/unders to bet right now",
-     "u": "https://sports.yahoo.com/nfl/betting/article/2026-nfl-betting-preview-3-overunders-to-bet-right-now-152434995.html",
-     "s": "Yahoo Sports"
-    },
-    {
-     "t": "Ranking the NFL's Divisions from Worst to First Entering 2026",
-     "u": "https://bleacherreport.com/articles/25456718-ranking-nfls-divisions-worst-first-entering-2026",
-     "s": "Bleacher Report"
-    }
-   ]
-  },
-  {
-   "title": "장한나",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "장한나 예술의전당 사장 78억원…13억 상당 첼로 보유",
-     "u": "https://www.yna.co.kr/view/AKR20260723159400005",
-     "s": "연합뉴스"
-    },
-    {
-     "t": "신현송 한은 총재 재산 82억…절반은 예금, 강남 아파트 보유",
-     "u": "https://www.chosun.com/economy/economy_general/2026/07/24/NYKENW2KYJC63ET4XUR5DOXTEQ/",
-     "s": "조선일보"
-    },
-    {
-     "t": "하정우, 10달새 15억 불어 재산 44억…공직자 재산 1위는",
-     "u": "https://www.hankyung.com/article/202607243116H",
-     "s": "한국경제"
-    }
-   ]
-  },
-  {
-   "title": "경기도교육청",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "안산교육지원청, 다문화 영유아 대상 ‘세계테마여행 음악회’ 개최",
-     "u": "https://www.kyeonggi.com/article/20260723580442",
-     "s": "경기일보"
-    },
-    {
-     "t": "경기도교육청, 유치원서 '언어문화다양성' 교육…시범기관 20곳 운영",
-     "u": "https://www.news1.kr/local/gyeonggi/6237522",
-     "s": "뉴스1"
-    },
-    {
-     "t": "경기교육청, 다문화가정 유아 대상 '언어문화다양성 교육' 시범 추진",
-     "u": "https://www.asiae.co.kr/article/2026072407413348771",
-     "s": "아시아경제"
-    }
-   ]
-  },
-  {
-   "title": "농협카드",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "농협손보, 범농협 펫 상품 공동 마케팅 '냥심멍심 Day' 실시",
-     "u": "https://marketin.edaily.co.kr/News/ReadE?newsId=03466966645517800",
-     "s": "마켓인"
-    },
-    {
-     "t": "NH농협손해보험, 범농협 펫 상품 공동 마케팅 '냥심멍심 Day' 실시",
-     "u": "https://www.newspim.com/news/view/20260724000392",
-     "s": "뉴스핌"
-    },
-    {
-     "t": "‘냥심멍심 데이’ 농협손보, 반려동물 보험 마케팅",
-     "u": "https://www.g-enews.com/article/Finance/2026/07/202607240858098834a6e8311f64_1",
-     "s": "글로벌이코노믹"
-    }
-   ]
-  },
-  {
-   "title": "서민금융진흥원",
-   "traffic": "200+",
-   "items": []
   }
  ],
  "ent": [
+  {
+   "t": "'뉴진스 소속사' 어도어, 보이그룹 국내 오디션 개최",
+   "u": "https://www.yna.co.kr/view/AKR20260724084800005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "강남구, 민선 9기 첫 홍보대사에 K",
+   "u": "https://www.yna.co.kr/view/AKR20260724083300004",
+   "s": "연합뉴스"
+  },
   {
    "t": "경기 광주시, 배우 박정우/가수 성국 홍보대사 위촉",
    "u": "https://www.yna.co.kr/view/AKR20260724072500061",
@@ -219,92 +171,82 @@
    "t": "'왕사남 표절 의혹' 상영금지 가처분 기각…\"줄거리 전혀 달라\"",
    "u": "https://www.yna.co.kr/view/AKR20260723186100004",
    "s": "연합뉴스"
-  },
-  {
-   "t": "이창동 '가능한 사랑', 베네치아영화제 경쟁 부문 초청",
-   "u": "https://www.yna.co.kr/view/AKR20260723180600005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "나홍진 감독, '호프'로 뉴욕 아시아 영화제 액션시네마상 수상",
-   "u": "https://www.yna.co.kr/view/AKR20260723186800005",
-   "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "대한민국관이 말하는 세계유산",
-   "u": "https://zdnet.co.kr/view/?no=20260723205547",
+   "t": "GIST 교원창업기업 리셀, 포스코인터내셔널과 MOU…\"가을께 양산\"",
+   "u": "https://zdnet.co.kr/view/?no=20260724113014",
    "s": "ZDNet"
   },
   {
-   "t": "데이터브릭스",
-   "u": "https://zdnet.co.kr/view/?no=20260724095611",
+   "t": "현대차그룹, 탈북청소년 교육환경 개선 나선다…여명학교 신축 지원",
+   "u": "https://zdnet.co.kr/view/?no=20260724104427",
    "s": "ZDNet"
   },
   {
-   "t": "딥핑소스, 국내 리테일 매장 1000개 자율 운영 나선다",
-   "u": "https://zdnet.co.kr/view/?no=20260724094221",
+   "t": "인베스팅닷컴서 바로 한국투자證 계좌 개설 가능",
+   "u": "https://zdnet.co.kr/view/?no=20260724102832",
    "s": "ZDNet"
   },
   {
-   "t": "더핑크퐁컴퍼니, 50억원 규모 자사주 매입/전량 소각",
-   "u": "https://zdnet.co.kr/view/?no=20260724095253",
+   "t": "AMD, 첫 랙스케일 AI 솔루션 공개…앤트로픽/오픈AI 잡았다",
+   "u": "https://zdnet.co.kr/view/?no=20260724100843",
    "s": "ZDNet"
   },
   {
-   "t": "DN솔루션즈, 신입사원 공개채용 실시…글로벌 인재 확보 나서",
-   "u": "https://zdnet.co.kr/view/?no=20260724090634",
+   "t": "넥슨",
+   "u": "https://zdnet.co.kr/view/?no=20260724111400",
    "s": "ZDNet"
   },
   {
-   "t": "롯데면세점, 인천공항점에 ‘글렌모렌지’ 디저트 바 선보여",
-   "u": "https://zdnet.co.kr/view/?no=20260724093500",
+   "t": "도넛 오른다…던킨, 39종 가격 평균 6.5% 인상",
+   "u": "https://zdnet.co.kr/view/?no=20260724111604",
    "s": "ZDNet"
   },
   {
-   "t": "안경다리 꾹 누르면 AI 비서...시어스랩 '에이아이눈엑스'",
-   "u": "https://zdnet.co.kr/view/?no=20260723164027",
+   "t": "바커케미칼코리아 명예산업안전감독관, 지역보건대회서 우수상 수상",
+   "u": "https://zdnet.co.kr/view/?no=20260724100011",
    "s": "ZDNet"
   },
   {
-   "t": "다쏘시스템, SW 구독 매출↑…\"한/일/인도가 아시아 시장 주도\"",
-   "u": "https://zdnet.co.kr/view/?no=20260724093634",
+   "t": "파인텍, 삼성디스플레이와 195억원 규모 OLED 제조장비 공급 계약",
+   "u": "https://zdnet.co.kr/view/?no=20260724110633",
    "s": "ZDNet"
   },
   {
-   "t": "오늘의집 \"여름철 '탈취제' 검색 83%↑…고체 탈취제 관심 급증\"",
-   "u": "https://zdnet.co.kr/view/?no=20260724093923",
+   "t": "당근알바, 운수자격정보 연동…채용과 연계",
+   "u": "https://zdnet.co.kr/view/?no=20260724100240",
    "s": "ZDNet"
   },
   {
-   "t": "\"AI 투자 부담에 가려졌다\"…오라클, AI 에이전트 타고 재평가 받을까",
-   "u": "https://zdnet.co.kr/view/?no=20260723141232",
+   "t": "농심, 새우깡 등 43개 제품 가격 올린다",
+   "u": "https://zdnet.co.kr/view/?no=20260724104823",
    "s": "ZDNet"
   },
   {
-   "t": "오픈AI, '챗GPT 헬스' 미국 전역으로 확대",
-   "u": "https://zdnet.co.kr/view/?no=20260724092606",
+   "t": "맥쿼리 \"가비아 공개매수가 4만8천원, 글로벌 투자 경험 반영한 적정 가격\"",
+   "u": "https://zdnet.co.kr/view/?no=20260724103922",
    "s": "ZDNet"
   },
   {
-   "t": "문체부, '미술서비스업 신고제' 26일부터 시행…화랑/경매 등 6개 업종 대상",
-   "u": "https://zdnet.co.kr/view/?no=20260724093505",
+   "t": "SK하이닉스, 또 쌓는다...온디바이스 AI용 '3D 적층 D램' 개발 시동",
+   "u": "https://zdnet.co.kr/view/?no=20260724094825",
    "s": "ZDNet"
   },
   {
-   "t": "이마트, 독일 ‘국민 프레첼’ 디치 직소싱 판매",
-   "u": "https://zdnet.co.kr/view/?no=20260724091735",
+   "t": "삼성/SK하이닉스 레버리지 규제, 시장에 ‘약’ 될까",
+   "u": "https://zdnet.co.kr/view/?no=20260724104257",
    "s": "ZDNet"
   },
   {
-   "t": "KT알파쇼핑, 김민성 셰프 '만능 새우 양념장' 판매 방송",
-   "u": "https://zdnet.co.kr/view/?no=20260724092521",
+   "t": "2026 LCK CL, 27일 정규시즌 3라운드 재개…그룹별 경쟁 돌입",
+   "u": "https://zdnet.co.kr/view/?no=20260724105010",
    "s": "ZDNet"
   },
   {
-   "t": "로보트태권V 50주년 기념우표 29일 발행",
-   "u": "https://zdnet.co.kr/view/?no=20260723181316",
+   "t": "국립과천과학관, 과학체험 재료 구독서비스 접수 돌입",
+   "u": "https://zdnet.co.kr/view/?no=20260724105403",
    "s": "ZDNet"
   }
  ],
