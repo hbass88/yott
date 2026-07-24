@@ -79,7 +79,7 @@
       지역마다 <span style="background:linear-gradient(180deg,transparent 60%,#FFE14D 60%);padding:0 4px">뜨는게</span> 다르다
     </h1>
     <p style="margin:18px 0 0;max-width:620px;font-size:18px;line-height:1.55;color:var(--muted);font-weight:500">
-      전국 주요 지역의 실시간 상승 신호. 마커나 항목을 눌러 지역 열기 지수와 뜨는 트렌드를 확인하세요. 2026.07.24 기준
+      전국 주요 지역의 실시간 상승 신호. 마커나 항목을 눌러 지역 열기 지수와 뜨는 트렌드를 확인하세요. 2026.07.22 기준
     </p>
   </section>
 
@@ -167,7 +167,7 @@ function renderCards(){
 /* ---- popups ---- */
 function show(html){document.getElementById('modal').innerHTML=html;document.getElementById('ovl').classList.add('show');document.body.style.overflow='hidden';}
 function closeModal(){document.getElementById('ovl').classList.remove('show');document.body.style.overflow='';}
-function srch(q){var Q=encodeURIComponent(q);var d=[['X','https://x.com/search?q='+Q+'&f=live'],['인스타그램','https://www.instagram.com/explore/search/keyword/?q='+Q],['유튜브','https://www.youtube.com/results?search_query='+Q],['네이버','https://search.naver.com/search.naver?query='+Q]];return d.map(function(x){return '<a class="feed-link" href="'+x[1]+'" target="_blank" rel="noopener"><span class="flt">'+q+'</span><span class="fls">'+x[0]+' ↗</span></a>';}).join('');}
+function srch(q){var Q=encodeURIComponent(q);var d=[['X','https://x.com/search?q='+Q+'&f=live'],['스레드','https://www.threads.net/search?q='+Q],['인스타그램','https://www.instagram.com/explore/search/keyword/?q='+Q],['틱톡','https://www.tiktok.com/search?q='+Q],['유튜브','https://www.youtube.com/results?search_query='+Q],['네이버','https://search.naver.com/search.naver?query='+Q]];return d.map(function(x){return '<a class="feed-link" href="'+x[1]+'" target="_blank" rel="noopener"><span class="flt">'+q+'</span><span class="fls">'+x[0]+' ↗</span></a>';}).join('');}
 function openRegion(ri){var r=regions[ri];if(!r)return;
   show('<button class="m-close" onclick="closeModal()">✕</button><div class="m-cat">지역별 트렌드, 주력 '+r.plat+'</div><div class="m-title">'+r.name+'</div><div style="display:flex;align-items:baseline;gap:8px;margin-bottom:6px"><span style="font-size:44px;font-weight:900;color:var(--accent);line-height:1">'+r.heat+'</span><span style="font-size:15px;font-weight:700;color:var(--faint)">/ 100 열기 지수</span></div><div class="m-h">지금 이 지역에서 뜨는거</div><div class="m-list">'+r.trends.map(function(t,i){return '<div class="m-item" onclick="openItem(\''+r.name+'\','+i+')"><span>'+(i+1)+'</span>'+t+'</div>';}).join('')+'</div>');
 }
