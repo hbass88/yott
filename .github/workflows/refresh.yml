@@ -212,8 +212,9 @@ jobs:
           }
           function buildMemes(memeNews, doy){
             const out=[]; const seen=new Set();
+            const ROUNDUP=/뉴스클리핑|큐레이션|뉴스레터|브리핑|모아보기|리포트|주간 ?트렌드|이번 ?주|위클리|^오늘의 |^이번주/;
             for(const m of (memeNews||[])){
-              const full=clean(m.t); if(!full||heavy(full))continue;
+              const full=clean(m.t); if(!full||heavy(full)||ROUNDUP.test(full))continue;
               const t=full.split(/[?!,]/)[0].trim().slice(0,18); if(!t||seen.has(t))continue;
               seen.add(t); out.push({t,tag:"밈",d:full.slice(0,60),mean:full,why:"커뮤니티와 숏폼에서 빠르게 번지며 고구마팜 등 밈 큐레이션에 소개된 최신 유행이에요. 정확한 뉘앙스와 반응은 아래 채널에서 확인해 보세요.",src:"고구마팜"});
               if(out.length>=2)break;
