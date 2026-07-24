@@ -136,10 +136,15 @@ jobs:
               const news=c.items||[];
               const text=title+" "+news.map(n=>n.t).join(" ");
               if(heavy(text)||boring(title)) continue;
+              const nlist=news.map(n=>({t:clean(n.t),u:(n.u||"").trim(),s:clean(n.s||"")})).filter(n=>n.t).slice(0,4);
+              const lead=nlist[0]?nlist[0].t:"";
+              const srcs=[...new Set(nlist.map(n=>n.s).filter(Boolean))].slice(0,3).join(", ");
               pool.push({traf:parseTraffic(c.traffic),cat:catOf(text),title,
-                one:news[0]?clean(news[0].t):"실시간 급상승 검색어로 떠오른 이슈",
-                why:`구글 트렌드 KR 실시간 급상승 키워드. 관련 기사 ${news.length}건이 함께 확산되며 검색량이 빠르게 오르는 중.`,
-                points:news.slice(0,3).map(n=>clean(n.t)).filter(Boolean),
+                one:lead||"실시간 급상승 검색어로 떠오른 이슈",
+                why:lead
+                  ?`지금 '${title}'가 화제인 이유예요 — ${lead} ${srcs?("("+srcs+" 등) "):""}관련 소식 ${nlist.length}건이 여러 매체에서 거의 동시에 나오면서 검색량이 빠르게 오르고 있어요. 아래 '관련 소식' 원문과 채널별 링크에서 배경과 반응을 바로 확인할 수 있어요.`
+                  :`구글 트렌드 KR 실시간 급상승 키워드로, 관련 소식이 함께 확산되며 검색량이 빠르게 오르는 중이에요.`,
+                news:nlist,
                 kw:[title],src:"trend"});
             }
             pool.sort((a,b)=>b.traf-a.traf);
@@ -158,7 +163,7 @@ jobs:
               const pts=(c.points&&c.points.length)?c.points.slice(0,3):["실시간 검색량 급상승 감지","관련 기사/콘텐츠 다수 확산","커뮤니티 언급 증가 추세"];
               return {id:rank,rank,cat:c.cat,title:c.title,
                 status:(rank<=5||c.traf>=10000)?"hot":"rise",
-                one:c.one,why:c.why,points:pts,kw:(c.kw&&c.kw.length?c.kw:[c.title]),
+                one:c.one,why:c.why,points:pts,news:(c.news||[]),kw:(c.kw&&c.kw.length?c.kw:[c.title]),
                 vel,mention,sent:`${emo(c.cat)} ${pct}%`,
                 spark:[8+(i%9),15+(i%7),26,40,58,80,100]};
             });
