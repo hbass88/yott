@@ -240,3 +240,21 @@ jobs:
           git add live-cache.json index.html map/index.html data.js
           git diff --cached --quiet || git commit -m "auto-refresh $(date -u +%F)"
           git push
+      - name: Deploy to cPanel (yozmkorea.com) via FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          server-dir: public_html/
+          local-dir: ./
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            **/node_modules/**
+            README.md
+            *.mjs
+            *.md
