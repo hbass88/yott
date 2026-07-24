@@ -214,7 +214,7 @@
     <div class="cta-row">
       <a class="cta1" href="#top">🔥 지금 뜨는거 보기</a>
       <a class="cta2" href="#alert">알림 받기</a>
-      <span class="cta-note" id="cadence">2026.07.24 기준, 매일 오전 자동 갱신</span>
+      <span class="cta-note" id="cadence">2026.07.22 기준, 매일 오전 자동 갱신</span>
     </div>
   </section>
 
@@ -224,7 +224,7 @@
     <div class="sec-head">
       <div>
         <h2 class="sec-title">오늘 뜨는 트렌드 <em>TOP</em></h2>
-        <p class="sec-sub">2026.07.24 기준, 요뜨지수 높은 순</p>
+        <p class="sec-sub">2026.07.22 기준, 요뜨지수 높은 순</p>
       </div>
       <button class="pill-note" onclick="openScore()" style="cursor:pointer">📊 요뜨지수란?</button>
     </div>
@@ -493,7 +493,12 @@
     show('<button class="m-close" onclick="closeModal()">✕</button><div class="m-cat">'+esc(f.plat==="실검"?"실시간 급상승":f.plat)+'</div><div class="m-title">'+esc(f.text)+'</div><div class="m-h">원문, 반응 보기</div><div class="feed-links">'+top+srchLinks(f.q||f.text)+'</div>');
   };
   window.openMeme=function(i){var m=(window.__MEMES||[])[i];if(!m)return;
-    show('<button class="m-close" onclick="closeModal()">✕</button><div class="m-cat">밈/유행어, '+esc(m.tag)+'</div><div class="m-title">'+esc(m.t)+'</div><div class="m-why">'+esc(m.d)+'</div><div class="m-h">원본, 반응 보기</div><div class="feed-links">'+srchLinks(m.t)+'</div>');
+    var mean=m.mean||m.d||"";
+    var meanH='<div class="m-h">무슨 뜻이야?</div><div class="m-why">'+esc(mean)+'</div>';
+    var whyH=m.why?'<div class="m-h">왜 뜨고 있어?</div><div class="m-why">'+esc(m.why)+'</div>':"";
+    var exH=m.ex?'<div class="m-h">이렇게 써요</div><div class="m-why" style="font-style:italic;color:var(--muted)">“'+esc(m.ex)+'”</div>':"";
+    var one=(m.d&&m.d!==mean)?'<div class="m-one">'+esc(m.d)+'</div>':"";
+    show('<button class="m-close" onclick="closeModal()">✕</button><div class="m-cat">밈/유행어 사전, '+esc(m.tag)+'</div><div class="m-title">'+esc(m.t)+'</div>'+one+meanH+whyH+exH+'<div class="m-h">원본, 반응 보기</div><div class="feed-links">'+srchLinks(m.t)+'</div>');
   };
   var _ovl=document.getElementById("ovl");
   _ovl.addEventListener("click",function(e){if(e.target===_ovl)closeModal();});
