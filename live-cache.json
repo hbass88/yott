@@ -1,6 +1,69 @@
 {
- "updated": "2026-07-24T03:49:14.695Z",
+ "updated": "2026-07-24T04:13:14.797Z",
  "trends": [
+  {
+   "title": "옌스 카스트로프",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "'월드컵도 못 뛰고 가족도 못 만났다'...'홍명보호 단 45분' 카스트로프, 작심발언 '가족 모두가 휴가 내고 왔는데 안타까워'",
+     "u": "https://v.daum.net/v/20260724074907965",
+     "s": "Daum"
+    },
+    {
+     "t": "'온 가족이 한 달 휴가 냈는데' '韓 혼혈 국대' 카스트로프, 홍명보호에 쌓인 불만 토로…'대회 과정 만족스럽지 않아'",
+     "u": "https://sports.news.nate.com/view/20260724n05164",
+     "s": "네이트"
+    },
+    {
+     "t": "'온 가족 한 달 휴가 냈는데' 딱 '이틀'…'1경기 출전' 옌스의 '씁쓸한 폭로'",
+     "u": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008673112",
+     "s": "SBS 뉴스"
+    }
+   ]
+  },
+  {
+   "title": "기상",
+   "traffic": "500+",
+   "items": [
+    {
+     "t": "제주 드론특구서 배송/기상관측/관광 실증 확대",
+     "u": "http://www.jemin.com/news/articleView.html?idxno=840659",
+     "s": "제민일보"
+    },
+    {
+     "t": "계속되는 제주 드론 활용 실험, 올해도 확대",
+     "u": "https://v.daum.net/v/fuAKUOmjH0",
+     "s": "Daum"
+    },
+    {
+     "t": "우당도서관, ‘하늘을 나는 택배, 드론’ 프로그램 개최",
+     "u": "https://m.anewsa.com/article_sub3.php?number=3181246",
+     "s": "아시아뉴스통신"
+    }
+   ]
+  },
+  {
+   "title": "신세계",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "식품관에서 여름 미식 여행… 신세계백화점 ‘테이스트 더 뉴 월드’",
+     "u": "https://www.donga.com/news/Economy/article/all/20260723/134346249/2",
+     "s": "동아일보"
+    },
+    {
+     "t": "“제주 특산물/맛집이 한곳에”… 여름 미식 행사 ‘테이스트 더 뉴 월드’ 개최",
+     "u": "https://www.chosun.com/special/special_section/2026/07/23/ECHLHHZWDBATBJO6C5VO4EFLYY/",
+     "s": "조선일보"
+    },
+    {
+     "t": "농부가 딴 감귤, 해녀가 캔 성게⋯ 제주 이야기 담은 신세계百",
+     "u": "https://www.viva100.com/article/20260722500008",
+     "s": "브릿지경제"
+    }
+   ]
+  },
   {
    "title": "하나카드",
    "traffic": "200+",
@@ -8,7 +71,7 @@
   },
   {
    "title": "이경규",
-   "traffic": "1000+",
+   "traffic": "2000+",
    "items": [
     {
      "t": "'1시간 전 먹은 점심도 기억 못 해'...이경규, 치매 검사 권유에 '충격'",
@@ -16,82 +79,56 @@
      "s": "머니투데이"
     },
     {
+     "t": "이경규 '과거 협심증 앓아…가슴에 스텐트 시술 받았다'",
+     "u": "https://www.newsis.com/view/NISX20260723_0003721212",
+     "s": "뉴시스"
+    },
+    {
      "t": "이경규, 치매 초기 증상… 날짜/요일 헷갈릴 정도",
-     "u": "https://v.daum.net/v/0UraqlCEsH",
+     "u": "https://v.daum.net/v/20260724081728506",
      "s": "Daum"
-    },
-    {
-     "t": "이경규, 어눌한 발음으로 생긴 건강 이상설 해명 “오래 하다 보면 대충대충 할 때도”",
-     "u": "https://sports.khan.co.kr/article/202607241107003",
-     "s": "스포츠경향"
     }
    ]
   },
   {
-   "title": "롯데카드",
+   "title": "레안드로 파레데스",
    "traffic": "200+",
-   "items": []
-  },
-  {
-   "title": "맥도날드",
-   "traffic": "100+",
    "items": [
     {
-     "t": "맥도날드가 눈독 들이자 시골 밭이 동났다?",
-     "u": "https://news.kbs.co.kr/news/view.do?ncd=8618418",
-     "s": "KBS 뉴스"
+     "t": "'월드컵 우승하고 고향 갔더니 받은 건 토마토 152kg?' 가비/파비안, 스페인 고향 마을서 대대적 환영…축구장 이름까지 붙었다",
+     "u": "https://sports.news.nate.com/view/20260723n32169",
+     "s": "네이트"
     },
     {
-     "t": "맥도날드-행안부",
-     "u": "https://v.daum.net/v/20260724105411904",
+     "t": "“용납할 수 없다” 점잖은 스페인 감독 ‘발끈’///자국 방송서 월드컵 결승 충돌 아르헨티나 공개 비판",
+     "u": "https://v.daum.net/v/20260724092107570",
      "s": "Daum"
     },
     {
-     "t": "맥도날드 '충주 찰옥수수 버거' 100만개 판매…'클리커' 굿즈 출시",
-     "u": "https://www.mt.co.kr/living/2026/07/24/2026072314584350006",
-     "s": "머니투데이"
+     "t": "아르헨티나 코치 아얄라, 월드컵 결승전 난투극에 사과‥'죄송하다'",
+     "u": "https://imnews.imbc.com/news/2026/sports/article/6839524_36946.html",
+     "s": "MBC 뉴스"
     }
    ]
   },
   {
-   "title": "isps 한다 스코틀랜드 여자 오픈",
-   "traffic": "2000+",
+   "title": "레이디 제인",
+   "traffic": "500+",
    "items": [
     {
-     "t": "신지은, LPGA 여자 스코틀랜드 오픈 첫날 공동 선두",
-     "u": "https://www.yna.co.kr/view/AKR20260724010100007",
-     "s": "연합뉴스"
+     "t": "‘금수저’ 레이디제인, 전자회사 CEO 父 재산 상속 받나",
+     "u": "https://www.donga.com/news/Entertainment/article/all/20260724/134356464/1",
+     "s": "동아일보"
     },
     {
-     "t": "신지은, 6언더파 몰아치기…'10년 만에 우승 호기'",
-     "u": "https://v.daum.net/v/6bndPANdaE",
+     "t": "'금수저' 레이디제인, 아버지 재산 상속 관심 '물려줄까?'",
+     "u": "https://v.daum.net/v/fmSnMF1yE3",
      "s": "Daum"
     },
     {
-     "t": "신지은, LPGA 투어 ISPS 한다 위민스 스코티시 오픈 첫날 공동 1위",
-     "u": "https://www.viva100.com/article/20260724500032",
-     "s": "브릿지경제"
-    }
-   ]
-  },
-  {
-   "title": "아시아나",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "아시아나항공 121억 이행강제금 불복 소송, 9월 선고",
-     "u": "https://www.bloter.net/news/articleView.html?idxno=668890",
-     "s": "블로터"
-    },
-    {
-     "t": "최악의 대외 경제 폭풍 속에서 날아오르는 국적기",
-     "u": "https://v.daum.net/v/HoTesEcnTJ",
-     "s": "Daum"
-    },
-    {
-     "t": "통합 대한항공이 바꾸는 하늘길///항공시장 '3강 경쟁' 체제 돌입",
-     "u": "https://www.sisajournal-e.com/news/articleView.html?idxno=422555",
-     "s": "시사저널e"
+     "t": "‘홍대여신’ 가수, 평범한 줄 알았더니…“아버지가 IT회사 창업자”",
+     "u": "https://www.seoul.co.kr/news/entertainment/starinterN/2026/07/24/20260724500077",
+     "s": "서울신문"
     }
    ]
   }
