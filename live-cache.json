@@ -1,236 +1,319 @@
 {
- "updated": "2026-07-28T02:11:15.856Z",
+ "updated": "2026-07-29T02:20:57.632Z",
  "trends": [
   {
-   "title": "kospi",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "(LEAD) Seoul shares open sharply lower on tech losses amid eased Mideast tensions",
-     "u": "https://en.yna.co.kr/view/AEN20260728001951320",
-     "s": "Yonhap News Agency"
-    },
-    {
-     "t": "KOSPI and KOSDAQ Plunge in Early Trading... Sell",
-     "u": "https://www.asiae.co.kr/en/article/2026072809292435846",
-     "s": "아시아경제"
-    },
-    {
-     "t": "Investor cash flow and financing test Korea chip rally and AI spend",
-     "u": "https://biz.chosun.com/en/en-finance/2026/07/27/JR5EYUSMJNE5RLFBJYJNIS6WTA/",
-     "s": "Chosunbiz"
-    }
-   ]
-  },
-  {
-   "title": "orca",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "Just feeding, or maybe a bit of fun? Killer whale seen smashing into captive sunfish on video",
-     "u": "https://www.bostonglobe.com/2026/07/27/science/orca-rams-sunfish-explodes/",
-     "s": "The Boston Globe"
-    },
-    {
-     "t": "Watch: Orcas ram into fish so hard they explode",
-     "u": "https://www.bbc.com/news/videos/c0l5z9p1nwgo",
-     "s": "BBC"
-    },
-    {
-     "t": "Orcas seen ramming prey so hard it explodes may be playing game | Marine life",
-     "u": "https://www.theguardian.com/environment/2026/jul/23/orcas-ramming-prey-hard-explodes-playing-game",
-     "s": "The Guardian"
-    }
-   ]
-  },
-  {
-   "title": "찰리 반즈",
-   "traffic": "500+",
-   "items": [
-    {
-     "t": "Barnes Rejects Samsung, Shines in MLB Return with Dodgers",
-     "u": "https://www.chosun.com/english/sports-en/2026/07/28/VHC2PKHF2JA2BGBPUDERRW6WFE/",
-     "s": "조선일보"
-    }
-   ]
-  },
-  {
-   "title": "fomc",
+   "title": "쌍용자동차",
    "traffic": "200+",
    "items": [
     {
-     "t": "EUR/USD, GBP/USD Outlook: Same Sunday TACO, Same Monday Reaction",
-     "u": "https://www.forex.com/en-us/news-and-analysis/eur-usd-gbp-usd-outlook-same-sunday-taco-same-monday-reaction/",
-     "s": "FOREX.com"
+     "t": "작별이냐 동행이냐…KGM '쌍용의 유산' 렉스턴 두고 고심",
+     "u": "https://www.newsworks.co.kr/news/articleView.html?idxno=848445",
+     "s": "뉴스웍스"
     },
     {
-     "t": "Euro Rebounds as Easing Middle East Tensions Boost Risk Appetite",
-     "u": "https://www.tradingview.com/news/te_news:570034:0-euro-rebounds-as-easing-middle-east-tensions-boost-risk-appetite/",
-     "s": "TradingView"
+     "t": "'팰리세이드 대신 사길 잘했어요'... 한 번 타본 아빠들은 반해서 매번 찾는다는 국산 패밀리 SUV",
+     "u": "https://autonology.co.kr/news/2026-kgm-rexton-towing-offroad-suv/",
+     "s": "오토놀로지"
     },
     {
-     "t": "Eurozone data showed an unexpected rebound, yet the euro remains pinned below the Bollinger Band's middle rail.",
-     "u": "https://www.moomoo.com/news/post/73572058/eurozone-data-showed-an-unexpected-rebound-yet-the-euro-remains",
-     "s": "Moomoo"
+     "t": "'팰리세이드는 진짜가 아니다'... 뭘 좀 아는 아빠들이 선택하는 패밀리 SUV 정체",
+     "u": "https://topictree.co.kr/automobiles/news/2026-kgm-rexton-new-arena-summit-price/",
+     "s": "토픽트리"
+    }
+   ]
+  },
+  {
+   "title": "롯데월드",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "놀이기구의 문법을 바꾸다… 500억 쏟은 야심작 ‘콩X고질라 : 더 라이드’",
+     "u": "https://v.daum.net/v/20260728112054888",
+     "s": "Daum"
+    },
+    {
+     "t": "킹콩/고질라 속으로… 짜릿한 라이드",
+     "u": "https://www.segye.com/newsView/20260727514470",
+     "s": "세계일보"
+    },
+    {
+     "t": "롯데월드 신규 어트랙션 '콩X고질라 : 더 라이드'",
+     "u": "https://www.news1.kr/photos/8026595",
+     "s": "뉴스1"
+    }
+   ]
+  },
+  {
+   "title": "김지찬",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "‘무더위 지배자’ 삼성, 김도영의 ‘냉장고 글러브’도 소용 없었다!",
+     "u": "https://news.kbs.co.kr/news/view.do?ncd=8622759",
+     "s": "KBS 뉴스"
+    },
+    {
+     "t": "에이스 1이닝 8실점 대충격 패패패...KIA 후반기 선발진 'QS 제로-ERA 9위', 이러면 5강 싸움 어렵다",
+     "u": "https://biz.chosun.com/sports/baseball/2026/07/29/GU2WIMJUGE3DAMJYGIYWKYJXME/",
+     "s": "Chosunbiz"
+    },
+    {
+     "t": "'9승 징크스' 올러, 3번째 도전에서 8실점",
+     "u": "https://www.ytn.co.kr/_ln/0107_202607282313270598",
+     "s": "YTN"
+    }
+   ]
+  },
+  {
+   "title": "행정중심복합도시",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "세종시에 위치한 행복도시 미개방 공원, 시민 품으로 돌아간다",
+     "u": "https://www.munhwa.com/article/11605572",
+     "s": "문화일보"
+    },
+    {
+     "t": "세종시 도심 미개방 공원 3곳 순차 개방 추진…관리권 세종시로",
+     "u": "https://www.yna.co.kr/view/AKR20260727137500063",
+     "s": "연합뉴스"
+    },
+    {
+     "t": "행복청, 조성 마친 행복도시 공원 3곳 올해부터 순차 개방",
+     "u": "https://v.daum.net/v/20260727134708101",
+     "s": "Daum"
+    }
+   ]
+  },
+  {
+   "title": "white phosphorus munitions",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "White Phosphorus Leak at K",
+     "u": "https://www.chosun.com/english/national-en/2026/07/28/2I5C7IHESNHWTATFZ353UOLPB4/",
+     "s": "조선일보"
+    },
+    {
+     "t": "(3rd LD) Brief alert issued after U.S. military reports low",
+     "u": "https://en.yna.co.kr/view/AEN20260728011753315",
+     "s": "Yonhap News Agency"
+    },
+    {
+     "t": "White Phosphorus Leak Reported at Pyeongtaek K",
+     "u": "https://www.asiae.co.kr/en/article/2026072817520907332",
+     "s": "아시아경제"
+    }
+   ]
+  },
+  {
+   "title": "리그 오브 레전드",
+   "traffic": "2000+",
+   "items": [
+    {
+     "t": "리그 오브 레전드 26.15 패치 노트",
+     "u": "https://www.leagueoflegends.com/ko-kr/news/game-updates/league-of-legends-patch-26-15-notes/",
+     "s": "League of Legends"
+    },
+    {
+     "t": "롤 점검 시간 확인…26.15 패치노트 업데이트",
+     "u": "https://www.etoday.co.kr/news/view/2608497",
+     "s": "이투데이"
+    },
+    {
+     "t": "롤 서버 점검... 시간/패치노트는? (+클래식 출시 시간)",
+     "u": "https://www.ggilbo.com/news/articleView.html?idxno=1171868",
+     "s": "금강일보"
+    }
+   ]
+  },
+  {
+   "title": "김상욱",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "제물포구 민주평통, 평화통일 공감 확산 위한 출범행사 개최",
+     "u": "https://www.newstown.co.kr/news/articleView.html?idxno=710544",
+     "s": "뉴스타운"
+    },
+    {
+     "t": "김상욱 울산시장, 민주평통 임원진들과 환담",
+     "u": "https://ujnews.co.kr/news/newsview.php?ncode=1065589172599593",
+     "s": "울산종합일보"
+    },
+    {
+     "t": "민주평화통일 밀양시협의회, 2026년 평화통일 시민교실 개최",
+     "u": "https://www.kns.tv/news/articleView.html?idxno=1011252",
+     "s": "KNS뉴스통신"
     }
    ]
   }
  ],
  "ent": [
   {
-   "t": "'아파트'/'큐피드' 등 요즘 인기곡 공통점?…\"알파세대 멜로디\"",
-   "u": "https://www.yna.co.kr/view/AKR20260728058100075",
+   "t": "정일우, 'GD 소속사' 갤럭시코퍼레이션 이적",
+   "u": "https://www.yna.co.kr/view/AKR20260729084000005",
    "s": "연합뉴스"
   },
   {
-   "t": "인기 IP '상남자' 디즈니+ 시리즈로…박정민 주연/김희원 연출",
-   "u": "https://www.yna.co.kr/view/AKR20260728062100005",
+   "t": "울주산악영화제, 세대/경계 허문 '투게더' 섹션 영화 공개",
+   "u": "https://www.yna.co.kr/view/AKR20260729069700057",
    "s": "연합뉴스"
   },
   {
-   "t": "장기하 첫 솔로 '산산조각'/캣츠아이 다큐, 내달 CGV 개봉",
-   "u": "https://www.yna.co.kr/view/AKR20260728057600005",
+   "t": "캣츠아이 '애니멀', 스포티파이 글로벌 신곡 차트 1위",
+   "u": "https://www.yna.co.kr/view/AKR20260729068000005",
    "s": "연합뉴스"
   },
   {
-   "t": "투모로우바이투게더, 내달 데뷔 7주년 전시회",
-   "u": "https://www.yna.co.kr/view/AKR20260728049600005",
+   "t": "'참교육', '오겜' 이어 넷플릭스 역대 비영어 쇼 10위",
+   "u": "https://www.yna.co.kr/view/AKR20260729049200005",
    "s": "연합뉴스"
   },
   {
-   "t": "갤럭시 Z 폴드8/플립8 사전예약 시작…이통3사 혜택 경쟁",
-   "u": "https://www.yna.co.kr/view/AKR20260728043400017",
+   "t": "SKB, 인천 어린이 초청 '행복얼라이언스 스쿨'",
+   "u": "https://www.yna.co.kr/view/AKR20260729063300017",
    "s": "연합뉴스"
   },
   {
-   "t": "이창동 '가능한 사랑' 9월 23일 개봉…넷플릭스 11월 공개",
-   "u": "https://www.yna.co.kr/view/AKR20260728038200005",
+   "t": "BTS '노멀', 빌보드 '핫 100' 33위 재진입…\"월드컵 쇼 영향\"",
+   "u": "https://www.yna.co.kr/view/AKR20260729058900005",
    "s": "연합뉴스"
   },
   {
-   "t": "삼척 해변/계곡서 즐기는 여름축제…31일 가요제 개막",
-   "u": "https://www.yna.co.kr/view/AKR20260728032900062",
+   "t": "문근영, 7살 연상 배우 정평과 극비리 결혼…\"둘이서 삶 채워\"",
+   "u": "https://www.yna.co.kr/view/AKR20260729060600005",
    "s": "연합뉴스"
   },
   {
-   "t": "경기도, 내달 북부청사 평화광장서 주말마다 영화제/예술공연",
-   "u": "https://www.yna.co.kr/view/AKR20260728032100060",
+   "t": "제네시스, 마릴린 먼로 탄생 100주년 기념 영화 제작지원",
+   "u": "https://www.yna.co.kr/view/AKR20260729040200003",
    "s": "연합뉴스"
   },
   {
-   "t": "EBS",
-   "u": "https://www.yna.co.kr/view/AKR20260728025300005",
+   "t": "김태호 제작사 테오, 영화 배급사업 진출…워터홀컴퍼니와 맞손",
+   "u": "https://www.yna.co.kr/view/AKR20260729045500005",
    "s": "연합뉴스"
   },
   {
-   "t": "제니, K팝 힘 못쓰던 美라디오 차트서 정상…'골든' 이어 두번째",
-   "u": "https://www.yna.co.kr/view/AKR20260728016600075",
+   "t": "이채민/노윤서, 3년만 재회…'내가 죽기로 결심한 것은' 주연",
+   "u": "https://www.yna.co.kr/view/AKR20260729034900005",
    "s": "연합뉴스"
   },
   {
-   "t": "윤경호 \"지금 인기 로또 같아…국수 가락처럼 길게 연기할래요\"",
-   "u": "https://www.yna.co.kr/view/AKR20260727101600005",
+   "t": "일/사랑 다 잡은 서인국/박지현…'내일도 출근!' 4.6% 종영",
+   "u": "https://www.yna.co.kr/view/AKR20260729028600005",
    "s": "연합뉴스"
   },
   {
-   "t": "카드, 10년 활동에 쉼표 \"슈퍼스타 못돼 아쉽지만…최선 다했다\"",
-   "u": "https://www.yna.co.kr/view/AKR20260727151600005",
+   "t": "'스파이더맨 4' 예매량 90만장 돌파…'호프' 넘어 올해 최다",
+   "u": "https://www.yna.co.kr/view/AKR20260729017200005",
    "s": "연합뉴스"
   },
   {
-   "t": "신민아/주지훈의 '재혼 황후' 올가을 공개",
-   "u": "https://www.yna.co.kr/view/AKR20260727146500005",
+   "t": "처량한 스파이더맨, 소년에서 어른이 되다…'브랜드 뉴 데이'",
+   "u": "https://www.yna.co.kr/view/AKR20260728168100005",
    "s": "연합뉴스"
   },
   {
-   "t": "아홉, 마닐라 공연 마쳐…1만 관객 동원",
-   "u": "https://www.yna.co.kr/view/AKR20260727142600005",
+   "t": "\"문학적 발자취 남을 것\"…출판/연예계 히가시노 게이고 추모(종합)",
+   "u": "https://www.yna.co.kr/view/AKR20260728130151005",
    "s": "연합뉴스"
   },
   {
-   "t": "최휘영/박진영 \"내년 12월 패노메논 시상식…이듬해 LA서 축제\"(종합)",
-   "u": "https://www.yna.co.kr/view/AKR20260727082451005",
+   "t": "박재범, 29∼30일 서울서 앙코르 콘서트",
+   "u": "https://www.yna.co.kr/view/AKR20260728156100005",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "누리하우스, SBA와 '서울콘' 공동 개최…행사 총괄 운영 맡는다",
-   "u": "https://zdnet.co.kr/view/?no=20260728084545",
+   "t": "엘앤에프, 美 배터리 스타트업에 LFP 양극재 공급",
+   "u": "https://zdnet.co.kr/view/?no=20260729091735",
    "s": "ZDNet"
   },
   {
-   "t": "PI첨단소재, 2분기 영업익 42% 상승",
-   "u": "https://zdnet.co.kr/view/?no=20260728090800",
+   "t": "고기도 편의점서 산다…GS25, 축산 가공 매출 90% 증가",
+   "u": "https://zdnet.co.kr/view/?no=20260729090953",
    "s": "ZDNet"
   },
   {
-   "t": "애플 iOS 26.6 출시…보안 강화/스팟라이트 검색 최적화",
-   "u": "https://zdnet.co.kr/view/?no=20260728081332",
+   "t": "크래프톤, 한국어 1위 음성 AI 공개…'말하는 AI 캐릭터' 구현 속도",
+   "u": "https://zdnet.co.kr/view/?no=20260729092703",
    "s": "ZDNet"
   },
   {
-   "t": "에잇퍼센트, 5세대 신용평가모형 적용…중저신용자 변별력 키운다",
-   "u": "https://zdnet.co.kr/view/?no=20260728091047",
+   "t": "메타, 블랙록과 ‘데이터센터 단지’ 구축에 20조원 투입",
+   "u": "https://zdnet.co.kr/view/?no=20260729084440",
    "s": "ZDNet"
   },
   {
-   "t": "중국 화장품업계, AI로 개발기간 단축…글로벌 브랜드 추격",
-   "u": "https://zdnet.co.kr/view/?no=20260728085219",
+   "t": "\"기술과 디자인으로 장애 장벽 허문다\"…'D테크 공모전' 참가팀 모집",
+   "u": "https://zdnet.co.kr/view/?no=20260729092304",
    "s": "ZDNet"
   },
   {
-   "t": "1000원보다 싸다…롯데마트/슈퍼, PB 두부/콩나물 개편",
-   "u": "https://zdnet.co.kr/view/?no=20260728085904",
+   "t": "디노티시아",
+   "u": "https://zdnet.co.kr/view/?no=20260729091110",
    "s": "ZDNet"
   },
   {
-   "t": "윤금낭 디지털산업정책연구소 디지털안전센터장 시모상",
-   "u": "https://zdnet.co.kr/view/?no=20260728091600",
+   "t": "신세계백화점, 국내 첫 ‘폼폼푸린 베이커리 카페’ 연다",
+   "u": "https://zdnet.co.kr/view/?no=20260729085940",
    "s": "ZDNet"
   },
   {
-   "t": "포스코퓨처엠, AI 혁신 추진…제조 생산성 30% 향상 목표",
-   "u": "https://zdnet.co.kr/view/?no=20260728083616",
+   "t": "녹조현상이 미세 플라스틱 만드는 주범",
+   "u": "https://zdnet.co.kr/view/?no=20260729090802",
    "s": "ZDNet"
   },
   {
-   "t": "무보, 국산 스마트폰 유럽시장 점유율 확대에 1억 달러 지원",
-   "u": "https://zdnet.co.kr/view/?no=20260728090233",
+   "t": "홍콩 상장 앞둔 쉬인, 美 FTC 조사 받는다",
+   "u": "https://zdnet.co.kr/view/?no=20260729085743",
    "s": "ZDNet"
   },
   {
-   "t": "아마존, 美 FCC에 위성 발사 허가 요청…스페이스X와 경쟁",
-   "u": "https://zdnet.co.kr/view/?no=20260728083759",
+   "t": "코카콜라, 월드컵 효과에 연간 전망 상향…북미 매출 7% 증가",
+   "u": "https://zdnet.co.kr/view/?no=20260729085650",
    "s": "ZDNet"
   },
   {
-   "t": "금보원, 온라인 '금융 AI보안 캠퍼스' 내달 오픈",
-   "u": "https://zdnet.co.kr/view/?no=20260728085758",
+   "t": "인텔, 미 국방 반도체 개발 프로그램 'RAMP",
+   "u": "https://zdnet.co.kr/view/?no=20260729090402",
    "s": "ZDNet"
   },
   {
-   "t": "현대차 ST1, 임산부 이동 돕는 특화차량으로 달린다",
-   "u": "https://zdnet.co.kr/view/?no=20260728084322",
+   "t": "애플, '시리AI'로 스마트홈 혁명 이끈다",
+   "u": "https://zdnet.co.kr/view/?no=20260729082957",
    "s": "ZDNet"
   },
   {
-   "t": "LG이노텍, TDK와 '피지컬 AI' 동맹…차세대 비전/촉각 센싱모듈 개발 협력",
-   "u": "https://zdnet.co.kr/view/?no=20260728081942",
+   "t": "SK하이닉스, 올해 설비투자 40조원 후반 예상…생산능력 확대 '고삐'",
+   "u": "https://zdnet.co.kr/view/?no=20260729083227",
    "s": "ZDNet"
   },
   {
-   "t": "'아피가' 향후 10년 설계한다…KISA, 전담 추진단 발족",
-   "u": "https://zdnet.co.kr/view/?no=20260728082958",
+   "t": "11번가, 1만원 미만 폭염 대비 용품 판매",
+   "u": "https://zdnet.co.kr/view/?no=20260729084124",
    "s": "ZDNet"
   },
   {
-   "t": "여권서 영감 얻은 갤Z폴드8는 어떻게 탄생했나",
-   "u": "https://zdnet.co.kr/view/?no=20260728012901",
+   "t": "SKB, 지역 어린이 대상 방송제작 체험 기회 제공",
+   "u": "https://zdnet.co.kr/view/?no=20260729084853",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "오늘의 뉴스클리핑과 유튜브 트렌드",
+   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%9c%a0%ed%8a%9c%eb%b8%8c-%ed%8a%b8%eb%a0%8c%eb%93%9c-164/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "1인 3채널 운영, 우당탕탕 쌓아온 것들",
+   "u": "https://gogumafarm.kr/1%ec%9d%b8-3%ec%b1%84%eb%84%90-%ec%9a%b4%ec%98%81-%ec%9a%b0%eb%8b%b9%ed%83%95%ed%83%95-%ec%8c%93%ec%95%84%ec%98%a8-%ea%b2%83%eb%93%a4-%ec%82%ac%eb%82%b4%eb%b7%b0%ea%b3%b5%ec%97%85-%ec%9d%b8%ed%84%b0/",
+   "s": "고구마팜"
+  },
   {
    "t": "오늘의 뉴스클리핑과 AI 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-ai-%ed%8a%b8%eb%a0%8c%eb%93%9c-51/",
@@ -259,16 +342,6 @@
   {
    "t": "오픈토삭스/암커프/네트백… 당장 써먹을 수 있는 여름 트렌드 소재 모음",
    "u": "https://gogumafarm.kr/%ec%98%a4%ed%94%88%ed%86%a0%ec%82%ad%ec%8a%a4%c2%b7%ec%95%94%ec%bb%a4%ed%94%84%c2%b7%eb%84%a4%ed%8a%b8%eb%b0%b1-%eb%8b%b9%ec%9e%a5-%ec%8d%a8%eb%a8%b9%ec%9d%84-%ec%88%98-%ec%9e%88%eb%8a%94/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "오늘의 뉴스클리핑과 유튜브 트렌드",
-   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%9c%a0%ed%8a%9c%eb%b8%8c-%ed%8a%b8%eb%a0%8c%eb%93%9c-163/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "전포역에 전설의 포켓몬이 등장했다! 브랜드 자산을 잘 활용한 체험 마케팅",
-   "u": "https://gogumafarm.kr/%ec%a0%84%ed%8f%ac%ec%97%ad%ec%97%90-%ec%a0%84%ec%84%a4%ec%9d%98-%ed%8f%ac%ec%bc%93%eb%aa%ac%ec%9d%b4-%eb%93%b1%ec%9e%a5%ed%96%88%eb%8b%a4-%eb%b8%8c%eb%9e%9c%eb%93%9c-%ec%9e%90%ec%82%b0%ec%9d%84/",
    "s": "고구마팜"
   }
  ]
