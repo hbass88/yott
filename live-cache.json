@@ -1,191 +1,325 @@
 {
- "updated": "2026-07-31T02:30:05.468Z",
+ "updated": "2026-08-01T02:29:54.880Z",
  "trends": [
   {
-   "title": "아이스 커피",
+   "title": "서정희",
    "traffic": "100+",
    "items": [
     {
-     "t": "'폭염을 시원하게'…커피업계, 취약계층/배달기사 지원",
-     "u": "https://v.daum.net/v/20260731100449653",
+     "t": "서정희, 김태현과 동거 중인 2층집 공개",
+     "u": "https://www.newsis.com/view/NISX20260731_0003731952",
+     "s": "뉴시스"
+    },
+    {
+     "t": "서정희, 살림 내공 이 정도였나…'외출 후 신발 매일 닦아'",
+     "u": "https://v.daum.net/v/BRYsXwEoYJ",
      "s": "Daum"
     },
     {
-     "t": "스타벅스, 취약계층 여름나기 지원…후원금 5000만원",
-     "u": "https://www.etnews.com/20260731000069",
-     "s": "전자신문"
-    },
-    {
-     "t": "스타벅스, '스:벅차'와 폭염 취약계층 건강한 여름나기 지원",
-     "u": "https://www.asiae.co.kr/article/2026073108493455780",
-     "s": "아시아경제"
+     "t": "서정희, 40년 살림 비법",
+     "u": "https://www.mediafine.co.kr/news/articleView.html?idxno=85192",
+     "s": "미디어파인"
     }
    ]
   },
   {
-   "title": "버지니아급 잠수함",
-   "traffic": "10000+",
-   "items": [
-    {
-     "t": "美 해군, 109조원 역대 최대 계약…GD/HII와 핵잠수함 14척 건조",
-     "u": "https://www.g-enews.com/article/Global-Biz/2026/07/202607310616326954e8b8a793f7_1",
-     "s": "글로벌이코노믹"
-    },
-    {
-     "t": "록히드마틴, 586억 달러 규모 패트리엇 생산 계약 수주",
-     "u": "https://www.yna.co.kr/view/AKR20260730134000009",
-     "s": "연합뉴스"
-    },
-    {
-     "t": "패트리어트 3배 증산…美국방부, 록히드와 590억불 규모 계약",
-     "u": "https://marketin.edaily.co.kr/News/ReadE?newsId=02840486645519768",
-     "s": "마켓인"
-    }
-   ]
-  },
-  {
-   "title": "민주당 전당대회",
-   "traffic": "500+",
-   "items": [
-    {
-     "t": "與 당대표 지지율, 정청래",
-     "u": "https://v.daum.net/v/20260731043522633",
-     "s": "Daum"
-    },
-    {
-     "t": "민주당 전대 여론조사 ‘초박빙’",
-     "u": "https://www.hani.co.kr/arti/politics/politics_general/1270812.html",
-     "s": "한겨레"
-    },
-    {
-     "t": "여 대표 정청래 36.9%, 김민석 28.0%///국힘 지지층 정청래 38.7%, 김민석 10.1%",
-     "u": "https://weekly.khan.co.kr/article/202607301056001",
-     "s": "주간경향"
-    }
-   ]
-  },
-  {
-   "title": "aig 여자오픈",
-   "traffic": "500+",
-   "items": [
-    {
-     "t": "유해란, 5언더파 신바람…'메이저 3연승 진군은 시작됐다'",
-     "u": "https://v.daum.net/v/20260731060237299",
-     "s": "Daum"
-    },
-    {
-     "t": "유해란, 메이저 3연승 향해 시동…AIG 여자오픈 첫날 공동 2위",
-     "u": "https://www.yna.co.kr/view/AKR20260731022800007",
-     "s": "연합뉴스"
-    },
-    {
-     "t": "AIG 여자오픈 우승 공식은…‘전초전 톱10’과 ‘퍼팅 이득 타수 2타’",
-     "u": "https://www.sedaily.com/article/20073725",
-     "s": "서울경제"
-    }
-   ]
-  },
-  {
-   "title": "kospi",
+   "title": "인터 마이애미 cf",
    "traffic": "200+",
    "items": [
     {
-     "t": "KOSPI rebounds",
-     "u": "https://en.yna.co.kr/view/PYH20260731064600315?section=image/general",
-     "s": "Yonhap News Agency"
+     "t": "카제미루 입에서 나온 '축구의 신'…'메시를 더 위대하게 만들고 싶다'",
+     "u": "https://www.nocutnews.co.kr/news/6556466",
+     "s": "노컷뉴스"
     },
     {
-     "t": "KOSPI Surges Over 10% in Early Trading... Samsung Electronics and SK Hynix Skyrocket in 20% Range",
-     "u": "https://news.sbs.co.kr/english/article.do?news_id=N1008683941",
-     "s": "news.sbs.co.kr"
+     "t": "'그는 축구의 신이다!' 맨유 떠난 '호날두 전 동료' 카세미루, '레알 시절 숙적' 메시 향한 무한 찬사",
+     "u": "https://biz.chosun.com/sports/football/2026/08/01/MJRGGZLFGY3WMMJZGMZTIMTGGQ/",
+     "s": "Chosunbiz"
     },
     {
-     "t": "Seoul shares open higher on US tech gains driven by Microsoft's strong earnings",
-     "u": "https://www.koreatimes.co.kr/economy/20260731/seoul-shares-open-higher-on-us-tech-gains-driven-by-microsofts-strong-earnings",
-     "s": "The Korea Times"
+     "t": "가족과 '인터 마이애미 합류' 기념 촬영하는 카세미루",
+     "u": "https://mobile.newsis.com/photo/NISI20260731_0002200840",
+     "s": "뉴시스"
+    }
+   ]
+  },
+  {
+   "title": "사마라 위빙",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "‘X",
+     "u": "https://deadline.com/2026/07/x-men-samara-weaving-emma-frost-marvel-studios-1237013568/",
+     "s": "Deadline"
+    },
+    {
+     "t": "Samara Weaving to Play Emma Frost in Marvel’s ‘X",
+     "u": "https://variety.com/2026/film/news/samara-weaving-emma-frost-x-men-reboot-marvel-1236825209/",
+     "s": "Variety"
+    },
+    {
+     "t": "X",
+     "u": "https://www.yahoo.com/entertainment/movies/articles/x-men-reveals-why-margot-195059308.html",
+     "s": "Yahoo"
+    }
+   ]
+  },
+  {
+   "title": "전병우",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "폭염과 싸운 선수들, 얼마나 힘들었으면…3안타 2타점 소감이 '상대도 우리도 어지럼증, 빨리 시원해졌으면'",
+     "u": "https://v.daum.net/v/20260801000507646",
+     "s": "Daum"
+    },
+    {
+     "t": "전병우, 깜짝 솔로포",
+     "u": "https://www.mt.co.kr/sports/2026/07/31/202607311925771357O",
+     "s": "머니투데이"
+    },
+    {
+     "t": "전병우, 홈런 슈트 입었다.",
+     "u": "https://biz.chosun.com/sports/sports_photo/2026/07/31/HEZDQZJWMQYDSOLEGRSTEMJTG4/",
+     "s": "Chosunbiz"
+    }
+   ]
+  },
+  {
+   "title": "서울역",
+   "traffic": "500+",
+   "items": [
+    {
+     "t": "월수금은 서울역, 목금은 청량리역… 지하철역 비둘기 민원 급증 왜?",
+     "u": "https://www.chosun.com/national/national_general/2026/08/01/GIKYG3NU2REQ5GXN4AATWM3F6E/",
+     "s": "조선일보"
+    },
+    {
+     "t": "본격 휴가철 맞은 김해공항 국제선 청사 '북적'",
+     "u": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20260731_0002200739&amp;pID=1&amp;cID=&amp;sID=1&amp;type=photoMain&amp;idx=3",
+     "s": "뉴시스"
+    },
+    {
+     "t": "폭염/고물가도 못막는 휴가길…캐리어 끌고 서울역/인천공항으로 ‘북적’",
+     "u": "https://www.donga.com/news/Society/article/all/20260731/134400218/1",
+     "s": "동아일보"
+    }
+   ]
+  },
+  {
+   "title": "구성환",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "구성환, 집 옥상에 꽃분이 새겼다…펫로스증후군 극복 추모에 '먹먹'",
+     "u": "https://news.nate.com/view/20260801n02615",
+     "s": "네이트"
+    },
+    {
+     "t": "'나혼자산다' 구성환, 김신영/이선민 초대…핑크빛 옥상 공개",
+     "u": "https://v.daum.net/v/20260801051132598",
+     "s": "Daum"
+    },
+    {
+     "t": "'어떤 미친X이 이걸…' 구성환, 이선민 집들이 선물에 경악 '뭐길래?'",
+     "u": "https://www.mt.co.kr/entertainment/2026/08/01/2026080102412237921",
+     "s": "머니투데이"
+    }
+   ]
+  },
+  {
+   "title": "하주석",
+   "traffic": "2000+",
+   "items": [
+    {
+     "t": "하주석 내주고 데려왔는데, KIA 이적생 운마저 안 따른다…이적 후 ERA 32.40, 등판 시점 따져봐야 할 때",
+     "u": "https://v.daum.net/v/20260801054237741",
+     "s": "Daum"
+    },
+    {
+     "t": "‘별거’가 별거 아닌 것처럼…하주석, KIA 이적 후 맹활약",
+     "u": "https://news.kbs.co.kr/news/view.do?ncd=8625483",
+     "s": "KBS 뉴스"
+    },
+    {
+     "t": "이러려고 하주석 광주로 보냈나…트레이드 필승맨 또 0이닝 1실점 강판, 한화 이적→ERA 32.40 어쩌나",
+     "u": "https://www.osen.co.kr/article/G1112850431",
+     "s": "OSEN"
+    }
+   ]
+  },
+  {
+   "title": "한국여자바둑리그",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "'무패 소녀' 정유진, 철원한탄강 주상절리길 승리 견인",
+     "u": "https://www.cyberoro.com/news/news_view.oro?num=532681",
+     "s": "사이버오로"
     }
    ]
   }
  ],
- "ent": [],
+ "ent": [
+  {
+   "t": "오마이걸 미미, 11년 만에 솔로 데뷔…20일 첫 싱글",
+   "u": "https://www.yna.co.kr/view/AKR20260801027800005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "BTS 지민 '후', 스포티파이 25억 스트리밍",
+   "u": "https://www.yna.co.kr/view/AKR20260801027400005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "육아휴직 마치고 킬러 복귀한 공효진…'유부녀 킬러' 7.4% 출발",
+   "u": "https://www.yna.co.kr/view/AKR20260801026100005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "캣츠아이/코르티스, 빌보드 '21세 이하 리더' 선정",
+   "u": "https://www.yna.co.kr/view/AKR20260801026500005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "캣츠아이 '애니멀' 英 싱글 16위…하이브 걸그룹 협업곡 79위",
+   "u": "https://www.yna.co.kr/view/AKR20260801023900005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "'스파이더맨 4' 200만명 돌파…'호프' 넘어 올해 가장 빠른 속도",
+   "u": "https://www.yna.co.kr/view/AKR20260801022900005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "\"오디세이 아이맥스 1장 10만원\"…대작 때면 등장하는 영화 암표",
+   "u": "https://www.yna.co.kr/view/AKR20260801001300005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "서경덕 \"BTS '그래미 보이콧' 반향…그래미, 제도 개선 나서야\"",
+   "u": "https://www.yna.co.kr/view/AKR20260731151300371",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "의대생 누나의 갑작스러운 조현병 증상…이후 25년 기록한 동생",
+   "u": "https://www.yna.co.kr/view/AKR20260731159300005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "'스파이더맨4', 북미 박스오피스서 시사회 흥행성적 역대 최고",
+   "u": "https://www.yna.co.kr/view/AKR20260801003100075",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "김고은, 제5회 청룡시리즈어워즈 대상…\"매 작품 절실해\"",
+   "u": "https://www.yna.co.kr/view/AKR20260731174700005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "KBS 이사회, 8인 체제로 출범…'2개월 임기' 이사장에 정재권",
+   "u": "https://www.yna.co.kr/view/AKR20260731163000005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "시청자미디어재단, 노인 미디어 일자리 우수모델 '최우수상'",
+   "u": "https://www.yna.co.kr/view/AKR20260731158800017",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "엔믹스, 12월 일본서 정식 데뷔…베스트 앨범 발매",
+   "u": "https://www.yna.co.kr/view/AKR20260731152200005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "빅히트 뮤직 김현정 부대표, 빌보드 '40대 미만 리더' 선정",
+   "u": "https://www.yna.co.kr/view/AKR20260731149100005",
+   "s": "연합뉴스"
+  }
+ ],
  "tech": [
   {
-   "t": "알티베이스, '육군 SW 개발자 콘퍼런스' 참여",
-   "u": "https://zdnet.co.kr/view/?no=20260730224049",
+   "t": "AI에게 자판기 운영 맡겼더니 6번 다 담합…5는 배신/거짓말까지",
+   "u": "https://zdnet.co.kr/view/?no=20260801104324",
    "s": "ZDNet"
   },
   {
-   "t": "xAI, 美 미네소타주 상대 소송…\"딥페이크 금지법은 위헌\"",
-   "u": "https://zdnet.co.kr/view/?no=20260730222507",
+   "t": "美 상원 6인, 애플에 \"중국산 메모리 쓰지마\"…SK하이닉스 미국 공장도 근거로",
+   "u": "https://zdnet.co.kr/view/?no=20260801104239",
    "s": "ZDNet"
   },
   {
-   "t": "'손바닥에 쏙' 갤럭시Z폴드8 써보니…외신이 꼽은 장단점",
-   "u": "https://zdnet.co.kr/view/?no=20260730092345",
+   "t": "CCTV+: 베이징 타임: 베이징의 리듬으로 보내는 하루",
+   "u": "https://zdnet.co.kr/view/?no=20260801101003",
    "s": "ZDNet"
   },
   {
-   "t": "AI 다음 대장주는 누구",
-   "u": "https://zdnet.co.kr/view/?no=20260730102740",
+   "t": "영업비밀 관리 첫걸음",
+   "u": "https://zdnet.co.kr/view/?no=20260801095458",
    "s": "ZDNet"
   },
   {
-   "t": "최태원 회장, SK하이닉스 지분 3620주 매수…기업가치 제고 의지",
-   "u": "https://zdnet.co.kr/view/?no=20260730185958",
+   "t": "산업AI 승부처, 플랫폼 엔지니어링",
+   "u": "https://zdnet.co.kr/view/?no=20260801093832",
    "s": "ZDNet"
   },
   {
-   "t": "이영섭 뉴스1 대표 모친상",
-   "u": "https://zdnet.co.kr/view/?no=20260730182405",
+   "t": "가상현실과 신경 윤리",
+   "u": "https://zdnet.co.kr/view/?no=20260801092328",
    "s": "ZDNet"
   },
   {
-   "t": "중복 편성률 98%...케이블TV \"채널 선택권 달라\"",
-   "u": "https://zdnet.co.kr/view/?no=20260730175037",
+   "t": "美 의회, 중국AI 단속 시동…최대 배달플랫폼에 서한",
+   "u": "https://zdnet.co.kr/view/?no=20260801084542",
    "s": "ZDNet"
   },
   {
-   "t": "넷플릭스 '동궁' 배경화면, 삼성 갤럭시스토어에서 무료",
-   "u": "https://zdnet.co.kr/view/?no=20260730175921",
+   "t": "장시간 에어컨 바람에 노출된 ‘눈’…\"안구건조증 주의해야\"",
+   "u": "https://zdnet.co.kr/view/?no=20260728092038",
    "s": "ZDNet"
   },
   {
-   "t": "한국은행, 프로젝트 아고라 테스트 완료…토큰화 지급준비금 발행부터 상환까지",
-   "u": "https://zdnet.co.kr/view/?no=20260730163359",
+   "t": "'평가'에서 '성장 관리'로...10배 도약 이끄는 GDR 프레임워크",
+   "u": "https://zdnet.co.kr/view/?no=20260731163016",
    "s": "ZDNet"
   },
   {
-   "t": "무탠다드 가격 인상 카드 ‘만지작’…타 SPA 브랜드는 신중모드",
-   "u": "https://zdnet.co.kr/view/?no=20260730170510",
+   "t": "챗GPT/로블록스, EU 최고 강도 규제 대상 되나…이르면 8월 지정 전망",
+   "u": "https://zdnet.co.kr/view/?no=20260801082101",
    "s": "ZDNet"
   },
   {
-   "t": "대전시, 국가 반도체 종합 연구소 구축 '공식화'",
-   "u": "https://zdnet.co.kr/view/?no=20260730174221",
+   "t": "영화 '호프', 호불호 갈려도 흥행가도...신드롬 어디서왔나",
+   "u": "https://zdnet.co.kr/view/?no=20260731172602",
    "s": "ZDNet"
   },
   {
-   "t": "이준희 삼성SDS 대표 \"AI 풀스택으로 미래 성장 기회 선점\"",
-   "u": "https://zdnet.co.kr/view/?no=20260730155717",
+   "t": "구글 AI 에이전트 '제미나이 스파크', 韓서 통할까",
+   "u": "https://zdnet.co.kr/view/?no=20260730180250",
    "s": "ZDNet"
   },
   {
-   "t": "미 간호사들, 'AI 감시'로 곤혹...\"생산성 향상/비용절감에만 눈 멀어\"",
-   "u": "https://zdnet.co.kr/view/?no=20260730172508",
+   "t": "\"대낮에 포착된 찰나의 순간…ISS, 금성 곁 스쳤다\"",
+   "u": "https://zdnet.co.kr/view/?no=20260801061813",
    "s": "ZDNet"
   },
   {
-   "t": "전주대학교, '제4회 국제 게임 잼 코리아' 성료…5개 팀 수상 영예",
-   "u": "https://zdnet.co.kr/view/?no=20260730172926",
+   "t": "K배터리, ESS 사업 본궤도…‘AI데이터센터’로 가속 목표",
+   "u": "https://zdnet.co.kr/view/?no=20260731114615",
    "s": "ZDNet"
   },
   {
-   "t": "승진은 나란히 책임은 제각각…한화 3형제 '경영 시험대' 2막",
-   "u": "https://zdnet.co.kr/view/?no=20260730145048",
+   "t": "슈퍼마이크로, 정밀 설계된 AI 랙 시리즈로 DCBBS 확장하며 배포 및 온라인 가동 시간 단축",
+   "u": "https://zdnet.co.kr/view/?no=20260801001024",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "2026년 하반기 고구마팜 에디터를 모집합니다",
+   "u": "https://gogumafarm.kr/2026-%ed%95%98%eb%b0%98%ea%b8%b0-%ea%b3%a0%ea%b5%ac%eb%a7%88%ed%8c%9c-%ec%97%90%eb%94%94%ed%84%b0%eb%a5%bc-%eb%aa%a8%ec%a7%91%ed%95%a9%eb%8b%88%eb%8b%a4/",
+   "s": "고구마팜"
+  },
   {
    "t": "오늘의 뉴스클리핑과 커머스 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-156/",
@@ -219,11 +353,6 @@
   {
    "t": "1인 3채널 운영, 우당탕탕 쌓아온 것들",
    "u": "https://gogumafarm.kr/1%ec%9d%b8-3%ec%b1%84%eb%84%90-%ec%9a%b4%ec%98%81-%ec%9a%b0%eb%8b%b9%ed%83%95%ed%83%95-%ec%8c%93%ec%95%84%ec%98%a8-%ea%b2%83%eb%93%a4-%ec%82%ac%eb%82%b4%eb%b7%b0%ea%b3%b5%ec%97%85-%ec%9d%b8%ed%84%b0/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "오늘의 뉴스클리핑과 AI 트렌드",
-   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-ai-%ed%8a%b8%eb%a0%8c%eb%93%9c-51/",
    "s": "고구마팜"
   }
  ]
