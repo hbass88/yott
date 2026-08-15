@@ -1,267 +1,298 @@
 {
- "updated": "2026-08-14T01:39:57.164Z",
+ "updated": "2026-08-15T01:01:51.538Z",
  "trends": [
   {
-   "title": "로스앤젤레스 레이커스",
+   "title": "장윤정",
+   "traffic": "2000+",
+   "items": [
+    {
+     "t": "‘자식 농사 대박’ 장윤정…첫째 워싱턴대 졸업 이어 둘째는 영국 대학 합격",
+     "u": "https://www.segye.com/newsView/20260812517522",
+     "s": "세계일보"
+    },
+    {
+     "t": "장윤정, 둘째 딸 영국 유학 보낸다… '원하는 대학 합격 축하해'",
+     "u": "https://www.hankookilbo.com/news/article/A2026081214250004102",
+     "s": "한국일보"
+    },
+    {
+     "t": "장윤정 집안 경사났네! 둘째 딸, 영국 대학 합격…직접 차린 축하상까지",
+     "u": "https://www.xportsnews.com/article/2182772",
+     "s": "엑스포츠뉴스"
+    }
+   ]
+  },
+  {
+   "title": "소방관",
+   "traffic": "500+",
+   "items": [
+    {
+     "t": "경상/전남 가뭄 피해 지원에 군 급수지원 차량 115대 투입",
+     "u": "https://www.korea.kr/news/policyNewsView.do?newsId=148970116&amp;pWise=sub&amp;pWiseSub=C3",
+     "s": "대한민국 정책브리핑"
+    },
+    {
+     "t": "국가소방동원령 연장 이틀째…군 차량 102대 경남 가뭄현장 투입",
+     "u": "https://v.daum.net/v/20260815094657496",
+     "s": "Daum"
+    },
+    {
+     "t": "농업용수 ‘한 방울이라도’…하천수 굴착까지",
+     "u": "https://news.kbs.co.kr/news/view.do?ncd=8637631",
+     "s": "KBS 뉴스"
+    }
+   ]
+  },
+  {
+   "title": "메이저 리그 사커",
    "traffic": "100+",
    "items": [
     {
-     "t": "LA 레이커스, 18조원에 팔렸다",
-     "u": "https://www.chosun.com/sports/basketball/2026/08/14/KGXR3GKKKNF2TE7UMYBGMFYWVA/",
-     "s": "조선일보"
+     "t": "MLS, ‘은퇴 리그’서 특급 스타들 ‘핫 리그’로 떠올라",
+     "u": "https://www.donga.com/news/Sports/article/all/20260814/134475791/2",
+     "s": "동아일보"
     },
     {
-     "t": "오타니가 다시 FA로 풀린다고?…다저스 9942억 초대형 계약 뒤흔들 '키맨 조항' 재조명",
-     "u": "https://www.mt.co.kr/sports/2026/08/14/202608140724778708O",
-     "s": "머니투데이"
+     "t": "손흥민 오고 MLS에 슈퍼스타 모인다…37살 산체스도 미국 진출! 몽레알 No.10으로 합류",
+     "u": "https://sports.news.nate.com/view/20260813n25987",
+     "s": "네이트"
     },
     {
-     "t": "트럼프 사위의 동생, LA 레이커스 18조원에 인수",
-     "u": "https://v.daum.net/v/20260814043457784",
-     "s": "Daum"
+     "t": "‘SON, 나도 미국 왔어’ 칠레 레전드 MLS 상륙///“알렉시스 산체스, 몽레알과 2년 계약”",
+     "u": "https://sports.khan.co.kr/article/202608110906003",
+     "s": "스포츠경향"
     }
    ]
   },
   {
-   "title": "한고은",
+   "title": "이지혜",
    "traffic": "200+",
    "items": [
     {
-     "t": "신영수, ♥한고은 모델 변신에 감탄 “패션의 완성은 얼굴/몸매///뼈말라 느낌 나”('고은언니 한고은')",
-     "u": "https://biz.chosun.com/entertainment/enter_general/2026/08/14/GYYWEMJWGY3DMNBVHAYGGYTFGM/",
-     "s": "Chosunbiz"
-    },
-    {
-     "t": "'33년째 52kg' 한고은, 기피하는 옷 공개 '마르지 않으면 입지 마'('고은언니 한고은')",
-     "u": "http://www.osen.co.kr/article/G1112856659",
-     "s": "OSEN"
-    },
-    {
-     "t": "신영수, ♥한고은 모델 변신에 감탄 '패션의 완성은 얼굴/몸매///뼈말라 느낌 나'('고은언니 한고은')",
-     "u": "https://news.nate.com/view/20260814n03802",
-     "s": "네이트"
-    }
-   ]
-  },
-  {
-   "title": "미스트롯 포유",
-   "traffic": "500+",
-   "items": [
-    {
-     "t": "이소나 울리는 게 특기, 현장 또 눈물바다 (미스트롯 포유)",
-     "u": "https://sports.donga.com/ent/article/all/20260813/134469599/1",
-     "s": "스포츠동아"
-    },
-    {
-     "t": "眞 이소나, 객석 오열 만든 열창…박성호 '영원한 팬 되기로 마음 먹어' (미스트롯 포유)",
-     "u": "https://biz.chosun.com/entertainment/tv/2026/08/13/HFTDIYRZGFQTOMZXG4ZTMMJZGM/",
-     "s": "Chosunbiz"
-    },
-    {
-     "t": "‘전 재산 기부’ 폭탄 선언까지…‘미스트롯 포유’ 오늘 밤 1점 차 초접전 결승",
-     "u": "https://v.daum.net/v/20260813183809441",
-     "s": "Daum"
-    }
-   ]
-  },
-  {
-   "title": "경부고속도로",
-   "traffic": "500+",
-   "items": [
-    {
-     "t": "경부고속도로서 버스 2대 충돌…8명 부상",
-     "u": "https://news.kbs.co.kr/news/view.do?ncd=8635246",
-     "s": "KBS 뉴스"
-    },
-    {
-     "t": "경부고속도로 양재IC 인근 버스 2대 추돌‥5명 경상",
-     "u": "https://imnews.imbc.com/news/2026/society/article/6844296_36918.html",
-     "s": "MBC 뉴스"
-    },
-    {
-     "t": "경부고속도로 양재 부근 버스 추돌사고 발생",
-     "u": "https://www.etoday.co.kr/news/view/2613721",
-     "s": "이투데이"
-    }
-   ]
-  },
-  {
-   "title": "오디세이",
-   "traffic": "1000+",
-   "items": [
-    {
-     "t": "아이맥스 찾아 서울서 대전까지... ‘오디세이’ 원정 떠나는 관람객들",
-     "u": "https://www.chosun.com/national/national_general/2026/08/14/C2QSL5LNMZBZBKYVX5UO4ACSQM/",
-     "s": "조선일보"
-    },
-    {
-     "t": "영화가 깨운 2800년 전 고전…'오디세이아' 8위",
-     "u": "https://www.newsis.com/view/NISX20260813_0003748384",
+     "t": "유리, 남편 공개했다",
+     "u": "https://www.newsis.com/view/NISX20260813_0003748545",
      "s": "뉴시스"
     },
     {
-     "t": "‘오디세이’, 개봉 첫 주보다 예매 늘었다",
-     "u": "https://news.kbs.co.kr/news/view.do?ncd=8636902",
-     "s": "KBS 뉴스"
+     "t": "쿨 유리, 미국에서 얼마나 많이 참길래…이지혜 '몸에서 사리 나올 듯' ('관종언니')",
+     "u": "https://v.daum.net/v/20260814075307868",
+     "s": "Daum"
+    },
+    {
+     "t": "쿨 유리, ♥6살 연하 남편과 유튜브 출격..“아이돌이에요?” 이지혜도 감탄",
+     "u": "https://www.osen.co.kr/article/G1112857234",
+     "s": "OSEN"
+    }
+   ]
+  },
+  {
+   "title": "테슬라",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "중국서 안 팔리는 테슬라…상하이 공장 내년 1월 또 감산",
+     "u": "https://news.nate.com/view/20260814n17453",
+     "s": "네이트"
+    },
+    {
+     "t": "테슬라 中 상하이공장, 7개월 만에 작년 수출량 돌파…글로벌 허브 입지 강화",
+     "u": "https://www.theguru.co.kr/news/article.html?no=105863",
+     "s": "더구루"
+    },
+    {
+     "t": "韓 수입차 판매1위 테슬라, 중국선 3년 새 19% 감소",
+     "u": "https://daily.hankooki.com/news/articleView.html?idxno=1393925",
+     "s": "데일리한국"
+    }
+   ]
+  },
+  {
+   "title": "день освобождения кореи",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "Валерий Лимаренко поздравил сахалинских корейцев с днем освобождения Кореи",
+     "u": "https://citysakh.ru/news/129418",
+     "s": "Citysakh"
+    },
+    {
+     "t": "День независимости Кореи и органный фестиваль: что еще ждет сахалинцев на выходных",
+     "u": "https://sakhalinmedia.ru/news/2589215/",
+     "s": "SakhalinMedia"
+    },
+    {
+     "t": "Сахалинцев пригласили на 81",
+     "u": "https://sakh.online/news/18/2026-08-13/v-yuzhno-sahalinske-otmetyat-81-yu-godovschinu-osvobozhdeniya-koreyskogo-poluostrova-522319",
+     "s": "Сахалин"
     }
    ]
   }
  ],
  "ent": [
   {
+   "t": "스키즈 '디스 앤드 댓', 英 싱글 61위/앨범 80위로 데뷔",
+   "u": "https://www.yna.co.kr/view/AKR20260815021100005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "'만세운동 간호사' 박자혜…서경덕/송혜교, 다국어영상 공개",
+   "u": "https://www.yna.co.kr/view/AKR20260814149300371",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "디즈니 \"韓콘텐츠, 아태 넘어 브라질에서도 인기…이유 분석 중\"",
+   "u": "https://www.yna.co.kr/view/AKR20260815006100075",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "BTS 보이콧에 그래미 백기 들었나…\"아시안팝 부문 손질할 수도\"",
+   "u": "https://www.yna.co.kr/view/AKR20260815011600075",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "81년 전 광복, 그날이 오기까지…다큐/예능으로 보는 광복절",
+   "u": "https://www.yna.co.kr/view/AKR20260814148900005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "서경덕, 하영 '현대판 연좌제' 日언론에 \"비판할 자격 있나\"",
+   "u": "https://www.yna.co.kr/view/AKR20260814116100371",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "넷플릭스서 '디 워' 역주행…심형래 \"이무기야말로 K",
+   "u": "https://www.yna.co.kr/view/AKR20260814112900005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "웨이브, 4년 만에 '레벨업 프로젝트' 시즌6 공개",
+   "u": "https://www.yna.co.kr/view/AKR20260814101200005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "존박 \"아이돌이 길 튼 K팝, 오래가려면 인디도 함께 나가야\"",
+   "u": "https://www.yna.co.kr/view/AKR20260814086000072",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "BTS, 미국인 10명 중 4명 이상이 안다…호감도는 46%",
+   "u": "https://www.yna.co.kr/view/AKR20260814073100005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "라이벌 구단 야구 팬들의 로맨스…'원수는 외야석에서' 9월 공개",
+   "u": "https://www.yna.co.kr/view/AKR20260814063300005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "이미자 '동백아가씨'부터 BTS까지…\"K팝, 플랫폼으로 확장\"",
+   "u": "https://www.yna.co.kr/view/AKR20260814070800005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "지드래곤 소속사, 저스피스재단에 5억원 기부",
+   "u": "https://www.yna.co.kr/view/AKR20260814059700005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "김민희/홍상수, 득남 후 첫 공식석상…\"아기 수유하며 촬영\"(종합)",
+   "u": "https://www.yna.co.kr/view/AKR20260814030551005",
+   "s": "연합뉴스"
+  },
+  {
    "t": "2027∼2028 공익/장애인복지채널 뽑는다",
    "u": "https://www.yna.co.kr/view/AKR20260814056000017",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "캣츠아이, 미니 3집 '와일드'…방시혁/에드 시런 프로듀싱 참여",
-   "u": "https://www.yna.co.kr/view/AKR20260814051900005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "빅뱅, 우주항공청 얼굴 됐다…초대 홍보대사 위촉",
-   "u": "https://www.yna.co.kr/view/AKR20260814044900005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "'오디세이' 연휴에도 독주 예고…300만 돌파",
-   "u": "https://www.yna.co.kr/view/AKR20260814040700005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "뉴진스 해린, 소속사 복귀 후 첫 개인 활동…잡지 표지 모델",
-   "u": "https://www.yna.co.kr/view/AKR20260814029300005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "김민희, 득남 후 첫 공식석상…홍상수와 로카르노영화제 참석",
-   "u": "https://www.yna.co.kr/view/AKR20260814030500005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "부산국제영화제 산파 김동호 '한국영화공로상' 받는다",
-   "u": "https://www.yna.co.kr/view/AKR20260814027800051",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "서도밴드 \"한국인의 恨 담은 음악, 그게 '조선팝' 이죠\"",
-   "u": "https://www.yna.co.kr/view/AKR20260811144400005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "이준익 감독 숏드라마 '아버지의 집밥' 내달 9일 개봉",
-   "u": "https://www.yna.co.kr/view/AKR20260813156600005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "BTS '페이크 러브' 뮤직비디오 14억뷰…팀 통산 여섯 번째",
-   "u": "https://www.yna.co.kr/view/AKR20260813152400005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "故안판석 감독 추모 물결…김혜수 \"연출자로 마지막 삶까지 바쳐\"",
-   "u": "https://www.yna.co.kr/view/AKR20260813088100005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "전현무, SBS '나고야 아시안게임' 중계",
-   "u": "https://www.yna.co.kr/view/AKR20260813135900005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "채영, 정연 이어 JYP 떠난다…\"트와이스 활동은 계속\"",
-   "u": "https://www.yna.co.kr/view/AKR20260813114800005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "김혜수 \"화려함 속 '치열한 가장' 연기…독특한 대본에 끌렸죠\"",
-   "u": "https://www.yna.co.kr/view/AKR20260813128800005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "케이블TV SO, PP 채널사용료 '전년도 80%' 매년 보장",
-   "u": "https://www.yna.co.kr/view/AKR20260813129000017",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "아이폰 울트라 공급 부족…국가별 순차 출시될까",
-   "u": "https://zdnet.co.kr/view/?no=20260814081617",
+   "t": "BIC 2026, 글로벌 마케팅 지원 사업 '빅잼' 5기 12개작 선정",
+   "u": "https://zdnet.co.kr/view/?no=20260815005529",
    "s": "ZDNet"
   },
   {
-   "t": "지슨, 2분기 흑자 전환...상반기 매출 51% 증가",
-   "u": "https://zdnet.co.kr/view/?no=20260814082812",
+   "t": "아이유노, 일관된 콘텐츠 워크플로 위한 멀티에이전트 AI 시스템 CLOE의 기반 아키텍처 공개",
+   "u": "https://zdnet.co.kr/view/?no=20260815011003",
    "s": "ZDNet"
   },
   {
-   "t": "독파모 2차 결과 발표 임박…AI 업계 '초긴장', 관전 포인트는",
-   "u": "https://zdnet.co.kr/view/?no=20260813172911",
+   "t": "최태원, 9440억원 재산분할 불복…노소영과 다시 대법 간다",
+   "u": "https://zdnet.co.kr/view/?no=20260815002420",
    "s": "ZDNet"
   },
   {
-   "t": "LG전자, 소중한 것에 마음을 쓸 수 있도록 돕는 2026 라이프스 굿 캠페인 발표",
-   "u": "https://zdnet.co.kr/view/?no=20260814031003",
+   "t": "화웨이, 아시아•태평양 산업 전반의 지능화 추진 위해 '안전하고 지능적인 연결성' 철학을 바탕으로 업그레이드된 Xinghe Intelligent Network 공개",
+   "u": "https://zdnet.co.kr/view/?no=20260815001007",
    "s": "ZDNet"
   },
   {
-   "t": "\"벤처투자 손쉽게\"...중기부, 1조 규모 'LP성장펀드' 결성",
-   "u": "https://zdnet.co.kr/view/?no=20260813233849",
+   "t": "콴타 컴퓨터와 퀀티넘, 대규모 양자 컴퓨팅 위한 산업 기반 구축을 위해 파트너십 체결",
+   "u": "https://zdnet.co.kr/view/?no=20260814231002",
    "s": "ZDNet"
   },
   {
-   "t": "넥스터즈, 글로벌 DTC 지원 파트너로 아가님 선정",
-   "u": "https://zdnet.co.kr/view/?no=20260813231003",
+   "t": "국토교통부",
+   "u": "https://zdnet.co.kr/view/?no=20260814195852",
    "s": "ZDNet"
   },
   {
-   "t": "김재수 전 KISTI 원장, 연구자→기관장→교수→벤처 대표로 변신",
-   "u": "https://zdnet.co.kr/view/?no=20260813222523",
+   "t": "GPT",
+   "u": "https://zdnet.co.kr/view/?no=20260814194946",
    "s": "ZDNet"
   },
   {
-   "t": "페이스북, 크리에이터 전용 앱 출시…AI가 댓글 읽고 답글 초안까지 만든다",
-   "u": "https://zdnet.co.kr/view/?no=20260813214111",
+   "t": "가성비 AI의 반격…딥시크, 에이전트 특화 'V4",
+   "u": "https://zdnet.co.kr/view/?no=20260814194854",
    "s": "ZDNet"
   },
   {
-   "t": "ADFW 2026, 1차 주요 연사 명단 공개... 세계 자본 커뮤니티를 아부다비로 불러 모은다",
-   "u": "https://zdnet.co.kr/view/?no=20260813211003",
+   "t": "AI, 문 열어줘야 할까",
+   "u": "https://zdnet.co.kr/view/?no=20260814100111",
    "s": "ZDNet"
   },
   {
-   "t": "양자포럼/양자협회, 양자 '씨앗 R&D' 선정에 이례적 \"환영\"",
-   "u": "https://zdnet.co.kr/view/?no=20260813210229",
+   "t": "현대오토에버, 상반기 매출 2.2조 돌파…SI 부문 26% 급성장",
+   "u": "https://zdnet.co.kr/view/?no=20260814185634",
    "s": "ZDNet"
   },
   {
-   "t": "오픈AI, 챗GPT 광고 시범 도입…한국 포함 5개국에서 시작",
-   "u": "https://zdnet.co.kr/view/?no=20260813204559",
+   "t": "빌 게이츠는 왜 韓 SMR 공급망을 택했나",
+   "u": "https://zdnet.co.kr/view/?no=20260814172114",
    "s": "ZDNet"
   },
   {
-   "t": "KAIST, \"반도체 PDN 데이터 695분의 1로 압축…저장용량 해결\"",
-   "u": "https://zdnet.co.kr/view/?no=20260813103305",
+   "t": "아트블러드, 중기부 스케일업 팁스 선정…인공 적혈구 임상 본격화",
+   "u": "https://zdnet.co.kr/view/?no=20260814182512",
    "s": "ZDNet"
   },
   {
-   "t": "탱크부대가 드론에 졌다고",
-   "u": "https://zdnet.co.kr/view/?no=20260813094848",
+   "t": "중국 AI에서 글로벌 ETF까지: 스타트레이더(STARTRADER), 7개 시장 테마를 아우르는 45종의 신규 24/7 주식 및 ETF CFD 출시",
+   "u": "https://zdnet.co.kr/view/?no=20260814181003",
    "s": "ZDNet"
   },
   {
-   "t": "무인이동체/국방 AI/안티드론/무인이동체 한자리에 모인다",
-   "u": "https://zdnet.co.kr/view/?no=20260813191851",
+   "t": "'K",
+   "u": "https://zdnet.co.kr/view/?no=20260814174410",
    "s": "ZDNet"
   },
   {
-   "t": "SDR에 쏠린 시선...마크애니, ‘ISEC 2026’ 참가 성료",
-   "u": "https://zdnet.co.kr/view/?no=20260813180900",
+   "t": "삼성SDS, 상반기 영업익 전년比 37%↓…연구개발비도 줄었다",
+   "u": "https://zdnet.co.kr/view/?no=20260814175520",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "오늘의 뉴스클리핑과 커머스 트렌드",
+   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-158/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "맛집러버/자취생/다이어터… 다양한 라이프스타일을 충족시킬 푸드 크리에이터 모음!",
+   "u": "https://gogumafarm.kr/%eb%a7%9b%ec%a7%91%eb%9f%ac%eb%b2%84%c2%b7%ec%9e%90%ec%b7%a8%ec%83%9d%c2%b7%eb%8b%a4%ec%9d%b4%ec%96%b4%ed%84%b0-%eb%8b%a4%ec%96%91%ed%95%9c-%eb%9d%bc%ec%9d%b4%ed%94%84%ec%8a%a4%ed%83%80/",
+   "s": "고구마팜"
+  },
   {
    "t": "오늘의 뉴스클리핑과 영상/캠페인 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%98%81%ec%83%81-%ec%ba%a0%ed%8e%98%ec%9d%b8-%ed%8a%b8%eb%a0%8c%eb%93%9c-155/",
@@ -290,16 +321,6 @@
   {
    "t": "오늘의 뉴스클리핑과 매체/퍼포먼스 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%eb%a7%a4%ec%b2%b4-%ed%8d%bc%ed%8f%ac%eb%a8%bc%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-113/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "오늘의 뉴스클리핑과 커머스 트렌드",
-   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-157/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "디테일로 승부 본다! 인기 IP의 오프라인 경험 설계 전략 총정리",
-   "u": "https://gogumafarm.kr/%eb%94%94%ed%85%8c%ec%9d%bc%eb%a1%9c-%ec%8a%b9%eb%b6%80-%eb%b3%b8%eb%8b%a4-%ec%9d%b8%ea%b8%b0-ip%ec%9d%98-%ec%98%a4%ed%94%84%eb%9d%bc%ec%9d%b8-%ea%b2%bd%ed%97%98-%ec%84%a4%ea%b3%84-%ec%a0%84%eb%9e%b5/",
    "s": "고구마팜"
   }
  ]
