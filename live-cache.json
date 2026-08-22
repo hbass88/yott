@@ -1,335 +1,225 @@
 {
- "updated": "2026-08-21T01:04:42.405Z",
+ "updated": "2026-08-22T01:01:09.825Z",
  "trends": [
   {
-   "title": "한국 영화",
+   "title": "대치동은마아파트",
    "traffic": "500+",
    "items": [
     {
-     "t": "얼마만이냐, 한국영화 풍년…추석 시즌은 5편 ‘집안 싸움’",
-     "u": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1600&amp;key=20260820.22014005440",
-     "s": "국제신문"
-    },
-    {
-     "t": "누군가 망한다…9월 한국영화 6편 박터지는 흥행 경쟁",
-     "u": "https://www.newsis.com/view/NISX20260820_0003756296",
-     "s": "뉴시스"
-    },
-    {
-     "t": "韓영화 살릴 구세주…류승룡/최민식/유해진, 가을에 뜬 ‘천만’ 배우들",
-     "u": "https://v.daum.net/v/5TdQih9Usq",
+     "t": "재건축 속도 붙었는데 31억원대 매물 쌓이는 대치 은마…강남권 하락폭도 커져",
+     "u": "https://v.daum.net/v/20260821171549968",
      "s": "Daum"
+    },
+    {
+     "t": "'대치동 떠날 수가 없는데'…강남 집주인들 '초비상' 걸린 이유",
+     "u": "https://www.hankyung.com/article/2026081411596",
+     "s": "한국경제"
+    },
+    {
+     "t": "은마아파트 일부 세입자 '이사비+α 필요'…조합 '버티면 소송'",
+     "u": "https://news.nate.com/view/20260819n21282",
+     "s": "네이트"
     }
    ]
   },
   {
-   "title": "한국형 차기 구축함",
-   "traffic": "1000+",
-   "items": [
-    {
-     "t": "전투체계/레이다/유도탄 국산화…첫 이지스함 시험대 : 네이버 블로그",
-     "u": "https://blog.naver.com/PostView.naver?blogId=dealsite&amp;logNo=224384621874&amp;redirect=Dlog",
-     "s": "Naver Blog"
-    },
-    {
-     "t": "설계/건조 이원화…핵심 장비는 '한화'로",
-     "u": "https://dealsite.co.kr/articles/167495",
-     "s": "딜사이트"
-    },
-    {
-     "t": "전투체계/레이다/유도탄 국산화…첫 이지스함 시험대",
-     "u": "https://dealsite.co.kr/articles/167427",
-     "s": "딜사이트"
-    }
-   ]
-  },
-  {
-   "title": "국민임대주택",
-   "traffic": "500+",
-   "items": []
-  },
-  {
-   "title": "band",
+   "title": "미인 대회",
    "traffic": "100+",
    "items": [
     {
-     "t": "Netflix sued by band Demon Hunter over 'KPop Demon Hunters'",
-     "u": "https://www.reuters.com/legal/legalindustry/netflix-sued-by-band-demon-hunter-over-kpop-demon-hunters-2026-08-19/",
-     "s": "Reuters"
+     "t": "2026년 미스 월드 톱 40에 진출한 최초의 미인 대회 우승자.",
+     "u": "https://www.vietnam.vn/ko/nguoi-dep-dau-tien-vao-top-40-hoa-hau-the-gioi-2026",
+     "s": "Vietnam.vn"
     },
     {
-     "t": "Christian metal band sues Netflix over KPop Demon Hunters name",
-     "u": "https://www.theguardian.com/film/2026/aug/19/kpop-demon-hunters-netflix-lawsuit",
-     "s": "The Guardian"
+     "t": "미스 월드 2026 탑 40에 진출한 첫 번째 참가자 공개, 바오 응옥 첫 승리",
+     "u": "https://ko.laodong.vn/van-hoa-giai-tri/lo-dien-thi-sinh-dau-tien-vao-top-40-miss-world-2026-bao-ngoc-co-chien-thang-dau-1753747.ldo",
+     "s": "Laodong.vn"
     },
     {
-     "t": "Christian band Demon Hunter files trademark lawsuit against Netflix over 'consumer confusion'",
-     "u": "https://www.latimes.com/entertainment-arts/story/2026-08-19/christian-band-demon-hunter-kpop-demon-hunters-trademark-lawsuit-netflix",
-     "s": "Los Angeles Times"
+     "t": "베트남 미녀가 세계에서 가장 아름다운 미스 두 명과 함께 자신의 몸매를 뽐내고 있다.",
+     "u": "https://www.vietnam.vn/ko/my-nhan-viet-do-dang-cung-hai-hoa-hau-dep-nhat-the-gioi",
+     "s": "Vietnam.vn"
     }
    ]
   },
   {
-   "title": "엘레나 리바키나",
+   "title": "무궁화호",
    "traffic": "200+",
    "items": [
     {
-     "t": "사발렌카 조기 탈락...리바키나, ‘카자흐스탄 최초 세계 1위’까지 단 2승",
-     "u": "https://www.tennis.co.kr/news/articleView.html?idxno=53501",
-     "s": "테니스코리아"
+     "t": "KTX가 점령한 철길, 무궁화호 운행 줄어… 지역 주민은 발동동",
+     "u": "https://www.chosun.com/national/transport-environment/2026/08/22/3JDS5OSLTFE7NNMIUA3BV4LXMI/",
+     "s": "조선일보"
     },
     {
-     "t": "'세계 2위' 리바키나, 신시내티 오픈 부상으로 기권",
-     "u": "https://www.gukjenews.com/news/articleView.html?idxno=3670466",
-     "s": "국제뉴스"
-    },
-    {
-     "t": "세계 1위 사발렌카, 3개 대회 연속 16강 탈락…20세 사라 베일렉(체코) 돌풍에 '와르르~'",
-     "u": "https://v.daum.net/v/20260820140153837",
-     "s": "Daum"
-    }
-   ]
-  },
-  {
-   "title": "교통 사고",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "'이러다 죽어' 함소원, 사고 후 의식 불명…중환자실서 깨어났다",
-     "u": "https://www.mt.co.kr/entertainment/2026/08/20/2026082017482181676",
-     "s": "머니투데이"
-    },
-    {
-     "t": "함소원, 前남편과 재결합 실패 후 교통사고..'9살 딸에 기저귀 찬 모습 보여주기 싫어'",
-     "u": "https://v.daum.net/v/20260820164352269",
-     "s": "Daum"
-    },
-    {
-     "t": "‘골반부상’ 함소원 “눈 떠 보니 중환자실… 딸 스파게티 먹이려 일어났다” 눈물겨운 모성애",
-     "u": "https://sports.khan.co.kr/article/202608201629003",
-     "s": "스포츠경향"
-    }
-   ]
-  },
-  {
-   "title": "국립오페라단",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "고위공직자 73명 재산공개…박혜진 국립오페라단장 465억 최다",
-     "u": "https://v.daum.net/v/20260821000153930",
-     "s": "Daum"
-    },
-    {
-     "t": "고위공직 73명 재산공개…박혜진 국립오페라단 단장 465억 최다",
-     "u": "https://www.yonhapnewstv.co.kr/news/AKR202608201754056gm",
-     "s": "연합뉴스TV"
-    },
-    {
-     "t": "나승철 총리실 민정실장 27억 재산 신고///박혜진 국립오페라단장 465억 최다",
-     "u": "https://www.khan.co.kr/article/202608210000001",
-     "s": "경향신문"
-    }
-   ]
-  },
-  {
-   "title": "택시",
-   "traffic": "5000+",
-   "items": [
-    {
-     "t": "‘택시 기다리는 건 옛말’ 99.4% 지역서 카카오T 등 수요응답형 택시 달린다",
-     "u": "https://v.daum.net/v/20260821060217561",
-     "s": "Daum"
-    },
-    {
-     "t": "'플랫폼 택시, 국내 첨단모빌리티 중 도입률/만족도 1위'",
-     "u": "https://www.yna.co.kr/view/AKR20260820151600003",
-     "s": "연합뉴스"
-    },
-    {
-     "t": "'부르면 오는 교통' 전국으로…택시형 DRT 도입률 99.4%",
-     "u": "https://www.newspim.com/news/view/20260820001044",
-     "s": "뉴스핌"
-    }
-   ]
-  },
-  {
-   "title": "디즈니+",
-   "traffic": "1000+",
-   "items": [
-    {
-     "t": "디즈니+ 8월 셋째 주 컬렉션",
-     "u": "https://v.daum.net/v/20260821095409319",
-     "s": "Daum"
-    },
-    {
-     "t": "누구에게 포커스를 둘지부터 생각한다, 시즌2 프라이머리 음악감독",
-     "u": "https://cine21.com/news/view/?mag_id=110547",
-     "s": "씨네21"
-    },
-    {
-     "t": "“열연하더니!”…‘킬러들의 쇼핑몰 시즌2’ 정윤하, 출연자 화제성 부문 1위",
-     "u": "https://www.sportsseoul.com/news/read/1629486",
-     "s": "스포츠서울"
+     "t": "새 열차는 언제 오나… 너덜너덜 무궁화호 오늘도 달린다",
+     "u": "https://www.chosun.com/national/transport-environment/2026/08/22/IM3GHDPPBVHL7MX2OQQ73V6R24/",
+     "s": "조선일보"
     }
    ]
   }
  ],
  "ent": [
   {
-   "t": "'오디세이' 독주 계속…700만 고지 눈앞",
-   "u": "https://www.yna.co.kr/view/AKR20260821043600005",
+   "t": "소녀시대 새 유닛 효리수, 31일 첫 싱글 '스키비디' 발매",
+   "u": "https://www.yna.co.kr/view/AKR20260822020900005",
    "s": "연합뉴스"
   },
   {
-   "t": "20주년 빅뱅, 오늘 고양서 새 월드투어…신곡 '빅' 무대 첫선",
-   "u": "https://www.yna.co.kr/view/AKR20260821043200005",
+   "t": "캣츠아이, 英 앨범 차트 2위…싱글 차트엔 3곡 올라",
+   "u": "https://www.yna.co.kr/view/AKR20260822019500005",
    "s": "연합뉴스"
   },
   {
-   "t": "박해일/박서준, 이준익 감독 신작 '반딧불이' 주연",
-   "u": "https://www.yna.co.kr/view/AKR20260821040000005",
+   "t": "\"영국 해리왕자 부인 메건, 드라마 '더 젠틀맨' 출연 논의\"",
+   "u": "https://www.yna.co.kr/view/AKR20260822015600009",
    "s": "연합뉴스"
   },
   {
-   "t": "사미자 \"연기 60년 만에 유튜브 도전…여전히 배가 고프다\"",
-   "u": "https://www.yna.co.kr/view/AKR20260818158100005",
+   "t": "젠데이아/로버트 패틴슨 커플의 예측불허 혼돈…'더 드라마'",
+   "u": "https://www.yna.co.kr/view/AKR20260821176700005",
    "s": "연합뉴스"
   },
   {
-   "t": "절밥 먹고 숲속 영화 관람…현덕사서 즐기는 이색 시네마 여행",
-   "u": "https://www.yna.co.kr/view/AKR20260820166500062",
+   "t": "전유성 잃은 슬픔마저 웃음으로 승화한다…제14회 부코페 개막",
+   "u": "https://www.yna.co.kr/view/AKR20260821176900005",
    "s": "연합뉴스"
   },
   {
-   "t": "CJ 이재현/이미경, 유니버설뮤직 회장과 LA서 회동",
-   "u": "https://www.yna.co.kr/view/AKR20260820166100005",
+   "t": "우크라, 러 애니 '먀샤와 곰' 제작진 제재…\"선전 도구\"",
+   "u": "https://www.yna.co.kr/view/AKR20260821178000109",
    "s": "연합뉴스"
   },
   {
-   "t": "시청자미디어재단/자활복지개발원, 자활기업 판로 지원",
-   "u": "https://www.yna.co.kr/view/AKR20260820158300017",
+   "t": "장항준 \"'왕사남' 고마운 작품…영화 창작자, 고난에 둔감해야\"",
+   "u": "https://www.yna.co.kr/view/AKR20260821168500005",
    "s": "연합뉴스"
   },
   {
-   "t": "AI시대 음악산업 미래는…내달 'MWM 콘퍼런스'",
-   "u": "https://www.yna.co.kr/view/AKR20260820154000005",
+   "t": "이달의 방송기자상에 SBS '장윤기 사건 은폐 의혹' 등 5편",
+   "u": "https://www.yna.co.kr/view/AKR20260821161800005",
    "s": "연합뉴스"
   },
   {
-   "t": "김재중, 오늘 새 싱글 '더 웨이브'…세상 향한 포부 노래",
-   "u": "https://www.yna.co.kr/view/AKR20260820157700005",
+   "t": "이상민 \"11년 만에 도전한 서바이벌, 최고의 일탈이었죠\"",
+   "u": "https://www.yna.co.kr/view/AKR20260821135200005",
    "s": "연합뉴스"
   },
   {
-   "t": "방미통위, 유료방송 활성화 민관협의체 출범…첫 회의",
-   "u": "https://www.yna.co.kr/view/AKR20260820154500017",
+   "t": "英 밴드 슬로우다이브, 12월 2년 만에 내한 공연",
+   "u": "https://www.yna.co.kr/view/AKR20260821150300005",
    "s": "연합뉴스"
   },
   {
-   "t": "교육청, 작은학교 영화제 상영작 공모",
-   "u": "https://www.yna.co.kr/view/AKR20260820146000054",
+   "t": "11월 킨텍스서 음악 페스티벌 '원더리벳 2026'",
+   "u": "https://www.yna.co.kr/view/AKR20260821145400005",
    "s": "연합뉴스"
   },
   {
-   "t": "안치환, 내달 정규 15집 발매…서울서 단독 콘서트",
-   "u": "https://www.yna.co.kr/view/AKR20260820130900005",
+   "t": "샘 스미스, 5집 '헤이즐 아이즈'…\"사랑 노래하는 건 매우 중요\"",
+   "u": "https://www.yna.co.kr/view/AKR20260821140000005",
    "s": "연합뉴스"
   },
   {
-   "t": "6인 재편 엔하이픈 \"멤버 수보단 결과물만 생각…늘 같은 마음\"",
-   "u": "https://www.yna.co.kr/view/AKR20260820130200005",
+   "t": "'오디세이' 600만 돌파…맷 데이먼 \"한국 관객의 애정, 큰 의미\"",
+   "u": "https://www.yna.co.kr/view/AKR20260821137800005",
    "s": "연합뉴스"
   },
   {
-   "t": "이정은 \"복수심 탐구 평생 숙제 같아…나도 끝까지 갈 수 있을까\"",
-   "u": "https://www.yna.co.kr/view/AKR20260820127500005",
+   "t": "유아인, 빌리언스와 전속계약…\"활동 재개 우려 무겁게 인식\"",
+   "u": "https://www.yna.co.kr/view/AKR20260821116500005",
    "s": "연합뉴스"
   },
   {
-   "t": "서울드라마어워즈, '모자무싸' 등 후보작 선정",
-   "u": "https://www.yna.co.kr/view/AKR20260820128400005",
+   "t": "배우 김승수 품은 횡성군…한우/축제 홍보 전면에",
+   "u": "https://www.yna.co.kr/view/AKR20260821118000062",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "인텔 \"韓, 로봇 도입 기대 높지만 전략 마련은 미흡\"",
-   "u": "https://zdnet.co.kr/view/?no=20260820160246",
+   "t": "삼성전자, 올 상반기 TV 출하량 1위 수성…미니 LED TV 약진",
+   "u": "https://zdnet.co.kr/view/?no=20260821233749",
    "s": "ZDNet"
   },
   {
-   "t": "암/노화로 변형된 세포→정상으로 되돌릴 길 열렸다",
-   "u": "https://zdnet.co.kr/view/?no=20260821085250",
+   "t": "우주인 '빨래 고민' 끝…옷 세탁하는 총 나왔다",
+   "u": "https://zdnet.co.kr/view/?no=20260821153133",
    "s": "ZDNet"
   },
   {
-   "t": "\"애플, 향후 3년간 아이패드/맥 OLED 탑재 확대\"",
-   "u": "https://zdnet.co.kr/view/?no=20260821081841",
+   "t": "\"보고서에만 AI 쓰는 기업, 결국 뒤처진다\"…포티투마루의 AX 생존법",
+   "u": "https://zdnet.co.kr/view/?no=20260821164652",
    "s": "ZDNet"
   },
   {
-   "t": "AI영화보다 ‘영화의 AI화’",
-   "u": "https://zdnet.co.kr/view/?no=20260821084759",
+   "t": "구글, 마벨에 17조원 지분 옵션…맞춤형 AI 칩 대반격",
+   "u": "https://zdnet.co.kr/view/?no=20260822083738",
    "s": "ZDNet"
   },
   {
-   "t": "\"쉿, 가족한텐 비밀\"...Z세대, AI에 취업/연애/이별 속마음 연다",
-   "u": "https://zdnet.co.kr/view/?no=20260821083941",
+   "t": "AI가 못 찾으면 사라져요",
+   "u": "https://zdnet.co.kr/view/?no=20260821093806",
    "s": "ZDNet"
   },
   {
-   "t": "\"카메라 에어팟, 올해 못 나온다…내년 출시 유력\"",
-   "u": "https://zdnet.co.kr/view/?no=20260821080845",
+   "t": "삼성 갤럭시S26 FE, 색상 이렇게 나온다",
+   "u": "https://zdnet.co.kr/view/?no=20260821133301",
    "s": "ZDNet"
   },
   {
-   "t": "과학기술인공제회",
-   "u": "https://zdnet.co.kr/view/?no=20260821073744",
+   "t": "테이크투, 'GTA6' 플레이 영상 유출에 MS/디스코드 소환장 발부",
+   "u": "https://zdnet.co.kr/view/?no=20260822020532",
    "s": "ZDNet"
   },
   {
-   "t": "수협은행, 디지털 커스터디 '인피닛블록' 지분 14.95% 확보",
-   "u": "https://zdnet.co.kr/view/?no=20260821070634",
+   "t": "우주경제 규제 딜레마...미국서 관할권 논쟁",
+   "u": "https://zdnet.co.kr/view/?no=20260822081117",
    "s": "ZDNet"
   },
   {
-   "t": "기가바이트, 몰입형 게이밍 플레이그라운드로 게임스컴 2026에서 AORUS INFINITY 선보인다",
-   "u": "https://zdnet.co.kr/view/?no=20260821011003",
+   "t": "아이겔, 호주 멜버른서 나우 앤 넥스트 워크스페이스 & 엔드포인트 보안 서밋 개최",
+   "u": "https://zdnet.co.kr/view/?no=20260821221013",
    "s": "ZDNet"
   },
   {
-   "t": "카카오, 21일 긴급 오픈톡…지주사 전환/카카오톡 분사 발표하나",
-   "u": "https://zdnet.co.kr/view/?no=20260820235630",
+   "t": "뉴패러다임인베스트먼트 육성 5개사, '딥테크 TIPS' 선정",
+   "u": "https://zdnet.co.kr/view/?no=20260821220835",
    "s": "ZDNet"
   },
   {
-   "t": "프라임마스, 마이크론과 100TB급 CXL 메모리 구현…美DOE 프로젝트 참여",
-   "u": "https://zdnet.co.kr/view/?no=20260820221610",
+   "t": "조현준 효성 \"조현문 잘못 뉘우칠 방법은 법적 처벌뿐\"",
+   "u": "https://zdnet.co.kr/view/?no=20260821182747",
    "s": "ZDNet"
   },
   {
-   "t": "CES 아시아 언베일드, 2027 CES를 향한 여정 속 홍콩으로 확대",
-   "u": "https://zdnet.co.kr/view/?no=20260820211003",
+   "t": "\"출연연 창업 걸림돌이던 연구자 이해충돌 규제 해소\"",
+   "u": "https://zdnet.co.kr/view/?no=20260821181419",
    "s": "ZDNet"
   },
   {
-   "t": "애플, 이미지 처리 결함 긴급 패치…스파이웨어 악용 우려",
-   "u": "https://zdnet.co.kr/view/?no=20260820204853",
+   "t": "극지연, 동시베리아해 얼음없는 '열린바다' 확대 양상",
+   "u": "https://zdnet.co.kr/view/?no=20260821182745",
    "s": "ZDNet"
   },
   {
-   "t": "독파모 2차 평가가 남긴 것",
-   "u": "https://zdnet.co.kr/view/?no=20260820204530",
+   "t": "종근당",
+   "u": "https://zdnet.co.kr/view/?no=20260821180616",
    "s": "ZDNet"
   },
   {
-   "t": "가사만 붙여넣으면 곡 완성…50만 시간 학습한 무료 AI가 수노 코앞까지 추격",
-   "u": "https://zdnet.co.kr/view/?no=20260820201846",
+   "t": "과학기술정보통신부",
+   "u": "https://zdnet.co.kr/view/?no=20260821180247",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "AI가 우리 브랜드를 추천하게 만드는 법! 마케터를 위한 AEO 실전 매뉴얼",
+   "u": "https://gogumafarm.kr/ai%ea%b0%80-%ec%9a%b0%eb%a6%ac-%eb%b8%8c%eb%9e%9c%eb%93%9c%eb%a5%bc-%ec%b6%94%ec%b2%9c%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-%eb%b2%95-%eb%a7%88%ec%bc%80%ed%84%b0%eb%a5%bc-%ec%9c%84%ed%95%9c/",
+   "s": "고구마팜"
+  },
   {
    "t": "오늘의 뉴스클리핑과 커머스 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-159/",
@@ -363,11 +253,6 @@
   {
    "t": "오늘의 뉴스클리핑과 커머스 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-158/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "맛집러버/자취생/다이어터… 다양한 라이프스타일을 충족시킬 푸드 크리에이터 모음!",
-   "u": "https://gogumafarm.kr/%eb%a7%9b%ec%a7%91%eb%9f%ac%eb%b2%84%c2%b7%ec%9e%90%ec%b7%a8%ec%83%9d%c2%b7%eb%8b%a4%ec%9d%b4%ec%96%b4%ed%84%b0-%eb%8b%a4%ec%96%91%ed%95%9c-%eb%9d%bc%ec%9d%b4%ed%94%84%ec%8a%a4%ed%83%80/",
    "s": "고구마팜"
   }
  ]
