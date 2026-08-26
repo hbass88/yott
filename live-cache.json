@@ -1,335 +1,230 @@
 {
- "updated": "2026-08-25T01:03:14.754Z",
+ "updated": "2026-08-26T01:05:04.510Z",
  "trends": [
   {
-   "title": "대한민국",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "교촌 영양 발효공방1991, '대한민국 명소' 2개 부문 선정",
-     "u": "https://v.daum.net/v/XvSTXqkLYr",
-     "s": "Daum"
-    },
-    {
-     "t": "전남광주시, 대한민국 대표 명소에 1032곳 선정돼",
-     "u": "https://www.mt.co.kr/policy/2026/08/25/2026082509415655197",
-     "s": "머니투데이"
-    },
-    {
-     "t": "경남 관광명소 775건, ‘대한민국 명소발굴 100×100 프로젝트’ 선정",
-     "u": "https://www.viva100.com/article/20260824500925",
-     "s": "브릿지경제"
-    }
-   ]
-  },
-  {
-   "title": "장서희",
+   "title": "yeouido",
    "traffic": "500+",
-   "items": []
-  },
-  {
-   "title": "합계출산율",
-   "traffic": "100+",
    "items": [
     {
-     "t": "“아이 한 명당 7600만원 준다”///‘출산율 역대 최저’로 떨어져 파격 육아 지원책 내놓은 국가",
-     "u": "https://www.khan.co.kr/article/202608241354011",
-     "s": "경향신문"
+     "t": "Wildfire Consumes Area 20 Times Size of Yeouido in Just One Day... Evacuation Orders Issued for 90,000",
+     "u": "https://news.sbs.co.kr/english/article.do?news_id=N1008719671",
+     "s": "SBS 뉴스"
     },
     {
-     "t": "'아이 낳으면 천만원, 총 7천만원 드립니다'…어디야?",
-     "u": "https://v.daum.net/v/20260825080603016",
-     "s": "Daum"
+     "t": "Fast",
+     "u": "https://apnews.com/article/hawk-fire-reno-nevada-evacuations-aae2f4b77e2d4aa5678b365a2ee377e6",
+     "s": "AP News"
     },
     {
-     "t": "'출산율 비상' 싱가포르 17세까지 7천만원 준다",
-     "u": "https://www.mk.co.kr/news/world/12135095",
-     "s": "매일경제"
+     "t": "North Valleys ER in Reno temporarily closes amid Hawk Fire evacuation order",
+     "u": "https://mynews4.com/news/local/north-valleys-er-in-reno-temporarily-closes-amid-hawk-fire-evacuation-order",
+     "s": "KRXI2"
     }
    ]
   },
   {
-   "title": "장동윤",
-   "traffic": "2000+",
+   "title": "이요원",
+   "traffic": "1000+",
    "items": [
     {
-     "t": "장동윤, 배우 김승윤과 10월 결혼…'서로의 편 되어주기로'",
-     "u": "https://www.yna.co.kr/view/AKR20260825032800005",
-     "s": "연합뉴스"
+     "t": "명문대 나온 딸에게 고시원 같은 방 내어준, 수십억 자산가 이요원의 원칙",
+     "u": "https://www.segye.com/newsView/20260722520833",
+     "s": "세계일보"
     },
     {
-     "t": "장동윤/김승윤, 10월 화촉…“서로의 편이 되어주기로 했다”",
-     "u": "https://www.munhwa.com/article/11611797",
-     "s": "문화일보"
+     "t": "'살림남' 지상렬, 이요원에 피처링 제안 속 계약금도 줬지만…거절 아픔",
+     "u": "https://v.daum.net/v/20260823055149642?f=p",
+     "s": "Daum"
     },
     {
-     "t": "장동윤♥김승윤, 3년 전부터 ‘감독과 뮤즈’였다…연출작마다 여주로 발탁",
-     "u": "https://sports.khan.co.kr/article/202608250926013",
+     "t": "박서진, 피처링 섭외 나선 지상렬에 ♥신보람 소환///박현호 “창문에서 뛰어내리려 했다” (살림남)",
+     "u": "https://sports.khan.co.kr/article/202608231843003",
      "s": "스포츠경향"
     }
    ]
   },
   {
-   "title": "선박",
+   "title": "베라 루빈",
    "traffic": "500+",
    "items": [
     {
-     "t": "이란 '한국 장금상선 소유 유조선 등 45척 호르무즈 규정 위반'",
-     "u": "https://imnews.imbc.com/news/2026/world/article/6847009_36925.html",
-     "s": "MBC 뉴스"
+     "t": "대규모 에이전틱 AI 가속 위해 NVIDIA Vera CPU 도입하는 SpaceXAI",
+     "u": "https://blogs.nvidia.co.kr/blog/spacexai-adopts-nvidia-vera-cpu-to-accelerate-agentic-ai-at-massive-scale/",
+     "s": "NVIDIA"
     },
     {
-     "t": "하루 900만 배럴, 보이지 않는 ‘다크 항로’는 호르무즈 통제권을 바꾸는가…김태준의 美/이란戰 중계",
-     "u": "https://www.munhwa.com/article/11611474",
-     "s": "문화일보"
+     "t": "인도 데이터센터 회사, 엔비디아 루빈 GPU 9000개 발주",
+     "u": "https://zdnet.co.kr/view/?no=20260826085104",
+     "s": "지디넷코리아"
     },
     {
-     "t": "이란 '한국 장금상선 선박 등 45척 호르무즈 규정 위반, 블랙리스트'",
-     "u": "https://www.newsis.com/view/NISX20260824_0003760763",
-     "s": "뉴시스"
-    }
-   ]
-  },
-  {
-   "title": "수능원서",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "오늘부터 2027학년도 수능 응시원서 접수",
-     "u": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20260824_0021408255&amp;pID=1&amp;cID=&amp;sID=1&amp;type=Main&amp;idx=4",
-     "s": "뉴시스"
-    },
-    {
-     "t": "개편 전 마지막 수능…'N수생' 얼마나 몰릴까",
-     "u": "https://www.incheonilbo.com/news/articleView.html?idxno=1330303",
-     "s": "인천일보"
-    },
-    {
-     "t": "2027학년도 대학수학능력시험 응시원서 접수 시작",
-     "u": "https://www.kyeonggi.com/article/20260824580314",
-     "s": "경기일보"
-    }
-   ]
-  },
-  {
-   "title": "대한전선",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "효성重, ‘CIGRE 2026’서 차세대 전력망 토털 솔루션 공개… 유럽 시장 공략",
-     "u": "https://stock.mk.co.kr/news/view/1147477",
-     "s": "매일경제 마켓"
-    },
-    {
-     "t": "대한전선, 佛 전시회서 포설선 등 해저케이블 턴키 경쟁력 선봬",
-     "u": "https://www.etnews.com/20260825000068",
-     "s": "전자신문"
-    },
-    {
-     "t": "AI/재생에너지에 전력망 투자 폭증…K전선, 유럽서 ‘HVDC 수주전’",
-     "u": "https://v.daum.net/v/20260825092931144",
+     "t": "머스크 '내년 4분기 첫 AI 위성 발사…2028년엔 대규모'",
+     "u": "https://v.daum.net/v/7y4tbsb038",
      "s": "Daum"
-    }
-   ]
-  },
-  {
-   "title": "스테이블코인",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "가상자산주 강세…비트코인 급반등/美 스테이블코인 육성 기대감",
-     "u": "https://www.mt.co.kr/stock/2026/08/25/2026082509290728624",
-     "s": "머니투데이"
-    },
-    {
-     "t": "특징주, 한컴위드",
-     "u": "https://stock.mk.co.kr/news/view/1146869",
-     "s": "매일경제 마켓"
-    },
-    {
-     "t": "정책 변수 마주한 가상자산 시장…스테이블코인 테마주 강세 By 인포스탁데일리",
-     "u": "https://kr.investing.com/news/stock-market-news/article-2071637",
-     "s": "Investing.com 한국어"
-    }
-   ]
-  },
-  {
-   "title": "축제",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "'양천가족 거리축제' 10월 개최…먹거리부스 참여 맛집 공모",
-     "u": "https://www.yna.co.kr/view/AKR20260825030200004",
-     "s": "연합뉴스"
-    },
-    {
-     "t": "서울 양천구, 거리축제 먹거리부스 참여업소 모집…9월 4일까지 신청",
-     "u": "https://www.dailian.co.kr/news/view/1681820/%EC%84%9C%EC%9A%B8-%EC%96%91%EC%B2%9C%EA%B5%AC-%EA%B1%B0%EB%A6%AC%EC%B6%95%EC%A0%9C-%EB%A8%B9%EA%B1%B0%EB%A6%AC%EB%B6%80%EC%8A%A4-%EC%B0%B8%EC%97%AC-2026",
-     "s": "데일리안"
-    },
-    {
-     "t": "‘제3회 양천가족 거리축제’ 빛낼 맛집 찾는다… 먹거리부스 참여업소 모집",
-     "u": "https://biz.heraldcorp.com/article/10850690",
-     "s": "헤럴드경제"
     }
    ]
   }
  ],
  "ent": [
   {
-   "t": "블랙핑크 지수, 솔로 가수 컴백…내달 4일 신곡 '클릭'",
-   "u": "https://www.yna.co.kr/view/AKR20260825045800005",
+   "t": "이정은/김무열의 누아르 액션…넷플릭스 '할매' 주연",
+   "u": "https://www.yna.co.kr/view/AKR20260826051200005",
    "s": "연합뉴스"
   },
   {
-   "t": "위험한 내기 벌이는 손예진/지창욱…넷플 '스캔들' 내달 공개",
-   "u": "https://www.yna.co.kr/view/AKR20260825053000005",
+   "t": "캣츠아이, 빌보드 싱글 차트 4곡 동시 진입…앨범 차트 정상",
+   "u": "https://www.yna.co.kr/view/AKR20260826048000005",
    "s": "연합뉴스"
   },
   {
-   "t": "초원사진관에서 추억을…군산서 29일 '8월의 크리스마스' 축제",
-   "u": "https://www.yna.co.kr/view/AKR20260825052800055",
+   "t": "김동률, 10월 콘서트 '오래된 노래'…\"오케스트라 없이 무대\"",
+   "u": "https://www.yna.co.kr/view/AKR20260826043700005",
    "s": "연합뉴스"
   },
   {
-   "t": "부산국제영화제, 한국 드라마 시리즈 신작 3편 첫 공개",
-   "u": "https://www.yna.co.kr/view/AKR20260825048800051",
+   "t": "글로벌 음악 마켓 '뮤콘' 내달 2일 개막…김재중 기조강연",
+   "u": "https://www.yna.co.kr/view/AKR20260826031600005",
    "s": "연합뉴스"
   },
   {
-   "t": "30돌 맞은 원주시민의 날…9월 1일 민선 9기 첫 시민 화합 무대",
-   "u": "https://www.yna.co.kr/view/AKR20260825041200062",
+   "t": "'오뒷세이아' 완역 김헌 교수 \"3천년 전 고전의 힘은 질문하는 힘\"",
+   "u": "https://www.yna.co.kr/view/AKR20260825182600005",
    "s": "연합뉴스"
   },
   {
-   "t": "송강/김소현, 5년만 재회…'하얀 스캔들' 주연",
-   "u": "https://www.yna.co.kr/view/AKR20260825038600005",
+   "t": "송하예, 유튜버 조매력과 연내 결혼…\"꿈 함께 이루고 싶어\"",
+   "u": "https://www.yna.co.kr/view/AKR20260825178100005",
    "s": "연합뉴스"
   },
   {
-   "t": "장동윤, 배우 김승윤과 10월 결혼…\"서로의 편 되어주기로\"",
-   "u": "https://www.yna.co.kr/view/AKR20260825032800005",
+   "t": "'나혼산' 제작진 \"전현무 카자흐 '즉흥 여행' 조작 아니다\"",
+   "u": "https://www.yna.co.kr/view/AKR20260825163900005",
    "s": "연합뉴스"
   },
   {
-   "t": "방미통위, MBC '2시 뉴스 외전' 주의 처분 취소",
-   "u": "https://www.yna.co.kr/view/AKR20260824155400017",
+   "t": "'비광' 하지원 \"사회가 원하는 대로의 삶, 배우로서 공감됐죠\"",
+   "u": "https://www.yna.co.kr/view/AKR20260825159900005",
    "s": "연합뉴스"
   },
   {
-   "t": "'케이콘 LA 2026' 콘텐츠 시청수 작년 대비 2배",
-   "u": "https://www.yna.co.kr/view/AKR20260824140800005",
+   "t": "호주 음악차트, AI 생성 음원 순위에서 제외한다",
+   "u": "https://www.yna.co.kr/view/AKR20260825156300084",
    "s": "연합뉴스"
   },
   {
-   "t": "하이브 신인 걸그룹 튜이드 \"플레이리스트에 담길 자신 있어요\"",
-   "u": "https://www.yna.co.kr/view/AKR20260824146500005",
+   "t": "'GD 설립' 저스피스재단, 빅뱅 콘서트에 국가유공자 후손 초청",
+   "u": "https://www.yna.co.kr/view/AKR20260825154200005",
    "s": "연합뉴스"
   },
   {
-   "t": "알파드라이브원 \"퍼포먼스로 인정받겠단 확신 생겼죠\"",
-   "u": "https://www.yna.co.kr/view/AKR20260824121100005",
+   "t": "'이상한 변호사 우영우' 일본판 10월 나온다…아시다 마나 주연",
+   "u": "https://www.yna.co.kr/view/AKR20260825146400005",
    "s": "연합뉴스"
   },
   {
-   "t": "플레이브, 유니세프 한국위원회 후원 캠페인 참여",
-   "u": "https://www.yna.co.kr/view/AKR20260824132900005",
+   "t": "전역한 송강/입대한 이준영…\"피아노 연습에 최선 다했죠\"",
+   "u": "https://www.yna.co.kr/view/AKR20260825131400005",
    "s": "연합뉴스"
   },
   {
-   "t": "KBS 원주방송국, 27일 개국 62주년 특집 콘서트…지역 소통 확대",
-   "u": "https://www.yna.co.kr/view/AKR20260824126100062",
+   "t": "자라섬재즈페스티벌 10월 개막…네이트 스미스 등 39팀 출연",
+   "u": "https://www.yna.co.kr/view/AKR20260825132400005",
    "s": "연합뉴스"
   },
   {
-   "t": "김민호 \"군복 이렇게 자주 입을 줄은…'신병4' 역대급 재미\"",
-   "u": "https://www.yna.co.kr/view/AKR20260824126000005",
+   "t": "'비광' 류승룡 \"눅눅한 인생에 빛이 드는 여정…밀도 있는 영화\"",
+   "u": "https://www.yna.co.kr/view/AKR20260825123900005",
    "s": "연합뉴스"
   },
   {
-   "t": "\"영화 개봉 5개월 뒤 OTT 공개, 소비자 선택권 제한\"",
-   "u": "https://www.yna.co.kr/view/AKR20260824116300005",
+   "t": "K",
+   "u": "https://www.yna.co.kr/view/AKR20260825125300005",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "공연예술 현장에 기술을 더하다…코스타 '공기', 티켓 운영 디지털화 선도",
-   "u": "https://zdnet.co.kr/view/?no=20260824203822",
+   "t": "\"나노패턴을 지문처럼…진위 판별은 폰 손전등으로\"",
+   "u": "https://zdnet.co.kr/view/?no=20260826091350",
    "s": "ZDNet"
   },
   {
-   "t": "기본급 10만원/성과금 400%+1270만원…현대차 노사 잠정합의",
-   "u": "https://zdnet.co.kr/view/?no=20260825022159",
+   "t": "넵튠, H5 게임 10종 카카오톡 입점...무한의계단 포함",
+   "u": "https://zdnet.co.kr/view/?no=20260826092820",
    "s": "ZDNet"
   },
   {
-   "t": "스틸리언, 인도네시아 사이버보안 교수진 대상 21주 연수 성료",
-   "u": "https://zdnet.co.kr/view/?no=20260824221704",
+   "t": "옷도 바로 배달한다…배민, 디자이너 브랜드 ‘시야쥬’ 첫 입점",
+   "u": "https://zdnet.co.kr/view/?no=20260826091600",
    "s": "ZDNet"
   },
   {
-   "t": "AI 영상, 프롬프트를 넘다…플로바, '올인원' 에이전트 네이티브 영상 창작 구현",
-   "u": "https://zdnet.co.kr/view/?no=20260824221003",
+   "t": "앤트로픽 \"클로드 대화 내용, AI 에이전트 '코워크'도 안다\"",
+   "u": "https://zdnet.co.kr/view/?no=20260826090130",
    "s": "ZDNet"
   },
   {
-   "t": "한진, 네이버 통합반품센터 수거 전담…반품 물류 일원화",
-   "u": "https://zdnet.co.kr/view/?no=20260824153127",
+   "t": "클로드 신원 인증서 '대한민국' 누락…앤트로픽 \"일시적 오류\"",
+   "u": "https://zdnet.co.kr/view/?no=20260825101333",
    "s": "ZDNet"
   },
   {
-   "t": "1458곳 중앙/지방/공공기관 개인정보보호 평가단 100명 발족",
-   "u": "https://zdnet.co.kr/view/?no=20260824210828",
+   "t": "K",
+   "u": "https://zdnet.co.kr/view/?no=20260826091952",
    "s": "ZDNet"
   },
   {
-   "t": "개보위, 일 잘하는 '3회 고래상' 6명 시상",
-   "u": "https://zdnet.co.kr/view/?no=20260824205507",
+   "t": "대기업도 뛰어든 AI 통번역 시장…플리토, '초개인화'로 승부수",
+   "u": "https://zdnet.co.kr/view/?no=20260825154931",
    "s": "ZDNet"
   },
   {
-   "t": "엔키화이트햇, 페루 국립공과대에 오펜시브 보안 교육",
-   "u": "https://zdnet.co.kr/view/?no=20260824202719",
+   "t": "KT, 무신사/직방/EBS와 '모두의AI'…생활 속 AI 대중화",
+   "u": "https://zdnet.co.kr/view/?no=20260826091902",
    "s": "ZDNet"
   },
   {
-   "t": "하버드 경영대학원 97만원짜리 창업 부트캠프, 강사 AI 아바타가 피드백 준다",
-   "u": "https://zdnet.co.kr/view/?no=20260824202539",
+   "t": "GPU만 빠르면 끝…AI 에이전트 시대, '추론 SW'가 판 바꾼다",
+   "u": "https://zdnet.co.kr/view/?no=20260825171912",
    "s": "ZDNet"
   },
   {
-   "t": "\"양자내성암호 배우러 오세요\"...KISA, 실무과정 수강생 모집",
-   "u": "https://zdnet.co.kr/view/?no=20260824201911",
+   "t": "오픈AI 첫 AI 추론칩, 전력 효율/응답 속도서 엔비디아 앞섰다",
+   "u": "https://zdnet.co.kr/view/?no=20260826083304",
    "s": "ZDNet"
   },
   {
-   "t": "갤럭시아 AI, WRC 2026 '생산성 각성' 전시에서 풀스택 역량과 임바디드 AI 범용화 시연",
-   "u": "https://zdnet.co.kr/view/?no=20260824201003",
+   "t": "손병희 \"로봇 경험을 국가AI 자산으로\"…피지컬AI 행동데이터 표준 제안",
+   "u": "https://zdnet.co.kr/view/?no=20260826090105",
    "s": "ZDNet"
   },
   {
-   "t": "마음AI",
-   "u": "https://zdnet.co.kr/view/?no=20260824194658",
+   "t": "버즈니, 기업 전용 바이브 코딩 플랫폼 '세이코드' 상용화",
+   "u": "https://zdnet.co.kr/view/?no=20260826090025",
    "s": "ZDNet"
   },
   {
-   "t": "요르단 하심 왕국의 국적 항공사 로열 요르단 항공, 차기 성장 단계 지원 위해 람코 시스템즈 선택",
-   "u": "https://zdnet.co.kr/view/?no=20260824191002",
+   "t": "KT SAT, 30년 위성 관제 노하우로 다중궤도/6G 공략",
+   "u": "https://zdnet.co.kr/view/?no=20260825220304",
    "s": "ZDNet"
   },
   {
-   "t": "KTL, 연구/행정/기술/사무 등 정규직 신입직원 47명 공채",
-   "u": "https://zdnet.co.kr/view/?no=20260824181927",
+   "t": "‘모두의 AI’ 사업의 성공 조건",
+   "u": "https://zdnet.co.kr/view/?no=20260824220450",
    "s": "ZDNet"
   },
   {
-   "t": "애스턴마틴 \"슈퍼카 전동화는 곧 성능 손실…고객도 원치 않아\"",
-   "u": "https://zdnet.co.kr/view/?no=20260824160741",
+   "t": "스태츠칩팩코리아, 대학생 대상 현장체험 프로그램 성료",
+   "u": "https://zdnet.co.kr/view/?no=20260826083131",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "오늘의 뉴스클리핑과 유튜브 트렌드",
+   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%9c%a0%ed%8a%9c%eb%b8%8c-%ed%8a%b8%eb%a0%8c%eb%93%9c-168/",
+   "s": "고구마팜"
+  },
   {
    "t": "오늘의 뉴스클리핑과 AI 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-ai-%ed%8a%b8%eb%a0%8c%eb%93%9c-54/",
@@ -363,11 +258,6 @@
   {
    "t": "맥도날드/버거킹/롯데리아로 보는 패스트푸드 3사의 마케팅 전략!",
    "u": "https://gogumafarm.kr/%eb%a7%a5%eb%8f%84%eb%82%a0%eb%93%9c%c2%b7%eb%b2%84%ea%b1%b0%ed%82%b9%c2%b7%eb%a1%af%eb%8d%b0%eb%a6%ac%ec%95%84%eb%a1%9c-%eb%b3%b4%eb%8a%94-%ed%8c%a8%ec%8a%a4%ed%8a%b8%ed%91%b8%eb%93%9c-3%ec%82%ac/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "오늘의 뉴스클리핑과 유튜브 트렌드",
-   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%9c%a0%ed%8a%9c%eb%b8%8c-%ed%8a%b8%eb%a0%8c%eb%93%9c-167/",
    "s": "고구마팜"
   }
  ]
