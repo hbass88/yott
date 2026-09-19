@@ -1,293 +1,314 @@
 {
- "updated": "2026-09-18T03:02:08.075Z",
+ "updated": "2026-09-19T02:59:12.974Z",
  "trends": [
   {
-   "title": "폐기물",
-   "traffic": "2000+",
+   "title": "골골골골",
+   "traffic": "500+",
    "items": [
     {
-     "t": "기후부, 추석 연휴 환경오염 특별 감시/단속 실시",
-     "u": "https://www.electimes.com/news/articleView.html?idxno=372561",
-     "s": "전기신문"
-    },
-    {
-     "t": "제주시, 추석 폐기물 종합대책",
-     "u": "http://www.jemin.com/news/articleView.html?idxno=843147",
-     "s": "제민일보"
-    },
-    {
-     "t": "택배상자 테이프 안 떼면 과태료 30만원… 추석 쓰레기 배출 금지일 주의",
-     "u": "https://www.imaeil.com/page/view/2026091807011804891",
-     "s": "매일신문"
-    }
-   ]
-  },
-  {
-   "title": "육아휴직",
-   "traffic": "5000+",
-   "items": [
-    {
-     "t": "배우자! 알면 힘이 되는 육아원칙",
-     "u": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148972023",
-     "s": "대한민국 정책브리핑"
-    },
-    {
-     "t": "남편도 아내 임신 중에 육아휴직…'배우자 3종 세트' 18일 시행",
-     "u": "https://v.daum.net/v/PtuGed8BtT",
+     "t": "6대 0 대승에도 아쉬웠다? 장지현 해설이 냉정했던 이유 (여자축구)",
+     "u": "https://v.daum.net/v/05cBzcnQzr",
      "s": "Daum"
     },
     {
-     "t": "남편도 유산/사산 5일 휴가…출산 50일 전 휴가도 가능",
-     "u": "https://www.newsis.com/view/NISX20260917_0003793399",
-     "s": "뉴시스"
-    }
-   ]
-  },
-  {
-   "title": "볼보 es90",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "SUV의 공간에 세단의 주행감 담았다…볼보 전기차 ES90 타보니",
-     "u": "https://www.khan.co.kr/article/202609180000001",
-     "s": "경향신문"
-    },
-    {
-     "t": "수입차에 ‘틈’ 내준 제네시스… 볼보/렉서스, 7000만원대 EV로 정조준",
-     "u": "https://it.chosun.com/news/articleView.html?idxno=2023092170390",
-     "s": "IT조선"
-    },
-    {
-     "t": "'유럽보다 약 5천만원 낮은 파격 가격'...볼보 EX90, 패밀리 SUV 선택 기준 새롭게 바꾼다",
-     "u": "https://www.g-enews.com/article/Industry/2026/09/20260917092052253031a5c2dd38_1",
-     "s": "글로벌이코노믹"
-    }
-   ]
-  },
-  {
-   "title": "sk그룹",
-   "traffic": "1000+",
-   "items": [
-    {
-     "t": "SK그룹 핵심 부회장 3人, 하이닉스에 일제히 합류",
-     "u": "https://www.chosun.com/economy/industry-company/2026/09/18/7QHMEZAUBRCNRC2FUU2VYBANAY/",
-     "s": "조선일보"
-    },
-    {
-     "t": "SK그룹 부회장 3명 SK하이닉스로…반도체에 힘 싣는다",
-     "u": "https://v.daum.net/v/20260918110037379",
-     "s": "Daum"
-    },
-    {
-     "t": "SK그룹 부회장 서진우/유정준/이형희, SK하이닉스로 이동",
-     "u": "https://www.businesspost.co.kr/BP?command=article_view&amp;num=447532",
-     "s": "비즈니스포스트"
-    }
-   ]
-  },
-  {
-   "title": "철도망",
-   "traffic": "100+",
-   "items": []
-  },
-  {
-   "title": "왕옌청",
-   "traffic": "1000+",
-   "items": [
-    {
-     "t": "한국 야구 터질 것이 터졌다! 한화 아쿼 좌완, 진짜 비수 꽂나? 대만 한국전 올인 선언…왕옌청 선발→린위민 불펜 전망 '경의 표할 상대'",
-     "u": "https://v.daum.net/v/fguwMSrNtX",
-     "s": "Daum"
-    },
-    {
-     "t": "'대만 대표팀 합류' 왕옌청, 18일 나고야행 비행기 탄다…한국전 선발 등판하나? 일정 절묘하네",
-     "u": "https://www.chosun.com/sports/baseball/2026/09/17/GJTGKMBQMUZDOZBYGNTDIZBTGI/",
-     "s": "조선일보"
-    },
-    {
-     "t": "'韓 호재' 대만 좌승사자 19일 日도착→'161㎞ 마이너 파이어볼러' 합류 불투명, 결국 왕옌청이 21일 등판하나",
-     "u": "https://www.mt.co.kr/sports/2026/09/17/2026091711224952495",
-     "s": "머니투데이"
-    }
-   ]
-  },
-  {
-   "title": "한화그룹",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "한화, 군인가족의 날 맞아 모범군인 60가족 초청 '힐링데이'",
-     "u": "https://www.yna.co.kr/view/AKR20260918034800003",
+     "t": "한국 여자축구, 방글라데시 6",
+     "u": "https://www.yna.co.kr/view/AKR20260917184051007",
      "s": "연합뉴스"
     },
     {
-     "t": "한화 방산 3사, 군인 가족 초청 ‘힐링데이’…“김창옥 특별강연”",
-     "u": "https://www.asiatoday.co.kr/kn/view.php?key=20260918010006977",
-     "s": "아시아투데이"
+     "t": "이런 게 진짜 ‘합작 골’",
+     "u": "https://news.kbs.co.kr/news/view.do?ncd=8666604",
+     "s": "KBS 뉴스"
+    }
+   ]
+  },
+  {
+   "title": "정현",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "정현 '버티는 사람이 이기는 경기, 나는 그냥 버텼다'... 3시간6분 혈투 끝 집념의 대역전승",
+     "u": "https://v.daum.net/v/20260919061710590",
+     "s": "Daum"
     },
     {
-     "t": "한화, 제3회 '힐링데이' 개최…'군인 가족 헌신에 감사'",
-     "u": "https://www.mt.co.kr/industry/2026/09/18/2026091808492961146",
-     "s": "머니투데이"
+     "t": "권순우/정현, 데이비스컵 첫날 2승 신고",
+     "u": "https://www.yonhapnewstv.co.kr/news/MYH20260919110740vuu",
+     "s": "연합뉴스TV"
+    },
+    {
+     "t": "한국 테니스, 사상 첫 데이비스컵 8강 눈앞…권순우/정현 역전승",
+     "u": "https://www.hani.co.kr/arti/sports/sports_general/1278560.html",
+     "s": "한겨레"
+    }
+   ]
+  },
+  {
+   "title": "이소나",
+   "traffic": "500+",
+   "items": [
+    {
+     "t": "현정, 20년 ♥도대웅에 박력 프로포즈 “나랑 결혼해줘!” (미스트롯 포유)",
+     "u": "https://sports.donga.com/ent/article/all/20260918/134695777/1",
+     "s": "스포츠동아"
+    },
+    {
+     "t": "‘미스트롯 포유’ 현정, 깜짝 프러포즈",
+     "u": "https://v.daum.net/v/20260918082039291",
+     "s": "Daum"
+    },
+    {
+     "t": "“갱년기가 화 불러” 서지오, 안성훈과 맨발 허벅지 씨름 대결",
+     "u": "https://sports.khan.co.kr/article/202609171819003",
+     "s": "스포츠경향"
+    }
+   ]
+  },
+  {
+   "title": "투자가",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "AI 투자, 오픈AI/앤트로픽에 몰렸다…韓도 상위 10곳에 74.5% 쏠려",
+     "u": "https://zdnet.co.kr/view/?no=20260918182257",
+     "s": "지디넷코리아"
+    },
+    {
+     "t": "뱅크먼프리드 5억 달러 투자…앤트로픽에 여전히 부담",
+     "u": "https://kr.beincrypto.com/sbf-network-anthropic-ai-safety-debate/",
+     "s": "BeInCrypto"
+    },
+    {
+     "t": "오픈AI/앤트로픽에 405조 몰렸다… 세계 투자금 빨아들인 유니콘 7곳",
+     "u": "http://www.securityfact.co.kr/news/view.php?no=7921",
+     "s": "시큐리티팩트"
+    }
+   ]
+  },
+  {
+   "title": "공무원",
+   "traffic": "2000+",
+   "items": [
+    {
+     "t": "모친상인데 '잠깐 출근해야' 글 쓴 공무원…항의 댓글에 '신고 ^^'",
+     "u": "https://www.nocutnews.co.kr/news/6580637",
+     "s": "노컷뉴스"
+    },
+    {
+     "t": "'모친상 동료, 잠깐 출근해 급한 업무는 정리해야'…공무원 '욕받이' 탄생",
+     "u": "https://www.news1.kr/society/general-society/6294287",
+     "s": "뉴스1"
+    },
+    {
+     "t": "“모친상인데 잠깐 출근하라고?”…공무원 경조사휴가 기준은",
+     "u": "https://www.kgnews.co.kr/news/article.html?no=911956",
+     "s": "경기신문"
+    }
+   ]
+  },
+  {
+   "title": "중국",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "“후티 좀 말려줘” 中 밀착하는 빈살만… 美/사우디 동맹 ‘흔들’",
+     "u": "https://www.chosun.com/international/international_general/2026/09/19/EMNKD77O2VBJPKZOPZE4LDZPJU/",
+     "s": "조선일보"
+    },
+    {
+     "t": "파키스탄, '예멘 반군에 대응' 사우디 군사개입 시사",
+     "u": "https://v.daum.net/v/20260919101501333",
+     "s": "Daum"
+    },
+    {
+     "t": "배신 당한 사우디, 중국에 손 벌리자…‘판 뒤집은’ 미국",
+     "u": "https://news.jtbc.co.kr/article/NB12319094",
+     "s": "JTBC뉴스"
+    }
+   ]
+  },
+  {
+   "title": "노시환",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "노시환 이래서 상의 안 입었구나…뜻밖의 '태극기 거꾸로' 해프닝→액땜 속 결전지 입성",
+     "u": "https://v.daum.net/v/20260919015607089",
+     "s": "Daum"
+    },
+    {
+     "t": "이런 망신있을까…'시선 집중' 출국길, 대표팀 주장이 단복을 못 입었다고?",
+     "u": "https://www.chosun.com/sports/baseball/2026/09/19/HE4DSMBWGE4WIYRUGZQTINBRGE/",
+     "s": "조선일보"
+    },
+    {
+     "t": "“1차전 이기면 더 무서운 팀 된다” 금메달 경험자 노시환의 자신감, 대만전 무조건 이겨야 한다",
+     "u": "https://www.osen.co.kr/article/G1112878131",
+     "s": "OSEN"
     }
    ]
   }
  ],
  "ent": [
   {
-   "t": "윤항기, 내달 65주년 기념 헌정 공연…'나는 행복합니다'",
-   "u": "https://www.yna.co.kr/view/AKR20260918084400005",
+   "t": "BTS/블랙핑크 등 美 시상식 MTV VMA서 추가 노미네이트",
+   "u": "https://www.yna.co.kr/view/AKR20260919027300005",
    "s": "연합뉴스"
   },
   {
-   "t": "부산국제영화제에 '그래비티' 알폰소 쿠아론 감독 참석",
-   "u": "https://www.yna.co.kr/view/AKR20260918065500051",
+   "t": "'왕사남'/'오디세이' 훈풍에도 털썩…올해도 문 닫는 영화관들",
+   "u": "https://www.yna.co.kr/view/AKR20260919027000005",
    "s": "연합뉴스"
   },
   {
-   "t": "사랑 찾아 돌아온 윤종훈…'기쁜 우리 좋은 날' 11.3% 종영",
-   "u": "https://www.yna.co.kr/view/AKR20260918056500005",
+   "t": "칸 여우주연상 배우 샤를로트 갱스부르 부산국제영화제 방문",
+   "u": "https://www.yna.co.kr/view/AKR20260919026600051",
    "s": "연합뉴스"
   },
   {
-   "t": "엔플라잉, 내일 대만서 아시아 투어 시작",
-   "u": "https://www.yna.co.kr/view/AKR20260918054800005",
+   "t": "캣츠아이, 英 싱글 차트 18위/48위…앨범 49위",
+   "u": "https://www.yna.co.kr/view/AKR20260919025800005",
    "s": "연합뉴스"
   },
   {
-   "t": "울산서 국내 유일 세계산악영화제 오늘 개막…35개국 114편 상영",
-   "u": "https://www.yna.co.kr/view/AKR20260918051300057",
+   "t": "울주세계산악영화제서 미디어 체험/참여 프로그램 선보여",
+   "u": "https://www.yna.co.kr/view/AKR20260918107400057",
    "s": "연합뉴스"
   },
   {
-   "t": "임윤아 주연 '언내추럴' 내년 방송…日 드라마 리메이크",
-   "u": "https://www.yna.co.kr/view/AKR20260918043200005",
+   "t": "러, 칸 수상 즈비아긴체프 감독에 '스파이' 낙인",
+   "u": "https://www.yna.co.kr/view/AKR20260918190100099",
    "s": "연합뉴스"
   },
   {
-   "t": "넷플릭스 광고 전략 '도달률→주목도'…시청 데이터 활용",
-   "u": "https://www.yna.co.kr/view/AKR20260918036400017",
+   "t": "차은우 겨냥 테이블 도청장치 50대 여성 수사받아",
+   "u": "https://www.yna.co.kr/view/AKR20260918185700004",
    "s": "연합뉴스"
   },
   {
-   "t": "블랙핑크 로제, 신곡 '뉴 트릭'…\"시련 극복하고 나아가자\"",
-   "u": "https://www.yna.co.kr/view/AKR20260918036700005",
+   "t": "국내 유일 세계산악영화제 울주서 개막…35개국 114편 상영(종합)",
+   "u": "https://www.yna.co.kr/view/AKR20260918051351057",
    "s": "연합뉴스"
   },
   {
-   "t": "최민식/한소희 '인턴', '오디세이'와 1위 경쟁",
-   "u": "https://www.yna.co.kr/view/AKR20260918036500005",
+   "t": "'케데헌' OST 부른 레이 아미, 신곡 '투라우드'…\"새 챕터 시작\"",
+   "u": "https://www.yna.co.kr/view/AKR20260918170200005",
    "s": "연합뉴스"
   },
   {
-   "t": "박윤호 \"'들쥐' 반전 책임지는 연기, 어깨가 무거웠죠\"",
-   "u": "https://www.yna.co.kr/view/AKR20260917161300005",
+   "t": "BNK부산은행, 올해 부산국제영화제에 7억원 후원",
+   "u": "https://www.yna.co.kr/view/AKR20260918160300051",
    "s": "연합뉴스"
   },
   {
-   "t": "'먼작귀' 첫 극장판…'치이카와: 인어 섬의 비밀' 30일 개봉",
-   "u": "https://www.yna.co.kr/view/AKR20260917177100005",
+   "t": "류희림 체제 방심위 법정제재 30건 모두 패소…처분 취소",
+   "u": "https://www.yna.co.kr/view/AKR20260918137000017",
    "s": "연합뉴스"
   },
   {
-   "t": "'한국 최초 흑인 혼혈 야구선수' 김영도 논문, 동아대서 발견",
-   "u": "https://www.yna.co.kr/view/AKR20260917175600051",
+   "t": "'실낙원' 연상호 \"엄마 메모에서 영감…피부에 닿는 심연 다뤄\"",
+   "u": "https://www.yna.co.kr/view/AKR20260918120500005",
    "s": "연합뉴스"
   },
   {
-   "t": "\"자유\" 한마디에 투어 퇴출…에드 시런 콘서트서 '줄하차'",
-   "u": "https://www.yna.co.kr/view/AKR20260917174600704",
+   "t": "1인 밴드 소란 \"새로운 층 쌓아가고 싶어…더 열심히 달리겠다\"",
+   "u": "https://www.yna.co.kr/view/AKR20260918100900005",
    "s": "연합뉴스"
   },
   {
-   "t": "제11회 울산울주세계산악영화제, 내일 개막…5일간 여정 돌입",
-   "u": "https://www.yna.co.kr/view/AKR20260917166300057",
+   "t": "방미통위, 방송 공동제작 국제 콘퍼런스…AI 활용 논의",
+   "u": "https://www.yna.co.kr/view/AKR20260918119800017",
    "s": "연합뉴스"
   },
   {
-   "t": "\"팔레스타인에 자유를\"…에드 시런 美투어 출연진 '줄하차'",
-   "u": "https://www.yna.co.kr/view/AKR20260917166400704",
+   "t": "'놀면 뭐하니?' 스핀오프 여행 예능 내달 첫선",
+   "u": "https://www.yna.co.kr/view/AKR20260918113400005",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "에임인텔리전스, 피지컬AI 안전 연구 글로벌 컨소시엄 ‘PASC’ 출범",
-   "u": "https://zdnet.co.kr/view/?no=20260918081204",
+   "t": "수십억 년 쌓인 달 먼지에 외계 문명 흔적이",
+   "u": "https://zdnet.co.kr/view/?no=20260919072436",
    "s": "ZDNet"
   },
   {
-   "t": "\"100억마리보다 어떤 균주냐 중요\"…용인 hy 중앙연구소 가보니",
-   "u": "https://zdnet.co.kr/view/?no=20260917164940",
+   "t": "블록체인 도입했지만 구조는 그대로…기술과 제도 '엇박자'",
+   "u": "https://zdnet.co.kr/view/?no=20260918214240",
    "s": "ZDNet"
   },
   {
-   "t": "볼보 ES90이 정의한 전기 플래그십 해법…7960만원부터",
-   "u": "https://zdnet.co.kr/view/?no=20260917152952",
+   "t": "화웨이, 안전하고 지능적인 연결로 에이전틱 세계를 지원하는 업그레이드된 Stellar AI Network 공개",
+   "u": "https://zdnet.co.kr/view/?no=20260919091013",
    "s": "ZDNet"
   },
   {
-   "t": "새로운 동료평가 시험, 혁신 기술로 ESR의 4시간 한계 극복 입증",
-   "u": "https://zdnet.co.kr/view/?no=20260918011024",
+   "t": "센트론, 칭화대학교와 R&D 협력 계약 체결",
+   "u": "https://zdnet.co.kr/view/?no=20260919091002",
    "s": "ZDNet"
   },
   {
-   "t": "로제로, 캐나다 및 독일로부터 최대 3억 달러 규모의 공동 자금 지원 약정 확보",
-   "u": "https://zdnet.co.kr/view/?no=20260918011013",
+   "t": "하루 20시간/23kg 짐 계속 나르는 휴머노이드 로봇",
+   "u": "https://zdnet.co.kr/view/?no=20260918191540",
    "s": "ZDNet"
   },
   {
-   "t": "화웨이 최신 보고서, 지능형 세계 2035를 향한 10대 핵심 방향 제시",
-   "u": "https://zdnet.co.kr/view/?no=20260918011003",
+   "t": "\"귓구멍 안 막는 이어폰 뜬다\"…OWS 시장 12% 성장",
+   "u": "https://zdnet.co.kr/view/?no=20260919073328",
    "s": "ZDNet"
   },
   {
-   "t": "모두의 창업 경쟁률 '쑥'...2차 9만2900명 신청",
-   "u": "https://zdnet.co.kr/view/?no=20260917232813",
+   "t": "\"농촌에 인터넷 깔아야 하나\"...스타링크가 던진 보편서비스 논쟁",
+   "u": "https://zdnet.co.kr/view/?no=20260919084948",
    "s": "ZDNet"
   },
   {
-   "t": "지란지교시큐리티, 양자전환 사업 본격화…’Q",
-   "u": "https://zdnet.co.kr/view/?no=20260917231928",
+   "t": "AI가 밀어올린 스마트폰 가격, 신흥국 인터넷 보급 급제동",
+   "u": "https://zdnet.co.kr/view/?no=20260919084130",
    "s": "ZDNet"
   },
   {
-   "t": "KIST, 2030년 세계 첫 5천 QPU급 RPU 개발",
-   "u": "https://zdnet.co.kr/view/?no=20260917162009",
+   "t": "함영진 KT 그룹홍보팀장 빙부상",
+   "u": "https://zdnet.co.kr/view/?no=20260919083027",
    "s": "ZDNet"
   },
   {
-   "t": "스패로우, ‘GISEC 2026’ 참가…중동 SW 공급망 보안시장 공략",
-   "u": "https://zdnet.co.kr/view/?no=20260917225705",
+   "t": "5G로 원격진료...아태 지역 병원 실제 도입은 24%에 머물러",
+   "u": "https://zdnet.co.kr/view/?no=20260919082835",
    "s": "ZDNet"
   },
   {
-   "t": "식스도파민, ‘Low Slow No’ 음주 캠페인서 AI/VR 콘텐츠 선보여",
-   "u": "https://zdnet.co.kr/view/?no=20260917224416",
+   "t": "추석 이틀 더 쉬었더니 리조트 찾는 발길 2.7배 늘었다",
+   "u": "https://zdnet.co.kr/view/?no=20260919081735",
    "s": "ZDNet"
   },
   {
-   "t": "태국 교통부 차관, 마음AI 방문…피지컬AI/AICC 기술 살펴",
-   "u": "https://zdnet.co.kr/view/?no=20260917222921",
+   "t": "\"TSMC, 2028년까지 AI칩 패키징 독주\"",
+   "u": "https://zdnet.co.kr/view/?no=20260918221337",
    "s": "ZDNet"
   },
   {
-   "t": "STARPRIME(스타프라임), AM/PM 픽싱과 XAU24/7로 분화하는 금 시장 수요에 대응",
-   "u": "https://zdnet.co.kr/view/?no=20260917221013",
+   "t": "아이폰18프로 출시 첫날 ‘가격역전’...228만원 갤Z8폴드가 더 쌌다",
+   "u": "https://zdnet.co.kr/view/?no=20260918202921",
    "s": "ZDNet"
   },
   {
-   "t": "FP 마켓츠, 2026 글로벌 포렉스 어워드서 3개 부문 수상",
-   "u": "https://zdnet.co.kr/view/?no=20260917221003",
+   "t": "7.4%의 견조한 유기적 매출 성장에 힘입어 18.8%의 조정 EBIT 마진 달성",
+   "u": "https://zdnet.co.kr/view/?no=20260919031003",
    "s": "ZDNet"
   },
   {
-   "t": "이레산업 방두영 대표, ‘2026 산업단지의 날’ 지방시대위원장 표창 수상",
-   "u": "https://zdnet.co.kr/view/?no=20260917220148",
+   "t": "삼성디스플레이, CSOT 美 특허 3건 무효심판 청구...침해소송 대응",
+   "u": "https://zdnet.co.kr/view/?no=20260919024257",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "토스 안정식당에 담긴 마케팅 전략! 금융 앱이 안정감을 차려내는 법",
+   "u": "https://gogumafarm.kr/%ed%86%a0%ec%8a%a4-%ec%95%88%ec%a0%95%ec%8b%9d%eb%8b%b9%ec%97%90-%eb%8b%b4%ea%b8%b4-%eb%a7%88%ec%bc%80%ed%8c%85-%ec%a0%84%eb%9e%b5-%ea%b8%88%ec%9c%b5-%ec%95%b1%ec%9d%b4-%ec%95%88%ec%a0%95%ea%b0%90/",
+   "s": "고구마팜"
+  },
   {
    "t": "오늘의 뉴스클리핑과 커머스 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-163/",
@@ -321,11 +342,6 @@
   {
    "t": "성수에서 천 원에 커피와 디저트를?! 상생 메시지를 색다르게 풀어낸 두 팝업스토어",
    "u": "https://gogumafarm.kr/%ec%84%b1%ec%88%98%ec%97%90%ec%84%9c-%ec%b2%9c-%ec%9b%90%ec%97%90-%ec%bb%a4%ed%94%bc%ec%99%80-%eb%94%94%ec%a0%80%ed%8a%b8%eb%a5%bc-%ec%83%81%ec%83%9d-%eb%a9%94%ec%8b%9c%ec%a7%80%eb%a5%bc-%ec%83%89/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "오늘의 뉴스클리핑과 매체/퍼포먼스 트렌드",
-   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%eb%a7%a4%ec%b2%b4-%ed%8d%bc%ed%8f%ac%eb%a8%bc%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-118/",
    "s": "고구마팜"
   }
  ]
