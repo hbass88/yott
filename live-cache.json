@@ -1,288 +1,340 @@
 {
- "updated": "2026-09-21T03:10:08.769Z",
+ "updated": "2026-09-22T03:09:35.057Z",
  "trends": [
   {
-   "title": "facebook",
-   "traffic": "100+",
+   "title": "제미나이",
+   "traffic": "10000+",
    "items": [
     {
-     "t": "Brief Facebook outage impacted users across world, reports say",
-     "u": "https://www.9news.com/article/news/nation-world/is-facebook-down/507-caecdf85-bd54-48ac-b0ee-01264b797f8e",
-     "s": "9News"
+     "t": "퀄컴/구글 AI 동맹…제미나이 품은 PC '구글북' 전격 공개",
+     "u": "https://zdnet.co.kr/view/?no=20260921155254",
+     "s": "지디넷코리아"
     },
     {
-     "t": "Is Facebook down? Thousands report access issues",
-     "u": "https://www.abc10.com/article/news/nation-world/is-facebook-down/507-caecdf85-bd54-48ac-b0ee-01264b797f8e",
-     "s": "ABC10"
+     "t": "구글, 제미나이 품은 AI 노트북 ‘구글북’ 공개…가격 123만원부터",
+     "u": "https://biz.chosun.com/it-science/ict/2026/09/22/DAHIUU2B4ZELJJQ7QXDA4UYF6I/",
+     "s": "Chosunbiz"
     },
     {
-     "t": "Is Facebook down? Users have problem with Facebook",
-     "u": "https://www.app.com/story/news/2026/09/20/is-facebook-down-facebook-down-sunday/91867575007/",
-     "s": "Asbury Park Press"
+     "t": "퀄컴 '구글북에 스냅드래곤X 엘리트 탑재'",
+     "u": "https://v.daum.net/v/20260921220128489",
+     "s": "Daum"
     }
    ]
   },
   {
-   "title": "인스타그램",
+   "title": "게임",
    "traffic": "1000+",
    "items": [
     {
-     "t": "'난 포기할래, 안녕'…`언더월드` 女배우 의미심장글에 우려 쏟아져",
-     "u": "https://mydaily.co.kr/page/view/2026092110124808470",
-     "s": "마이데일리"
+     "t": "'금메달 뺏겼다고 뒤끝 작렬?' 韓 농구 귀국길 공항 버스 또 '노쇼'",
+     "u": "https://v.daum.net/v/20260922092915214",
+     "s": "Daum"
     },
     {
-     "t": "케이트 베킨세일 인스타그램에 “난 포기해...Bye” 글 남겼다가 삭제 : 연예",
-     "u": "https://news.jkn.co.kr/post/991902",
-     "s": "재경일보"
+     "t": "AG 금메달 이우석에게 매우 중요한 앞으로의 20일…조기 전역+선수 재등록 10월 2일까지 마쳐야 FA 자격 획득 등 제대로 권리 챙긴다",
+     "u": "https://sports.donga.com/sports/article/all/20260922/134717256/1",
+     "s": "스포츠동아"
     },
     {
-     "t": "“안녕, 이제 나는 포기야”…53세 女 스타, 의미심장 메시지→팬들 쏟아지는 ‘걱정’",
-     "u": "https://mhnse.com/news/articleView.html?idxno=1555408",
-     "s": "MHN스포츠"
+     "t": "일본 열도 달군 이현중///“완전 NBA 그릇 아니야? 이런 선수가 대체 왜 일본프로농구에 있었던 거지?”",
+     "u": "https://sports.khan.co.kr/article/202609211117003",
+     "s": "스포츠경향"
     }
    ]
   },
   {
-   "title": "기상청",
-   "traffic": "200+",
+   "title": "기상청 날씨누리",
+   "traffic": "1000+",
    "items": [
     {
-     "t": "'국산 기상장비' 개발부터 수출까지 지원…기상청, 기술자립 추진",
-     "u": "https://www.mt.co.kr/society/2026/09/21/2026092109145612022",
-     "s": "머니투데이"
+     "t": "기상청, 한반도 넘어 전 세계 기상 한눈에… '날씨지도' 서비스 개편",
+     "u": "https://go.seoul.co.kr/news/prnewsView.php?id=448689",
+     "s": "서울Pn"
     },
     {
-     "t": "외산 의존 끊는다…기상청, 국산 기상장비 상용화/해외 진출 지원",
-     "u": "https://www.newsis.com/view/NISX20260921_0003797901",
+     "t": "한국형 수치예보모델 전 지구 전망을 지도로 편하게 확인",
+     "u": "https://www.yna.co.kr/view/AKR20260922070500530",
+     "s": "연합뉴스"
+    },
+    {
+     "t": "기상청 '날씨지도' 개편‥우리 기술로 전 세계 날씨 한눈에",
+     "u": "https://imnews.imbc.com/news/2026/society/article/6853473_36918.html",
+     "s": "MBC 뉴스"
+    }
+   ]
+  },
+  {
+   "title": "청약홈",
+   "traffic": "500+",
+   "items": [
+    {
+     "t": "시세 14억인데 분양가 7억…철산자이 6가구 '줍줍' 오늘 청약",
+     "u": "https://www.newsis.com/view/NISX20260921_0003798981",
      "s": "뉴시스"
     },
     {
-     "t": "기상청, 국산 기상장비 '개발→수출' 전 과정 지원…5년간 347억원 투입",
-     "u": "https://v.daum.net/v/20260921110315811",
+     "t": "'당첨만 되면 7억 로또'…분양가 2배 뛴 광명에 '줍줍' 뜬다",
+     "u": "https://www.mt.co.kr/estate/2026/09/22/2026092115041487221",
+     "s": "머니투데이"
+    },
+    {
+     "t": "'14억 아파트 7억에'…'누구나 신청 가능' 광명 철산자이 '로또 청약' 시작",
+     "u": "https://v.daum.net/v/20260922103137815",
      "s": "Daum"
     }
    ]
   },
   {
-   "title": "달력",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "5인 미만 영세사업장 직장인 절반 '명절도 유급휴일 인정못받아'",
-     "u": "https://v.daum.net/v/20260920120222235",
-     "s": "Daum"
-    },
-    {
-     "t": "'5인 미만 사업장' 직장인 절반 이상, '추석에도 유급으로 못 쉰다'",
-     "u": "https://www.kyeonggi.com/article/20260920580381",
-     "s": "경기일보"
-    },
-    {
-     "t": "달력은 똑같이 빨간데…작은 회사 다니면 ‘유급휴일’도 남 얘기",
-     "u": "https://www.edaily.co.kr/News/Read?newsId=02791286645582088&amp;mediaCodeNo=257",
-     "s": "이데일리"
-    }
-   ]
-  },
-  {
-   "title": "7",
+   "title": "조선일보",
    "traffic": "100+",
    "items": [
     {
-     "t": "A’s Can’t Escape With A Win, Fall To Guardians In Finale",
-     "u": "https://sports.yahoo.com/articles/t-t-escape-win-fall-000659560.html",
-     "s": "Yahoo Sports"
+     "t": "‘김건희 매관매직’ 수사 이정훈 부장검사 사의…“형사사법 균형 깨뜨려”",
+     "u": "https://www.sedaily.com/article/20093699",
+     "s": "서울경제"
     },
     {
-     "t": "Gavin Williams News: Dominant effort in win",
-     "u": "https://www.rotowire.com/baseball/headlines/gavin-williams-news-dominant-effort-in-win-1026481",
-     "s": "RotoWire"
+     "t": "김건희 '매관매직' 수사한 이정훈 부장검사 사의",
+     "u": "https://www.newsis.com/view/NISX20260921_0003799190",
+     "s": "뉴시스"
     },
     {
-     "t": "Guardians outfielder Steven Kwan reflects on three",
-     "u": "https://www.usatoday.com/videos/sports/mlb/cleveland-guardians/2026/09/20/cleveland-guardians-steven-kwan-three-game-sweep-of-athletics-mlb-video/91866358007/",
-     "s": "USA Today"
+     "t": "‘김건희 매관매직 수사’ 이정훈 부장검사 사의...'형사 사법 균형 상실, 언젠가 회복 믿어'",
+     "u": "https://news.jtbc.co.kr/article/NB12319454",
+     "s": "JTBC"
     }
    ]
   },
   {
-   "title": "instagram",
-   "traffic": "200+",
+   "title": "x",
+   "traffic": "100+",
    "items": [
     {
-     "t": "Kate Beckinsale Shares Bleak Messages on Instagram",
-     "u": "https://people.com/kate-beckinsale-shares-bleak-messages-on-instagram-12130092",
-     "s": "People.com"
+     "t": "Colts WR Alec Pierce (heel) to miss several weeks, won't have surgery",
+     "u": "https://www.nfl.com/news/colts-wr-alec-pierce-heel-to-miss-several-weeks-won-t-have-surgery",
+     "s": "NFL.com"
     },
     {
-     "t": "Kate Beckinsale sparks alarm with cryptic social media posts",
-     "u": "https://www.yahoo.com/entertainment/celebrity/articles/kate-beckinsale-sparks-alarm-cryptic-020139628.html",
-     "s": "Yahoo"
+     "t": "Colts WR Alec Pierce Out Several Weeks with Heel Injury Stream of National Football League",
+     "u": "https://www.cbssports.com/watch/nfl/video/colts-wr-alec-pierce-out-several-weeks-with-heel-injury",
+     "s": "CBS Sports"
     },
     {
-     "t": "Pilots Accused of Flying Drunk and Crashing Brand",
-     "u": "https://www.thedailybeast.com/kate-beckinsale-shares-alarming-message-after-opening-up-about-ptsd-struggle/",
-     "s": "The Daily Beast"
+     "t": "Shane Steichen on Alec Pierce: Still gathering info on his heel, unsure of availability",
+     "u": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-on-alec-pierce-still-gathering-info-on-his-heel-unsure-of-availability",
+     "s": "NBC Sports"
+    }
+   ]
+  },
+  {
+   "title": "구글",
+   "traffic": "500+",
+   "items": [
+    {
+     "t": "Google hit with $463 million fine for EU location data rule breach",
+     "u": "https://abcnews.com/Technology/wireStory/google-hit-463-million-fine-eu-location-data-136616044",
+     "s": "ABC News"
+    },
+    {
+     "t": "Google fined more than €400m by Irish regulator over its use of location data",
+     "u": "https://www.theguardian.com/technology/2026/sep/21/google-is-fined-more-than-400m-by-irish-regulator-over-its-use-of-location-data",
+     "s": "The Guardian"
+    },
+    {
+     "t": "Google hit with €403m fine by Irish data watchdog over GDPR violations",
+     "u": "https://www.bbc.com/news/articles/ck1e52v16ngxo",
+     "s": "BBC"
+    }
+   ]
+  },
+  {
+   "title": "업비트",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "하나은행, 업비트 글로벌과 맞손…디지털자산 이전 인프라 구축",
+     "u": "https://www.viva100.com/article/20260922500396",
+     "s": "브릿지경제"
+    },
+    {
+     "t": "자금세탁방지 위험줄이는 스테이블코인 이전, 전통/디지털 금융 공동모색",
+     "u": "https://zdnet.co.kr/view/?no=20260922091904",
+     "s": "지디넷코리아"
+    },
+    {
+     "t": "하나은행, 업비트 글로벌과 암호자산 규제 협력",
+     "u": "https://www.newspim.com/news/view/20260922000193",
+     "s": "뉴스핌"
     }
    ]
   }
  ],
  "ent": [
   {
-   "t": "더핑크퐁컴퍼니 애니 '씰룩', 韓 넷플릭스 키즈 부문 1위",
-   "u": "https://www.yna.co.kr/view/AKR20260921089800005",
+   "t": "40주년 이승철, 우즈와 듀엣곡…'우리만의 이야기' 발표",
+   "u": "https://www.yna.co.kr/view/AKR20260922078500005",
    "s": "연합뉴스"
   },
   {
-   "t": "이준영 소속사 빌리언스, 日 에이벡스와 파트너십 체결",
-   "u": "https://www.yna.co.kr/view/AKR20260921075100005",
+   "t": "블랙핑크 리사가 디자인한 한정판 PS5 컨트롤러 나온다",
+   "u": "https://www.yna.co.kr/view/AKR20260922077300017",
    "s": "연합뉴스"
   },
   {
-   "t": "이달의 방송기자상에 MBC '대법관 서면 제청…' 등 5편",
-   "u": "https://www.yna.co.kr/view/AKR20260921074900005",
+   "t": "박신혜, 오늘 둘째 딸 출산…\"산모와 아이 건강\"",
+   "u": "https://www.yna.co.kr/view/AKR20260922075800005",
    "s": "연합뉴스"
   },
   {
-   "t": "MBN '언포게터블 듀엣' 시즌2 내달 첫 방송",
-   "u": "https://www.yna.co.kr/view/AKR20260921070300005",
+   "t": "서울드라마어워즈 대상에 노르웨이 드라마 '어 베터 맨'",
+   "u": "https://www.yna.co.kr/view/AKR20260922067200005",
    "s": "연합뉴스"
   },
   {
-   "t": "지상파 UHD 10년, 전국망은 아직…차세대 방송정책 재검토",
-   "u": "https://www.yna.co.kr/view/AKR20260917132600017",
+   "t": "리센느, 11월 3일 미니 4집 '펄스'…4개월 만에 컴백",
+   "u": "https://www.yna.co.kr/view/AKR20260922067400005",
    "s": "연합뉴스"
   },
   {
-   "t": "김남길, 첫 페스티벌 무대…30분간 5곡 열창",
-   "u": "https://www.yna.co.kr/view/AKR20260921066900005",
+   "t": "주성치 '쿵푸 허슬', 21년 만에 재개봉…내달 스크린",
+   "u": "https://www.yna.co.kr/view/AKR20260922065600005",
    "s": "연합뉴스"
   },
   {
-   "t": "KBS 공채 개그맨, 운전하던 대리기사 폭행…서초서 현행범 체포",
-   "u": "https://www.yna.co.kr/view/AKR20260921066200004",
+   "t": "BTS 내달 남미 투어에 뜨거운 현지 열기…\"21세기 대표 그룹\"",
+   "u": "https://www.yna.co.kr/view/AKR20260922061300005",
    "s": "연합뉴스"
   },
   {
-   "t": "우즈, 내달 KSPO돔 입성…서울 앙코르 콘서트",
-   "u": "https://www.yna.co.kr/view/AKR20260921056100005",
+   "t": "싱어송라이터 이진아, 23일 신곡 '저니 오브 드리밍'",
+   "u": "https://www.yna.co.kr/view/AKR20260922046700005",
    "s": "연합뉴스"
   },
   {
-   "t": "정용화 주연 '밑도 끝도 없이, 너다' 내달 첫선",
-   "u": "https://www.yna.co.kr/view/AKR20260921055000005",
+   "t": "봉준호/최동훈/장준환 단편 등 25편, 김해공항서 상영",
+   "u": "https://www.yna.co.kr/view/AKR20260922048500005",
    "s": "연합뉴스"
   },
   {
-   "t": "SKB, 추석 맞아 'B tv VOD' 할인 쿠폰 제공",
-   "u": "https://www.yna.co.kr/view/AKR20260921054900017",
+   "t": "유연석/서현진, 10년 만에 다시 만났다…MBC '라이어' 주연",
+   "u": "https://www.yna.co.kr/view/AKR20260922045000005",
    "s": "연합뉴스"
   },
   {
-   "t": "'직장인 공감송' 소연 '퇴사할게여' 음원 차트 1위 석권",
-   "u": "https://www.yna.co.kr/view/AKR20260921052500005",
+   "t": "현대백화점, 신촌점서 매주 금요일 'K팝 쇼' 연다",
+   "u": "https://www.yna.co.kr/view/AKR20260922036600030",
    "s": "연합뉴스"
   },
   {
-   "t": "핑클, 21년 만에 완전체 활동…\"지속 활동 위한 새출발\"",
-   "u": "https://www.yna.co.kr/view/AKR20260921048600005",
+   "t": "갤럭시코퍼레이션, '세계 평화의 날' 맞아 뉴욕서 로봇 퍼포먼스",
+   "u": "https://www.yna.co.kr/view/AKR20260922029600072",
    "s": "연합뉴스"
   },
   {
-   "t": "엔씨/국립국악원, '아리랑' 현대적으로 다시 빚었다",
-   "u": "https://www.yna.co.kr/view/AKR20260921050400017",
+   "t": "파라마운트",
+   "u": "https://www.yna.co.kr/view/AKR20260922024100075",
    "s": "연합뉴스"
   },
   {
-   "t": "MMA 2026에 리센느/아일릿/하츠투하츠 출연",
-   "u": "https://www.yna.co.kr/view/AKR20260921044600005",
+   "t": "SBS, 장항준 토크 예능 '거장항준' 내달 첫선",
+   "u": "https://www.yna.co.kr/view/AKR20260922026200005",
    "s": "연합뉴스"
   },
   {
-   "t": "가수 션의 세계 7대 마라톤 완주기…다큐 '쉘위런' 내달 개봉",
-   "u": "https://www.yna.co.kr/view/AKR20260921044100005",
+   "t": "고통을 사이에 둔 네 사람의 사랑…이창동 신작 '가능한 사랑'",
+   "u": "https://www.yna.co.kr/view/AKR20260921173800005",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "후지필름코리아, 국내 독립영화 유럽 진출 지원",
-   "u": "https://zdnet.co.kr/view/?no=20260921105319",
+   "t": "\"갑자기 하늘서 물벼락\"…개에 물 뿌린 중국 드론, 왜",
+   "u": "https://zdnet.co.kr/view/?no=20260922085439",
    "s": "ZDNet"
   },
   {
-   "t": "작은 AI가 더 위험…'통제 불능 AI'의 경고",
-   "u": "https://zdnet.co.kr/view/?no=20260921095641",
+   "t": "11번가, '2026 숙박세일 페스타' 참여…최대 9만원 할인",
+   "u": "https://zdnet.co.kr/view/?no=20260922093840",
    "s": "ZDNet"
   },
   {
-   "t": "마음AI ‘나비컴’, 공주백제마라톤서 피지컬 AI 현장 시연",
-   "u": "https://zdnet.co.kr/view/?no=20260921104722",
+   "t": "삼성전자서비스, 추석 연휴 '긴급 수리 서비스' 운영",
+   "u": "https://zdnet.co.kr/view/?no=20260922093036",
    "s": "ZDNet"
   },
   {
-   "t": "발사체 '누리호' 경제/사회적 가치 연간 2조 3000억원",
-   "u": "https://zdnet.co.kr/view/?no=20260921102206",
+   "t": "\"인텔, 대만 AUO와 실리콘 포토닉스 협력 검토\"",
+   "u": "https://zdnet.co.kr/view/?no=20260922094131",
    "s": "ZDNet"
   },
   {
-   "t": "카카오VX, 추석 맞아 '마이다스 골프와 함께 하는 명랑 운동회' 마련",
-   "u": "https://zdnet.co.kr/view/?no=20260921103107",
+   "t": "아일랜드 DPC, GDPR 위반한 구글에 6000억원 과징금 부과",
+   "u": "https://zdnet.co.kr/view/?no=20260922075912",
    "s": "ZDNet"
   },
   {
-   "t": "MS, AI 에이전트로 코파일럿 런타임 러스트 전환…속도 최대 15.9배 향상",
-   "u": "https://zdnet.co.kr/view/?no=20260921095936",
+   "t": "아마존, 외부 AI 에이전트에 빗장…메타 '뮤즈' 상품 구매 차단",
+   "u": "https://zdnet.co.kr/view/?no=20260922082149",
    "s": "ZDNet"
   },
   {
-   "t": "마이크로소프트 AI 수장 \"중국 핑계로 AI 안전 미뤄선 안 돼\"",
-   "u": "https://zdnet.co.kr/view/?no=20260921093145",
+   "t": "배민, 내달 28일 ‘우아한테크콘퍼런스 2026’ 개최",
+   "u": "https://zdnet.co.kr/view/?no=20260922093409",
    "s": "ZDNet"
   },
   {
-   "t": "파라마운트 합병 합의설에...마크 러팔로 \"굴복하지 말라\"",
-   "u": "https://zdnet.co.kr/view/?no=20260921091219",
+   "t": "영국, AI 규제/육성 사이 균형 찾는다…\"중재자 역할 할 것\"",
+   "u": "https://zdnet.co.kr/view/?no=20260922084110",
    "s": "ZDNet"
   },
   {
-   "t": "LG디스플레이, 24.5인치 720Hz 게이밍 OLED 출시…에이수스 첫 공급",
-   "u": "https://zdnet.co.kr/view/?no=20260921100518",
+   "t": "핵융합연, R&D 역량 강화위해 체제 정비",
+   "u": "https://zdnet.co.kr/view/?no=20260922094455",
    "s": "ZDNet"
   },
   {
-   "t": "KGM, '토탈 케어 패키지' 출시…뉴 토레스 월 16만원대",
-   "u": "https://zdnet.co.kr/view/?no=20260921101201",
+   "t": "제네시스, 초기품질 첫 공동 1위…내구품질도 7위서 4위로",
+   "u": "https://zdnet.co.kr/view/?no=20260922094251",
    "s": "ZDNet"
   },
   {
-   "t": "바디프랜드, 추석 '건강선물' 할인판매",
-   "u": "https://zdnet.co.kr/view/?no=20260921092752",
+   "t": "CJ제일제당, 뉴욕서 증류주 브랜드 ‘자리’ 공개",
+   "u": "https://zdnet.co.kr/view/?no=20260922092046",
    "s": "ZDNet"
   },
   {
-   "t": "삼성전자, 전남 광주사업장에 HVAC 생산라인 착공…내후년 초 가동 목표",
-   "u": "https://zdnet.co.kr/view/?no=20260921082728",
+   "t": "지마켓, '한가위 빅세일 스타배송관' 열어",
+   "u": "https://zdnet.co.kr/view/?no=20260922091454",
    "s": "ZDNet"
   },
   {
-   "t": "이노스페이스, 캐나다 알샛과 유통계약",
-   "u": "https://zdnet.co.kr/view/?no=20260921095636",
+   "t": "변압기 공장 누비는 로봇개…LS일렉트릭, 보스턴다이내믹스 '스팟' 도입",
+   "u": "https://zdnet.co.kr/view/?no=20260922094026",
    "s": "ZDNet"
   },
   {
-   "t": "문콕/스톤칩 수리비 걱정 끝…차봇, 연간 최대 260만원 혜택 ‘차봇케어’ 출시",
-   "u": "https://zdnet.co.kr/view/?no=20260921095543",
+   "t": "영화 '인턴' 속 럭셔리 SUV 눈길…한소희/최민식이 탄 제네시스 GV80",
+   "u": "https://zdnet.co.kr/view/?no=20260922093754",
    "s": "ZDNet"
   },
   {
-   "t": "소아 청소년 1형 당뇨병 환자의 형제/자매도 발병 위험 높아",
-   "u": "https://zdnet.co.kr/view/?no=20260915161637",
+   "t": "자동차 공장 AI 기술, 항공우주로…현대로템/현대차 맞손",
+   "u": "https://zdnet.co.kr/view/?no=20260922093451",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "오늘의 뉴스클리핑과 AI 트렌드",
+   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-ai-%ed%8a%b8%eb%a0%8c%eb%93%9c-58/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "내가 고구마팜이었으면 이 밈은 꼭 소개하고 싶음",
+   "u": "https://gogumafarm.kr/%eb%82%b4%ea%b0%80-%ea%b3%a0%ea%b5%ac%eb%a7%88%ed%8c%9c%ec%9d%b4%ec%97%88%ec%9c%bc%eb%a9%b4-%ec%9d%b4-%eb%b0%88%ec%9d%80-%ea%bc%ad-%ec%86%8c%ea%b0%9c%ed%95%98%ea%b3%a0-%ec%8b%b6%ec%9d%8c-2026/",
+   "s": "고구마팜"
+  },
   {
    "t": "오늘의 뉴스클리핑과 매체/퍼포먼스 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%eb%a7%a4%ec%b2%b4-%ed%8d%bc%ed%8f%ac%eb%a8%bc%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-119/",
@@ -311,16 +363,6 @@
   {
    "t": "오늘의 뉴스클리핑과 유튜브 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%9c%a0%ed%8a%9c%eb%b8%8c-%ed%8a%b8%eb%a0%8c%eb%93%9c-171/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "최근 화제인 아이폰 듀오 활용 트렌드! 어떤 브랜드가 올라탔을까?",
-   "u": "https://gogumafarm.kr/%ec%b5%9c%ea%b7%bc-%ed%99%94%ec%a0%9c%ec%9d%b8-%ec%95%84%ec%9d%b4%ed%8f%b0-%eb%93%80%ec%98%a4-%ed%99%9c%ec%9a%a9-%ed%8a%b8%eb%a0%8c%eb%93%9c-%ec%96%b4%eb%96%a4-%eb%b8%8c%eb%9e%9c%eb%93%9c%ea%b0%80/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "오늘의 뉴스클리핑과 AI 트렌드",
-   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-ai-%ed%8a%b8%eb%a0%8c%eb%93%9c-57/",
    "s": "고구마팜"
   }
  ]
