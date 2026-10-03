@@ -1,351 +1,298 @@
 {
- "updated": "2026-10-02T03:54:50.575Z",
+ "updated": "2026-10-03T03:39:43.262Z",
  "trends": [
   {
-   "title": "쓰레기봉투",
-   "traffic": "2000+",
-   "items": [
-    {
-     "t": "쓰레기봉투 속 2500만 원 끝내 주인 안 나타나… 최초 발견자 품으로",
-     "u": "https://www.segye.com/newsView/20261002502623",
-     "s": "세계일보"
-    },
-    {
-     "t": "쓰레기봉투 속 2500만원, 주인 없어 발견한 헌옷 수거 60대 몫으로",
-     "u": "https://www.donga.com/news/Society/article/all/20261002/134773090/1",
-     "s": "동아일보"
-    },
-    {
-     "t": "쓰레기봉투서 2500만원 돈뭉치…주인 안 나타나 '횡재'",
-     "u": "https://www.nocutnews.co.kr/news/6586256",
-     "s": "노컷뉴스"
-    }
-   ]
-  },
-  {
-   "title": "탑 나나",
-   "traffic": "1000+",
-   "items": [
-    {
-     "t": "탑/나나, 연인 됐다 '6월부터 열애 중'(종합)",
-     "u": "https://www.newsis.com/view/NISX20261002_0003812381",
-     "s": "뉴시스"
-    },
-    {
-     "t": "'우리가 진짜, 스캔들'…탑/나나, 열애의 현장",
-     "u": "https://www.dispatch.co.kr/2348704",
-     "s": "디스패치"
-    },
-    {
-     "t": "탑♥나나, 톱스타 커플 탄생…'뮤비 촬영 인연, 6월에 연인으로 발전'",
-     "u": "https://www.news1.kr/entertain/celebrity-topic/6308863",
-     "s": "뉴스1"
-    }
-   ]
-  },
-  {
-   "title": "홍진경",
-   "traffic": "2000+",
-   "items": [
-    {
-     "t": "29억 건물 매입 홍진경, ‘연예인 착각’ 버리자 50층 아파트가 보였다",
-     "u": "https://www.segye.com/newsView/20260625510091",
-     "s": "세계일보"
-    },
-    {
-     "t": "사카구치 켄타로, 홍진경 평창동 대저택+북악산 뷰에 '스고이'('공부왕찐천재 홍진경')",
-     "u": "https://v.daum.net/v/HYuU0qDgvq",
-     "s": "Daum"
-    },
-    {
-     "t": "이준기, 사카구치 켄타로 옆에서 매력 발산 '내 코는 예뻐'('공부왕찐천재 홍진경')",
-     "u": "https://biz.chosun.com/entertainment/enter_general/2026/10/02/GUZWKZJVGRTGINRUGFQTOOLCGY/",
-     "s": "Chosunbiz"
-    }
-   ]
-  },
-  {
-   "title": "필리스 대 브레이브스",
-   "traffic": "2000+",
-   "items": [
-    {
-     "t": "'김하성 벤치' 애틀랜타 NLDS 진출…다저스와 격돌",
-     "u": "https://www.yna.co.kr/view/AKR20261002070000007",
-     "s": "연합뉴스"
-    },
-    {
-     "t": "다저스 나와! ATL 디비전시리즈 진출!...해리스 2세 3점포→알비스 투런포→올슨 쐐기포, '하루 휴식' 세일 4아웃 투혼, 김하성은 결장",
-     "u": "https://www.mt.co.kr/sports/2026/10/02/202610021154775100O",
-     "s": "머니투데이"
-    },
-    {
-     "t": "먼저 도입한 KBO와는 다르네…메이저리그 ABS, 가을야구 풍경도 바꿨다",
-     "u": "https://www.chosun.com/sports/world-baseball/2026/10/01/HBRDCMTDMMZTCYJVGBSGKZJRGQ/",
-     "s": "조선일보"
-    }
-   ]
-  },
-  {
-   "title": "챗gpt",
-   "traffic": "10000+",
-   "items": [
-    {
-     "t": "챗GPT 옷도 입어본다…AI가 상품 탐색부터 가상 착용까지",
-     "u": "https://v.daum.net/v/20261002110343610",
-     "s": "Daum"
-    },
-    {
-     "t": "10월 2일 기술 뉴스: ChatGPT는 테스트 방법을 알고 NASA는 달에 5G 네트워크를 구축합니다",
-     "u": "https://ko.laodong.vn/cong-nghe/cong-nghe-ngay-210-chatgpt-biet-thu-do-nasa-xay-mang-5g-tren-mat-trang-1776250.ldo",
-     "s": "Laodong.vn"
-    },
-    {
-     "t": "챗GPT로 가상 피팅 사용하기…참조 사진 관리와 즐겨찾기 저장까지",
-     "u": "https://aimatters.co.kr/ai-tool/53887/",
-     "s": "AI 매터스"
-    }
-   ]
-  },
-  {
-   "title": "chat gpt",
-   "traffic": "5000+",
-   "items": [
-    {
-     "t": "ChatGPT can now virtually try on clothes for you",
-     "u": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-     "s": "TechCrunch"
-    },
-    {
-     "t": "ChatGPT Launches Virtual Try",
-     "u": "https://www.chosun.com/english/industry-en/2026/10/02/KBPIYKIVXFCU5MMJH2JIY3HL7Y/",
-     "s": "조선일보"
-    },
-    {
-     "t": "ChatGPT Can Now Help You Virtually Try On Clothes",
-     "u": "https://www.engadget.com/2275295/chatgpt-can-now-help-you-virtually-try-on-clothes/",
-     "s": "Engadget"
-    }
-   ]
-  },
-  {
-   "title": "승부차기",
-   "traffic": "50000+",
-   "items": [
-    {
-     "t": "일본 대 에콰도르 축구 예측",
-     "u": "https://ko.laodong.vn/bong-da-quoc-te/nhan-dinh-bong-da-nhat-ban-vs-ecuador-1775366.ldo",
-     "s": "Laodong.vn"
-    },
-    {
-     "t": "모레노호에 0",
-     "u": "https://www.sportschosun.com/football/2026-10-01/202610010100010760000409",
-     "s": "스포츠조선"
-    },
-    {
-     "t": "`스즈키 PK 선방` 일본, 에콰도르에 승부차기 승리…기린컵 결승 진출",
-     "u": "https://mydaily.co.kr/page/view/2026100121203641902",
-     "s": "마이데일리"
-    }
-   ]
-  },
-  {
-   "title": "태양광 발전",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "가평군 6개 마을에 태양광 발전시설 설치",
-     "u": "https://www.edaily.co.kr/News/Read?newsId=03460406645608984&amp;mediaCodeNo=257",
-     "s": "이데일리"
-    },
-    {
-     "t": "가평군, ‘경기RE100 소득마을’ 조성 업무협약",
-     "u": "https://www.asn24.com/news/articleView.html?idxno=570847",
-     "s": "경인신문"
-    },
-    {
-     "t": "우대가격/양방향 CfD…재생에너지 제도, 이렇게 바뀐다",
-     "u": "https://v.daum.net/v/X21WO5nQNl",
-     "s": "Daum"
-    }
-   ]
-  },
-  {
-   "title": "추성훈",
+   "title": "오예진",
    "traffic": "500+",
    "items": [
     {
-     "t": "야노시호, 모친에 '추성훈 변했다' 불만...현실 답변 '폭소'",
-     "u": "https://www.mt.co.kr/entertainment/2026/10/02/2026100206134346351",
-     "s": "머니투데이"
+     "t": "'노골드'로 마친 양궁 강채영 '금메달 하나 못 따 속상해'",
+     "u": "https://v.daum.net/v/20261003095901054",
+     "s": "Daum"
     },
     {
-     "t": "매번 눈물 흘렸는데..야노시호, 51세 ♥추성훈 은퇴경기 '기대돼' 이유는?",
-     "u": "https://www.chosun.com/entertainments/broadcast/2026/10/02/HFTDSMJXMM2TEMTFMJRGMMZTGY/",
+     "t": "女양궁 사상 첫 ‘노 골드’... 오예진 개인전도 銀, 인도에 패권 내줘",
+     "u": "https://www.chosun.com/sports/sports_special/2026/10/03/ZA3GQ5WQDZFIZNW7NATFRTYUJY/",
      "s": "조선일보"
     },
     {
-     "t": "'편스토랑' 야노 시호 母女, 한복 입고 상황극…'전하!'",
-     "u": "https://www.news1.kr/entertain/broadcast-tv/6308223",
+     "t": "파리/광주/일본서 연속金…김우진/이우석/김제덕 명궁삼총사",
+     "u": "https://www.yna.co.kr/view/AKR20261002151900007",
+     "s": "연합뉴스"
+    }
+   ]
+  },
+  {
+   "title": "천위페이",
+   "traffic": "5000+",
+   "items": [
+    {
+     "t": "中 왕즈이",
+     "u": "https://v.daum.net/v/20261003050143086",
+     "s": "Daum"
+    },
+    {
+     "t": "中 왕즈이/천위페이 '한국 안 가'…코리아오픈 또 안 온다, 日 야마구치는 참가→남자단식은 크리스티/스위치 등 강자 대거 출격",
+     "u": "https://www.xportsnews.com/article/2200865",
+     "s": "엑스포츠뉴스"
+    },
+    {
+     "t": "中 왕즈이/천위페이, 코리아오픈 불참→일본 마스터즈 출전 왜? : 스포츠",
+     "u": "https://news.jkn.co.kr/post/1006196",
+     "s": "재경일보"
+    }
+   ]
+  },
+  {
+   "title": "sri lanka vs bangladesh",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "BAN vs SL Cricket Scorecard, 3rd Place Play",
+     "u": "https://www.cricinfo.com/series/asian-games-men-s-cricket-competition-2026-1552449/bangladesh-vs-sri-lanka-3rd-place-play-off-1552778/full-scorecard",
+     "s": "Cricinfo"
+    },
+    {
+     "t": "BAN vs SL, Bronze Medal Match, Asian Games 2026",
+     "u": "https://m.cricbuzz.com/live-cricket-scores/171061/sl-vs-ban-bronze-medal-match-asian-games-2026",
+     "s": "Cricbuzz"
+    },
+    {
+     "t": "Sri Lanka vs Bangladesh Live Streaming: When And Where To Watch Asian Games Cricket 2026 Bronze Medal Match",
+     "u": "https://www.ndtvprofit.com/sports/sri-lanka-vs-bangladesh-live-streaming-when-and-where-to-watch-asian-games-cricket-2026-bronze-medal-match-12124905",
+     "s": "NDTV Profit"
+    }
+   ]
+  },
+  {
+   "title": "콜레스테롤",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "콜레스테롤, 우리 몸에 꼭 필요한 성분이다?!",
+     "u": "https://ichannela.com/program/clip/000000553230.do",
+     "s": "채널A 뉴스"
+    },
+    {
+     "t": "심혈관 위험도와 환자 특성을 고려한 맞춤형 스타틴 복합제 치료전략",
+     "u": "https://www.monews.co.kr/news/articleView.html?idxno=414302",
+     "s": "메디칼업저버"
+    },
+    {
+     "t": "‘LDL 130’ 모두 같은 기준일까…KBS ‘생로병사의 비밀’, 혈관 지키는 콜레스테롤 관리법 조명",
+     "u": "https://www.lecturernews.com/news/articleView.html?idxno=211293",
+     "s": "한국강사신문"
+    }
+   ]
+  },
+  {
+   "title": "개천절",
+   "traffic": "2000+",
+   "items": [
+    {
+     "t": "與, 개천절에 '국민의 삶 지킬 것'…국힘 '자유 가치 수호'",
+     "u": "https://v.daum.net/v/20261003115701957",
+     "s": "Daum"
+    },
+    {
+     "t": "국기에 대한 경례하는 한성숙 총리",
+     "u": "https://www.newsis.com/view/NISI20261003_0021474112",
+     "s": "뉴시스"
+    },
+    {
+     "t": "한 총리 “‘AI 기본사회’로 모두를 이롭게…K",
+     "u": "https://news.kbs.co.kr/news/view.do?ncd=8677155",
+     "s": "KBS 뉴스"
+    }
+   ]
+  },
+  {
+   "title": "최준희",
+   "traffic": "2000+",
+   "items": [
+    {
+     "t": "‘故최진실 딸’ 최준희, 안타까운 근황 “불안에 발발 떨고 속상해 눈물”",
+     "u": "https://www.twig24.com/news/entertainments/celebrity/2026/10/02/20261002500021",
+     "s": "TWIG"
+    },
+    {
+     "t": "최준희, 23만 계정 정지에 ''죽고 싶다'고 진짜 그러겠나' 자극적 보도에 분노…'하나도 안 괜찮아'",
+     "u": "https://v.daum.net/v/20261003083811053",
+     "s": "Daum"
+    },
+    {
+     "t": "최준희, SNS 계정 정지 후 자극적 기사에 분통 '진짜 죽겠냐고'",
+     "u": "https://www.news1.kr/entertain/celebrity-topic/6309674",
      "s": "뉴스1"
     }
    ]
+  },
+  {
+   "title": "이재시",
+   "traffic": "500+",
+   "items": []
   }
  ],
  "ent": [
   {
-   "t": "가수 겸 배우 탑/나나, 5개월째 열애…\"뮤직비디오 촬영 인연\"",
-   "u": "https://www.yna.co.kr/view/AKR20261002087600005",
+   "t": "기업은행/산업은행 \"영화 암살자(들) 투자 외부 요청 없었다\"",
+   "u": "https://www.yna.co.kr/view/AKR20261003026100002",
    "s": "연합뉴스"
   },
   {
-   "t": "한화갤러리아 벤슨, 싱어송라이터 '벤슨 분' 내한에 환영 이벤트",
-   "u": "https://www.yna.co.kr/view/AKR20261002077400030",
+   "t": "박진영, 12월 서울서 사흘간 연말 콘서트 '웨트'",
+   "u": "https://www.yna.co.kr/view/AKR20261003025400005",
    "s": "연합뉴스"
   },
   {
-   "t": "그래미, BTS 보이콧에도 아시안팝 신설 강행…\"지지 목소리 커\"",
-   "u": "https://www.yna.co.kr/view/AKR20261002072200075",
+   "t": "BTS, 콜롬비아 보고타서 '아리랑' 남미 투어 스타트",
+   "u": "https://www.yna.co.kr/view/AKR20261003023900005",
    "s": "연합뉴스"
   },
   {
-   "t": "응원봉 만들고 K팝 댄스 배우고…YG, 2∼5일 군산서 문화 행사",
-   "u": "https://www.yna.co.kr/view/AKR20261002060600005",
+   "t": "캣츠아이, 英 싱글 차트서 '애니멀' 26위/'후티 프루티' 64위",
+   "u": "https://www.yna.co.kr/view/AKR20261003016500005",
    "s": "연합뉴스"
   },
   {
-   "t": "체육공단/부산국제영화제, 공식 굿즈 제작 등 협업",
-   "u": "https://www.yna.co.kr/view/AKR20261002067300007",
+   "t": "BTS 이어 스트레이 키즈도 '그래미 보이콧'…아시안팝 강행 여파",
+   "u": "https://www.yna.co.kr/view/AKR20261003014700075",
    "s": "연합뉴스"
   },
   {
-   "t": "김사은(전북원음방송 미디어국장)씨 모친상",
-   "u": "https://www.yna.co.kr/view/AKR20261002066900055",
+   "t": "세계 최대 외팔보 지붕 '영화의전당'",
+   "u": "https://www.yna.co.kr/view/AKR20260903035700542",
    "s": "연합뉴스"
   },
   {
-   "t": "해병 3대 가족 백윤식/차승원/박형식…'패밀리 포스' 출연",
-   "u": "https://www.yna.co.kr/view/AKR20261002054700005",
+   "t": "팝스타 위켄드/찰리 푸스에 XMF/GMF까지…가을 내내 '귀호강'",
+   "u": "https://www.yna.co.kr/view/AKR20261002158500005",
    "s": "연합뉴스"
   },
   {
-   "t": "BTS, 보고타 '명예 외빈'…\"공연 경제 효과 406억원 전망\"",
-   "u": "https://www.yna.co.kr/view/AKR20261002046200005",
+   "t": "파라마운트",
+   "u": "https://www.yna.co.kr/view/AKR20261003002600075",
    "s": "연합뉴스"
   },
   {
-   "t": "손석구/나가야마 에이타 주연 '푸른길' 내달 20일 공개",
-   "u": "https://www.yna.co.kr/view/AKR20261002045500005",
+   "t": "개혁신당 \"'암살자(들)' 티켓에 탄흔 디자인…잔인하고 천박\"",
+   "u": "https://www.yna.co.kr/view/AKR20261002176300001",
    "s": "연합뉴스"
   },
   {
-   "t": "배우 짐 캐리, 세 번째 결혼…상대는 한국계 추정 30대 예술가",
-   "u": "https://www.yna.co.kr/view/AKR20261002016600075",
+   "t": "광주MBC 창사 62주년…특집 다큐/1만포기 김장나눔",
+   "u": "https://www.yna.co.kr/view/AKR20261002165700054",
    "s": "연합뉴스"
   },
   {
-   "t": "브뤼셀 관객 홀린 '왕사남'…한국 영화 주간 개막",
-   "u": "https://www.yna.co.kr/view/AKR20261002007200098",
+   "t": "필드 레코딩 청취 페스티벌 '소닉 노마드' 22일 개막",
+   "u": "https://www.yna.co.kr/view/AKR20261002141800005",
    "s": "연합뉴스"
   },
   {
-   "t": "LA관객 마주한 이창동 \"韓남자, 미국보다 더 억압에 길들어졌죠\"",
-   "u": "https://www.yna.co.kr/view/AKR20261001183200075",
+   "t": "\"너희가 하는 건 예술이자 문학\"…배우들에 남긴 故안판석의 가르침",
+   "u": "https://www.yna.co.kr/view/AKR20261002142100005",
    "s": "연합뉴스"
   },
   {
-   "t": "영화제작가협회 \"'암살자(들)' 창작자 향한 과도한 비난 우려\"",
-   "u": "https://www.yna.co.kr/view/AKR20261001191200005",
+   "t": "'암살자(들)', 부국제 일정/무대인사 전면 취소…\"배우 부담 우려\"(종합)",
+   "u": "https://www.yna.co.kr/view/AKR20261002121951005",
    "s": "연합뉴스"
   },
   {
-   "t": "슈퍼주니어 예성, 6일 정규 2집 '웨어 위 아'",
-   "u": "https://www.yna.co.kr/view/AKR20261001180400005",
+   "t": "가요계 거센 AI 물결…수노 활용곡 '꿈꾸던 어른이…' 멜론 18위",
+   "u": "https://www.yna.co.kr/view/AKR20261002142400005",
    "s": "연합뉴스"
   },
   {
-   "t": "톰 크루즈 \"오스카상보단 작품 우선…46년 영화 인생이 특권\"(종합)",
-   "u": "https://www.yna.co.kr/view/AKR20261001143751005",
+   "t": "AI 아이돌 스위티즈, 3일 거창한마당대축제 출연",
+   "u": "https://www.yna.co.kr/view/AKR20261002139500005",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "네이버, 해외여행 검색 결과 보강…날씨/비자 등 확인 가능",
-   "u": "https://zdnet.co.kr/view/?no=20261002104817",
+   "t": "아시안게임 e스포츠, 대한민국 금2/은1/동2 수확...LoL 2연패 성공",
+   "u": "https://zdnet.co.kr/view/?no=20261002180704",
    "s": "ZDNet"
   },
   {
-   "t": "LGU+, AI 토큰 처리량 4배 높였다...GPU/전력 효율화",
-   "u": "https://zdnet.co.kr/view/?no=20261002122852",
+   "t": "\"저절로 돌아가네\"…구글, 기상천외 ‘움직이는 키보드’ 공개",
+   "u": "https://zdnet.co.kr/view/?no=20261002234412",
    "s": "ZDNet"
   },
   {
-   "t": "KT ‘사장이지’, AI가 직원 면접하고 매장 마케팅 돕는다",
-   "u": "https://zdnet.co.kr/view/?no=20261002122401",
+   "t": "한국 기업 파고드는 중국산 AI…'모델 종속' 경고등",
+   "u": "https://zdnet.co.kr/view/?no=20261003004306",
    "s": "ZDNet"
   },
   {
-   "t": "헥토이노베이션, 스테이블코인 실사용처 넓힌다…의료/무역 파트너 발굴",
-   "u": "https://zdnet.co.kr/view/?no=20261002121737",
+   "t": "예산안에서 사라진 SW...국가 경쟁력 우려",
+   "u": "https://zdnet.co.kr/view/?no=20261003083207",
    "s": "ZDNet"
   },
   {
-   "t": "우편/물류 업무 AI 전문인력 키운다…직원 5명 자격 9건 취득",
-   "u": "https://zdnet.co.kr/view/?no=20261002122037",
+   "t": "오이 피클 전기 받자 ‘번쩍’…수십 년 묵은 미스터리 풀렸다",
+   "u": "https://zdnet.co.kr/view/?no=20261003072216",
    "s": "ZDNet"
   },
   {
-   "t": "프로농구 3일 개막...tvN SPORTS, 김주성 해설 합류/현장 중계 강화",
-   "u": "https://zdnet.co.kr/view/?no=20261002121640",
+   "t": "국가유산채널, 유튜브 구독자 200만 돌파…글로벌 K",
+   "u": "https://zdnet.co.kr/view/?no=20261002165924",
    "s": "ZDNet"
   },
   {
-   "t": "CJ ENM 콘텐츠, 아시아 넘어 유럽서도 주목",
-   "u": "https://zdnet.co.kr/view/?no=20261002121229",
+   "t": "'모두의 AI'가 일상을 바꾼다…어떤 변화 생길까",
+   "u": "https://zdnet.co.kr/view/?no=20261002172531",
    "s": "ZDNet"
   },
   {
-   "t": "'호요랜드2026' 방문객을 맞이하는 코스어",
-   "u": "https://zdnet.co.kr/view/?no=20261002114610",
+   "t": "연간 설비투자 '2배' 늘리는 마이크론…삼성/SK 압박",
+   "u": "https://zdnet.co.kr/view/?no=20261002121520",
    "s": "ZDNet"
   },
   {
-   "t": "'원신부터 젠존제'까지…킨텍스 홀린 호요버스 5대 IP, '호요랜드2026' 가보니",
-   "u": "https://zdnet.co.kr/view/?no=20261002114223",
+   "t": "영국인 홀린 '테무 레인지로버'…스포티지 제치고 판매 1위",
+   "u": "https://zdnet.co.kr/view/?no=20261002194028",
    "s": "ZDNet"
   },
   {
-   "t": "비드래프트, 중국판 허깅페이스서 연구기관 인증받아",
-   "u": "https://zdnet.co.kr/view/?no=20261002113808",
+   "t": "초강력 레이저로 약 2m 콘크리트 뚫고 사진 찍었다…비밀은",
+   "u": "https://zdnet.co.kr/view/?no=20261003071856",
    "s": "ZDNet"
   },
   {
-   "t": "쎄트렉아이, 스페이스 아이",
-   "u": "https://zdnet.co.kr/view/?no=20261002113754",
+   "t": "\"트럼프, 마두로 체포 전 그록에 베네수엘라 반응 물었다\"",
+   "u": "https://zdnet.co.kr/view/?no=20261003082217",
    "s": "ZDNet"
   },
   {
-   "t": "여기어때, '제주 그린키 숙박 페스타' 연다",
-   "u": "https://zdnet.co.kr/view/?no=20261002101923",
+   "t": "고전하던 아이폰18 프로, 中서 돌연 강세…이유 3가지",
+   "u": "https://zdnet.co.kr/view/?no=20261002170211",
    "s": "ZDNet"
   },
   {
-   "t": "\"내부 기밀 유출 의혹\"…오픈AI, 안전 연구원 3명 해고",
-   "u": "https://zdnet.co.kr/view/?no=20261002110850",
+   "t": "美 통신3사 ‘위성동맹’ 출범...지상에선 경쟁, 우주에선 협력",
+   "u": "https://zdnet.co.kr/view/?no=20261002193734",
    "s": "ZDNet"
   },
   {
-   "t": "\"美 현지 영업망/생산 거점 확보”…코나아이, 'PSC' 인수 완료",
-   "u": "https://zdnet.co.kr/view/?no=20261002112220",
+   "t": "마이크론, D램 2위 SK하이닉스 턱밑 추격…점유율 격차 1%포인트",
+   "u": "https://zdnet.co.kr/view/?no=20261002134906",
    "s": "ZDNet"
   },
   {
-   "t": "크라우드웍스, AI 페스타서 피지컬 AI 데이터 구축 역량 공개",
-   "u": "https://zdnet.co.kr/view/?no=20261002112057",
+   "t": "10조분의 1초 ‘찰나’부터 그 이후까지…한 번에 찍었다",
+   "u": "https://zdnet.co.kr/view/?no=20261002191932",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "웹 예능의 변화로 읽는 콘텐츠 트렌드! 요즘 예능이 ‘친근함’을 만드는 법",
+   "u": "https://gogumafarm.kr/%ec%9b%b9-%ec%98%88%eb%8a%a5%ec%9d%98-%eb%b3%80%ed%99%94%eb%a1%9c-%ec%9d%bd%eb%8a%94-%ec%bd%98%ed%85%90%ec%b8%a0-%ed%8a%b8%eb%a0%8c%eb%93%9c-%ec%9a%94%ec%a6%98-%ec%98%88%eb%8a%a5%ec%9d%b4/",
+   "s": "고구마팜"
+  },
   {
    "t": "오늘의 뉴스클리핑과 커머스 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-164/",
@@ -379,11 +326,6 @@
   {
    "t": "오늘의 뉴스클리핑과 AI 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-ai-%ed%8a%b8%eb%a0%8c%eb%93%9c-58/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "내가 고구마팜이었으면 이 밈은 꼭 소개하고 싶음",
-   "u": "https://gogumafarm.kr/%eb%82%b4%ea%b0%80-%ea%b3%a0%ea%b5%ac%eb%a7%88%ed%8c%9c%ec%9d%b4%ec%97%88%ec%9c%bc%eb%a9%b4-%ec%9d%b4-%eb%b0%88%ec%9d%80-%ea%bc%ad-%ec%86%8c%ea%b0%9c%ed%95%98%ea%b3%a0-%ec%8b%b6%ec%9d%8c-2026/",
    "s": "고구마팜"
   }
  ]
