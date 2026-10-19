@@ -1,284 +1,310 @@
 {
- "updated": "2026-10-18T02:53:39.833Z",
+ "updated": "2026-10-19T03:06:47.864Z",
  "trends": [
   {
-   "title": "사위",
-   "traffic": "1000+",
-   "items": [
-    {
-     "t": "아기한테 ‘뽀로로’ 보여줬다고…장모에게 소리 지른 사위",
-     "u": "https://www.munhwa.com/article/11624205",
-     "s": "문화일보"
-    },
-    {
-     "t": "“월 120씩 드리는데!” 손주 유튜브 보여준 장모에 ‘버럭’한 사위…보여주면 안 되나요?",
-     "u": "https://m.go.seoul.co.kr/news/society/2026/10/17/20261017500055",
-     "s": "서울Pn"
-    },
-    {
-     "t": "'매달 120만원 주잖아요'…손주에 유튜브 보여줬다고 장모에 소리친 사위",
-     "u": "https://www.imaeil.com/page/view/2026101807234204252",
-     "s": "매일신문"
-    }
-   ]
-  },
-  {
-   "title": "wind warning",
+   "title": "가석방",
    "traffic": "100+",
    "items": [
     {
-     "t": "Licensable video: US: High Wind Warning in Effect as Santa Ana Winds Whip Southern California",
-     "u": "https://www.reutersconnect.com/item/us-high-wind-warning-in-effect-as-santa-ana-winds-whip-southern-california/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XU1BDQzI2MDIyMTUwMQ",
-     "s": "Reuters Connect"
-    },
-    {
-     "t": "Strong Winds Prompt Power Outage and Travel Warnings Across Southern California",
-     "u": "https://www.nbcpalmsprings.com/local-and-community/2026/10/16/strong-winds-prompt-power-outage-and-travel-warnings-across-southern-california",
-     "s": "NBC Palm Springs"
-    },
-    {
-     "t": "More than 50,000 without power in Los Angeles, more at risk of losing power amid strong winds",
-     "u": "https://www.dailynews.com/2026/10/16/more-than-50000-without-power-in-los-angeles-more-at-risk-of-losing-power-amid-strong-winds/",
-     "s": "Los Angeles Daily News"
-    }
-   ]
-  },
-  {
-   "title": "대구날씨",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "대구/경북 흐리고 비…예상 강수량 10∼60㎜",
-     "u": "https://www.yna.co.kr/view/AKR20261018003000053",
+     "t": "올해 형집행률 60% 미만 가석방자 급증…교도소 좁다는 이유로",
+     "u": "https://www.yna.co.kr/view/AKR20261017037000004",
      "s": "연합뉴스"
     },
     {
-     "t": "대구/경북(17일, 토)…큰 일교차, 낮 21~26도",
-     "u": "https://www.news1.kr/local/daegu-gyeongbuk/6322893",
-     "s": "뉴스1"
+     "t": "형기 60%도 안 채웠는데 ‘들썩이는 감옥 문’…교도소 좁아서 가석방 3.7배 폭증",
+     "u": "https://www.kyeonggi.com/article/20261018580001",
+     "s": "경기일보"
     },
     {
-     "t": "대구/경북 시간당 30mm 물폭탄/ / /산지 풍속 70km/h 강풍",
-     "u": "https://www.gukjenews.com/news/articleView.html?idxno=3724559",
+     "t": "교도소 과밀에 가석방 수형자 급증… “국민에 재범 위험 떠넘겨” 外",
+     "u": "https://m.segye.com/view/20261018516772",
+     "s": "세계일보"
+    }
+   ]
+  },
+  {
+   "title": "심영순",
+   "traffic": "200+",
+   "items": []
+  },
+  {
+   "title": "소형모듈원자로",
+   "traffic": "500+",
+   "items": [
+    {
+     "t": "'한국 없인 안돼'…체코 SMR '독자 수주' 대박 낸 K원전",
+     "u": "https://www.hankyung.com/article/202610154699i",
+     "s": "한국경제"
+    },
+    {
+     "t": "체코, 첫 SMR 인허가 시동… 원전 도입 넘어 '세계 부품시장' 정조준",
+     "u": "https://www.esnews.kr/news/articleView.html?idxno=6761",
+     "s": "에너지안전신문"
+    },
+    {
+     "t": "체코 SMR 사업, 환경 영향 평가 절차 돌입... 두산에너빌 수주 가시화",
+     "u": "https://www.theguru.co.kr/news/article.html?no=108229",
+     "s": "더구루"
+    }
+   ]
+  },
+  {
+   "title": "독도",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "미래를 여는 바다 동해, 그리고 독도",
+     "u": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1069827",
+     "s": "경상일보"
+    },
+    {
+     "t": "울릉도에 '독도교육원' 들어선다…2028년 9월 준공 목표",
+     "u": "https://www.newsis.com/view/NISX20261019_0003830966",
+     "s": "뉴시스"
+    },
+    {
+     "t": "울릉도에 '독도교육원' 착공…'현장체험형 독도 교육의 중심 역할'",
+     "u": "https://www.asiae.co.kr/article/2026101909505022570",
+     "s": "아시아경제"
+    }
+   ]
+  },
+  {
+   "title": "김선근 아나운서",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "KBS 퇴사 김선근 아나 '생활고에 아기 돌반지도 팔았다'",
+     "u": "https://www.newsis.com/view/NISX20261019_0003831382",
+     "s": "뉴시스"
+    },
+    {
+     "t": "김선근, 미모의 고려대 출신 아내 공개 “굳건한 대장부 스타일”(아침마당)",
+     "u": "https://m.newsen.com/news_view.php?uid=202610190837360410",
+     "s": "뉴스엔"
+    },
+    {
+     "t": "'KBS 퇴사' 김선근 '대출 받아 투자했다 실패…아이 돌반지까지 팔아' (아침마당)",
+     "u": "https://www.xportsnews.com/article/2208961",
+     "s": "www.xportsnews.com"
+    }
+   ]
+  },
+  {
+   "title": "에어로케이",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "에어로케이, 청주∼마쓰야마 정기편 취항 : 기업/산업",
+     "u": "https://news.jkn.co.kr/post/1033360",
+     "s": "재경일보"
+    },
+    {
+     "t": "에히메현 가쓰야마에 있는 400년이 넘는 역사를 자랑하는 성에 얽힌 이야기입니다.",
+     "u": "https://www.vietnam.vn/ko/cau-chuyen-ve-mot-toa-thanh-o-ehime-co-tuoi-doi-hon-4-the-ky-tren-katsuyama",
+     "s": "Vietnam.vn"
+    },
+    {
+     "t": "일본 부흥청, 한국여행업협회 간담회 개최…후쿠시마 관광 활성화 논의",
+     "u": "https://www.gukjenews.com/news/articleView.html?idxno=3718091",
      "s": "국제뉴스"
     }
    ]
   },
   {
-   "title": "라면",
-   "traffic": "500+",
+   "title": "전투기",
+   "traffic": "2000+",
    "items": [
     {
-     "t": "러시아서 '초대박' 났다…80억개 불티나게 팔린 라면",
-     "u": "https://www.hankyung.com/article/202610167152i",
-     "s": "한국경제"
+     "t": "하늘길 연 국산 전투기 보라매, 날개 펴기도 전에 맞닥뜨린 단가 벽",
+     "u": "https://www.g-enews.com/article/Global-Biz/2026/10/202610190557195971fbbec65dfb_1",
+     "s": "글로벌이코노믹"
     },
     {
-     "t": "라면/과자값 또 오른다…뒤에서 웃는 이 기업들",
-     "u": "https://view.asiae.co.kr/article/2026101614375857935",
-     "s": "아시아경제"
+     "t": "초음속기 KF-21의 비밀! 장성규, 사천 KAI에 가다",
+     "u": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148973480",
+     "s": "정책브리핑"
     },
     {
-     "t": "호르무즈에 꽉 막힌 비료 수송길 … 하반기부터 식량가격 들썩",
-     "u": "https://www.mk.co.kr/news/world/12178071",
-     "s": "매일경제"
+     "t": "'팬텀이 지켜온 대한의 영공, KF",
+     "u": "https://www.news1.kr/diplomacy/defense-diplomacy/6323791",
+     "s": "뉴스1"
     }
    ]
   },
   {
-   "title": "atlanta united vs inter miami",
-   "traffic": "1000+",
+   "title": "챗gpt",
+   "traffic": "10000+",
    "items": [
     {
-     "t": "Lionel Messi scores twice, takes season tally to 25 in Miami win at Atlanta",
-     "u": "https://www.espn.com/soccer/story/_/id/50206341/lionel-messi-goals-inter-miami-atlanta-united-mls",
-     "s": "ESPN"
+     "t": "오픈AI, ‘GPT",
+     "u": "https://www.aitimes.com/news/articleView.html?idxno=216375",
+     "s": "AI타임스"
     },
     {
-     "t": "Starting XI and roster notes: Embolo looking for repeat success as 5",
-     "u": "https://www.atlutd.com/news/starting-xi-roster-notes-embolo-inter-miami-october-17-2026",
-     "s": "Atlanta United FC"
+     "t": "오픈AI, 크롬용 챗GPT 확장 프로그램 개편… 구글 ‘제미나이’ 맞불",
+     "u": "https://it.chosun.com/news/articleView.html?idxno=2023092172211",
+     "s": "IT조선"
     },
     {
-     "t": "Video: Lionel Messi scores brace vs Atlanta United to reach 936 career goals",
-     "u": "https://bolavip.com/en/soccer/video-lionel-messi-scores-brace-vs-atlanta-united-to-reach-936-career-goals",
-     "s": "Bolavip US"
-    }
-   ]
-  },
-  {
-   "title": "lafc",
-   "traffic": "1000+",
-   "items": [
-    {
-     "t": "Player Status Report | NYCFC vs. LAFC",
-     "u": "https://www.lafc.com/news/player-status-report-nycfc-vs-lafc-2026-mls-season-october-17",
-     "s": "Los Angeles Football Club"
-    },
-    {
-     "t": "Leo Walta scores for LAFC in draw with New York City",
-     "u": "https://www.latimes.com/sports/soccer/lafc/story/2026-10-17/leo-walta-scores-for-lafc-in-draw-with-new-york-city",
-     "s": "Los Angeles Times"
-    },
-    {
-     "t": "NYCFC settles for disappointing tie as playoff hopes continue to dim",
-     "u": "https://nypost.com/2026/10/17/sports/nycfc-settles-for-disappointing-tie-as-playoff-hopes-continue-to-dim/",
-     "s": "New York Post"
+     "t": "진화한 오픈AI 'ChatGPT Voice' 집중 해부 오픈AI의 ChatGPT가 단순한 텍스트 기반 대화형 인공지능을 넘어 영화 '아이언맨'의 자비스(Jarvis) 초기 버전을 연상케 하는 진정한 개인 비서로 진화",
+     "u": "http://www.ainet.link/29382",
+     "s": "AI넷"
     }
    ]
   }
  ],
  "ent": [
   {
+   "t": "이븐, 오늘 미니 6집 '온: 아워 노이즈'",
+   "u": "https://www.yna.co.kr/view/AKR20261019084400005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "김창옥, '남겨서 뭐하게' 합류…이영자/박세리와 호흡",
+   "u": "https://www.yna.co.kr/view/AKR20261019084500005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "'미스터트롯3 眞' 김용빈, 소속사 오네스타와 재계약",
+   "u": "https://www.yna.co.kr/view/AKR20261019082400005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "김장환 EBS 상임 감사 취임",
+   "u": "https://www.yna.co.kr/view/AKR20261019068600005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "BTS, 싱가포르 도심 빛낸다…12월 오프라인 팬 이벤트 '더 시티'",
+   "u": "https://www.yna.co.kr/view/AKR20261019062100005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "세븐틴 새 유닛 정한X조슈아 첫 미니앨범…\"환상/현실 맞물려\"",
+   "u": "https://www.yna.co.kr/view/AKR20261019060800005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "KBS 단막 '드라마스페셜' 내달 첫선…표예진/이기택 출연",
+   "u": "https://www.yna.co.kr/view/AKR20261019048700005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "동방신기 최강창민, 오늘 미니 3집…\"프로듀싱 참여\"",
+   "u": "https://www.yna.co.kr/view/AKR20261019046600005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "임형주, 프랑스 파리 유네스코 본부서 韓 팝페라 첫 무대",
+   "u": "https://www.yna.co.kr/view/AKR20261019034600005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "상처 딛고 성장한 김향기…'날아올라라 나비' 1.7% 종영",
+   "u": "https://www.yna.co.kr/view/AKR20261019044100005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "'치이카와' 2주째 주말 1위…누적 180만명 돌파",
+   "u": "https://www.yna.co.kr/view/AKR20261019042600005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "아이브, 오늘 신곡 '룩스 캔 킬'…26일 미니앨범 선공개곡",
+   "u": "https://www.yna.co.kr/view/AKR20261019035300005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "GMF, 폭우로 2일차 티켓 전액 환불…일부 야외 공연 취소",
+   "u": "https://www.yna.co.kr/view/AKR20261018043100005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "래퍼 양홍원/모델 원현주, 오늘 결혼식",
+   "u": "https://www.yna.co.kr/view/AKR20261018032000005",
+   "s": "연합뉴스"
+  },
+  {
    "t": "스크린에서 보는 두 편의 베스트셀러…'베러티'/'그대, 별처럼'",
    "u": "https://www.yna.co.kr/view/AKR20261017019900005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "그래미 아시안팝 주인공은…K팝 대형社 보이콧 속 J팝 대거 노크",
-   "u": "https://www.yna.co.kr/view/AKR20261017033000005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "천재 의사/밀정/킬러까지…안방극장 장악한 '여성 장르물'",
-   "u": "https://www.yna.co.kr/view/AKR20261017027800005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "KBS 사장 후보 김영삼/엄경철/이태현 압축…20일 최종 면접",
-   "u": "https://www.yna.co.kr/view/AKR20261017045700005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "조보아, 이청아 하차한 '고분고분한 킬러' 합류",
-   "u": "https://www.yna.co.kr/view/AKR20261017036700005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "손나은(배우)씨 모친상",
-   "u": "https://www.yna.co.kr/view/AKR20261017038100005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "끊이지 않는 딥페이크 성범죄물…8개월만에 작년 심의 건수 추월",
-   "u": "https://www.yna.co.kr/view/AKR20261016071700017",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "사회 실험부터 입시경쟁까지…'두뇌 서바이벌 예능'의 진화",
-   "u": "https://www.yna.co.kr/view/AKR20261017023200005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "위콘페 인디아에 TXT/엔하이픈/캣츠아이 라라 등 출연",
-   "u": "https://www.yna.co.kr/view/AKR20261017022100005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "BTS '아리랑' 떼창 日 TV서 다시 본다…도쿄돔 공연 실황 방송",
-   "u": "https://www.yna.co.kr/view/AKR20261017021000005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "베스티, '연애의 조건' 역주행 힘입어 4인조 완전체 재결합",
-   "u": "https://www.yna.co.kr/view/AKR20261017020400005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "英 싱글 차트서 '케데헌' OST '골든' 62주째 롱런",
-   "u": "https://www.yna.co.kr/view/AKR20261017020000005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "\"실패하지 않습니다\"…'닥터X' 김지원의 시원한 흥행 돌풍",
-   "u": "https://www.yna.co.kr/view/AKR20261017018000005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "사랑하는 사람의 얼굴로 나타난 괴물…오컬트 영화 '레위기'",
-   "u": "https://www.yna.co.kr/view/AKR20261017017000005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "(42) 그래미 5회 수상…'노래하는 인권운동가' 안젤리크 키조",
-   "u": "https://www.yna.co.kr/view/AKR20261006148200079",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "K헤리티지산업포럼, 공주서 산업 컨퍼런스 개막…문화유산의 ‘다음 장면’ 모색",
-   "u": "https://zdnet.co.kr/view/?no=20261018111022",
+   "t": "세라젬, 아시안게임 한국 선수단에 헬스케어 제품 전달",
+   "u": "https://zdnet.co.kr/view/?no=20261019093331",
    "s": "ZDNet"
   },
   {
-   "t": "조준희(유라클/KOSA 회장)씨 모친상",
-   "u": "https://zdnet.co.kr/view/?no=20261018111005",
+   "t": "지마켓, 하반기 '빅스마일데이' 참여 셀러 모집",
+   "u": "https://zdnet.co.kr/view/?no=20261019093902",
    "s": "ZDNet"
   },
   {
-   "t": "\"데이터/AI 연결 쉽게\"…데이터브릭스, 네트워크 서비스 출시",
-   "u": "https://zdnet.co.kr/view/?no=20261018101607",
+   "t": "해긴 ‘2026 프로야구GO!’, 구글 플레이 인기 순위 1위 달성",
+   "u": "https://zdnet.co.kr/view/?no=20261019104440",
    "s": "ZDNet"
   },
   {
-   "t": "씨이랩 안전AI에 시선...'엑스아이바' 큰 관심",
-   "u": "https://zdnet.co.kr/view/?no=20261018105814",
+   "t": "가온전선, 3분기 영업익 520억원…美 AI 데이터센터 수요에 분기 최대",
+   "u": "https://zdnet.co.kr/view/?no=20261019105359",
    "s": "ZDNet"
   },
   {
-   "t": "최태원이 청년에게…\"AI가 할 수 없는 일 해야\"",
-   "u": "https://zdnet.co.kr/view/?no=20261018103626",
+   "t": "몸값 뛴 앤트로픽, 지분 5% 내놓는다…왜",
+   "u": "https://zdnet.co.kr/view/?no=20261019082711",
    "s": "ZDNet"
   },
   {
-   "t": "AI 기업 부채 과도 우려에 시장 공포심 최고치",
-   "u": "https://zdnet.co.kr/view/?no=20261018091512",
+   "t": "\"단통법 폐지 후 허위과장 광고 신고 74% 급증\"",
+   "u": "https://zdnet.co.kr/view/?no=20261019105105",
    "s": "ZDNet"
   },
   {
-   "t": "美 자국 AI 기업 제재의 역설…\"기술 혁신 발등 찍을 우려\"",
-   "u": "https://zdnet.co.kr/view/?no=20261017213548",
+   "t": "컴투스 ‘SWC2026’ 아시아퍼시픽 컵, YEONHONG",
+   "u": "https://zdnet.co.kr/view/?no=20261019103821",
    "s": "ZDNet"
   },
   {
-   "t": "중국, 미국산 대두 구매↑…정상회담 이후 처음",
-   "u": "https://zdnet.co.kr/view/?no=20261017173029",
+   "t": "K게임, 스팀서 완성도 높인다...글로벌 이용자와 호흡",
+   "u": "https://zdnet.co.kr/view/?no=20261019101040",
    "s": "ZDNet"
   },
   {
-   "t": "딥시크, 신규 AI 모델 공개…\"작업 빠르고 똑똑하게 답변\"",
-   "u": "https://zdnet.co.kr/view/?no=20261018095657",
+   "t": "OCI홀딩스, 멸종위기 식물 식재 봉사활동 진행",
+   "u": "https://zdnet.co.kr/view/?no=20261019102513",
    "s": "ZDNet"
   },
   {
-   "t": "엔비디아 \"RTX 스파크 강점은 클라우드 비중 줄일 수 있는 것\"",
-   "u": "https://zdnet.co.kr/view/?no=20261018001509",
+   "t": "한국만화영상진흥원, ACFM서 만화/웹툰 IP 15편 소개…상담 64건 진행",
+   "u": "https://zdnet.co.kr/view/?no=20261019102648",
    "s": "ZDNet"
   },
   {
-   "t": "안랩 \"싱가포르 공략\"...‘거브웨어 2026’ 참가AI SOC 등 선보여",
-   "u": "https://zdnet.co.kr/view/?no=20261018092603",
+   "t": "LS일렉트릭, 美 빅테크에 1689억원 데이터센터 배전반 공급",
+   "u": "https://zdnet.co.kr/view/?no=20261019102245",
    "s": "ZDNet"
   },
   {
-   "t": "AI 열풍에 서버값 최대 4배↑…\"가격 안정은 2028년 이후에나\"",
-   "u": "https://zdnet.co.kr/view/?no=20261017215532",
+   "t": "이수스페셜티케미컬, 황화리튬 마더플랜트 준공",
+   "u": "https://zdnet.co.kr/view/?no=20261019101644",
    "s": "ZDNet"
   },
   {
-   "t": "운동하면 근육 속 노화 유전자 '멈칫' 한다",
-   "u": "https://zdnet.co.kr/view/?no=20261016225609",
+   "t": "케이뱅크, AI 경영시스템 국제표준 획득",
+   "u": "https://zdnet.co.kr/view/?no=20261019100051",
    "s": "ZDNet"
   },
   {
-   "t": "순직 소방관 이름 달고 달렸다...LGU+ 추모 러닝에 2300명 동참",
-   "u": "https://zdnet.co.kr/view/?no=20261018083908",
+   "t": "\"AI 답변에 물음표\"...코바코, 비판적 사고 강조한 공익광고 공개",
+   "u": "https://zdnet.co.kr/view/?no=20261019101816",
    "s": "ZDNet"
   },
   {
-   "t": "현대차/기아, '스마트팩토리' 기술력 알린다…테크데이 개최",
-   "u": "https://zdnet.co.kr/view/?no=20261017163312",
+   "t": "스마일게이트 희망스튜디오, 연세의료원과 다낭서 봉사활동",
+   "u": "https://zdnet.co.kr/view/?no=20261019101747",
    "s": "ZDNet"
   }
  ],
