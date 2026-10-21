@@ -1,283 +1,340 @@
 {
- "updated": "2026-10-20T03:15:42.995Z",
+ "updated": "2026-10-21T03:10:47.630Z",
  "trends": [
   {
-   "title": "롯데손해보험",
-   "traffic": "100+",
-   "items": [
-    {
-     "t": "신한금융, 롯데손보 관리 가능? 돈도 사람도 시간도 없다",
-     "u": "https://www.investchosun.com/site/data/html_dir/2026/10/19/2026101980185.html",
-     "s": "인베스트조선"
-    },
-    {
-     "t": "보험사 M&A 속도내는데…롯데카드 새 주인 찾기는 ‘안갯속’",
-     "u": "https://www.asiatoday.co.kr/kn/view.php?key=20261019010006161",
-     "s": "아시아투데이"
-    },
-    {
-     "t": "신한서 살아남고픈 롯데손보, 지주사 언어로 보고하라 By EBN",
-     "u": "https://kr.investing.com/news/stock-market-news/article-2132235",
-     "s": "Investing.com 한국어"
-    }
-   ]
-  },
-  {
-   "title": "이재",
-   "traffic": "10000+",
-   "items": [
-    {
-     "t": "‘케데헌’ 이재, 외조부 신영균 옛 자택 부지서 깜짝 결혼",
-     "u": "https://www.chosun.com/culture-life/culture_general/2026/10/20/IKGYDNFYMVDSPAWOVR6HOT6B2M/",
-     "s": "조선일보"
-    },
-    {
-     "t": "‘케데헌’ 이재, 외조부 신영균 옛 자택 부지서 깜짝 결혼식",
-     "u": "https://www.donga.com/news/Society/article/all/20261020/134872738/2",
-     "s": "동아일보"
-    },
-    {
-     "t": "'케데헌' 이재/샘킴, 깜짝 결혼…지난 주말 외조부 신영균 품서",
-     "u": "https://www.newsis.com/view/NISX20261020_0003832466",
-     "s": "뉴시스"
-    }
-   ]
-  },
-  {
-   "title": "김시우",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "김시우와 김주형, 우즈 초청장 받았다",
-     "u": "https://view.asiae.co.kr/article/2026102008060246035",
-     "s": "아시아경제"
-    },
-    {
-     "t": "김시우/김주형, 우즈 복귀전 함께 뛸까?",
-     "u": "https://www.munhwa.com/article/11624760",
-     "s": "문화일보"
-    },
-    {
-     "t": "'골프 황제의 초청장' 받은 김시우/김주형…12월 히어로 월드 챌린지 출전",
-     "u": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008805349",
-     "s": "SBS 뉴스"
-    }
-   ]
-  },
-  {
-   "title": "무인 항공기",
-   "traffic": "2000+",
-   "items": [
-    {
-     "t": "스타링크 교란 뚫는 헬싱 HX",
-     "u": "https://www.dailydefense.co.kr/news/articleView.html?idxno=2525",
-     "s": "데일리방산"
-    },
-    {
-     "t": "독일의 헬싱 HX",
-     "u": "https://www.vietnam.vn/ko/uav-ai-helsing-hx-2-cua-duc-truoc-thach-thuc-kiem-chung-thuc-chien-tai-chien-truong-ukraine",
-     "s": "Vietnam.vn"
-    },
-    {
-     "t": "네덜란드 기업이 인공지능을 활용해 우크라이나 전장에서 무인 항공기(UAV)의 '통신'을 돕고 있습니다.",
-     "u": "https://www.vietnam.vn/ko/cong-ty-ha-lan-dung-ai-giup-uav-giao-tiep-tren-chien-truong-ukraine",
-     "s": "Vietnam.vn"
-    }
-   ]
-  },
-  {
-   "title": "올림픽파크 포레온",
+   "title": "예방 접종",
    "traffic": "500+",
    "items": [
     {
-     "t": "오티에르반포 보류지 75억…분양가 두배 가격에 매물로",
-     "u": "https://www.sedaily.com/article/20102977",
-     "s": "서울경제"
+     "t": "충남 공주시보건소, 인플루엔자(독감) 및 코로나19 예방접종 본격 실시",
+     "u": "https://www.ccdn.co.kr/news/articleView.html?idxno=1106020",
+     "s": "충청매일"
     },
     {
-     "t": "강동 대장 '올파포', 5억 로또 아파트로 나온다…21일 입찰 진행",
-     "u": "https://realty.chosun.com/site/data/html_dir/2026/10/19/2026101902668.html",
-     "s": "땅집고"
+     "t": "'위민 행정' 최원철 공주시장, 취약계층 대상포진 예방접종 지원 확대…",
+     "u": "https://www.breaknews.com/1243771",
+     "s": "브레이크뉴스"
     },
     {
-     "t": "'서울 신축 보류지 잡아볼까'…올림픽파크포레온/영등포자이 디그니티 눈길",
-     "u": "https://www.newspim.com/news/view/20261016001244",
-     "s": "뉴스핌"
+     "t": "공주시, 독감/코로나19 예방접종 본격 시행…겨울철 감염병 선제 대응",
+     "u": "http://www.cndnews.co.kr/462206",
+     "s": "뉴스충청인"
     }
    ]
   },
   {
-   "title": "박준형",
+   "title": "동탄신도시",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "'국평 17억인데 싸다고?'…서울도 아닌데 4만5000명 몰렸다",
+     "u": "https://www.hankyung.com/article/2026102031886",
+     "s": "한국경제"
+    },
+    {
+     "t": "동탄1신도시 중심에 초고층 하이엔드 주거단지 ‘아크메르 동탄’ 분양",
+     "u": "https://www.incheonilbo.com/news/articleView.html?idxno=1334688",
+     "s": "인천일보"
+    },
+    {
+     "t": "포스코이앤씨, 화성 ‘아크메르 동탄’ 1808가구 분양…26일 청약",
+     "u": "https://www.viva100.com/article/20261019501103",
+     "s": "브릿지경제"
+    }
+   ]
+  },
+  {
+   "title": "유니클로",
    "traffic": "1000+",
    "items": [
     {
-     "t": "god 박준형 맞아? 살 쏙 빠진 비주얼... '그지복장쓰'",
-     "u": "https://www.chosun.com/entertainments/broadcast/2026/10/20/MI3DEZJQMY2TCZBYHEYGCOJXMI/",
-     "s": "조선일보"
+     "t": "'엔저 감당 못 해'...유니클로, 가을/겨울 의류값 4% 올린다",
+     "u": "https://www.ytn.co.kr/_ln/0104_202610201351340449",
+     "s": "YTN"
     },
     {
-     "t": "'god' 박준형 맞아? 살 쏙 빠진 비주얼..'그지복장쓰' 셀프 디스 폭소",
-     "u": "https://biz.chosun.com/entertainment/enter_general/2026/10/20/HE2DQY3GGBRWKY3DGJSTINJWGM/",
-     "s": "Chosunbiz"
+     "t": "유니클로, 엔저/원가 상승에 일본 내 가격 평균 4% 인상",
+     "u": "https://news.kbs.co.kr/news/view.do?ncd=8690154",
+     "s": "KBS 뉴스"
+    },
+    {
+     "t": "유니클로, 日서 '감탄팬츠' 등 11개 제품 판매가 4% 인상",
+     "u": "https://view.asiae.co.kr/article/2026102014431690112",
+     "s": "아시아경제"
+    }
+   ]
+  },
+  {
+   "title": "샌안토니오 대 오클라호마시티",
+   "traffic": "2000+",
+   "items": [
+    {
+     "t": "필라델피아 유니폼 입은 제임스, NBA 개막전서 짜릿한 승리",
+     "u": "https://www.yna.co.kr/view/AKR20261021084900007",
+     "s": "연합뉴스"
+    },
+    {
+     "t": "‘우승하러 간’ 킹 제임스, ‘가자미 롤’ 자처→‘디펜딩 챔피언’ 꺾었다",
+     "u": "https://sports.donga.com/sports/article/all/20261021/134881017/1",
+     "s": "스포츠동아"
+    },
+    {
+     "t": "연봉 90% 깎은 ‘킹’ 르브론… 마지막 우승 꿈 이룰까",
+     "u": "https://www.busan.com/view/busan/view.php?code=2026102011175861494",
+     "s": "부산일보"
+    }
+   ]
+  },
+  {
+   "title": "송중기",
+   "traffic": "5000+",
+   "items": [
+    {
+     "t": "'송혜교랑...' 팬이 한 말 들은 송중기...얼굴 찌푸린 이유",
+     "u": "https://www.mt.co.kr/entertainment/2026/10/21/2026102107130012397",
+     "s": "머니투데이"
+    },
+    {
+     "t": "송중기, 전처 송혜교 언급에 표정 굳었다…“너무 무례해”",
+     "u": "https://sports.khan.co.kr/article/202610210849003",
+     "s": "스포츠경향"
+    },
+    {
+     "t": "송중기, 해외 팬들 앞에서 전처 송혜교 이름 들은 뒤 반응은…웃음기 사라졌다",
+     "u": "https://www.news1.kr/entertain/celebrity-topic/6326587",
+     "s": "뉴스1"
+    }
+   ]
+  },
+  {
+   "title": "해변",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "바다, 커피 그리고 책…강원 강릉 안목해변서 ‘북트립’",
+     "u": "https://www.newsis.com/view/NISX20261021_0003834878",
+     "s": "뉴시스"
+    },
+    {
+     "t": "관광공사, 강릉 안목해변서 북트립 행사…노홍철/요조 북콘서트",
+     "u": "https://stock.mk.co.kr/news/view/1178085",
+     "s": "매일경제 마켓"
+    },
+    {
+     "t": "제18회 강릉커피축제 손님맞이 준비 완료…'커피향 가득한 강릉으로 오세요'",
+     "u": "https://www.yna.co.kr/view/RPR20261020001300353",
+     "s": "연합뉴스"
+    }
+   ]
+  },
+  {
+   "title": "경기도교육청",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "경기교육청, 24일 '청소년 매니페스토 페스티벌' 개최",
+     "u": "https://www.newsis.com/view/NISX20261021_0003834767",
+     "s": "뉴시스"
+    },
+    {
+     "t": "약속과 실천 중요성 배우는 경기 청소년 매니페스토 페스티벌 개최",
+     "u": "https://www.joongboo.com/news/articleView.html?idxno=363739622",
+     "s": "중부일보"
+    },
+    {
+     "t": "경기도교육청, ‘경기 청소년 매니페스토 페스티벌’ 개최",
+     "u": "http://www.surprisenews.kr/news/articleView.html?idxno=712375",
+     "s": "서프라이즈뉴스"
+    }
+   ]
+  },
+  {
+   "title": "서울시교육청",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "충북교육청, 2027학년도 공‧사립 중등교사 임용시험에 1,297명 지원 : 네이버 블로그",
+     "u": "https://blog.naver.com/PostView.naver?blogId=cbe_news&amp;logNo=224448043517&amp;redirect=Dlog",
+     "s": "Naver Blog"
+    },
+    {
+     "t": "2027학년도 경남 공립 중등교사 임용 평균 경쟁률 7.19대 1",
+     "u": "https://www.yna.co.kr/view/AKR20261021062900052",
+     "s": "연합뉴스"
+    },
+    {
+     "t": "강원 중등교사 임용시험 경쟁률 6.55대 1…'미술' 최고/'건설' 최저",
+     "u": "https://www.news1.kr/local/kangwon/6327077",
+     "s": "뉴스1"
     }
    ]
   }
  ],
  "ent": [
   {
-   "t": "바밍타이거 원진, 첫 정규앨범 '망상록' 발표",
-   "u": "https://www.yna.co.kr/view/AKR20261020085300005",
+   "t": "크러쉬, 오늘 신곡 '삐그덕'…\"아이유 아니면 못 나왔을 노래\"",
+   "u": "https://www.yna.co.kr/view/AKR20261021087100005",
    "s": "연합뉴스"
   },
   {
-   "t": "아일릿 '마그네틱', K팝 그룹 데뷔곡 최단 9억 스트리밍",
-   "u": "https://www.yna.co.kr/view/AKR20261020078100005",
+   "t": "룰라 공격하려 손바닥에 '부패' 적은 보우소나루…거센 역풍",
+   "u": "https://www.yna.co.kr/view/AKR20261021069500009",
    "s": "연합뉴스"
   },
   {
-   "t": "디즈니 아태지역 총괄 사장에 캐롤 초이…루크 강 은퇴",
-   "u": "https://www.yna.co.kr/view/AKR20261020063900005",
+   "t": "박민영/육성재/고수 '나인 투 식스', 내달 25일 첫선",
+   "u": "https://www.yna.co.kr/view/AKR20261021078800005",
    "s": "연합뉴스"
   },
   {
-   "t": "NCT 지성, 준PO 3차전 시구…잠실구장 마지막 시구자 되나",
-   "u": "https://www.yna.co.kr/view/AKR20261020064100007",
+   "t": "日영화사 도에이, 韓롯데 자회사들과 파트너십…베트남시장 진출",
+   "u": "https://www.yna.co.kr/view/AKR20261021077300009",
    "s": "연합뉴스"
   },
   {
-   "t": "샤이니 온유, 오늘 싱글 '착각 '발표",
-   "u": "https://www.yna.co.kr/view/AKR20261020061000005",
+   "t": "김형래(부산국제영화제 홍보실장)씨 부친상",
+   "u": "https://www.yna.co.kr/view/AKR20261021071200051",
    "s": "연합뉴스"
   },
   {
-   "t": "규현, 내달 11일 미니앨범 '컨티뉴'",
-   "u": "https://www.yna.co.kr/view/AKR20261020057600005",
+   "t": "강다니엘, 오늘 신곡 '블루'…군입대 전 작사/작곡",
+   "u": "https://www.yna.co.kr/view/AKR20261021068800005",
    "s": "연합뉴스"
   },
   {
-   "t": "넷플릭스, '크라임씬 제로 시즌2' 내년 공개",
-   "u": "https://www.yna.co.kr/view/AKR20261020050400005",
+   "t": "이달의 방송기자상에 '조희대 허위 업무추진비' 등 5편",
+   "u": "https://www.yna.co.kr/view/AKR20261021062800005",
    "s": "연합뉴스"
   },
   {
-   "t": "영평상 최우수작품상에 '가능한 사랑'…전도연, 여우주연상",
-   "u": "https://www.yna.co.kr/view/AKR20261020055900005",
+   "t": "서울배리어프리영화제 내달 11일 개막…33편 무료 상영",
+   "u": "https://www.yna.co.kr/view/AKR20261021061100005",
    "s": "연합뉴스"
   },
   {
-   "t": "드라마 3편 중 1편, 시청률/화제성 엇갈렸다",
-   "u": "https://www.yna.co.kr/view/AKR20261019173300017",
+   "t": "웹드라마로 보는 경남 남해안 관광지…'남해보다 먼 사이' 공개",
+   "u": "https://www.yna.co.kr/view/AKR20261021041000052",
    "s": "연합뉴스"
   },
   {
-   "t": "YTN 최다액출자자 변경승인 취소 청문, 내달로 연기될 듯",
-   "u": "https://www.yna.co.kr/view/AKR20261020052800017",
+   "t": "영화 '원스' 내달 재개봉…故 글렌 핸사드 주연",
+   "u": "https://www.yna.co.kr/view/AKR20261021050100005",
    "s": "연합뉴스"
   },
   {
-   "t": "임영웅, '부디 행복해질 것' 뮤직비디오 공개",
-   "u": "https://www.yna.co.kr/view/AKR20261020051000005",
+   "t": "제니 '드라큘라', 빌보드 '핫 100' 5위…자체 최고순위 타이기록",
+   "u": "https://www.yna.co.kr/view/AKR20261021047300005",
    "s": "연합뉴스"
   },
   {
-   "t": "음악에 물든 용산…내달 '임형주와 함께하는 K팝페라 페스티벌'",
-   "u": "https://www.yna.co.kr/view/AKR20261020038400005",
+   "t": "넷플릭스, 예고생 K팝 오디션 '위 고 하이' 제작",
+   "u": "https://www.yna.co.kr/view/AKR20261021047500005",
    "s": "연합뉴스"
   },
   {
-   "t": "'케데헌' 이재, 외조부 신영균 옛 자택서 깜짝 결혼",
-   "u": "https://www.yna.co.kr/view/AKR20261020039700005",
+   "t": "코바코, 내달 5일 국제 OTT 포럼…글로벌 전략 모색",
+   "u": "https://www.yna.co.kr/view/AKR20261020172100017",
    "s": "연합뉴스"
   },
   {
-   "t": "임시완/설인아 주연 '나의 유죄인간' 5.6％ 출발",
-   "u": "https://www.yna.co.kr/view/AKR20261020035800005",
+   "t": "'닥터X' 인기 돌풍…넷플릭스 비영어 쇼 2주 연속 1위",
+   "u": "https://www.yna.co.kr/view/AKR20261021027600005",
    "s": "연합뉴스"
   },
   {
-   "t": "'성장둔화' 넷플릭스, '케데헌' 이끈 영화 총괄도 사임",
-   "u": "https://www.yna.co.kr/view/AKR20261020009400091",
+   "t": "그룹 유어즈 \"리센느 선배 이어 '중소의 복권' 될래요\"",
+   "u": "https://www.yna.co.kr/view/AKR20261019181200005",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "유럽 공략하는 KG모빌리티…탄소 배출량 관리 체계 구축",
-   "u": "https://zdnet.co.kr/view/?no=20261020102655",
+   "t": "농구장서 보이스피싱 예방 배운다...SKT/금감원 맞손",
+   "u": "https://zdnet.co.kr/view/?no=20261021095951",
    "s": "ZDNet"
   },
   {
-   "t": "NC AI, 콘텐츠 제작 문턱 낮춘다…구독료 50% 할인",
-   "u": "https://zdnet.co.kr/view/?no=20261020102540",
+   "t": "국가유산청 국립경주문화유산연구소, AI 활용 신라 기와 연구 방안 모색",
+   "u": "https://zdnet.co.kr/view/?no=20261021093518",
    "s": "ZDNet"
   },
   {
-   "t": "CJ ENM 투니버스, 애니메이션 성우 팬밋업 연다",
-   "u": "https://zdnet.co.kr/view/?no=20261020102010",
+   "t": "위성 안에서 AI가 판단한다…KAI, 자율운영 기술 검증",
+   "u": "https://zdnet.co.kr/view/?no=20261021095356",
    "s": "ZDNet"
   },
   {
-   "t": "쿠팡플레이, 21일부터 NBA 생중계...300경기 한국어 해설",
-   "u": "https://zdnet.co.kr/view/?no=20261020101924",
+   "t": "내 달리기 자세, AI가 봐준다...SKT '런메이트 캠프' 눈길",
+   "u": "https://zdnet.co.kr/view/?no=20261021095351",
    "s": "ZDNet"
   },
   {
-   "t": "유엠에이지, ‘유믹스’로 인디 아티스트 돕는다…\"글로벌 유통 노하우 전수\"",
-   "u": "https://zdnet.co.kr/view/?no=20261020101840",
+   "t": "조용철 농심 대표, 파리서 유럽 거래선 만났다…신라면 로제 소개",
+   "u": "https://zdnet.co.kr/view/?no=20261021094118",
    "s": "ZDNet"
   },
   {
-   "t": "카페24, '책임지는 엔터프라이즈 서비스' 출시",
-   "u": "https://zdnet.co.kr/view/?no=20261020100502",
+   "t": "구글, 차량용 제미나이에 개인화 강화…\"운전자 취향/일정 파악\"",
+   "u": "https://zdnet.co.kr/view/?no=20261021095056",
    "s": "ZDNet"
   },
   {
-   "t": "김정수 삼양식품 회장, ‘시알 파리 2026’ 방문…유럽 공략 점검",
-   "u": "https://zdnet.co.kr/view/?no=20261020095935",
+   "t": "\"달에서 AI 돌린다\"…HPE, 연말 '우주용 컴퓨터' 발사",
+   "u": "https://zdnet.co.kr/view/?no=20261021085954",
    "s": "ZDNet"
   },
   {
-   "t": "SK머티리얼즈JNC",
-   "u": "https://zdnet.co.kr/view/?no=20261020094857",
+   "t": "LS마린솔루션, 3분기 영업익 69억원…누적 기준 최대",
+   "u": "https://zdnet.co.kr/view/?no=20261021094628",
    "s": "ZDNet"
   },
   {
-   "t": "에버스핀, ‘에버세이프 웹’으로 금융/공공 등 AI 해킹위협 IP 21만여 개 탐지",
-   "u": "https://zdnet.co.kr/view/?no=20261020101424",
+   "t": "'머스크 초거대 제국' 탄생하나…스페이스X/테슬라 합병 수면 위로",
+   "u": "https://zdnet.co.kr/view/?no=20261021090511",
    "s": "ZDNet"
   },
   {
-   "t": "방미심위, SNS 혐오/조롱 집중 단속…\"무관용 대응”",
-   "u": "https://zdnet.co.kr/view/?no=20261020101411",
+   "t": "CATL, 대형트럭에 배터리 하나 더…교환소 가는 길 걱정 던다",
+   "u": "https://zdnet.co.kr/view/?no=20261021094130",
    "s": "ZDNet"
   },
   {
-   "t": "AI 답변 1만 5663회 분석했더니…지디넷코리아, 국내 언론 중 인용 1위",
-   "u": "https://zdnet.co.kr/view/?no=20261018130759",
+   "t": "하이트진로, ‘아름다운하루 특별전’ 기부물품 모집",
+   "u": "https://zdnet.co.kr/view/?no=20261021092624",
    "s": "ZDNet"
   },
   {
-   "t": "챗GPT와 첫 마라톤 훈련…전문가 조언 더해 안전히 기록 단축",
-   "u": "https://zdnet.co.kr/view/?no=20261019111911",
+   "t": "게임업계 AI 확산에 日 배우들 제동…\"목소리 복제 사전 동의해야\"",
+   "u": "https://zdnet.co.kr/view/?no=20261021092901",
    "s": "ZDNet"
   },
   {
-   "t": "폭스바겐, 골프 GTI 다크 모스 사전계약…100대 한정/5425만원",
-   "u": "https://zdnet.co.kr/view/?no=20261020100514",
+   "t": "엑솔라 몰, 인디 PC 게임 6종 묶은 기간 한정 번들 출시",
+   "u": "https://zdnet.co.kr/view/?no=20261021092826",
    "s": "ZDNet"
   },
   {
-   "t": "\"난 음악인이자 IT맨”…이수만, ‘시대포럼’서 K컬처 차세대 30년 비전 밝힌다",
-   "u": "https://zdnet.co.kr/view/?no=20261020100401",
+   "t": "오픈AI, 신약 개발 속도 높인다…오케스트라 바이오 인수",
+   "u": "https://zdnet.co.kr/view/?no=20261021093242",
    "s": "ZDNet"
   },
   {
-   "t": "카카오, 카톡 채널홈/소식 개편…콘텐츠 노출 강화",
-   "u": "https://zdnet.co.kr/view/?no=20261020094500",
+   "t": "후지필름코리아, 에피톤 프로젝트와 '서울선셋' 협업 진행",
+   "u": "https://zdnet.co.kr/view/?no=20261021093102",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "오늘의 뉴스클리핑과 유튜브 트렌드",
+   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%9c%a0%ed%8a%9c%eb%b8%8c-%ed%8a%b8%eb%a0%8c%eb%93%9c-176/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "거북아 그 속도론 알고리즘 못 따라가! 당장 따라해야 할 인기 릴스 12가지",
+   "u": "https://gogumafarm.kr/%ea%b1%b0%eb%b6%81%ec%95%84-%ea%b7%b8-%ec%86%8d%eb%8f%84%eb%a1%a0-%ec%95%8c%ea%b3%a0%eb%a6%ac%ec%a6%98-%eb%aa%bb-%eb%94%b0%eb%9d%bc%ea%b0%80-%eb%8b%b9%ec%9e%a5-%eb%94%b0%eb%9d%bc%ed%95%b4%ec%95%bc/",
+   "s": "고구마팜"
+  },
   {
    "t": "오늘의 뉴스클리핑과 AI트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-ai%ed%8a%b8%eb%a0%8c%eb%93%9c-2/",
@@ -306,16 +363,6 @@
   {
    "t": "오늘의 뉴스클리핑과 유튜브 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%9c%a0%ed%8a%9c%eb%b8%8c-%ed%8a%b8%eb%a0%8c%eb%93%9c-175/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "A/B 테스트, 제대로 하고 있나요? 마케터가 알아야 할 올바른 설계와 분석 방법",
-   "u": "https://gogumafarm.kr/a-b-%ed%85%8c%ec%8a%a4%ed%8a%b8-%ec%a0%9c%eb%8c%80%eb%a1%9c-%ed%95%98%ea%b3%a0-%ec%9e%88%eb%82%98%ec%9a%94-%eb%a7%88%ec%bc%80%ed%84%b0%ea%b0%80-%ec%95%8c%ec%95%84%ec%95%bc-%ed%95%a0-%ec%98%ac/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "오늘의 뉴스클리핑과 AI 트렌드",
-   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-ai-%ed%8a%b8%eb%a0%8c%eb%93%9c-59/",
    "s": "고구마팜"
   }
  ]
