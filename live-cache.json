@@ -1,293 +1,261 @@
 {
- "updated": "2026-10-28T03:51:13.699Z",
+ "updated": "2026-10-29T04:14:08.276Z",
  "trends": [
   {
-   "title": "골프 존 홀딩스",
-   "traffic": "1000+",
+   "title": "장애인 아시안 게임",
+   "traffic": "200+",
    "items": []
   },
   {
-   "title": "은마아파트",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "은마아파트 피한 GTX",
-     "u": "https://www.mk.co.kr/news/realestate/12187459",
-     "s": "매일경제"
-    },
-    {
-     "t": "GTX",
-     "u": "https://news.mtn.co.kr/article/2026102616115615731",
-     "s": "MTN 머니투데이방송"
-    },
-    {
-     "t": "양주 덕정역 1,7호선에 GTX",
-     "u": "https://www.donga.com/news/Economy/article/all/20261022/134884899/2",
-     "s": "동아일보"
-    }
-   ]
-  },
-  {
-   "title": "순위",
-   "traffic": "500+",
-   "items": [
-    {
-     "t": "IBK, 여자배구 신인 드래프트 1순위로 재미교포 오드리 박 지명",
-     "u": "https://imnews.imbc.com/news/2026/sports/article/6861294_36946.html",
-     "s": "MBC 뉴스"
-    },
-    {
-     "t": "2026~2027 KOVO 여자부 신인선수 드래프트 1라운드 지명 선수들",
-     "u": "https://mobile.newsis.com/photo/NISI20261028_0021508022",
-     "s": "뉴시스"
-    },
-    {
-     "t": "V",
-     "u": "https://www.munhwa.com/article/11626547",
-     "s": "문화일보"
-    }
-   ]
-  },
-  {
-   "title": "월드시리즈",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "밀워키, 창단 첫 우승까지 1승 남았다",
-     "u": "https://www.donga.com/news/Sports/article/all/20261028/134920886/2",
-     "s": "동아일보"
-    },
-    {
-     "t": "3",
-     "u": "https://www.chosun.com/sports/world-baseball/2026/10/27/MJQTKNDGMRQTAYJSMVRGENRQGE/",
-     "s": "조선일보"
-    },
-    {
-     "t": "밀워키, 탬파베이에 대승‥첫 월드시리즈 우승까지 '1승'",
-     "u": "https://imnews.imbc.com/replay/2026/nwdesk/article/6861171_37004.html",
-     "s": "MBC 뉴스"
-    }
-   ]
-  },
-  {
-   "title": "국민비서",
+   "title": "timberwolves vs warriors",
    "traffic": "100+",
    "items": [
     {
-     "t": "더 다양해진 국민비서 서비스를 만나보세요!",
-     "u": "https://www.korea.kr/multi/visualNewsView.do?newsId=148974282",
-     "s": "대한민국 정책브리핑"
+     "t": "Warriors Starter Ruled Out Right Before Start of Timberwolves Game",
+     "u": "https://sports.yahoo.com/articles/warriors-starter-ruled-start-timberwolves-231208772.html",
+     "s": "Yahoo Sports"
     },
     {
-     "t": "행정안전부, 더 다양해진 국민비서 서비스를 만나보세요!",
-     "u": "https://www.kspnews.com/2858014",
-     "s": "케이에스피뉴스"
+     "t": "Gui Santos Cleared to Play Against Nuggets",
+     "u": "https://www.rotoballer.com/player-news/gui-santos-cleared-to-play-against-nuggets/1976599",
+     "s": "RotoBaller"
     },
     {
-     "t": "행정안전부, 더 다양해진 국민비서 서비스를 만나보세요!",
-     "u": "https://www.jeongpil.com/2728254",
-     "s": "정필"
+     "t": "Gui Santos (knee) questionable Monday",
+     "u": "https://www.fantasypros.com/nba/news/615993/gui-santos-knee-questionable-monday.php",
+     "s": "FantasyPros"
     }
    ]
   },
   {
-   "title": "어머니",
-   "traffic": "500+",
+   "title": "르브론 제임스",
+   "traffic": "200+",
    "items": [
     {
-     "t": "어머니의 세월",
-     "u": "http://www.kmkj.kr/news/articleView.html?idxno=139309",
-     "s": "국민기자뉴스"
+     "t": "NBA 레이커스, 개막 4연승 불발…르브론 이탈 후 첫 패배",
+     "u": "https://www.news1.kr/sports/basketball/6335254",
+     "s": "뉴스1"
     },
     {
-     "t": "어머니의 밥상",
-     "u": "http://www.kmkj.kr/news/articleView.html?idxno=139308",
-     "s": "국민기자뉴스"
+     "t": "“축복받은 일...이곳에 와서 기쁘다” 새로운 팀에 적응중인 모란트",
+     "u": "https://www.mk.co.kr/news/sports/12189200",
+     "s": "매일경제"
     },
     {
-     "t": "가장 높은 산",
-     "u": "http://www.kmkj.kr/news/articleView.html?idxno=139305",
-     "s": "국민기자뉴스"
+     "t": "돈치치 41점도 삼킨 릴라드 ‘데임 타임’…포틀랜드, 레이커스 연승 멈췄다",
+     "u": "https://www.kukinews.com/article/view/kuk202610280156",
+     "s": "쿠키뉴스"
     }
    ]
   },
   {
-   "title": "팔란티어 테크놀로지",
-   "traffic": "500+",
+   "title": "la 클리퍼스 대 la 레이커스",
+   "traffic": "1000+",
    "items": [
     {
-     "t": "엔비디아/팔란티어 다음으로 오를 AI 주식 10개",
-     "u": "https://www.chosun.com/economy/money/2026/10/28/PTFCVPTUWBELDBEHX5M44XX5VI/",
-     "s": "조선일보"
+     "t": "“자고 일어났더니 아프다더라” 돈치치, 허리 문제로 클리퍼스전 결장",
+     "u": "https://www.mk.co.kr/news/sports/12189639",
+     "s": "매일경제"
     },
     {
-     "t": "'1등株 + 공급망' 쓸어담은 ETF 전성시대",
-     "u": "https://stock.mk.co.kr/news/view/1182201",
-     "s": "매일경제 마켓"
+     "t": "'평균 36점' 돈치치도 쓰러졌다…LAL, 부상 악재 속 LAC와 LA 더비",
+     "u": "https://isplus.com/article/view/isp202610290005",
+     "s": "일간스포츠"
     },
     {
-     "t": "삼성액티브운용, '코리아TOP5플러스채권혼합50액티브' ETF 상장",
-     "u": "https://www.yna.co.kr/view/AKR20261027043300008",
-     "s": "연합뉴스"
+     "t": "레이커스 돈치치 허리 통증 결장…클리퍼스와 맞대결 : 스포츠",
+     "u": "https://news.jkn.co.kr/post/1055947",
+     "s": "재경일보"
+    }
+   ]
+  },
+  {
+   "title": "이지아",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "이지아, 초미니 원피스에 슬리퍼만 신어도 화보..누가 48세로 보겠어",
+     "u": "https://biz.chosun.com/entertainment/enter_general/2026/10/27/GU3DQNJWMQYTOZTCGUYDENBVMI/",
+     "s": "Chosunbiz"
+    },
+    {
+     "t": "이지아, 48세 안 믿기는 동안 미모에 젓가락 각선미까지…시선 집중",
+     "u": "https://www.news1.kr/entertain/celebrity-topic/6332616",
+     "s": "뉴스1"
+    },
+    {
+     "t": "데뷔 땐 48㎏, 지금은 48세…이지아, 19년 지나도 ‘초미니 각선미’",
+     "u": "https://www.sportsseoul.com/news/read/1645029",
+     "s": "스포츠서울"
     }
    ]
   }
  ],
  "ent": [
   {
-   "t": "거미, 신곡 '퍼펙트 월드'…작사 참여",
-   "u": "https://www.yna.co.kr/view/AKR20261028094400005",
+   "t": "'왕과 사는 남자' 촬영지 인기…강원 전역으로 촬영유치 확대",
+   "u": "https://www.yna.co.kr/view/AKR20261029095700062",
    "s": "연합뉴스"
   },
   {
-   "t": "테이, 12월 크리스마스 콘서트 '산테이 할아버지…'",
-   "u": "https://www.yna.co.kr/view/AKR20261028093700005",
+   "t": "넥슨, '템빨: 오버기어드' 쇼케이스 11월 5일 개최",
+   "u": "https://www.yna.co.kr/view/AKR20261029097100017",
    "s": "연합뉴스"
   },
   {
-   "t": "유튜브 숏폼 드라마 상반기 65억회…한국 시청시간 2배로",
-   "u": "https://www.yna.co.kr/view/AKR20261028082800017",
+   "t": "허각, 신곡 '나를 사랑하지 말아요'…이별 다룬 발라드",
+   "u": "https://www.yna.co.kr/view/AKR20261029090900005",
    "s": "연합뉴스"
   },
   {
-   "t": "\"중국을 실명으로 적국 묘사\"…日드라마 '비반트'에 中 '부글'",
-   "u": "https://www.yna.co.kr/view/AKR20261028080100073",
+   "t": "내년 1월부터 장애인방송 의무편성…89개 사업자 지정",
+   "u": "https://www.yna.co.kr/view/AKR20261029075800017",
    "s": "연합뉴스"
   },
   {
-   "t": "캣츠아이, '롤라팔루자 인디아 2027' 헤드라이너",
-   "u": "https://www.yna.co.kr/view/AKR20261028081800005",
+   "t": "뉴진스 '제로' 스포티파이 1억 스트리밍…팀 통산 17번째",
+   "u": "https://www.yna.co.kr/view/AKR20261029076400005",
    "s": "연합뉴스"
   },
   {
-   "t": "이창동 '가능한 사랑', 美 고담어워즈 3개 부문 후보",
-   "u": "https://www.yna.co.kr/view/AKR20261028081200005",
+   "t": "송일국, 케냐 아동 위한 희망 전한다…31일 초록우산 후원방송",
+   "u": "https://www.yna.co.kr/view/AKR20261029069800371",
    "s": "연합뉴스"
   },
   {
-   "t": "엑스러브, 오늘 미니 3집 '아이 이퀄스 아이'…타이틀곡 '허시'",
-   "u": "https://www.yna.co.kr/view/AKR20261028074000005",
+   "t": "엔플라잉, 12월 24∼26일 크리스마스 콘서트",
+   "u": "https://www.yna.co.kr/view/AKR20261029060300005",
    "s": "연합뉴스"
   },
   {
-   "t": "플레이브, 美 빌보드 메인 앨범 차트 31위…자체 최고 기록",
-   "u": "https://www.yna.co.kr/view/AKR20261028060000005",
+   "t": "젊은 시선의 단편영화 46편…내달 5∼11일 '성북청춘불패영화제'",
+   "u": "https://www.yna.co.kr/view/AKR20261029063000004",
    "s": "연합뉴스"
   },
   {
-   "t": "케이블TV, 전국 가을축제 기획/중계/특집방송",
-   "u": "https://www.yna.co.kr/view/AKR20261028064300017",
+   "t": "'킬러'로 변신한 김다미…티빙 '고분고분한 킬러' 내년 공개",
+   "u": "https://www.yna.co.kr/view/AKR20261029059400005",
    "s": "연합뉴스"
   },
   {
-   "t": "투썸플레이스, 연말 캠페인 모델에 걸그룹 아일릿 원희 발탁",
-   "u": "https://www.yna.co.kr/view/AKR20261028051700030",
+   "t": "딜라이브TV, 베트남 SCTV와 콘텐츠 교류 협약",
+   "u": "https://www.yna.co.kr/view/AKR20261029054700017",
    "s": "연합뉴스"
   },
   {
-   "t": "삼성전자, 리센느 손잡고 갤럭시 Z 폴드8 알린다",
-   "u": "https://www.yna.co.kr/view/AKR20261028045600017",
+   "t": "'듄: 파트 3' 12월 한국서 최초 개봉…3부작 시리즈 피날레",
+   "u": "https://www.yna.co.kr/view/AKR20261029052800005",
    "s": "연합뉴스"
   },
   {
-   "t": "티빙 '대탈출: 도시괴담' 12월 공개",
-   "u": "https://www.yna.co.kr/view/AKR20261028042100005",
+   "t": "김필, 오늘 정규 2집 '저니'…진정한 나 찾아가는 이야기 담아",
+   "u": "https://www.yna.co.kr/view/AKR20261029039200005",
    "s": "연합뉴스"
   },
   {
-   "t": "배우 한지민, 서울대병원 후원회 홍보대사 위촉",
-   "u": "https://www.yna.co.kr/view/AKR20261028032700530",
+   "t": "故신해철에 은관문화훈장…유재석/한영애/블랙핑크도 문화훈장",
+   "u": "https://www.yna.co.kr/view/AKR20261028154200005",
    "s": "연합뉴스"
   },
   {
-   "t": "'스디파' 우승 백구영 \"오랜 시간 버텨온 제 자신이 고마웠죠\"",
-   "u": "https://www.yna.co.kr/view/AKR20261027150000005",
+   "t": "임형주 \"K",
+   "u": "https://www.yna.co.kr/view/AKR20261028155400005",
    "s": "연합뉴스"
   },
   {
-   "t": "노르망디 상륙작전 뒤엔 기상학자가 있었다…영화 '프레셔'",
-   "u": "https://www.yna.co.kr/view/AKR20261027173500005",
+   "t": "밴드 아도이 \"다시 느낀 일상의 소중함…위로 주고팠죠\"",
+   "u": "https://www.yna.co.kr/view/AKR20261028064500005",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "우체국쇼핑, 29일부터 팔도마켓 할인 행사",
-   "u": "https://zdnet.co.kr/view/?no=20261028105616",
+   "t": "김연수 한컴 대표 \"2030년 매출 절반 해외서\"…노마디안으로 글로벌 공략 박차",
+   "u": "https://zdnet.co.kr/view/?no=20261029111431",
    "s": "ZDNet"
   },
   {
-   "t": "신은정 STEPI 센터장, OECD 글로벌과학포럼 부의장에",
-   "u": "https://zdnet.co.kr/view/?no=20261028115518",
+   "t": "장호진 현대지에프홀딩스 대표이사 부회장",
+   "u": "https://zdnet.co.kr/view/?no=20261029110148",
    "s": "ZDNet"
   },
   {
-   "t": "웹케시, LG 'K",
-   "u": "https://zdnet.co.kr/view/?no=20261028115412",
+   "t": "미리디 미리캔버스, 챗GPT 연동 디자인 솔루션 ‘AI 커넥터’ 선보여",
+   "u": "https://zdnet.co.kr/view/?no=20261029111606",
    "s": "ZDNet"
   },
   {
-   "t": "제8기 남북방송통신교류추진위원회 출범",
-   "u": "https://zdnet.co.kr/view/?no=20261028114744",
+   "t": "SK AX, AI로 채용부터 인재 육성까지 혁신…기업 HR 시장 공략",
+   "u": "https://zdnet.co.kr/view/?no=20261029111026",
    "s": "ZDNet"
   },
   {
-   "t": "ST마이크로, 마스터GaN7 디바이스 신제품 출시",
-   "u": "https://zdnet.co.kr/view/?no=20261028094857",
+   "t": "컴퓨존 \"단순 유통 넘어 IT 종합 서비스 플랫폼 진화\"",
+   "u": "https://zdnet.co.kr/view/?no=20261029110113",
    "s": "ZDNet"
   },
   {
-   "t": "대학생이 만든 자율주행차, 시험도로와 가상환경에서 기술 겨룬다",
-   "u": "https://zdnet.co.kr/view/?no=20261028114638",
+   "t": "알리익스프레스, '110원 전기차•쿠폰 추첨'에 최대 80% 할인…11.11 광군제 11월 1일 개막",
+   "u": "https://zdnet.co.kr/view/?no=20261029111003",
    "s": "ZDNet"
   },
   {
-   "t": "한미마이크로닉스, 서버/워크스테이션용 CPU 냉각장치 출시",
-   "u": "https://zdnet.co.kr/view/?no=20261028114105",
+   "t": "아마존이 만든 똑똑한 시계...잠든 사람 호흡 살펴 깨운다",
+   "u": "https://zdnet.co.kr/view/?no=20261029110754",
    "s": "ZDNet"
   },
   {
-   "t": "수입차 좀 사본 고객은 BMW 고민했다…반복 구매자 검토율 27.6%",
-   "u": "https://zdnet.co.kr/view/?no=20261028114058",
+   "t": "KOSA, AI 기업 미국 진출 지원…뉴욕대 연계 프로그램 사전 접수",
+   "u": "https://zdnet.co.kr/view/?no=20261029110302",
    "s": "ZDNet"
   },
   {
-   "t": "우체국금융개발원 노사, 영등포 취약계층 주거환경 개선 봉사",
-   "u": "https://zdnet.co.kr/view/?no=20261028113922",
+   "t": "현대백화점그룹",
+   "u": "https://zdnet.co.kr/view/?no=20261029105558",
    "s": "ZDNet"
   },
   {
-   "t": "외국어 실력이 회의 발언 기회까지 좌우…딥엘, AI 통역 수요 확인",
-   "u": "https://zdnet.co.kr/view/?no=20261028113722",
+   "t": "DSRV, 에티오피아 국영기업과 맞손…국가 디지털 ID, 블록체인 기술 접목",
+   "u": "https://zdnet.co.kr/view/?no=20261029110038",
    "s": "ZDNet"
   },
   {
-   "t": "KOSA/KTR, 중소 AI/SW 기업 시험인증 비용 부담 낮춘다",
-   "u": "https://zdnet.co.kr/view/?no=20261028112906",
+   "t": "\"클라우드가 효자\"…삼성SDS, 매출 기대 이상에 AI 사업 성장도 '탄력'",
+   "u": "https://zdnet.co.kr/view/?no=20261029104542",
    "s": "ZDNet"
   },
   {
-   "t": "김범석 배민 \"주문 전부터 AI가 준비...기다림 '제로'에 가깝게\"",
-   "u": "https://zdnet.co.kr/view/?no=20261028110907",
+   "t": "이선웅 대표 \"공공 AI, 모델 만큼이나 데이터 활용 환경 구축도 중요\"",
+   "u": "https://zdnet.co.kr/view/?no=20261029090009",
    "s": "ZDNet"
   },
   {
-   "t": "에이수스코리아, 프로아트 PRT",
-   "u": "https://zdnet.co.kr/view/?no=20261028112722",
+   "t": "한국타이어, 품질만족지수 2관왕…자동차용 18년 연속 1위",
+   "u": "https://zdnet.co.kr/view/?no=20261029105738",
    "s": "ZDNet"
   },
   {
-   "t": "KT클라우드, 버티브와 AI 데이터센터 전력/냉각 기술 협력…군산에 모듈형 인프라 도입",
-   "u": "https://zdnet.co.kr/view/?no=20261028112251",
+   "t": "현대백화점그룹, 장호진/박홍진 부회장 승진…\"안정 속 쇄신\"",
+   "u": "https://zdnet.co.kr/view/?no=20261029102357",
    "s": "ZDNet"
   },
   {
-   "t": "SK하이닉스 \"2029년까지 HBM/D램 다 팔렸다\"",
-   "u": "https://zdnet.co.kr/view/?no=20261028110236",
+   "t": "美 T모바일, 가입자 늘고 수익성 뛰었다...3분기 순익 27% 증가",
+   "u": "https://zdnet.co.kr/view/?no=20261029105249",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "오늘의 뉴스클리핑과 영상/캠페인 트렌드",
+   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%98%81%ec%83%81-%ec%ba%a0%ed%8e%98%ec%9d%b8-%ed%8a%b8%eb%a0%8c%eb%93%9c-163/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "게임 창작 플랫폼으로 진화 중인 &#8216;로블록스&#8217;! 브랜드가 주목해야 하는 이유",
+   "u": "https://gogumafarm.kr/%ea%b2%8c%ec%9e%84-%ec%b0%bd%ec%9e%91-%ed%94%8c%eb%9e%ab%ed%8f%bc%ec%9c%bc%eb%a1%9c-%ec%a7%84%ed%99%94-%ec%a4%91%ec%9d%b8-%eb%a1%9c%eb%b8%94%eb%a1%9d%ec%8a%a4-%eb%b8%8c%eb%9e%9c%eb%93%9c%ea%b0%80/",
+   "s": "고구마팜"
+  },
   {
    "t": "오늘의 뉴스클리핑과 유튜브 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%9c%a0%ed%8a%9c%eb%b8%8c-%ed%8a%b8%eb%a0%8c%eb%93%9c-177/",
@@ -316,16 +284,6 @@
   {
    "t": "올해 가을은 이렇게 즐긴다! SNS에서 포착한 2026 가을 트렌드 12선",
    "u": "https://gogumafarm.kr/%ec%98%ac%ed%95%b4-%ea%b0%80%ec%9d%84%ec%9d%80-%ec%9d%b4%eb%a0%87%ea%b2%8c-%ec%a6%90%ea%b8%b4%eb%8b%a4-sns%ec%97%90%ec%84%9c-%ed%8f%ac%ec%b0%a9%ed%95%9c-2026-%ea%b0%80%ec%9d%84-%ed%8a%b8%eb%a0%8c/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "오늘의 뉴스클리핑과 커머스 트렌드",
-   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-166/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "오늘의 뉴스클리핑과 영상/캠페인 트렌드",
-   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%98%81%ec%83%81-%ec%ba%a0%ed%8e%98%ec%9d%b8-%ed%8a%b8%eb%a0%8c%eb%93%9c-162/",
    "s": "고구마팜"
   }
  ]
