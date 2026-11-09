@@ -1,351 +1,340 @@
 {
- "updated": "2026-11-08T04:15:30.134Z",
+ "updated": "2026-11-09T04:30:17.298Z",
  "trends": [
   {
-   "title": "보이저 1호",
+   "title": "연차",
+   "traffic": "500+",
+   "items": []
+  },
+  {
+   "title": "jtbc",
    "traffic": "200+",
    "items": [
     {
-     "t": "‘외계 생명체’와 접촉은 언제쯤?///보이저 1호, 인공 물체 최초 ‘1광일’ 도달 눈앞",
-     "u": "https://www.khan.co.kr/article/202611080800041",
-     "s": "경향신문"
-    },
-    {
-     "t": "인간의 속도, 우주의 시간",
-     "u": "https://www.chosun.com/national/weekend/2026/11/07/LQ4464KXCFBVVFJSNOTCHP3C3A/",
-     "s": "조선일보"
-    },
-    {
-     "t": "보이저 1호, 18일 인류 첫 1광일 거리 도달 : 테크/과학",
-     "u": "https://news.jkn.co.kr/post/1068416",
-     "s": "재경일보"
-    }
-   ]
-  },
-  {
-   "title": "자동차",
-   "traffic": "10000+",
-   "items": [
-    {
-     "t": "현대차/기아, 루크 동커볼케 CCO 디자인 아카이브 전시 개최",
-     "u": "https://newsroom.genesis.com/ko-ko/%ED%98%84%EB%8C%80%EC%B0%A8-%C2%B7%EA%B8%B0%EC%95%84-%252C-%EB%A3%A8%ED%81%AC-%EB%8F%99%EC%BB%A4%EB%B3%BC%EC%BC%80-CCO-%EB%94%94%EC%9E%90%EC%9D%B8-%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B8%8C-%EC%A0%84%EC%8B%9C-%EA%B0%9C%EC%B5%9C/",
-     "s": "Genesis Newsroom"
-    },
-    {
-     "t": "‘제네시스 신화 어떻게 탄생했나’⋯ 현대차/기아, 동커볼케 ‘비밀 노트’ 공개",
-     "u": "https://www.viva100.com/article/20261108500210",
-     "s": "브릿지경제"
-    },
-    {
-     "t": "명차 디자인은 어디서 시작될까…현대차/기아, 동커볼케의 꿈 공개",
-     "u": "https://www.newsworks.co.kr/news/articleView.html?idxno=902316",
-     "s": "뉴스웍스"
-    }
-   ]
-  },
-  {
-   "title": "허미미",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "한국시리즈 시구한 유도 간판 허미미 '세계랭킹 회복에 전념'",
-     "u": "https://www.yna.co.kr/view/AKR20261107034700007",
-     "s": "연합뉴스"
-    },
-    {
-     "t": "삼성 이재희, '한국시리즈 역투'",
-     "u": "https://biz.chosun.com/sports/sports_photo/2026/11/07/MQ2TGZJUGJRTSNBYMRRTMZDEHA/",
+     "t": "JTBC launches sale, to pick preferred buyer in January",
+     "u": "https://biz.chosun.com/en/en-finance/2026/11/09/I67ZL7I37VCOJOM7A6MXFLPHRM/",
      "s": "Chosunbiz"
     },
     {
-     "t": "연속 밀어내기 볼넷에 주저 앉은 배찬승",
-     "u": "https://www.osen.co.kr/article/G1112905967",
-     "s": "OSEN"
+     "t": "Troubled broadcaster JTBC to select preferred bidder in Jan.",
+     "u": "https://en.yna.co.kr/view/AEN20261109001900315",
+     "s": "Yonhap News Agency"
+    },
+    {
+     "t": "In the M&A market next week, KDB Life Insurance, which is nearing the end of the preferred bidde..",
+     "u": "https://www.mk.co.kr/en/stock/12201625",
+     "s": "매일경제"
     }
    ]
   },
   {
-   "title": "코리안투어",
-   "traffic": "200+",
+   "title": "김희영",
+   "traffic": "100+",
    "items": [
     {
-     "t": "Hwang Jae",
-     "u": "https://news.sbs.co.kr/english/article.do?news_id=N1008835433",
-     "s": "news.sbs.co.kr"
+     "t": "산이 좋아 머문 자리 ‘K",
+     "u": "http://san.chosun.com/news/articleView.html?idxno=26280",
+     "s": "월간산"
     },
     {
-     "t": "Scorecard Error Disqualifies Jang Yu",
-     "u": "https://www.chosun.com/english/sports-en/2026/11/06/TKN5DK6MHVFVNHJ7C6UVC7VDV4/",
-     "s": "조선일보"
+     "t": "“최태원 동거인은 중국간첩” 주장한 ‘배터리 아저씨’ 2심도 벌금 700만원",
+     "u": "https://www.dt.co.kr/article/12093593",
+     "s": "www.dt.co.kr"
     },
     {
-     "t": "“Genesis Award Four-Way Race, and Park Sang",
-     "u": "https://www.starnewskorea.com/en/sports/2026/11/03/2026110312104253923",
-     "s": "스타뉴스"
+     "t": "‘최태원 동거인 간첩설’ 배터리 아저씨, 항소심도 벌금형",
+     "u": "https://biz.chosun.com/topics/topics_social/2026/11/06/Y66KXM4JOZA5RBAAVDX3FYHUTM/",
+     "s": "Chosunbiz"
     }
    ]
   },
   {
-   "title": "미스 베트남",
-   "traffic": "1000+",
+   "title": "신인감독 김연경",
+   "traffic": "2000+",
    "items": [
     {
-     "t": "2026년 미스 베트남에 하노이 소녀 Nguyen Yen Trang이 선정되었습니다.",
-     "u": "https://www.vietnam.vn/ko/co-gai-ha-noi-nguyen-yen-trang-dang-quang-hoa-hau-viet-nam-2026",
-     "s": "Vietnam.vn"
-    },
-    {
-     "t": "새로운 미스 베트남 응우옌 짱(Nguyen Yen Trang)의 첫 걸음.",
-     "u": "https://www.vietnam.vn/ko/nhung-buoc-chan-dau-tien-cua-tan-hoa-hau-nguyen-yen-trang",
-     "s": "Vietnam.vn"
-    },
-    {
-     "t": "응우옌 옌 짱,,,베트남 미인대회 2026 우승",
-     "u": "https://www.goodmorningvietnam.co.kr/news/article.html?no=84464",
-     "s": "굿모닝베트남미디어"
-    }
-   ]
-  },
-  {
-   "title": "이다현",
-   "traffic": "1000+",
-   "items": [
-    {
-     "t": "‘환상 블로킹’ 韓 미녀 스타 이다현이 경기 끝냈다…10득점 맹활약, NEC 2연패 탈출→3위 도약",
-     "u": "https://www.chosun.com/sports/volleyball/2026/11/08/MVSGKNBYMFRTGNRTHFQTIMJQGY/",
-     "s": "조선일보"
-    },
-    {
-     "t": "이다현 '매치 포인트' 만든 블로킹 포함 10점 제몫…히로타 26점 NEC, 아란마레와 주말 2연전 첫날 승리",
-     "u": "https://mydaily.co.kr/page/view/2026110717402841925",
-     "s": "마이데일리"
-    },
-    {
-     "t": "‘환상 블로킹’ 韓 미녀 스타 이다현이 경기 끝냈다…10득점 맹활약, NEC 2연패 탈출→3위 도약",
-     "u": "https://www.mt.co.kr/sports/2026/11/08/202611080103778569O",
+     "t": "'신인감독' 김연경, 흥국생명에 3대2 대역전 '2연승 쾌거'",
+     "u": "https://www.mt.co.kr/entertainment/2026/11/09/2026110902291872728",
      "s": "머니투데이"
+    },
+    {
+     "t": "'신인감독2' 원더독스 VS 전 주장 표승주…승자는?!",
+     "u": "https://enews.imbc.com/News/RetrieveNewsInfo/523982",
+     "s": "iMBC 연예"
+    },
+    {
+     "t": "김연경, 친정팀 흥국생명에 역전승 거둘까…0대 10 반격 시작('신인감독2')",
+     "u": "https://www.chosun.com/entertainments/broadcast/2026/11/08/GU4WIYJXGRTDGOBWGYYTMZJUGI/",
+     "s": "조선일보"
     }
    ]
   },
   {
-   "title": "음악회",
-   "traffic": "200+",
+   "title": "한남더힐 아파트",
+   "traffic": "5000+",
    "items": [
     {
-     "t": "청도읍성에 울려 퍼진 풍물가락…읍성밟기로 가을 축제 흥겨움",
-     "u": "https://www.asiatoday.co.kr/kn/view.php?key=20261108010002751",
-     "s": "아시아투데이"
-    },
-    {
-     "t": "청도 읍성 예술제 '읍성 밟기' 재현 행사",
-     "u": "https://www.news1.kr/photos/8202671",
+     "t": "옥주현 한남더힐 경매 사태…'50억으로 400억 당겼다가 청산된 것'",
+     "u": "https://www.news1.kr/realestate/general/6346754",
      "s": "뉴스1"
     },
     {
-     "t": "청도군, 음악으로 물든 가을밤 주민 화합의 장",
-     "u": "https://tk.newdaily.co.kr/site/data/html/2026/11/06/2026110600306.html",
-     "s": "뉴데일리 대구경북"
+     "t": "‘190억이 경매로’…옥주현 사는 한남동 최고가 아파트는",
+     "u": "https://www.edaily.co.kr/News/Read?newsId=01131606645643752&amp;mediaCodeNo=257",
+     "s": "이데일리"
+    },
+    {
+     "t": "“옥주현, 180억 대부업체 대출 추정…연이자만 20억 이상” 변호사 분석",
+     "u": "https://www.twig24.com/news/entertainments/celebrity/2026/11/05/20261105500315",
+     "s": "TWIG"
     }
    ]
   },
   {
-   "title": "루이바오",
-   "traffic": "200+",
+   "title": "노점상",
+   "traffic": "2000+",
    "items": [
     {
-     "t": "용인시, 루이/후이바오에 ‘명예시민증’… 슈바오는 ‘아기 주민증’",
-     "u": "https://www.kyeonggi.com/article/20261106580394",
-     "s": "경기일보"
+     "t": "'하루 3만원 버는데…' 붕어빵 노점상 울린 판사의 한마디",
+     "u": "https://www.hankyung.com/article/202611083087i",
+     "s": "한국경제"
     },
     {
-     "t": "쌍둥이 판다, 중국행 앞두고 용인 명예시민증 받아",
-     "u": "https://news.kbs.co.kr/news/view.do?ncd=8706067",
+     "t": "'하루 3만원 버는 보통 사람들'…무허가 붕어빵 노점상 울린 한마디",
+     "u": "https://news.jtbc.co.kr/article/NB12327118",
+     "s": "JTBC"
+    },
+    {
+     "t": "쓰레기통 찾다 지치는 관광객 늘자… 명동 노점상들 '쓰레기 받아요'",
+     "u": "https://www.chosun.com/national/national_general/2026/11/09/CIFIXUFYPNEKJK5GUYMQZMVY2E/",
+     "s": "조선일보"
+    }
+   ]
+  },
+  {
+   "title": "연구",
+   "traffic": "500+",
+   "items": [
+    {
+     "t": "국방 AI 선도연구기관에 KAIST/ETRI/LG AI연구원 지정",
+     "u": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&amp;key=202611091145519412",
+     "s": "YTN 사이언스"
+    },
+    {
+     "t": "방사청, 국방분야 AI 선도연구기관 선정…'기관",
+     "u": "https://www.newsis.com/view/NISX20261109_0003859756",
+     "s": "뉴시스"
+    },
+    {
+     "t": "국방 AI 선도연구기관에 카이스트/ETRI/LG AI연구원 지정",
+     "u": "https://news.kbs.co.kr/news/view.do?ncd=8707263",
      "s": "KBS 뉴스"
-    },
-    {
-     "t": "용인특례시의회, 루이/후이바오에 ‘시민행복 감사장’ 전달",
-     "u": "https://www.metroseoul.co.kr/article/20261107500047",
-     "s": "메트로신문"
     }
    ]
   },
   {
-   "title": "자산",
-   "traffic": "10000+",
+   "title": "알 테오 젠",
+   "traffic": "500+",
    "items": [
     {
-     "t": "금융당국, 가상자산업계 잇단 해킹에 보안 책임자 소집",
-     "u": "https://www.yonhapnewstv.co.kr/news/MYH202611081126524B0",
-     "s": "연합뉴스TV"
+     "t": "알테오젠, 美 약가협상 규정 확정에 15% 급락…SC 전환 수익성 우려",
+     "u": "https://biz.chosun.com/stock/stock_general/2026/11/09/UZES6NYL4JFW5FOP6QH3QOSVWQ/",
+     "s": "Chosunbiz"
     },
     {
-     "t": "잇단 가상자산 거래소 해킹... 금감원, 가상자산사업자 CISO 소집한다",
-     "u": "https://www.boannews.com/news/articleView.html?idxno=147086",
-     "s": "보안뉴스"
+     "t": "알테오젠 키트루다SC, 유럽 위탁제조사도 특허소송 대상",
+     "u": "http://www.press9.kr/news/articleView.html?idxno=85795",
+     "s": "PRESS9"
     },
     {
-     "t": "고팍스, 해킹 예고 협박 메일에 출금 차단",
-     "u": "https://www.yna.co.kr/view/AKR20261106174700002",
-     "s": "연합뉴스"
+     "t": "알테오젠, 키트루다SC 특허분쟁 확대에 17%대 급락",
+     "u": "https://www.viva100.com/article/20261109500332",
+     "s": "브릿지경제"
+    }
+   ]
+  },
+  {
+   "title": "파주시",
+   "traffic": "500+",
+   "items": [
+    {
+     "t": "파주시, 2026 파주페이 페스타 성황리에 마무리",
+     "u": "https://m.anewsa.com/article_sub3.php?number=3215822&amp;type=&amp;mobile=",
+     "s": "아시아뉴스통신"
+    },
+    {
+     "t": "파주페이로 지역상권 살리고 가을축제 즐긴다",
+     "u": "https://www.incheonilbo.com/news/articleView.html?idxno=1335795",
+     "s": "인천일보"
+    },
+    {
+     "t": "파주시, '2026 파주페이 페스타' 개최///지역화폐로 지역경제 활력",
+     "u": "https://www.kmaeil.com/news/articleView.html?idxno=656853",
+     "s": "경인매일"
     }
    ]
   }
  ],
  "ent": [
   {
-   "t": "죽음보다 무서운 생계…공포가 된 노동 '꿀알바'",
-   "u": "https://www.yna.co.kr/view/AKR20261107053600005",
+   "t": "혜리 \"첫 서바이벌 예능 MC…참가자들 마음에 공감할게요\"",
+   "u": "https://www.yna.co.kr/view/AKR20261109082700005",
    "s": "연합뉴스"
   },
   {
-   "t": "이미경 CJ 부회장, '아시안 명예의 전당' 평생공로 메달 수상",
-   "u": "https://www.yna.co.kr/view/AKR20261108017200005",
+   "t": "베스티 '연애의 조건', 13년 만에 멜론 '톱 10' 진입",
+   "u": "https://www.yna.co.kr/view/AKR20261109074200005",
    "s": "연합뉴스"
   },
   {
-   "t": "마이 케미컬 로맨스, 18년만 내한 공연…추위 녹인 2만명 떼창",
-   "u": "https://www.yna.co.kr/view/AKR20261108001800005",
+   "t": "10주년 NCT 드림, 6집 '드림 애프터 드림'…\"희망 드리고 싶어\"",
+   "u": "https://www.yna.co.kr/view/AKR20261109071700005",
    "s": "연합뉴스"
   },
   {
-   "t": "GS리테일, '미디어나눔버스' 운영 10년…2만3천명에 교육 제공",
-   "u": "https://www.yna.co.kr/view/AKR20261108012700030",
+   "t": "빅뱅, 폭우로 방콕 콘서트 중단…\"안전 최우선, 전액 환불\"",
+   "u": "https://www.yna.co.kr/view/AKR20261109064900005",
    "s": "연합뉴스"
   },
   {
-   "t": "이창동이 그린 해고노동자 가족…'심장소리'와 '가능한 사랑'",
-   "u": "https://www.yna.co.kr/view/AKR20261106188700005",
+   "t": "김흥국, 축구단 '들이대FC' 창단…고문엔 박지성 부친",
+   "u": "https://www.yna.co.kr/view/AKR20261109058500005",
    "s": "연합뉴스"
   },
   {
-   "t": "신세계百 강남점, 에이티즈 앨범 발매 기념 팝업 매장 운영",
-   "u": "https://www.yna.co.kr/view/AKR20261107020700030",
+   "t": "태연, 30일 4집 '언스페셜'…4년 10개월만 정규앨범",
+   "u": "https://www.yna.co.kr/view/AKR20261109054900005",
    "s": "연합뉴스"
   },
   {
-   "t": "하이브/SM 구성원 4인, '빌보드 투어링 파워 플레이어스' 선정",
-   "u": "https://www.yna.co.kr/view/AKR20261107034400005",
+   "t": "테이, '굿모닝FM' 3년 6개월만 하차…\"새 앨범에 집중\"",
+   "u": "https://www.yna.co.kr/view/AKR20261109052100005",
    "s": "연합뉴스"
   },
   {
-   "t": "배우 변신은 무죄…조니 뎁/앤 해서웨이/채스테인 신작 개봉",
-   "u": "https://www.yna.co.kr/view/AKR20261107029900005",
+   "t": "JYP, 내년 새 보이그룹 오브더블루…킥플립 이후 2년만",
+   "u": "https://www.yna.co.kr/view/AKR20261109041400005",
    "s": "연합뉴스"
   },
   {
-   "t": "위켄드, 투어 매출 13억 달러 돌파…남성 솔로 가수 최고",
-   "u": "https://www.yna.co.kr/view/AKR20261107025100005",
+   "t": "'명탐정 코난' 성우 만난다…21∼29일 '투니보이스 페스타'",
+   "u": "https://www.yna.co.kr/view/AKR20261109039900005",
    "s": "연합뉴스"
   },
   {
-   "t": "\"자극 대신 일상 웃음\"…안방극장 돌아온 '시트콤의 진화'",
-   "u": "https://www.yna.co.kr/view/AKR20261107023500005",
+   "t": "'치이카와' 5주 연속 주말 1위…애니메이션 강세",
+   "u": "https://www.yna.co.kr/view/AKR20261109030900005",
    "s": "연합뉴스"
   },
   {
-   "t": "케데헌 '골든', 英 오피셜 싱글 차트 72주 연속 진입",
-   "u": "https://www.yna.co.kr/view/AKR20261107024200005",
+   "t": "'솔로라서' 시즌2 12월 첫선…조윤희 MC 합류",
+   "u": "https://www.yna.co.kr/view/AKR20261109036500005",
    "s": "연합뉴스"
   },
   {
-   "t": "심현보 \"결국 남는 건 사랑…일상 속 소소한 이야기로 담았죠\"",
-   "u": "https://www.yna.co.kr/view/AKR20261106140900005",
+   "t": "\"아이돌 90%는 중소社서 데뷔했지만…활동 기간은 대형 소속이 2배\"",
+   "u": "https://www.yna.co.kr/view/AKR20261109033500005",
    "s": "연합뉴스"
   },
   {
-   "t": "부산기장촬영소 시범운영…화려한 액션 버추얼 스튜디오 구축",
-   "u": "https://www.yna.co.kr/view/AKR20261106099100051",
+   "t": "정신과 의사로 변신한 강하늘…MBC '마인드 닥터' 내년 방송",
+   "u": "https://www.yna.co.kr/view/AKR20261109025700005",
    "s": "연합뉴스"
   },
   {
-   "t": "최휘영 \"AI 파도, 연대의 방식으로 항로 찾는 영화인에 박수\"",
-   "u": "https://www.yna.co.kr/view/AKR20261106176100005",
+   "t": "JTBC, 오늘 매각 공고…내년 1월 우선협상대상자 선정",
+   "u": "https://www.yna.co.kr/view/AKR20261109019500005",
    "s": "연합뉴스"
   },
   {
-   "t": "디어클라우드, 8일 신곡 '꿈의 장면'…19주년 기념",
-   "u": "https://www.yna.co.kr/view/AKR20261106169800005",
+   "t": "엑소, '첫눈' 내린 날 1만여 명과 떼창…\"새록새록 추억 속으로\"",
+   "u": "https://www.yna.co.kr/view/AKR20261108044300005",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "기록보다 다함께 완주…넥슨의 특별한 달리기",
-   "u": "https://zdnet.co.kr/view/?no=20261108103109",
+   "t": "파리협정 이행 가속화 논의할 ‘제31차 유엔기후변화협약 총회’ 개막",
+   "u": "https://zdnet.co.kr/view/?no=20261109124703",
    "s": "ZDNet"
   },
   {
-   "t": "출시 1주년 앞둔 '아이온2'…국내외 흥행 성과는",
-   "u": "https://zdnet.co.kr/view/?no=20261108110542",
+   "t": "엔비디아 \"AI 에이전트, 차세대 컴퓨팅 플랫폼으로 진화\"",
+   "u": "https://zdnet.co.kr/view/?no=20261109122336",
    "s": "ZDNet"
   },
   {
-   "t": "보안 패치 나와도 기업 설치 늦어…MS \"공격 노출 기간 줄여야\"",
-   "u": "https://zdnet.co.kr/view/?no=20261108113814",
+   "t": "\"다르게 생각하랬지\"…깨진 폴더블폰 저격한 잡스, AI 테마파크 가보니",
+   "u": "https://zdnet.co.kr/view/?no=20261108073035",
    "s": "ZDNet"
   },
   {
-   "t": "한컴그룹, 문학상 대상에 '말의 장례식'…상금 1억까지 확대",
-   "u": "https://zdnet.co.kr/view/?no=20261108114413",
+   "t": "스타비안 그룹, 제1회 포춘 SEA500 서밋 2026에서 AI 시대 인프라 비전 제시",
+   "u": "https://zdnet.co.kr/view/?no=20261109121004",
    "s": "ZDNet"
   },
   {
-   "t": "AI 시대 마주한 예술…인간다움 묻는 전시/공연 잇따라",
-   "u": "https://zdnet.co.kr/view/?no=20261106144018",
+   "t": "비트코인, 美 물가지표 관건…국내선 두나무 기업결합 심의",
+   "u": "https://zdnet.co.kr/view/?no=20261109083204",
    "s": "ZDNet"
   },
   {
-   "t": "MBK, 콜옵션 행사하면 고려아연 취득단가 낮아져…추가 지분 취득하나",
-   "u": "https://zdnet.co.kr/view/?no=20261106200638",
+   "t": "챗봇 넘어 에이전트로…딥시크, 하루 154만명 쓴다",
+   "u": "https://zdnet.co.kr/view/?no=20261109083329",
    "s": "ZDNet"
   },
   {
-   "t": "화면 밖 키보토스에 모인 선생님들…‘블루 아카이브’ 5주년 현장 열기 '가득'",
-   "u": "https://zdnet.co.kr/view/?no=20261108112627",
+   "t": "애플 CEO, '시리' 개발 속도 주문…\"에이전트로 키워야\"",
+   "u": "https://zdnet.co.kr/view/?no=20261109084056",
    "s": "ZDNet"
   },
   {
-   "t": "마트가 광고회사로…월마트, 고객 데이터로 수익화 속도",
-   "u": "https://zdnet.co.kr/view/?no=20261108093046",
+   "t": "\"인생 바꾸는 건 삶의 태도\"…마이다스그룹, 사람 중심 경영 철학 공유",
+   "u": "https://zdnet.co.kr/view/?no=20261109084422",
    "s": "ZDNet"
   },
   {
-   "t": "빕스, 잠실에 '그릴 다이닝' 매장 오픈…연말까지 8곳 확대",
-   "u": "https://zdnet.co.kr/view/?no=20261108101335",
+   "t": "앤트로픽, AI 전력 직접 확보…4조원대 발전기 계약 인수",
+   "u": "https://zdnet.co.kr/view/?no=20261109085731",
    "s": "ZDNet"
   },
   {
-   "t": "테슬라, '판매부진' 사이버트럭 생산 중단키로…로보택시로 방향 전환",
-   "u": "https://zdnet.co.kr/view/?no=20261108104852",
+   "t": "엔비디아 \"韓, 피지컬 AI 핵심 국가\"…현대차/LG/두산과 로봇 혁신 가속",
+   "u": "https://zdnet.co.kr/view/?no=20261109115937",
    "s": "ZDNet"
   },
   {
-   "t": "쿠팡 '착한상점', 충남 아산시와 우수 농산물 선봬",
-   "u": "https://zdnet.co.kr/view/?no=20261108101509",
+   "t": "메타서 14년 일한 전략총괄, AI 스타트업 파이어웍스 합류",
+   "u": "https://zdnet.co.kr/view/?no=20261109095136",
    "s": "ZDNet"
   },
   {
-   "t": "544마력으로 달리는 퍼스트클래스…더 뉴 BMW i7 60",
-   "u": "https://zdnet.co.kr/view/?no=20261107005026",
+   "t": "삼성중공업/티엠에스, 11월 대한민국 엔지니어상 수상",
+   "u": "https://zdnet.co.kr/view/?no=20261109102048",
    "s": "ZDNet"
   },
   {
-   "t": "컬리/쿠팡과 멤버십 차별화 나선 네이버…내년 ‘넾페스타’엔 무엇 보여줄까",
-   "u": "https://zdnet.co.kr/view/?no=20261106173719",
+   "t": "AI 영상 넘쳐나는데 저작권은…합법 IP 시장 열린다",
+   "u": "https://zdnet.co.kr/view/?no=20261109100532",
    "s": "ZDNet"
   },
   {
-   "t": "\"화성 먼지 위험해\"…NASA 로버가 찾아낸 초미세 먼지 입자",
-   "u": "https://zdnet.co.kr/view/?no=20261107052301",
+   "t": "공정위, 배민/쿠팡에 과징금 총 6319억원…최혜대우 요구 등 제재",
+   "u": "https://zdnet.co.kr/view/?no=20261109114934",
    "s": "ZDNet"
   },
   {
-   "t": "현대차, 美서 에어백 결함으로 코나EV/벨로스터N 3.8만대 리콜",
-   "u": "https://zdnet.co.kr/view/?no=20261107181250",
+   "t": "택시 소리 따라 1985년 뉴욕으로…더현대서울 크리스마스 H빌리지 가보니",
+   "u": "https://zdnet.co.kr/view/?no=20261109111004",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "오늘의 뉴스클리핑과 매체/퍼포먼스 트렌드",
+   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%eb%a7%a4%ec%b2%b4-%ed%8d%bc%ed%8f%ac%eb%a8%bc%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-122/",
+   "s": "고구마팜"
+  },
   {
    "t": "오늘의 뉴스클리핑과 커머스 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-168/",
@@ -379,11 +368,6 @@
   {
    "t": "오늘의 뉴스클리핑과 매체/퍼포먼스 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%eb%a7%a4%ec%b2%b4-%ed%8d%bc%ed%8f%ac%eb%a8%bc%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-121/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "인기 키즈 크리에이터 15선! 채널별 특징과 브랜드 협업 사례 총정리",
-   "u": "https://gogumafarm.kr/%ec%9d%b8%ea%b8%b0-%ed%82%a4%ec%a6%88-%ed%81%ac%eb%a6%ac%ec%97%90%ec%9d%b4%ed%84%b0-15%ec%84%a0-%ec%b1%84%eb%84%90%eb%b3%84-%ed%8a%b9%ec%a7%95%ea%b3%bc-%eb%b8%8c%eb%9e%9c%eb%93%9c-%ed%98%91%ec%97%85/",
    "s": "고구마팜"
   }
  ]
