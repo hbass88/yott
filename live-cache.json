@@ -1,246 +1,308 @@
 {
- "updated": "2026-11-13T04:55:08.692Z",
+ "updated": "2026-11-14T04:48:54.164Z",
  "trends": [
   {
-   "title": "비서",
-   "traffic": "1000+",
+   "title": "대전광역시",
+   "traffic": "500+",
+   "items": []
+  },
+  {
+   "title": "잠실 더 라스트 이닝",
+   "traffic": "100+",
+   "items": []
+  },
+  {
+   "title": "한화 이글스",
+   "traffic": "2000+",
    "items": [
     {
-     "t": "고1때 회계 빠져 열공, 로펌 비서하다 오기… ‘士’자 꿈 이뤘다",
-     "u": "https://www.munhwa.com/article/11631046",
-     "s": "문화일보"
+     "t": "'744억' 쓰고 떠난 손혁 단장, '큰 손' 한화 FA 중견수 사올까…김호령 최지훈 홍창기 배정대 등 매물은 많다",
+     "u": "https://www.chosun.com/sports/baseball/2026/11/14/GYYDMMTBMQ2TOYRYMFTGEOJZG4/",
+     "s": "조선일보"
     },
     {
-     "t": "‘AI 비서’가 민원 전화까지?⋯공무원들 “답해야 하나”",
-     "u": "https://www.kmib.co.kr/article/20261112502069",
+     "t": "KBO FA 시장 개장! 원태인/구자욱/양의지 등 28명 자격 공시",
+     "u": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712285",
+     "s": "KBS 뉴스"
+    },
+    {
+     "t": "이럴 수가, KIA 김호령이 C등급 받았다…아슬아슬하게 사라져버린 보상선수, 이적 문이 더 열렸다",
+     "u": "https://sports.khan.co.kr/article/202611131627013",
+     "s": "스포츠경향"
+    }
+   ]
+  },
+  {
+   "title": "이륙",
+   "traffic": "2000+",
+   "items": [
+    {
+     "t": "미 전역 항공기 운항 중단‥2만 5천여편 지연/결항",
+     "u": "https://imnews.imbc.com/replay/2026/nw1200/article/6865633_36967.html",
+     "s": "MBC 뉴스"
+    },
+    {
+     "t": "‘올스톱’ 됐던 美 하늘길... 4시간 20분 만에 풀렸다",
+     "u": "https://www.chosun.com/international/us/2026/11/14/JINR2EN5QRAOJJF3Z7RLIBFGZA/",
+     "s": "조선일보"
+    },
+    {
+     "t": "오늘 오전 인천 출발 미국행 항공편 결항 취소…정상화 수순",
+     "u": "https://www.kmib.co.kr/article/20261114500032",
      "s": "국민일보"
-    },
-    {
-     "t": "환불 요청 전화도 건다, 제미나이 앞지른 ‘피클’",
-     "u": "https://www.joongang.co.kr/article/25477485",
-     "s": "중앙일보"
     }
    ]
   },
   {
-   "title": "lpga",
+   "title": "표고",
    "traffic": "200+",
    "items": [
     {
-     "t": "Choi Hye-jin Grabs First-Round Lead with 9",
-     "u": "https://news.sbs.co.kr/english/article.do?news_id=N1008844282",
-     "s": "news.sbs.co.kr"
+     "t": "중국서 다 키워놓고선 국내산?…표고버섯 속여 판 업체 적발",
+     "u": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712299",
+     "s": "KBS 뉴스"
     },
     {
-     "t": "Korda Trails Katsu and Choi by Two on Day One at The ANNIKA",
-     "u": "https://www.lpga.com/news/2026/korda-trails-katsu-and-choi-by-two-on-day-one-at-the-annika",
-     "s": "LPGA"
+     "t": "농관원, 중국산 표고버섯 563t 국내산 속여 판 5개 업체 적발",
+     "u": "https://www.yna.co.kr/view/AKR20261113098500054",
+     "s": "연합뉴스"
     },
     {
-     "t": "Choi Hyejin's Flawless Play... 'Nine Birdies, No Bogeys'",
-     "u": "https://www.asiae.co.kr/en/article/world-general/2026111307501346440",
-     "s": "아시아경제"
-    }
-   ]
-  },
-  {
-   "title": "신상진",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "신상진 성남시장, 노후소각장 대체 건립공사 점검",
-     "u": "https://www.newsis.com/view/NISX20261112_0003865947",
+     "t": "중국산 표고버섯 국내산 속인 업체 5곳 적발…'40억원 상당'",
+     "u": "https://www.newsis.com/view/NISX20261113_0003867322",
      "s": "뉴시스"
-    },
-    {
-     "t": "신상진 성남시장, 상대원 노후 소각장 대체 공사 현장 점검",
-     "u": "https://www.gukjenews.com/news/articleView.html?idxno=3751104",
-     "s": "국제뉴스"
-    },
-    {
-     "t": "신상진 시장 환경과 시민 편익 모두 고려한 소각시설 만들어야",
-     "u": "https://www.ajunews.com/view/20261112212413675",
-     "s": "아주경제"
     }
    ]
   },
   {
-   "title": "jensen huang third affair",
-   "traffic": "1000+",
+   "title": "로보택시",
+   "traffic": "200+",
    "items": [
     {
-     "t": "EXCLUSIVE: Former Nvidia CEO Huang had a relationship with a second employee, sources say",
-     "u": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
-     "s": "Reuters"
+     "t": "로보택시 다음은 오토바이…中 자율주행 기업, 8000만대 시장 노린다",
+     "u": "https://www.hankyung.com/article/202610053827i",
+     "s": "한국경제"
     },
     {
-     "t": "‘I’m a Piece of Sh-",
-     "u": "https://www.bloomberg.com/news/articles/2026-11-13/inside-jensen-huang-s-final-hours-as-the-ceo-of-nvidia",
-     "s": "Bloomberg.com"
+     "t": "중국 TARNS에서 왔다! 알루미늄 단조 휠 공개: 주조 제품 대비 강도 30% 향상 및 무게 1/3 이상 경량화 주장",
+     "u": "https://japan.webike.net/moto_news/ko/eicma-2026-from-tarns-china-aluminum-forged-wheels-unveiled-claimed-to-be-30-stronger-and-over-1-3-lighter-than-cast-products/",
+     "s": "Webike Japan"
     },
     {
-     "t": "How Jensen Huang’s Yearslong Ties to Alice Huang Enabled $7 Billion",
-     "u": "https://www.theinformation.com/articles/jensen-huangs-yearslong-ties-alice-huang-enabled-nvidia-chip-sales-china",
-     "s": "The Information"
+     "t": "코브, EICMA에서 신모델 5종 및 2027년 레이싱 라인업 공개",
+     "u": "https://www.koreaeaglenews.com/news/articleView.html?idxno=107360",
+     "s": "코리아이글뉴스"
+    }
+   ]
+  },
+  {
+   "title": "안규백",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "국군사관학교 창설 기본계획 수정안은 확정된 바 없으며 각군 총장을 비롯하여 다양한 계층의 의견을 수렴하고 있습니다.",
+     "u": "https://www.korea.kr/briefing/actuallyView.do?newsId=148975649",
+     "s": "대한민국 정책브리핑"
+    },
+    {
+     "t": "국방부, 육해공 사관생도 대상 국군사관학교 설문 착수",
+     "u": "https://www.yonhapnewstv.co.kr/news/MYH20261114093518Td6",
+     "s": "연합뉴스TV"
+    },
+    {
+     "t": "빈대 잡으려다 초가삼간 태운다?… 의도적 육사 배제에 안보 공백 우려 커져",
+     "u": "http://weekly.chosun.com/news/articleView.html?idxno=57077",
+     "s": "주간조선"
+    }
+   ]
+  },
+  {
+   "title": "강민호",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "2위팀 삼성의 뒤집기 우승… ‘부자=챔프’ 공식도 뒤집다",
+     "u": "https://www.donga.com/news/Society/article/all/20261113/135022468/2",
+     "s": "동아일보"
+    },
+    {
+     "t": "9승 투수의 대반전, 가을엔 3승 무패 특급 에이스...삼성 12년 만의 우승 이끈 후라도, '내 임무 완수했다'",
+     "u": "https://www.chosun.com/sports/baseball/2026/11/14/GZSGEMZWMU3TKY3DMNTGGMTFMQ/",
+     "s": "조선일보"
+    },
+    {
+     "t": "친청계 3인 '윤리감찰 대상은 김민석…당원 반으로 갈라'",
+     "u": "https://news.jtbc.co.kr/article/NB12327904",
+     "s": "JTBC"
     }
    ]
   }
  ],
  "ent": [
   {
-   "t": "방미통위, 'YTN 청문' 조속 재개 촉구…주재자에 직무 확인 요청",
-   "u": "https://www.yna.co.kr/view/AKR20261113086500017",
+   "t": "클릭비, 내달 30∼31일 연말 콘서트 '송∼년회'",
+   "u": "https://www.yna.co.kr/view/AKR20261114031800005",
    "s": "연합뉴스"
   },
   {
-   "t": "가요 기획사 JMG, 젠아크로 사명 변경",
-   "u": "https://www.yna.co.kr/view/AKR20261113076600005",
+   "t": "케데헌 '골든', 英 오피셜 싱글 차트 56위…73주째 '톱 100'",
+   "u": "https://www.yna.co.kr/view/AKR20261114026100005",
    "s": "연합뉴스"
   },
   {
-   "t": "이승철, 데뷔 40년 만에 공식 팬클럽 모집…\"오래 추억 쌓을 것\"",
-   "u": "https://www.yna.co.kr/view/AKR20261113074400005",
+   "t": "호루라기 부는 '체포하겠어'/발음 비튼 '배드'…튀어야 듣는 K팝",
+   "u": "https://www.yna.co.kr/view/AKR20261113135300005",
    "s": "연합뉴스"
   },
   {
-   "t": "한국 다큐멘터리 7편, 암스테르담서 해외 투자 모색",
-   "u": "https://www.yna.co.kr/view/AKR20261113062400017",
+   "t": "보통사람들 울린 13년만의 역주행",
+   "u": "https://www.yna.co.kr/view/AKR20261113154400546",
    "s": "연합뉴스"
   },
   {
-   "t": "청각 장애 아이돌 빅오션, 미국/유럽 투어…\"큰 의미\"",
-   "u": "https://www.yna.co.kr/view/AKR20261113060000005",
+   "t": "영화관 발길 '뚝'…이달 하루 평균 관객 수 올해 들어 최소",
+   "u": "https://www.yna.co.kr/view/AKR20261114020200005",
    "s": "연합뉴스"
   },
   {
-   "t": "'고독한 미식가' 마츠시게 유타카, 남도 음식 알린다",
-   "u": "https://www.yna.co.kr/view/AKR20261113054200054",
+   "t": "부산영화제 아시아콘텐츠필름마켓, 올해 거래 규모 980억원",
+   "u": "https://www.yna.co.kr/view/AKR20261113112900051",
    "s": "연합뉴스"
   },
   {
-   "t": "하이브, K팝 엔터 기업 최초 '애덤 스미스 어워즈 아시아' 수상",
-   "u": "https://www.yna.co.kr/view/AKR20261113051700005",
+   "t": "50주년 U2, 오늘 9년 만의 16집 '카르나발 데 루스' 발표",
+   "u": "https://www.yna.co.kr/view/AKR20261113173700005",
    "s": "연합뉴스"
   },
   {
-   "t": "거장 켄 로치 감독 '랜드 앤 프리덤' 30년 만에 재개봉",
-   "u": "https://www.yna.co.kr/view/AKR20261113048300005",
+   "t": "더보이즈, 연말 서울 KSPO돔서 4일간 단독 콘서트",
+   "u": "https://www.yna.co.kr/view/AKR20261113172100005",
    "s": "연합뉴스"
   },
   {
-   "t": "에스파, 인기 캐럴 '산타 베이비' 재해석…\"즐거움 전하길\"",
-   "u": "https://www.yna.co.kr/view/AKR20261113047000005",
+   "t": "빌리프랩/쏘스뮤직, 민희진 상대 손배소 1심서 패소(종합)",
+   "u": "https://www.yna.co.kr/view/AKR20261113166651004",
    "s": "연합뉴스"
   },
   {
-   "t": "웨이브, 'MMA2026' 독점 생중계한다",
-   "u": "https://www.yna.co.kr/view/AKR20261113043800017",
+   "t": "불시착한 세 쌍의 예상치 못한 여행…영화 '레이오버 호텔'",
+   "u": "https://www.yna.co.kr/view/AKR20261113168700005",
    "s": "연합뉴스"
   },
   {
-   "t": "이경규, TV조선 새 예능 '어른왕자' 출연",
-   "u": "https://www.yna.co.kr/view/AKR20261113041500005",
+   "t": "빌리프랩, '아일릿이 뉴진스 표절' 주장 민희진 상대 손배소 패소",
+   "u": "https://www.yna.co.kr/view/AKR20261113166600004",
    "s": "연합뉴스"
   },
   {
-   "t": "원주 6090청춘합창단, 창단 10년 노래로 잇는다",
-   "u": "https://www.yna.co.kr/view/AKR20261113041200062",
+   "t": "머무르 '꿈꾸던…', AI 활용곡 사상 첫 멜론 '톱 100' 1위",
+   "u": "https://www.yna.co.kr/view/AKR20261113157000005",
    "s": "연합뉴스"
   },
   {
-   "t": "'치이카와' 선두 유지…예매율 1위는 임영웅 공연실황",
-   "u": "https://www.yna.co.kr/view/AKR20261113039800005",
+   "t": "연매협, 캐스팅디렉터 분과 신설…\"엔터 산업 투명성 높일 것\"",
+   "u": "https://www.yna.co.kr/view/AKR20261113141600005",
    "s": "연합뉴스"
   },
   {
-   "t": "귀여운데 섬뜩하고 왠지 공감된다…300만 앞둔 '치이카와'",
-   "u": "https://www.yna.co.kr/view/AKR20261112161300005",
+   "t": "피아니스트 지현규, 제33회 KBS한전음악콩쿠르 대상",
+   "u": "https://www.yna.co.kr/view/AKR20261113120500005",
    "s": "연합뉴스"
   },
   {
-   "t": "자폐 아들 위한 '네버랜드'의 꿈…故전경철 작가 마지막 담긴 다큐",
-   "u": "https://www.yna.co.kr/view/AKR20261112186400005",
+   "t": "엑소 카이/세훈, 내년 팬콘 투어 '사일런트 시티'",
+   "u": "https://www.yna.co.kr/view/AKR20261113114200005",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "마키나락스, 3분기 만에 작년 연간 매출 돌파…피지컬 AI 성장 가속",
-   "u": "https://zdnet.co.kr/view/?no=20261113115246",
+   "t": "엑셈, 3분기 누적 연결매출 348억...작년비 17% 증가",
+   "u": "https://zdnet.co.kr/view/?no=20261114120332",
    "s": "ZDNet"
   },
   {
-   "t": "CSOT \"8.6세대 잉크젯 OLED 내년 4분기 양산\"",
-   "u": "https://zdnet.co.kr/view/?no=20261113114213",
+   "t": "배민發 수수료 개편, 쿠팡이츠로 확산되나",
+   "u": "https://zdnet.co.kr/view/?no=20261113165818",
    "s": "ZDNet"
   },
   {
-   "t": "한세예스24, '매출 6조' 비전 제시...예스24 재무건전성은 '빨간불'",
-   "u": "https://zdnet.co.kr/view/?no=20261113114944",
+   "t": "세계 최강 소환사 가린다…'SWC 2026' 월드 파이널 개막",
+   "u": "https://zdnet.co.kr/view/?no=20261114111303",
    "s": "ZDNet"
   },
   {
-   "t": "블룸버그 \"삼성전자, 美 데이터센터 냉각업체 '모딘' 인수 추진\"",
-   "u": "https://zdnet.co.kr/view/?no=20261113114145",
+   "t": "라이엇 게임즈, 2027 롤드컵 한일 공동 개최…결승은 서울 아레나",
+   "u": "https://zdnet.co.kr/view/?no=20261114105315",
    "s": "ZDNet"
   },
   {
-   "t": "넥슨 선두 복귀/엔씨 흑자 전환…장수 IP/신작 흥행에 달라진 게임업계 3분기",
-   "u": "https://zdnet.co.kr/view/?no=20261113110551",
+   "t": "걸을 때 팔/다리 엇박자 난다면…뇌가 보내는 파킨슨병 경고",
+   "u": "https://zdnet.co.kr/view/?no=20261114070654",
    "s": "ZDNet"
   },
   {
-   "t": "가상자산 보안, 옥죄는 것만이 능사 아니다",
-   "u": "https://zdnet.co.kr/view/?no=20261113105926",
+   "t": "젠슨 황 사태로 엔비디아가 잃은 것",
+   "u": "https://zdnet.co.kr/view/?no=20261114102419",
    "s": "ZDNet"
   },
   {
-   "t": "\"국방 AI 최대 숙제는 데이터\"...코난, 정보분석 AI 첫 공개",
-   "u": "https://zdnet.co.kr/view/?no=20261113102516",
+   "t": "체크포인트 \"'아이언 돔' 같은 방어막 만들고 있어\"",
+   "u": "https://zdnet.co.kr/view/?no=20261113173905",
    "s": "ZDNet"
   },
   {
-   "t": "SOOP, 'AGF 2026' 한정판 굿즈 공개…13일 사전예약 시작",
-   "u": "https://zdnet.co.kr/view/?no=20261113104117",
+   "t": "中, '부상병에 원격 주사' 군용 드론 화제…어떻게",
+   "u": "https://zdnet.co.kr/view/?no=20261114070415",
    "s": "ZDNet"
   },
   {
-   "t": "SFC/SK JNC, CSOT에 잉크젯 OLED 재료 공급",
-   "u": "https://zdnet.co.kr/view/?no=20261113012426",
+   "t": "소행성에서 귀금속 쏟아지면…백금 가격 75% 이상 폭락",
+   "u": "https://zdnet.co.kr/view/?no=20261113204421",
    "s": "ZDNet"
   },
   {
-   "t": "남부발전, 두산에너빌리티와 발전기 모니터링 시스템(B",
-   "u": "https://zdnet.co.kr/view/?no=20261113105740",
+   "t": "AI 안경, 다음 격전지는 건강 관리…심박수/눈 피로까지 추적",
+   "u": "https://zdnet.co.kr/view/?no=20261113204645",
    "s": "ZDNet"
   },
   {
-   "t": "비개발자도 사내 도구 뚝딱…버즈니, 웹 앱 무료 제작 지원",
-   "u": "https://zdnet.co.kr/view/?no=20261113104038",
+   "t": "세계 최고 AI 기업 엔비디아에 '2인자'가 없었다... 왜",
+   "u": "https://zdnet.co.kr/view/?no=20261114020337",
    "s": "ZDNet"
   },
   {
-   "t": "시스코, 1분기 영업익 56억 달러 전년비 66% ↑…네트워킹 성장/비용 감소 효과",
-   "u": "https://zdnet.co.kr/view/?no=20261113102959",
+   "t": "CSOT, '청색인광 적용' 등 4서브픽셀 듀얼모드 OLED 전시",
+   "u": "https://zdnet.co.kr/view/?no=20261114081552",
    "s": "ZDNet"
   },
   {
-   "t": "쇼치쿠 게임즈, 언어 해독 퍼즐 '피쿠 어드벤처' 공개",
-   "u": "https://zdnet.co.kr/view/?no=20261113102715",
+   "t": "갤럭시S27은 네이비/버건디 등 5가지 색상",
+   "u": "https://zdnet.co.kr/view/?no=20261114070239",
    "s": "ZDNet"
   },
   {
-   "t": "AI 비서 전화에 지친 사업장…편리함의 대가는 누가 치르나",
-   "u": "https://zdnet.co.kr/view/?no=20261113100110",
+   "t": "캘리포니아주 허가 받은 신생 탤런트 에이전시 디스팅트, 글로벌 인재 위한 새 모델로 전문 매니지먼트 진입 장벽 낮춰",
+   "u": "https://zdnet.co.kr/view/?no=20261114031002",
    "s": "ZDNet"
   },
   {
-   "t": "세라젬, 과천 신사옥 '헬스케어 이노타운' 기공식",
-   "u": "https://zdnet.co.kr/view/?no=20261113095628",
+   "t": "에비던트, 신규 SilVIR",
+   "u": "https://zdnet.co.kr/view/?no=20261114021013",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "응원봉 립밤, 형광펜 립 마커? 뷰티 업계 이색 콜라보 모음",
+   "u": "https://gogumafarm.kr/%ec%9d%91%ec%9b%90%eb%b4%89-%eb%a6%bd%eb%b0%a4-%ed%98%95%ea%b4%91%ed%8e%9c-%eb%a6%bd-%eb%a7%88%ec%bb%a4-%eb%b7%b0%ed%8b%b0-%ec%97%85%ea%b3%84-%ec%9d%b4%ec%83%89-%ec%bd%9c%eb%9d%bc%eb%b3%b4-%eb%aa%a8/",
+   "s": "고구마팜"
+  },
+  {
+   "t": "오늘의 뉴스클리핑과 커머스 트렌드",
+   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-169/",
+   "s": "고구마팜"
+  },
   {
    "t": "온라인 절과 사우나가 유행하는 이유? 웹 콘텐츠의 인기 비결과 마케팅 활용법",
    "u": "https://gogumafarm.kr/%ec%98%a8%eb%9d%bc%ec%9d%b8-%ec%a0%88%ea%b3%bc-%ec%82%ac%ec%9a%b0%eb%82%98%ea%b0%80-%ec%9c%a0%ed%96%89%ed%95%98%eb%8a%94-%ec%9d%b4%ec%9c%a0-%ec%9b%b9-%ec%bd%98%ed%85%90%ec%b8%a0%ec%9d%98-%ec%9d%b8/",
@@ -269,16 +331,6 @@
   {
    "t": "오늘의 뉴스클리핑과 매체/퍼포먼스 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%eb%a7%a4%ec%b2%b4-%ed%8d%bc%ed%8f%ac%eb%a8%bc%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-122/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "오늘의 뉴스클리핑과 커머스 트렌드",
-   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-168/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "크리스마스만 준비하긴 아까운 12월! 시즈널 키워드로 풍성하게 준비한 마케팅 레퍼런스",
-   "u": "https://gogumafarm.kr/%ed%81%ac%eb%a6%ac%ec%8a%a4%eb%a7%88%ec%8a%a4%eb%a7%8c-%ec%a4%80%eb%b9%84%ed%95%98%ea%b8%b4-%ec%95%84%ea%b9%8c%ec%9a%b4-12%ec%9b%94-%ec%8b%9c%ec%a6%88%eb%84%90-%ed%82%a4%ec%9b%8c%eb%93%9c%eb%a1%9c/",
    "s": "고구마팜"
   }
  ]
