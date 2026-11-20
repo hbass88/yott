@@ -1,242 +1,289 @@
 {
- "updated": "2026-11-19T05:47:23.932Z",
+ "updated": "2026-11-20T05:36:26.727Z",
  "trends": [
   {
-   "title": "kbs",
-   "traffic": "1000+",
+   "title": "하마",
+   "traffic": "100+",
    "items": [
     {
-     "t": "'Bye, Summer'",
-     "u": "https://biz.chosun.com/en/en-photo-ent/2026/11/18/3MJUMBGPW5HJ7PADZEX5NCL7P4/",
-     "s": "Chosunbiz"
+     "t": "美동물원 하마, 관광객 모자 삼켜 폐사…“수술 불가능했다”",
+     "u": "https://www.donga.com/news/Inter/article/all/20261120/135058463/1",
+     "s": "동아일보"
     },
     {
-     "t": "‘Sound:Track’ Joo Jong-hyuk: “One",
-     "u": "https://www.mk.co.kr/en/broadcasting-service/12212342",
-     "s": "매일경제"
+     "t": "'피오나, 고마웠어'...'희망의 아이콘' 스타 하마 죽음에 애도 물결",
+     "u": "https://www.ytn.co.kr/_ln/0104_202611201347301990",
+     "s": "YTN"
     },
     {
-     "t": "A New Take on Korean Broadcasting System (KBS)’s 42-Year Tradition of One-Act Dramas... ‘Sound:Track,’ Featuring Classics by Kim Na-young and Jang Pil",
-     "u": "https://www.sportschosun.com/en/celebrity/2026-11-17/202611170100112550010398",
-     "s": "스포츠조선"
+     "t": "모자 삼킨 하마 피오나 쾌유 기원하는 꽃과 카드",
+     "u": "https://www.newsis.com/view/NISI20261120_0002297467",
+     "s": "뉴시스"
     }
    ]
   },
   {
-   "title": "이진우 심정지",
-   "traffic": "100000+",
-   "items": [
-    {
-     "t": "’리트 만점자’ 이진우 유서 추정 메모 발견…부정행위 인정/사과는 없어",
-     "u": "https://www.yonhapnewstv.co.kr/news/AKR202611191410192QN",
-     "s": "연합뉴스TV"
-    },
-    {
-     "t": "‘리트 만점자’ 이진우씨, 천호역 인근서 심정지 상태로 발견",
-     "u": "https://www.chosun.com/national/national_general/2026/11/19/4YSNOEOWXVEV7AYNL2LYF6GQYU/",
-     "s": "조선일보"
-    },
-    {
-     "t": "'리트 만점자' 이진우 씨, 서울 천호동서 심정지 상태 발견",
-     "u": "https://imnews.imbc.com/news/2026/society/article/6866915_36918.html",
-     "s": "MBC 뉴스"
-    }
-   ]
-  },
-  {
-   "title": "네이버 뉴스",
-   "traffic": "1000+",
-   "items": [
-    {
-     "t": "607곳 전원 탈락 낳은 네이버의 무리수, 정량 확대/합격선 상향이 빚은 폐쇄",
-     "u": "https://www.dhilbo.co.kr/news/articleView.html?idxno=2430",
-     "s": "동행일보"
-    },
-    {
-     "t": "네이버 뉴스제휴위, 올해 신규 제휴 언론사 '0곳'…내년 기준 완화 검토",
-     "u": "https://www.etnews.com/20261118000308",
-     "s": "전자신문"
-    },
-    {
-     "t": "네이버 뉴스제휴 심사 607개사 신청…최종 통과 언론사 0곳",
-     "u": "https://stock.mk.co.kr/news/view/1201563",
-     "s": "매일경제 마켓"
-    }
-   ]
-  },
-  {
-   "title": "전국삼성전자노동조합",
+   "title": "한화이글스",
    "traffic": "200+",
    "items": [
     {
-     "t": "삼성전자 제7노조 '광주노동조합' 공식 출범…교섭 참여 추진",
-     "u": "https://www.yna.co.kr/view/AKR20261118119200003",
+     "t": "초대박! 'WS 준우승팀 우완' 숄텐스, 전격 방출! 美 '한화행 임박'→탬파도 'KBO 도전한다'",
+     "u": "https://www.mt.co.kr/sports/2026/11/20/2026112012055272273",
+     "s": "머니투데이"
+    },
+    {
+     "t": "154km 팔색조 투수, ‘WS 준우승’ 탬파베이에서 방출→한국에 온다 “볼넷/장타 억제 뛰어나”",
+     "u": "https://www.chosun.com/sports/baseball/2026/11/20/GZRTONRVMMYDEZDFHE4GMMJXGA/",
+     "s": "조선일보"
+    },
+    {
+     "t": "MLB 탬파베이 우완 숄턴스, 한국 온다…국내 구단과 협상 막바지",
+     "u": "https://www.yna.co.kr/view/AKR20261120059700007",
+     "s": "연합뉴스"
+    }
+   ]
+  },
+  {
+   "title": "발전",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "서부발전, 재생에너지 전문가 20명 위촉…사업 개발 자문 확대",
+     "u": "https://biz.chosun.com/industry/company/2026/11/20/QTNPOR6PDJCUDARRRJKJWKNHKM/",
+     "s": "Chosunbiz"
+    },
+    {
+     "t": "서부발전, 태양광/VPP까지 재생에너지 자문체계 확대",
+     "u": "https://www.newscj.com/news/articleView.html?idxno=3450678",
+     "s": "천지일보"
+    },
+    {
+     "t": "“사업개발 자문 확대”…서부발전, 재생에너지 전문가 20명 위촉",
+     "u": "https://www.mk.co.kr/news/business/12214496",
+     "s": "매일경제"
+    }
+   ]
+  },
+  {
+   "title": "경북매일신문",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "84세에 수능 도전 최고령 수험생…“타인에 희망되길”",
+     "u": "https://www.donga.com/news/Society/article/all/20261119/135053691/1",
+     "s": "동아일보"
+    },
+    {
+     "t": "엘리베이터 갇혀 구조된 수험생, 84세 만학도 '대학 꿈' 도전…대구/경북 수능날",
+     "u": "https://www.imaeil.com/page/view/2026111915123843806",
+     "s": "매일신문"
+    },
+    {
+     "t": "66세 어르신의 수능 도전",
+     "u": "https://www.news1.kr/photos/8221864",
+     "s": "뉴스1"
+    }
+   ]
+  },
+  {
+   "title": "대기업",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "작년 대기업 본사가 받은 상표권 사용료 역대 ‘최대’///쿠팡, 내부거래 금액 ‘톱5’ 진입",
+     "u": "https://www.khan.co.kr/article/202611191649001",
+     "s": "경향신문"
+    },
+    {
+     "t": "'공시집단 소속 국내 계열사 매출 약 35%, 내부거래서 발생'",
+     "u": "https://www.mt.co.kr/economy/2026/11/19/2026111908081052143",
+     "s": "머니투데이"
+    },
+    {
+     "t": "규제대상 내부거래 비중…10대 그룹이 2배",
+     "u": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445525",
+     "s": "연합인포맥스"
+    }
+   ]
+  },
+  {
+   "title": "리야드",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "사우디 리야드 80층 빌딩 후티 미사일에 파손…'비전2030' 상징(종합)",
+     "u": "https://www.yna.co.kr/view/AKR20261119155051079",
      "s": "연합뉴스"
     },
     {
-     "t": "삼성전자 7노조 ’광주노조’ 출범…“임단협 참여 추진“",
-     "u": "https://www.yonhapnewstv.co.kr/news/AKR20261118144308jEM",
-     "s": "연합뉴스TV"
+     "t": "후티 반군, 사우디 80층 빌딩에 미사일 공격",
+     "u": "https://imnews.imbc.com/replay/2026/nwtoday/article/6867150_37012.html",
+     "s": "MBC 뉴스"
     },
     {
-     "t": "삼성전자 제7노조 출범, 광주사업장 중심으로 조합원 모집",
-     "u": "https://www.businesspost.co.kr/BP?command=article_view&amp;num=452328",
-     "s": "비즈니스포스트"
+     "t": "후티군, 사우디의 공항 / 은행/ 공군기지/ 석유시설 보복 공습",
+     "u": "https://www.newsis.com/view/NISX20261120_0003875964",
+     "s": "뉴시스"
     }
    ]
+  },
+  {
+   "title": "홍의정",
+   "traffic": "200+",
+   "items": []
   }
  ],
  "ent": [
   {
-   "t": "영화인 7개 단체 \"대종상은 한국 영화의 자존심…정상화 추진\"",
-   "u": "https://www.yna.co.kr/view/AKR20261119087800005",
+   "t": "한혜진 \"'연애남매2' 시즌1보다 마라맛…보면서 조마조마했죠\"",
+   "u": "https://www.yna.co.kr/view/AKR20261120089200005",
    "s": "연합뉴스"
   },
   {
-   "t": "이사벨, 안양서 구세군 자선냄비 음악회",
-   "u": "https://www.yna.co.kr/view/AKR20261119085700005",
+   "t": "배종옥 \"나이 드니 더 연기하고 싶어…늘 오늘이 처음인 것처럼\"",
+   "u": "https://www.yna.co.kr/view/AKR20261120088900005",
    "s": "연합뉴스"
   },
   {
-   "t": "배우 이가섭, 비연예인과 결혼…\"오랜 시간 든든한 버팀목\"",
-   "u": "https://www.yna.co.kr/view/AKR20261119085400005",
+   "t": "바닐라 라테 같은 달콤한 위로…스테이시 켄트 내한 공연",
+   "u": "https://www.yna.co.kr/view/AKR20261120086700005",
    "s": "연합뉴스"
   },
   {
-   "t": "울산울주세계산악영화제, 블랙다이아몬드코리아와 특별상영회",
-   "u": "https://www.yna.co.kr/view/AKR20261119072500057",
+   "t": "박훈정 신작 '슬픈 열대'…킬러들의 피비린내 나는 복수극",
+   "u": "https://www.yna.co.kr/view/AKR20261120066100005",
    "s": "연합뉴스"
   },
   {
-   "t": "밴드 넬, 새 미니앨범 '픽셀스 오브 마인드'…불안과 고립 노래",
-   "u": "https://www.yna.co.kr/view/AKR20261119067500005",
+   "t": "딘딘, 생일에 신곡 '케이크' 발매",
+   "u": "https://www.yna.co.kr/view/AKR20261120066300005",
    "s": "연합뉴스"
   },
   {
-   "t": "미키 옷 입은 카카오프렌즈…카카오, 디즈니와 연말 굿즈 출시",
-   "u": "https://www.yna.co.kr/view/AKR20261119066000017",
+   "t": "웨이브, '비밀의 숲'/'미생' 등 정주행 채널 20개 추가",
+   "u": "https://www.yna.co.kr/view/AKR20261120054800017",
    "s": "연합뉴스"
   },
   {
-   "t": "아일릿, 건강 문제로 활동 축소…\"고열/몸살에 발목 부상\"",
-   "u": "https://www.yna.co.kr/view/AKR20261119062900005",
+   "t": "트와이스 나연, 오늘 새 싱글 '나스티'…\"많은 고민/노력 담아\"",
+   "u": "https://www.yna.co.kr/view/AKR20261120048400005",
    "s": "연합뉴스"
   },
   {
-   "t": "코바코 '환경오염",
-   "u": "https://www.yna.co.kr/view/AKR20261119054700017",
+   "t": "에이티즈, 새 미니앨범으로 첫 '더블 밀리언셀러'",
+   "u": "https://www.yna.co.kr/view/AKR20261120043500005",
    "s": "연합뉴스"
   },
   {
-   "t": "홍이삭, 오늘 새 미니앨범 '결'…성장 담아낸 포크 음악",
-   "u": "https://www.yna.co.kr/view/AKR20261119054000005",
+   "t": "원주 제3회 박건호음악회 성황…세대 잇는 문학적 업적 재조명",
+   "u": "https://www.yna.co.kr/view/AKR20261120041800062",
    "s": "연합뉴스"
   },
   {
-   "t": "울주세계산악영화제 홍보물, 산 모양 파우치 '히말'로 재탄생",
-   "u": "https://www.yna.co.kr/view/AKR20261119050900057",
+   "t": "에스파, 美 디즈니 연말 특집 출연…'산타 베이비' 등 열창",
+   "u": "https://www.yna.co.kr/view/AKR20261120039400005",
    "s": "연합뉴스"
   },
   {
-   "t": "하이라이트 이기광, 아리랑TV 'K",
-   "u": "https://www.yna.co.kr/view/AKR20261119049300005",
+   "t": "김윤석/구교환 '폭설' 박스오피스/예매율 모두 1위",
+   "u": "https://www.yna.co.kr/view/AKR20261120038000005",
    "s": "연합뉴스"
   },
   {
-   "t": "방탄소년단, 오늘부터 아시아/호주 투어…9개 도시/26회 공연",
-   "u": "https://www.yna.co.kr/view/AKR20261119045200005",
+   "t": "20주년 빅뱅, 오늘 신곡 깜짝 발표…내일 '마마 어워즈' 출연",
+   "u": "https://www.yna.co.kr/view/AKR20261120036800005",
    "s": "연합뉴스"
   },
   {
-   "t": "윤도현/이홍기, SBS '밴드왕' 마스터로 출연",
-   "u": "https://www.yna.co.kr/view/AKR20261119046500005",
+   "t": "'기타없는 밴드' 송차앤 꾸린 송홍섭…\"덜어낼수록 좋은 음악\"",
+   "u": "https://www.yna.co.kr/view/AKR20261118182100005",
    "s": "연합뉴스"
   },
   {
-   "t": "故 김광석 31주기…내년 1월 '광석이 다시 만나기' 공연/경연",
-   "u": "https://www.yna.co.kr/view/AKR20261119043500005",
+   "t": "한중 합작영화 '상하이의 별' 주목…한한령 해빙 물꼬 틀까",
+   "u": "https://www.yna.co.kr/view/AKR20261119169400005",
    "s": "연합뉴스"
   },
   {
-   "t": "넷플릭스 '피지컬: 아시아' 시즌2 내년 공개",
-   "u": "https://www.yna.co.kr/view/AKR20261119043100005",
+   "t": "김태술/박하나 부부 부모 된다…\"모든 난임 부부들 응원\"",
+   "u": "https://www.yna.co.kr/view/AKR20261119154100005",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "자동차안전학회 설립 20주년…추계학술대회 개최",
-   "u": "https://zdnet.co.kr/view/?no=20261119094519",
+   "t": "\"사이코패스가 이성에 더 끌렸다…두 번째 만남 확률 높아\"",
+   "u": "https://zdnet.co.kr/view/?no=20261120110705",
    "s": "ZDNet"
   },
   {
-   "t": "지구 저궤도서 핵폭탄 터지면…7일 만에 위성 98% 무력화",
-   "u": "https://zdnet.co.kr/view/?no=20261119124305",
+   "t": "에이수스코리아, RTX 스파크 기반 '프로아트 GR1X' 출시",
+   "u": "https://zdnet.co.kr/view/?no=20261120132417",
    "s": "ZDNet"
   },
   {
-   "t": "크래프톤 '에이지 트위스터' 시연 느낌은...세대 넘는 모험 재미 극대화",
-   "u": "https://zdnet.co.kr/view/?no=20261118065859",
+   "t": "현대차, 중국 기업사회책임 발전지수 평가 자동차 기업 1위",
+   "u": "https://zdnet.co.kr/view/?no=20261120130800",
    "s": "ZDNet"
   },
   {
-   "t": "크래프톤 '타래: 언바운드' 해보니...호쾌한 동양풍 액션 합격점",
-   "u": "https://zdnet.co.kr/view/?no=20261118072911",
+   "t": "'남친존'까지 있는 올리브영 컬러 그라운드 홍대 가보니",
+   "u": "https://zdnet.co.kr/view/?no=20261120103335",
    "s": "ZDNet"
   },
   {
-   "t": "이세영 뤼튼 \"AI 캐릭터/스토리 플랫폼 크랙 IP, 게임/웹툰/영화 등 확장\"",
-   "u": "https://zdnet.co.kr/view/?no=20261119131456",
+   "t": "국산 NPU 7개사 만난 국가AI전략위…\"실증부터 판로까지 지원\"",
+   "u": "https://zdnet.co.kr/view/?no=20261120103721",
    "s": "ZDNet"
   },
   {
-   "t": "알리익스프레스, 광군제 열기 잇는 '블랙프라이데이' 개최… 올해 마지막 대규모 세일",
-   "u": "https://zdnet.co.kr/view/?no=20261119131003",
+   "t": "현대차, 지스타를 모터쇼로…운전면허 없이도 체험하는 레이싱",
+   "u": "https://zdnet.co.kr/view/?no=20261120125526",
    "s": "ZDNet"
   },
   {
-   "t": "핵앤슬래시에 전략 요소 더했다…'POE2' 총괄 디렉터가 밝힌 1.0 청사진",
-   "u": "https://zdnet.co.kr/view/?no=20261119123000",
+   "t": "과천과학관, 슈퍼문과 440광년 좀생이별 '미팅 이벤트'",
+   "u": "https://zdnet.co.kr/view/?no=20261120120049",
    "s": "ZDNet"
   },
   {
-   "t": "엔씨, 스타트업과 10년 동행…지스타 부스 채운 슈퍼조이/지니소프트",
-   "u": "https://zdnet.co.kr/view/?no=20261119124316",
+   "t": "정신아 카카오, 김범수 무죄에 \"무거운 마음 내려놔…이제 미래 집중\"",
+   "u": "https://zdnet.co.kr/view/?no=20261120114515",
    "s": "ZDNet"
   },
   {
-   "t": "뤼튼, AI시대 새로운 창작 생태계 제시 \"일의 시대에서 놀이의 시대로\"",
-   "u": "https://zdnet.co.kr/view/?no=20261119122756",
+   "t": "책 속 지식, AI 학습데이터로…셀렉트스타, 출판업계와 협력",
+   "u": "https://zdnet.co.kr/view/?no=20261120114410",
    "s": "ZDNet"
   },
   {
-   "t": "알리익스프레스, 광군제 열기 잇는 '블랙프라이데이' 개최…올해 마지막 대규모 세일",
-   "u": "https://zdnet.co.kr/view/?no=20261119123232",
+   "t": "\"지식과 경험으로 사회에 보답\"…HRD 전문가 17인, 재능기부로 장학 성금 마련",
+   "u": "https://zdnet.co.kr/view/?no=20261120111300",
    "s": "ZDNet"
   },
   {
-   "t": "외국인 관광객 2000만 시대...K미용의료 강남언니 가입자도 1000만 넘어",
-   "u": "https://zdnet.co.kr/view/?no=20261119122804",
+   "t": "2심 무죄 받은 김범수 창업자...\"카카오 불확실성 해소한 중요한 전기\"",
+   "u": "https://zdnet.co.kr/view/?no=20261120111246",
    "s": "ZDNet"
   },
   {
-   "t": "\"아이브 올까\"…크래프톤 지스타 부스, 신작 시연에 팬 체험까지 '북적'",
-   "u": "https://zdnet.co.kr/view/?no=20261119121740",
+   "t": "엔키화이트햇, 자바포셸 점검 스크립트 배포",
+   "u": "https://zdnet.co.kr/view/?no=20261120111711",
    "s": "ZDNet"
   },
   {
-   "t": "\"신용카드 한 장에 2000만원\"…돈 주고 사는 카드 시장 열릴까",
-   "u": "https://zdnet.co.kr/view/?no=20261119110544",
+   "t": "CJ제일제당, 질병청과 ‘햇반 저단백밥’ 공급 협력…환자 부담 연 최대 1410만원 절감",
+   "u": "https://zdnet.co.kr/view/?no=20261120110439",
    "s": "ZDNet"
   },
   {
-   "t": "오사키전기공업, 랜섬웨어로 스마트미터 생산 중단",
-   "u": "https://zdnet.co.kr/view/?no=20261119103124",
+   "t": "존 헤네시 알파벳 의장, 스탠퍼드서 한국 AI 미래 논의",
+   "u": "https://zdnet.co.kr/view/?no=20261120104247",
    "s": "ZDNet"
   },
   {
-   "t": "전주대, 온라인 교양 시스템 해킹...개인정보 18만건 유출",
-   "u": "https://zdnet.co.kr/view/?no=20261119103407",
+   "t": "코스어 만나고 미니게임 즐기고…센추리게임즈 지스타 부스 '북적'",
+   "u": "https://zdnet.co.kr/view/?no=20261120111128",
    "s": "ZDNet"
   }
  ],
