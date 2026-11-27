@@ -1,272 +1,293 @@
 {
- "updated": "2026-11-26T06:42:51.607Z",
+ "updated": "2026-11-27T06:34:32.060Z",
  "trends": [
   {
-   "title": "보험",
-   "traffic": "500+",
-   "items": [
-    {
-     "t": "보험사 판매수수료 상한 강화…과다경쟁 막는다",
-     "u": "https://news.kbs.co.kr/news/view.do?ncd=8723331",
-     "s": "KBS 뉴스"
-    },
-    {
-     "t": "보험 판매수수료 과당경쟁 막는다…지급한도/공시 규제 강화",
-     "u": "https://www.yna.co.kr/view/AKR20261126093600002",
-     "s": "연합뉴스"
-    },
-    {
-     "t": "과도한 보험 판매수수료 제한…소비자 전가 막는다",
-     "u": "https://stock.mk.co.kr/news/view/1206629",
-     "s": "매일경제 마켓"
-    }
-   ]
-  },
-  {
-   "title": "kbo 시상식",
-   "traffic": "500+",
-   "items": [
-    {
-     "t": "'45홈런' 김도영 vs '197탈삼진' 곽빈…정규시즌 MVP는 누구",
-     "u": "https://www.newsis.com/view/NISX20261125_0003883347",
-     "s": "뉴시스"
-    },
-    {
-     "t": "'2026 KBO 시상식' 타자 부문 6명 수상⋯구자욱ㆍ김도영 2관왕",
-     "u": "https://www.etoday.co.kr/news/view/2653467",
-     "s": "이투데이"
-    },
-    {
-     "t": "허인서,'16년 만에 포수 신인상 수상'",
-     "u": "https://www.chosun.com/sports/sports_photo/2026/11/26/GJTGIZRYME4DSMJZGI4DIMDCGY/",
-     "s": "조선일보"
-    }
-   ]
-  },
-  {
-   "title": "부산일보",
+   "title": "고우석",
    "traffic": "200+",
-   "items": []
-  },
-  {
-   "title": "신동엽",
-   "traffic": "100+",
    "items": [
     {
-     "t": "신동엽/성시경/나연, ‘2026 KBS 연예대상’ MC 확정",
-     "u": "https://sports.donga.com/ent/article/all/20261125/135087899/1",
-     "s": "스포츠동아"
+     "t": "'살다 살다 이런 적은 처음' 고우석의 기막힌 MLB 도전기…'김현수는 꽃길을 걷다 온 거더라' 에이전트 대표도 혀 내두른 사연은?",
+     "u": "https://m.news.nate.com/view/20261127n00234",
+     "s": "네이트"
     },
     {
-     "t": "장성규/문상민에 최수영 합류… ‘2026 KBS 연기대상’ 3MC 확정",
-     "u": "https://www.newscj.com/news/articleView.html?idxno=3449286",
-     "s": "천지일보"
+     "t": "고우석, '마이너 3년/트레이드/방출' 다 겪고도…'아깝다는 생각 전혀 안 들어' 오승환에게 털어놓은 미국 생활",
+     "u": "https://mhnse.com/news/articleView.html?idxno=1713702",
+     "s": "MHN스포츠"
     },
     {
-     "t": "‘40돌’ KBS 연예대상, 신동엽/성시경/나연 MC 발탁",
-     "u": "https://www.munhwa.com/article/11634103",
-     "s": "문화일보"
+     "t": "몸값 4분의1로 낮춘 김하성… ‘빅리그 야구’는 계속된다",
+     "u": "https://www.donga.com/news/Sports/article/all/20261126/135091820/2",
+     "s": "동아일보"
     }
    ]
   },
   {
-   "title": "발전",
+   "title": "미세먼지",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "제8차 미세먼지 계절관리제 석탄발전 최대 18기 가동 중단",
+     "u": "https://gonggam.korea.kr/newsContentView.es?content=NC002&amp;news_id=95ba8803-3aa3-4f24-84ff-2f32300ef06e&amp;section_id=NCCD_POLICY&amp;mid=a10201000000&amp;code_cd=0101000000",
+     "s": "K"
+    },
+    {
+     "t": "‘배출가스 5등급’ 차량 운행제한///대구, 12월부터 4개월간 단속",
+     "u": "https://www.khan.co.kr/article/202611271425001",
+     "s": "경향신문"
+    },
+    {
+     "t": "대구시, 12월부터 배출가스 5등급 차량 평일 운행 제한",
+     "u": "https://www.yna.co.kr/view/AKR20261127103200053",
+     "s": "연합뉴스"
+    }
+   ]
+  },
+  {
+   "title": "신상출시 편스토랑",
    "traffic": "100+",
    "items": [
     {
-     "t": "한전KPS, 발전소 피지컬 AI 도입 추진…정비 안전/효율 높인다",
-     "u": "https://edata.ekn.kr/article/view/ekn202611260007",
-     "s": "기후에너지데이터뱅크"
+     "t": "찬원 VS 아버지(윤성 아빠)의 숨막히는 칼질 대결! 고수들의 격돌, 그승자는? (황윤성 1열 관전) | KBS 방송",
+     "u": "https://www.kbs.co.kr/index.html?source=smr&amp;sname=vod&amp;stype=vod&amp;contents_id=K02_LS-20191010142020-01-000_20261125_TECH001&amp;program_code=T2019-0286&amp;program_id=LS-20191010142020-01-000&amp;section_code=04&amp;broadcast_complete_yn=N&amp;section_id=10742",
+     "s": "대한민국 대표 공영미디어 KBS"
     },
     {
-     "t": "한전KPS, 발전소에 로봇개/AI 스마트글라스 투입 추진",
-     "u": "https://www.electimes.com/news/articleView.html?idxno=375323",
-     "s": "전기신문"
+     "t": "황윤성, 알고보니 도련님? 절친 이찬원도 놀랐다 (편스토랑)",
+     "u": "https://sports.donga.com/ent/article/all/20261127/135101062/1",
+     "s": "스포츠동아"
     },
     {
-     "t": "“AI로 창업/벤처 발굴”…중부발전, 20개사 실증 성과 공유",
-     "u": "https://www.mk.co.kr/news/business/12218913",
+     "t": "황윤성, 할아버지께 물려받은 '금' 있다?…창고 공개",
+     "u": "https://www.news1.kr/entertain/broadcast-tv/6367715",
+     "s": "뉴스1"
+    }
+   ]
+  },
+  {
+   "title": "교통",
+   "traffic": "200+",
+   "items": [
+    {
+     "t": "진천군, 특별교통수단 법정대수 100% 확보로 교통복지 강화",
+     "u": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2382869",
+     "s": "웹이코노미"
+    },
+    {
+     "t": "진천군, 교통약자 이동지원센터에 차량 전달",
+     "u": "https://www.cctimes.kr/news/articleView.html?idxno=938146",
+     "s": "충청타임즈"
+    },
+    {
+     "t": "청도군 ‘부름콜’ 새 차 투입…교통약자 이동권 넓힌다",
+     "u": "https://www.kbitv.net/news/articleView.html?idxno=16249",
+     "s": "경북TV"
+    }
+   ]
+  },
+  {
+   "title": "배정남",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "배정남, 배우 데뷔 첫 연기상 쾌거…이틀 연속 시상식 휩쓸어",
+     "u": "https://sports.khan.co.kr/article/202611261019003",
+     "s": "스포츠경향"
+    },
+    {
+     "t": "배정남, '사나이의 미소'",
+     "u": "https://www.etnews.com/20261125000058",
+     "s": "전자신문"
+    },
+    {
+     "t": "배정남, 연기자로 첫 트로피 품에 안았다",
+     "u": "https://www.newsinside.kr/news/articleView.html?idxno=5057314",
+     "s": "뉴스인사이드"
+    }
+   ]
+  },
+  {
+   "title": "손연재",
+   "traffic": "10000+",
+   "items": [
+    {
+     "t": "손연재 부부, 30억 통 큰 기부…“산모와 아이들에 작은 힘 되길”",
+     "u": "https://www.mk.co.kr/news/hot-issues/12220064",
      "s": "매일경제"
-    }
-   ]
-  },
-  {
-   "title": "김용빈",
-   "traffic": "500+",
-   "items": [
-    {
-     "t": "황신혜/붐, 첫 녹화부터 오열…역대급 시즌 (미스터트롯4)",
-     "u": "https://sports.donga.com/ent/article/all/20261126/135095296/1",
-     "s": "스포츠동아"
     },
     {
-     "t": "'미스터트롯4' 안정환 '역대 최고 시청률'…김호영/최유정 공약까지",
-     "u": "https://www.etoday.co.kr/news/view/2652371",
-     "s": "이투데이"
+     "t": "손연재 부부 통 큰 기부…30억원 들여 고위험 산모/태아 돕는다",
+     "u": "https://weekly.chosun.com/news/articleView.html?idxno=60164",
+     "s": "주간조선"
     },
     {
-     "t": "태평, 새 프로필 공개",
-     "u": "http://www.nbnnews.co.kr/news/articleView.html?idxno=1072577",
-     "s": "내외뉴스통신"
+     "t": "손연재 부부, 연세의료원에 30억원 기부...고위험산모 위한 센터 설립",
+     "u": "https://www.ytn.co.kr/_ln/0103_202611271247164055",
+     "s": "YTN"
     }
    ]
   }
  ],
  "ent": [
   {
-   "t": "중화TV, 中 드라마 '양경십오일' 한중 동시 공개",
-   "u": "https://www.yna.co.kr/view/AKR20261126132100005",
+   "t": "TXT '내일에서 기다릴게', 스포티파이 1억 스트리밍",
+   "u": "https://www.yna.co.kr/view/AKR20261127102400005",
    "s": "연합뉴스"
   },
   {
-   "t": "제15회 디아스포라영화제, 내년 5월 인천서 개최",
-   "u": "https://www.yna.co.kr/view/AKR20261126130000371",
+   "t": "MBC라디오, 다음 달 1일 'FM4U 패밀리데이'",
+   "u": "https://www.yna.co.kr/view/AKR20261127082100005",
    "s": "연합뉴스"
   },
   {
-   "t": "MBC 새 일일드라마 '효녀 구복이' 내년 1월 첫 방송",
-   "u": "https://www.yna.co.kr/view/AKR20261126123300005",
+   "t": "양방언, 오늘 11년 만에 신보 '뉴 호라이즌' 발매",
+   "u": "https://www.yna.co.kr/view/AKR20261127079500005",
    "s": "연합뉴스"
   },
   {
-   "t": "'M:리부트'부터 '환승연애 5'까지…티빙 내년 콘텐츠 라인업",
-   "u": "https://www.yna.co.kr/view/AKR20261126121900005",
+   "t": "에이비식스 출신 전웅, '문득'으로 솔로 데뷔",
+   "u": "https://www.yna.co.kr/view/AKR20261127072500005",
    "s": "연합뉴스"
   },
   {
-   "t": "이세영 \"욕망하는 악녀, 더 많이 욕먹고 싶었죠\"",
-   "u": "https://www.yna.co.kr/view/AKR20261126109100005",
+   "t": "유료방송 가입자 2년째 감소…'나홀로 증가' IPTV 점유율 60%",
+   "u": "https://www.yna.co.kr/view/AKR20261127058800017",
    "s": "연합뉴스"
   },
   {
-   "t": "국가별 최고 인기 K팝 스타는…韓 리센느/中 에스파/日 BTS",
-   "u": "https://www.yna.co.kr/view/AKR20261126086700005",
+   "t": "김윤석/구교환 '폭설', 캐나다서 리메이크…홍의정 감독 연출",
+   "u": "https://www.yna.co.kr/view/AKR20261127045100005",
    "s": "연합뉴스"
   },
   {
-   "t": "넷플릭스, '할리우드 상징 촬영소' 래드퍼드 스튜디오 매입",
-   "u": "https://www.yna.co.kr/view/AKR20261126085000075",
+   "t": "FT아일랜드, 내년 1월 아시아 투어 '에프티소드'",
+   "u": "https://www.yna.co.kr/view/AKR20261127043700005",
    "s": "연합뉴스"
   },
   {
-   "t": "공연계 \"中 공연 분야 사전심사 비차별 원칙 적용돼야\"",
-   "u": "https://www.yna.co.kr/view/AKR20261126078100005",
+   "t": "폴킴, 오늘 캐럴 '마이 온리 원' 발표",
+   "u": "https://www.yna.co.kr/view/AKR20261127041000005",
    "s": "연합뉴스"
   },
   {
-   "t": "'사막의 별똥별 찾기' 공모전 대상 '어른일지도?'",
-   "u": "https://www.yna.co.kr/view/AKR20261126076100005",
+   "t": "남양유업, '이오/브레드이발소' 협업 기획팩 한정 출시",
+   "u": "https://www.yna.co.kr/view/AKR20261127037800030",
    "s": "연합뉴스"
   },
   {
-   "t": "웅산, 오색찬란한 30주년 자축…\"재즈 만찬에 감개무량\"",
-   "u": "https://www.yna.co.kr/view/AKR20261126069600005",
+   "t": "김윤석/구교환 '폭설' 9일째 1위…흥행 예고",
+   "u": "https://www.yna.co.kr/view/AKR20261127039400005",
    "s": "연합뉴스"
   },
   {
-   "t": "특수요원 황정민/형사 염정아 부부 귀환…'크로스2' 내달 공개",
-   "u": "https://www.yna.co.kr/view/AKR20261126054600005",
+   "t": "엠넷, 日 반다이 남코와 버추얼 아이돌 서바이벌 제작",
+   "u": "https://www.yna.co.kr/view/AKR20261127037300005",
    "s": "연합뉴스"
   },
   {
-   "t": "트럼프, '제7대 제임스 본드' 로버트 패틴슨에 \"행운을 빈다\"",
-   "u": "https://www.yna.co.kr/view/AKR20261126049700075",
+   "t": "강릉씨네마떼끄 30주년…11일부터 '환영의 영화' 기획전",
+   "u": "https://www.yna.co.kr/view/AKR20261127035700062",
    "s": "연합뉴스"
   },
   {
-   "t": "천만 영화 '국제시장' 돌아온다…'국제시장2' 내년 설에 출격",
-   "u": "https://www.yna.co.kr/view/AKR20261126047700005",
+   "t": "서산시, 12월 11일 수능생 격려 콘서트…관람료 50%↓",
+   "u": "https://www.yna.co.kr/view/AKR20261127032100063",
    "s": "연합뉴스"
   },
   {
-   "t": "부산대 학생 연출 단편영화, 부산독립영화제 2개 부문 수상",
-   "u": "https://www.yna.co.kr/view/AKR20261126043700051",
+   "t": "\"트랙 위 불공정, 우리사회의 축소판\"…영화 '내일의 민재'",
+   "u": "https://www.yna.co.kr/view/AKR20261126179400005",
    "s": "연합뉴스"
   },
   {
-   "t": "송출 중단 사태 피했다…LG헬로비전/CJ ENM, 콘텐츠사용료 합의",
-   "u": "https://www.yna.co.kr/view/AKR20261126011152017",
+   "t": "'잔혹한 천사의 테제' 부른 日 다카하시 요코 내년 2월 내한",
+   "u": "https://www.yna.co.kr/view/AKR20261126175200005",
    "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "국가유산청 한국전통문화대, 세계유산 보존/국제협력 심포지엄 27일 개최",
-   "u": "https://zdnet.co.kr/view/?no=20261126145557",
+   "t": "공장이 원하는 AI 따로 있다…산업 특화 AI 경쟁 본격화",
+   "u": "https://zdnet.co.kr/view/?no=20261127113130",
    "s": "ZDNet"
   },
   {
-   "t": "가비아, 병원 규모별 맞춤형 VDI 제공…의료기관 보안 시장 공략",
-   "u": "https://zdnet.co.kr/view/?no=20261126145931",
+   "t": "한진정보통신, 대외 사업 확장 본격화…데이터센터/공공/학원/미디어 IT 공략",
+   "u": "https://zdnet.co.kr/view/?no=20261127113543",
    "s": "ZDNet"
   },
   {
-   "t": "\"항체 설계해줘\" 말하면 척척…히츠, 개인도 쓰는 ‘AI 연구원’ 출시",
-   "u": "https://zdnet.co.kr/view/?no=20261126143956",
+   "t": "비피엠지 자회사 아라코어, 美 유틸라와 스테이블코인 결제/정산 협력",
+   "u": "https://zdnet.co.kr/view/?no=20261127112130",
    "s": "ZDNet"
   },
   {
-   "t": "보고서 작성부터 공문서 검색까지…공무원이 직접 만든 AI 서비스 한자리에",
-   "u": "https://zdnet.co.kr/view/?no=20261126145342",
+   "t": "넷이즈게임즈 '레이싱 마스터', 부가티/페라리 신규 차량 추가",
+   "u": "https://zdnet.co.kr/view/?no=20261127111818",
    "s": "ZDNet"
   },
   {
-   "t": "성낙양 HS효성첨단소재 대표이사 사장",
-   "u": "https://zdnet.co.kr/view/?no=20261126144952",
+   "t": "KIST, 유망기술 9건 공개…헤일리온코리아와 기술이전 협약도",
+   "u": "https://zdnet.co.kr/view/?no=20261127113000",
    "s": "ZDNet"
   },
   {
-   "t": "동물실험 대체부터 암 생존자 심리지원까지…공공데이터에 AI 더했다",
-   "u": "https://zdnet.co.kr/view/?no=20261126144824",
+   "t": "크래프톤 5민랩, 신작 '세계허구관리연맹: WPCA' 첫 알파 테스트 참가자 모집",
+   "u": "https://zdnet.co.kr/view/?no=20261127111633",
    "s": "ZDNet"
   },
   {
-   "t": "안성훈 HS효성 대표이사 사장",
-   "u": "https://zdnet.co.kr/view/?no=20261126144818",
+   "t": "현대차, 중국 소형 전기 SUV 시장 공략…'아이오닉 M' 내년 출시",
+   "u": "https://zdnet.co.kr/view/?no=20261127093524",
    "s": "ZDNet"
   },
   {
-   "t": "채희철 디에이치라이팅 대표 \"글로벌 선도 중견기업, 핵심 전략 키워드는 ‘신뢰/데이터’”",
-   "u": "https://zdnet.co.kr/view/?no=20261126144604",
+   "t": "캐나다, 자국 클라우드 쓰면 '파격 지원'…韓 AI 정책 시사점은",
+   "u": "https://zdnet.co.kr/view/?no=20261127111611",
    "s": "ZDNet"
   },
   {
-   "t": "출범 2년 HS효성, 안성훈/성낙양 사장 승진…성과주의 인사",
-   "u": "https://zdnet.co.kr/view/?no=20261126144533",
+   "t": "LG CNS, 데이터센터 국내 최초 안전대상 수상…해외 공략도 가속",
+   "u": "https://zdnet.co.kr/view/?no=20261127111238",
    "s": "ZDNet"
   },
   {
-   "t": "日 사카나AI, 300억 매개변수 추론 모델 '나마즈 스몰' 공개",
-   "u": "https://zdnet.co.kr/view/?no=20261126144229",
+   "t": "미국 기술 봉쇄에 중국 AI 개발 '급제동'…신모델 출시 차질",
+   "u": "https://zdnet.co.kr/view/?no=20261127104944",
    "s": "ZDNet"
   },
   {
-   "t": "HS효성 2027년 정기 임원인사 명단",
-   "u": "https://zdnet.co.kr/view/?no=20261126144100",
+   "t": "코인거래소 규제 촘촘해진 디지털자산법…관건은 시행령",
+   "u": "https://zdnet.co.kr/view/?no=20261127110619",
    "s": "ZDNet"
   },
   {
-   "t": "\"해외서 AI 접속만 해도 수출통제\"…국내 기업 대응 고심",
-   "u": "https://zdnet.co.kr/view/?no=20261126141858",
+   "t": "FT \"엔비디아, 동남아 4개국 GPU 서버 출하 중단\"",
+   "u": "https://zdnet.co.kr/view/?no=20261127102706",
    "s": "ZDNet"
   },
   {
-   "t": "넥슨, 판타지 RPG '아주르 프로밀리아' 국내 정식 출시",
-   "u": "https://zdnet.co.kr/view/?no=20261126143356",
+   "t": "호텔 이제, 남해/경주/부산 3개 지점 ‘디자인 호텔스’ 정식 멤버 동시 선정",
+   "u": "https://zdnet.co.kr/view/?no=20261127105522",
    "s": "ZDNet"
   },
   {
-   "t": "엔비디아, AI 영상 생성 모델 '코스모스 3 나노' 12GB GPU 실행법 공개",
-   "u": "https://zdnet.co.kr/view/?no=20261126143954",
+   "t": "굿즈 넘어 예술로…‘파인캐릭터 2026’서 만난 캐릭터의 변신",
+   "u": "https://zdnet.co.kr/view/?no=20261127105001",
    "s": "ZDNet"
   },
   {
-   "t": "'모두의 AI'도 에이전트 부작용 대비…NIPA \"안전조치 강화\"",
-   "u": "https://zdnet.co.kr/view/?no=20261126143706",
+   "t": "김광집 스튜디오메타케이 대표 \"AI 시대에도 창작의 중심은 사람\"",
+   "u": "https://zdnet.co.kr/view/?no=20261127104449",
    "s": "ZDNet"
   }
  ],
  "memeNews": [
+  {
+   "t": "오늘의 뉴스클리핑과 매체/퍼포먼스 트렌드",
+   "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%eb%a7%a4%ec%b2%b4-%ed%8d%bc%ed%8f%ac%eb%a8%bc%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-124/",
+   "s": "고구마팜"
+  },
   {
    "t": "오늘의 뉴스클리핑과 커머스 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-%ec%bb%a4%eb%a8%b8%ec%8a%a4-%ed%8a%b8%eb%a0%8c%eb%93%9c-170/",
@@ -300,11 +321,6 @@
   {
    "t": "오늘의 뉴스클리핑과 AI 트렌드",
    "u": "https://gogumafarm.kr/%ec%98%a4%eb%8a%98%ec%9d%98-%eb%89%b4%ec%8a%a4%ed%81%b4%eb%a6%ac%ed%95%91%ea%b3%bc-ai-%ed%8a%b8%eb%a0%8c%eb%93%9c-63/",
-   "s": "고구마팜"
-  },
-  {
-   "t": "변화를 연결하는 관점 : 더에스엠씨 POSTWEEK 2026",
-   "u": "https://gogumafarm.kr/%eb%b3%80%ed%99%94%eb%a5%bc-%ec%97%b0%ea%b2%b0%ed%95%98%eb%8a%94-%ea%b4%80%ec%a0%90-%eb%8d%94%ec%97%90%ec%8a%a4%ec%97%a0%ec%94%a8-postweek-2026/",
    "s": "고구마팜"
   }
  ]
