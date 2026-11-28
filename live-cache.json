@@ -1,134 +1,231 @@
 {
- "updated": "2026-11-27T06:34:32.060Z",
+ "updated": "2026-11-28T06:09:00.051Z",
  "trends": [
   {
-   "title": "고우석",
+   "title": "기사",
    "traffic": "200+",
    "items": [
     {
-     "t": "'살다 살다 이런 적은 처음' 고우석의 기막힌 MLB 도전기…'김현수는 꽃길을 걷다 온 거더라' 에이전트 대표도 혀 내두른 사연은?",
-     "u": "https://m.news.nate.com/view/20261127n00234",
-     "s": "네이트"
-    },
-    {
-     "t": "고우석, '마이너 3년/트레이드/방출' 다 겪고도…'아깝다는 생각 전혀 안 들어' 오승환에게 털어놓은 미국 생활",
-     "u": "https://mhnse.com/news/articleView.html?idxno=1713702",
-     "s": "MHN스포츠"
-    },
-    {
-     "t": "몸값 4분의1로 낮춘 김하성… ‘빅리그 야구’는 계속된다",
-     "u": "https://www.donga.com/news/Sports/article/all/20261126/135091820/2",
-     "s": "동아일보"
-    }
-   ]
-  },
-  {
-   "title": "미세먼지",
-   "traffic": "200+",
-   "items": [
-    {
-     "t": "제8차 미세먼지 계절관리제 석탄발전 최대 18기 가동 중단",
-     "u": "https://gonggam.korea.kr/newsContentView.es?content=NC002&amp;news_id=95ba8803-3aa3-4f24-84ff-2f32300ef06e&amp;section_id=NCCD_POLICY&amp;mid=a10201000000&amp;code_cd=0101000000",
-     "s": "K"
-    },
-    {
-     "t": "‘배출가스 5등급’ 차량 운행제한///대구, 12월부터 4개월간 단속",
-     "u": "https://www.khan.co.kr/article/202611271425001",
-     "s": "경향신문"
-    },
-    {
-     "t": "대구시, 12월부터 배출가스 5등급 차량 평일 운행 제한",
-     "u": "https://www.yna.co.kr/view/AKR20261127103200053",
+     "t": "순천서 전남광주경영자포럼 개최…'성장 기반 마련'",
+     "u": "https://www.yna.co.kr/view/AKR20261127151200054",
      "s": "연합뉴스"
+    },
+    {
+     "t": "'전남광주 반도체/AI 전력망 확충, 주민 협조에 달렸다'",
+     "u": "https://www.newsis.com/view/NISX20261127_0003885995",
+     "s": "뉴시스"
+    },
+    {
+     "t": "민형배 전남광주통합특별시장 “기업이 뛰는 속도에 행정도 맞추겠다”",
+     "u": "https://www.sedaily.com/article/20119923",
+     "s": "서울경제"
     }
    ]
   },
   {
-   "title": "신상출시 편스토랑",
-   "traffic": "100+",
+   "title": "설인아",
+   "traffic": "200+",
    "items": [
     {
-     "t": "찬원 VS 아버지(윤성 아빠)의 숨막히는 칼질 대결! 고수들의 격돌, 그승자는? (황윤성 1열 관전) | KBS 방송",
-     "u": "https://www.kbs.co.kr/index.html?source=smr&amp;sname=vod&amp;stype=vod&amp;contents_id=K02_LS-20191010142020-01-000_20261125_TECH001&amp;program_code=T2019-0286&amp;program_id=LS-20191010142020-01-000&amp;section_code=04&amp;broadcast_complete_yn=N&amp;section_id=10742",
-     "s": "대한민국 대표 공영미디어 KBS"
-    },
-    {
-     "t": "황윤성, 알고보니 도련님? 절친 이찬원도 놀랐다 (편스토랑)",
-     "u": "https://sports.donga.com/ent/article/all/20261127/135101062/1",
+     "t": "연우 “2달만에 10kg 감량…온몸 두드러기, 많이 울어” (무쇠소녀단3)",
+     "u": "https://sports.donga.com/ent/article/all/20261127/135101202/1",
      "s": "스포츠동아"
     },
     {
-     "t": "황윤성, 할아버지께 물려받은 '금' 있다?…창고 공개",
-     "u": "https://www.news1.kr/entertain/broadcast-tv/6367715",
-     "s": "뉴스1"
+     "t": "‘무쇠소녀단3’ 한지현, 첫 회부터 ‘지트리버’ 활약… 3천 계단 48분 완주",
+     "u": "https://www.viva100.com/article/20261127500209",
+     "s": "브릿지경제"
+    },
+    {
+     "t": "살 빼려고 하루 밥 ＇두 숟갈＇…여배우의 위험천만한 체중 감량",
+     "u": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611270102",
+     "s": "한국경제TV"
     }
    ]
   },
   {
-   "title": "교통",
+   "title": "주유소",
    "traffic": "200+",
    "items": [
     {
-     "t": "진천군, 특별교통수단 법정대수 100% 확보로 교통복지 강화",
-     "u": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2382869",
-     "s": "웹이코노미"
+     "t": "주유소 기름값 28주째 하락…서울 2주 연속 평균 1천800원대",
+     "u": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8725108",
+     "s": "KBS 뉴스"
     },
     {
-     "t": "진천군, 교통약자 이동지원센터에 차량 전달",
-     "u": "https://www.cctimes.kr/news/articleView.html?idxno=938146",
-     "s": "충청타임즈"
+     "t": "기름값 28주째↓…서울 휘발유 1,800원대 유지",
+     "u": "https://www.yonhapnewstv.co.kr/news/MYH20261128133954rb9",
+     "s": "연합뉴스TV"
     },
     {
-     "t": "청도군 ‘부름콜’ 새 차 투입…교통약자 이동권 넓힌다",
-     "u": "https://www.kbitv.net/news/articleView.html?idxno=16249",
-     "s": "경북TV"
+     "t": "주유소 기름값 28주 연속 하락⋯휘발유/경유 동반 내림세",
+     "u": "https://www.viva100.com/article/20261128500042",
+     "s": "브릿지경제"
     }
    ]
   },
   {
-   "title": "배정남",
+   "title": "임용고시",
    "traffic": "100+",
    "items": [
     {
-     "t": "배정남, 배우 데뷔 첫 연기상 쾌거…이틀 연속 시상식 휩쓸어",
-     "u": "https://sports.khan.co.kr/article/202611261019003",
-     "s": "스포츠경향"
+     "t": "충북교육청, 2027학년도 공/사립 중등교사 제1차 임용시험 실시 : 네이버 블로그",
+     "u": "https://blog.naver.com/PostView.naver?blogId=cbe_news&amp;logNo=224494475522&amp;redirect=Dlog",
+     "s": "Naver Blog"
     },
     {
-     "t": "배정남, '사나이의 미소'",
-     "u": "https://www.etnews.com/20261125000058",
-     "s": "전자신문"
+     "t": "서울 중/고등교사 임용시험 6천여 명 응시...감독 강화",
+     "u": "https://www.ytn.co.kr/_ln/0103_202611281207351630",
+     "s": "YTN"
     },
     {
-     "t": "배정남, 연기자로 첫 트로피 품에 안았다",
-     "u": "https://www.newsinside.kr/news/articleView.html?idxno=5057314",
-     "s": "뉴스인사이드"
+     "t": "전파 탐지로 못 잡는 온디바이스 AI…수능 부정행위 새 변수",
+     "u": "https://www.newsis.com/view/NISX20261127_0003886568",
+     "s": "뉴시스"
     }
    ]
   },
   {
-   "title": "손연재",
-   "traffic": "10000+",
+   "title": "spurs vs lakers",
+   "traffic": "200+",
    "items": [
     {
-     "t": "손연재 부부, 30억 통 큰 기부…“산모와 아이들에 작은 힘 되길”",
-     "u": "https://www.mk.co.kr/news/hot-issues/12220064",
-     "s": "매일경제"
+     "t": "San Antonio defeats LAL 99",
+     "u": "https://news.jkn.co.kr/editions/english/post/1129752",
+     "s": "재경일보"
     },
     {
-     "t": "손연재 부부 통 큰 기부…30억원 들여 고위험 산모/태아 돕는다",
-     "u": "https://weekly.chosun.com/news/articleView.html?idxno=60164",
-     "s": "주간조선"
+     "t": "Spurs Vs Lakers: tied at 2",
+     "u": "https://twaslnews1.twaslnews.com/8417376/",
+     "s": "شبكة تواصل الإخبارية"
     },
     {
-     "t": "손연재 부부, 연세의료원에 30억원 기부...고위험산모 위한 센터 설립",
-     "u": "https://www.ytn.co.kr/_ln/0103_202611271247164055",
-     "s": "YTN"
+     "t": "With NBA Cup Hopes at Stake, Spurs Plan to 'Handle Business' vs. Luka Doni, Lakers",
+     "u": "https://sports.yahoo.com/nba/articles/nba-cup-hopes-stake-spurs-201500601.html",
+     "s": "Yahoo Sports"
+    }
+   ]
+  },
+  {
+   "title": "fc 서울 대 대전",
+   "traffic": "5000+",
+   "items": [
+    {
+     "t": "10년을 기다린 순간, 마침내 왕관 쓰는 FC서울...'공식전 3연승' 대전 꺾고 우승 대관식 장식할까 양 팀 선발 공개",
+     "u": "https://www.mt.co.kr/sports/2026/11/28/202611281238776624O",
+     "s": "머니투데이"
+    },
+    {
+     "t": "대관식 앞둔 김기동 감독 “좋은 날, 팬들과 멋진 마무리하겠다”",
+     "u": "https://www.donga.com/news/Sports/article/all/20261128/135107405/1",
+     "s": "동아일보"
+    },
+    {
+     "t": "'이런 경기 즐기고 이겨낼 줄 알아야' 황선홍 대전 감독, '대관식' FC서울 상대 필승 다짐",
+     "u": "https://www.chosun.com/sports/football/2026/11/28/HA4DINBXG5RDKNTCGU4TKNBSGU/",
+     "s": "조선일보"
+    }
+   ]
+  },
+  {
+   "title": "조세호",
+   "traffic": "100+",
+   "items": [
+    {
+     "t": "'조폭 친분설' 조세호, 일 뚝 끊기더니...'돈 많아요?' 질문에 진땀",
+     "u": "https://www.mt.co.kr/entertainment/2026/11/27/2026112707435758044",
+     "s": "머니투데이"
+    },
+    {
+     "t": "조세호, 초등학생에 수입 질문 받고 당황 '최근 일 없어'",
+     "u": "https://www.newsis.com/view/NISX20261126_0003885332",
+     "s": "뉴시스"
+    },
+    {
+     "t": "'돈 많아요?' 초2가 묻자 '조폭 연루설' 조세호 '적진 않은데 최근에 일이 좀 없었어'",
+     "u": "https://www.chosun.com/entertainments/broadcast/2026/11/27/G5RTIMJRMI3DAMBZME3WMN3EHE/",
+     "s": "조선일보"
+    }
+   ]
+  },
+  {
+   "title": "래미안첼리투스아파트",
+   "traffic": "1000+",
+   "items": [
+    {
+     "t": "'100억 찍으면 팔겠다'던 95년생 …SK하닉 팔아 용산 아파트 샀다",
+     "u": "https://www.edaily.co.kr/News/Read?newsId=01328406645649984&amp;mediaCodeNo=257",
+     "s": "이데일리"
+    },
+    {
+     "t": "SK하이닉스 고점에 팔아 100억…95년생이 산 용산 아파트는",
+     "u": "https://www.newsis.com/view/NISX20261127_0003886422",
+     "s": "뉴시스"
+    },
+    {
+     "t": "주식 2000만원서 “100억 찍으면 팔겠다”던 95년생…'폭락 직전' SK하닉 팔고 50억 집 샀다",
+     "u": "https://www.etnews.com/20261127000350",
+     "s": "전자신문"
     }
    ]
   }
  ],
  "ent": [
+  {
+   "t": "엔하이픈, 스페인 음악 축제 '매드 쿨' 헤드라이너",
+   "u": "https://www.yna.co.kr/view/AKR20261128032300005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "에이티즈, 내년 3월 런던서 '제로 투 올' 유럽 투어 출발",
+   "u": "https://www.yna.co.kr/view/AKR20261128033900005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "'관객 떼창' 지휘한 마에스트로 조용필…\"신청곡 너무 많아\"",
+   "u": "https://www.yna.co.kr/view/AKR20261128030900005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "케데헌 '골든', 英 오피셜 싱글 차트 75주 연속 진입",
+   "u": "https://www.yna.co.kr/view/AKR20261128023100005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "신촌블루스 엄인호 \"AI 시대 좌절감도…그럴수록 나만의 음악을\"",
+   "u": "https://www.yna.co.kr/view/AKR20261127117100005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "AI 영화 도전한 기성 감독들…\"창작성 넓어지는 경험 했죠\"",
+   "u": "https://www.yna.co.kr/view/AKR20261127168000005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "대작영화 맞붙는 '듄스데이'…빌뇌브 감독 \"영화의 신에게 기도\"",
+   "u": "https://www.yna.co.kr/view/AKR20261128011300075",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "아일릿 모카, 5개월 만에 활동 재개…\"이날만 기다렸다\"",
+   "u": "https://www.yna.co.kr/view/AKR20261127147300005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "정우성, 이정재와 설립한 아티스트컴퍼니 떠났다…10년 동행 끝",
+   "u": "https://www.yna.co.kr/view/AKR20261127133500005",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "제3회 강원PD상 수상작 발표…지역성/공익성 프로그램 선정",
+   "u": "https://www.yna.co.kr/view/AKR20261127126500062",
+   "s": "연합뉴스"
+  },
+  {
+   "t": "신민아 \"K",
+   "u": "https://www.yna.co.kr/view/AKR20261127118300005",
+   "s": "연합뉴스"
+  },
   {
    "t": "TXT '내일에서 기다릴게', 스포티파이 1억 스트리밍",
    "u": "https://www.yna.co.kr/view/AKR20261127102400005",
@@ -148,137 +245,82 @@
    "t": "에이비식스 출신 전웅, '문득'으로 솔로 데뷔",
    "u": "https://www.yna.co.kr/view/AKR20261127072500005",
    "s": "연합뉴스"
-  },
-  {
-   "t": "유료방송 가입자 2년째 감소…'나홀로 증가' IPTV 점유율 60%",
-   "u": "https://www.yna.co.kr/view/AKR20261127058800017",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "김윤석/구교환 '폭설', 캐나다서 리메이크…홍의정 감독 연출",
-   "u": "https://www.yna.co.kr/view/AKR20261127045100005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "FT아일랜드, 내년 1월 아시아 투어 '에프티소드'",
-   "u": "https://www.yna.co.kr/view/AKR20261127043700005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "폴킴, 오늘 캐럴 '마이 온리 원' 발표",
-   "u": "https://www.yna.co.kr/view/AKR20261127041000005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "남양유업, '이오/브레드이발소' 협업 기획팩 한정 출시",
-   "u": "https://www.yna.co.kr/view/AKR20261127037800030",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "김윤석/구교환 '폭설' 9일째 1위…흥행 예고",
-   "u": "https://www.yna.co.kr/view/AKR20261127039400005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "엠넷, 日 반다이 남코와 버추얼 아이돌 서바이벌 제작",
-   "u": "https://www.yna.co.kr/view/AKR20261127037300005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "강릉씨네마떼끄 30주년…11일부터 '환영의 영화' 기획전",
-   "u": "https://www.yna.co.kr/view/AKR20261127035700062",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "서산시, 12월 11일 수능생 격려 콘서트…관람료 50%↓",
-   "u": "https://www.yna.co.kr/view/AKR20261127032100063",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "\"트랙 위 불공정, 우리사회의 축소판\"…영화 '내일의 민재'",
-   "u": "https://www.yna.co.kr/view/AKR20261126179400005",
-   "s": "연합뉴스"
-  },
-  {
-   "t": "'잔혹한 천사의 테제' 부른 日 다카하시 요코 내년 2월 내한",
-   "u": "https://www.yna.co.kr/view/AKR20261126175200005",
-   "s": "연합뉴스"
   }
  ],
  "tech": [
   {
-   "t": "공장이 원하는 AI 따로 있다…산업 특화 AI 경쟁 본격화",
-   "u": "https://zdnet.co.kr/view/?no=20261127113130",
+   "t": "'SK하이닉스 협력사' BKM, CNS시스템즈의 특허 1건 침해 입증 무산",
+   "u": "https://zdnet.co.kr/view/?no=20261128131611",
    "s": "ZDNet"
   },
   {
-   "t": "한진정보통신, 대외 사업 확장 본격화…데이터센터/공공/학원/미디어 IT 공략",
-   "u": "https://zdnet.co.kr/view/?no=20261127113543",
+   "t": "\"글로벌 공공조달 공략\"...알티베이스, \"GPPM 2026' 참여",
+   "u": "https://zdnet.co.kr/view/?no=20261128133616",
    "s": "ZDNet"
   },
   {
-   "t": "비피엠지 자회사 아라코어, 美 유틸라와 스테이블코인 결제/정산 협력",
-   "u": "https://zdnet.co.kr/view/?no=20261127112130",
+   "t": "차이나유니콤, 세계 최초로 코어 네트워크 분야 표준화 상용망 자율 네트워크 평가 완료해 업계 평가 방식 발전에 기여",
+   "u": "https://zdnet.co.kr/view/?no=20261128131002",
    "s": "ZDNet"
   },
   {
-   "t": "넷이즈게임즈 '레이싱 마스터', 부가티/페라리 신규 차량 추가",
-   "u": "https://zdnet.co.kr/view/?no=20261127111818",
+   "t": "보급형 갤럭시A38, 어떻게 나올까",
+   "u": "https://zdnet.co.kr/view/?no=20261128071744",
    "s": "ZDNet"
   },
   {
-   "t": "KIST, 유망기술 9건 공개…헤일리온코리아와 기술이전 협약도",
-   "u": "https://zdnet.co.kr/view/?no=20261127113000",
+   "t": "재생에너지 계약시장이 지켜야 할 두 가지 시장 신호",
+   "u": "https://zdnet.co.kr/view/?no=20261128123034",
    "s": "ZDNet"
   },
   {
-   "t": "크래프톤 5민랩, 신작 '세계허구관리연맹: WPCA' 첫 알파 테스트 참가자 모집",
-   "u": "https://zdnet.co.kr/view/?no=20261127111633",
+   "t": "中암시장서 엔비디아 'B300' 서버값 5배 폭등…대당 40억원 돌파",
+   "u": "https://zdnet.co.kr/view/?no=20261128113257",
    "s": "ZDNet"
   },
   {
-   "t": "현대차, 중국 소형 전기 SUV 시장 공략…'아이오닉 M' 내년 출시",
-   "u": "https://zdnet.co.kr/view/?no=20261127093524",
+   "t": "\"운동 순서만 바꿔도 혈당 잡는다\"…당뇨 환자에게 유리한 순서는",
+   "u": "https://zdnet.co.kr/view/?no=20261127172324",
    "s": "ZDNet"
   },
   {
-   "t": "캐나다, 자국 클라우드 쓰면 '파격 지원'…韓 AI 정책 시사점은",
-   "u": "https://zdnet.co.kr/view/?no=20261127111611",
+   "t": "AI 피아노의 '나홀로 연주'…인간의 감성 입고 선율 확장하다",
+   "u": "https://zdnet.co.kr/view/?no=20261127165719",
    "s": "ZDNet"
   },
   {
-   "t": "LG CNS, 데이터센터 국내 최초 안전대상 수상…해외 공략도 가속",
-   "u": "https://zdnet.co.kr/view/?no=20261127111238",
+   "t": "지구가 뜨거워질수록…2100년 낙뢰 최대 2.4배 쏟아진다",
+   "u": "https://zdnet.co.kr/view/?no=20261127224250",
    "s": "ZDNet"
   },
   {
-   "t": "미국 기술 봉쇄에 중국 AI 개발 '급제동'…신모델 출시 차질",
-   "u": "https://zdnet.co.kr/view/?no=20261127104944",
+   "t": "붉은 행성에 기이한 '지문 무늬' 암석 지형 포착…정체는",
+   "u": "https://zdnet.co.kr/view/?no=20261127144837",
    "s": "ZDNet"
   },
   {
-   "t": "코인거래소 규제 촘촘해진 디지털자산법…관건은 시행령",
-   "u": "https://zdnet.co.kr/view/?no=20261127110619",
+   "t": "2억5천짜리 'JBL 서밋 에베레스트' 스피커 들어보니",
+   "u": "https://zdnet.co.kr/view/?no=20261127165831",
    "s": "ZDNet"
   },
   {
-   "t": "FT \"엔비디아, 동남아 4개국 GPU 서버 출하 중단\"",
-   "u": "https://zdnet.co.kr/view/?no=20261127102706",
+   "t": "지마켓, 뷰티 시장 출사표...\"글로벌 네트워크 찬스 쓴다\"",
+   "u": "https://zdnet.co.kr/view/?no=20261127165429",
    "s": "ZDNet"
   },
   {
-   "t": "호텔 이제, 남해/경주/부산 3개 지점 ‘디자인 호텔스’ 정식 멤버 동시 선정",
-   "u": "https://zdnet.co.kr/view/?no=20261127105522",
+   "t": "라방 보는 4050…라이브커머스 큰손 됐다",
+   "u": "https://zdnet.co.kr/view/?no=20261126193320",
    "s": "ZDNet"
   },
   {
-   "t": "굿즈 넘어 예술로…‘파인캐릭터 2026’서 만난 캐릭터의 변신",
-   "u": "https://zdnet.co.kr/view/?no=20261127105001",
+   "t": "다나와 \"회원정보 일부 유출 확인\"…예스24 때와 판박이",
+   "u": "https://zdnet.co.kr/view/?no=20261128050855",
    "s": "ZDNet"
   },
   {
-   "t": "김광집 스튜디오메타케이 대표 \"AI 시대에도 창작의 중심은 사람\"",
-   "u": "https://zdnet.co.kr/view/?no=20261127104449",
+   "t": "국경 마을 이야기 | 초원의 화사한 전통 복식",
+   "u": "https://zdnet.co.kr/view/?no=20261128001013",
    "s": "ZDNet"
   }
  ],
